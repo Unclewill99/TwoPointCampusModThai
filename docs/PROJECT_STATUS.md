@@ -11,6 +11,7 @@ Owner: ChatGPT — Project Controller
 - Antigravity QA matrix, report template and synthetic corpus reviewed and accepted for prototype planning, with corrections in docs/qa/CONTROLLER_ACCEPTANCE.md.
 - Extracted 15,677 English records from 25 Campus TextAssets; exact decoded-text roundtrip passed. Two duplicate keys retained with segment-qualified IDs. Full corpus is local-only.
 - Prepared 50-source-record PILOT-001 and docs/PILOT_001_HANDOFF.md for Claude.
+- Received Claude's 50-record translation draft; independent structural checks passed with zero errors, including observed square-bracket marker preservation. Editorial review requests a focused revision (docs/PILOT_001_REVIEW.md); 21 contextual ambiguities and 3 humor flags remain.
 - Audited 23 serialized Campus TMP font character tables; no Thai-range entries in those tables, zero read errors. Dynamic/runtime coverage remains unknown.
 
 ## Current assignments
@@ -20,8 +21,8 @@ Owner: ChatGPT — Project Controller
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Next engineering task; not completed |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
 | Controller | Reversible Thai rendering prototype | Pending investigation |
-| Claude | 50-source-string PILOT-001 | Ready in local/source/PILOT-001.json; user relay pending |
-| Antigravity | Runtime rendering tests | NOT_RUN; waiting for prototype |
+| Claude | 50-source-string PILOT-001 | Draft received and structurally checked; focused r2 revision ready for relay |
+| Antigravity | Independent pilot language/token review; runtime rendering tests | Draft review available now; runtime NOT_RUN pending prototype |
 
 ## Limits and handoff
 
