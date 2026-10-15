@@ -20,12 +20,13 @@ Owner: ChatGPT — Project Controller
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
-| Controller | Reversible Thai rendering prototype | Probe-001 runtime FAIL: blank selected dropdown values; originals restored. Probe-002 fallback-only comparison built/reloaded, not installed; WO-VISUAL-002 ready |
+| Controller | Reversible Thai rendering prototype | Probe-001 FAIL; probe-002 PASS for paired Settings/dropdown comparison and reported restart. Fallback strategy accepted for next diagnostic build; originals restored |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
-| Antigravity | Independent pilot language/token review; runtime rendering tests | r2 review received and disposition recorded in docs/PILOT_001_QA_DISPOSITION.md; runtime NOT_RUN pending prototype |
+| Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
+| Desktop visual agent | Settings comparison | WO-VISUAL-002 completed, scoped PASS; originals restored; waiting for diagnostic probe |
 
 ## Limits and handoff
 
-Probe-001 was temporarily installed by the desktop testing agent, loaded and displayed some Thai Settings labels; overall visual FAIL. Both original bundles restored and hash-checked. Full Thai shaping, wrapping and runtime coverage remain unvalidated. Museum catalog references and serialized features are asset evidence only. Agent messages are currently relayed by the user. Controller command-line access to the private remote remains unresolved; GitHub Desktop is available for the user to push local commits. Later local commits have not been independently verified on the remote.
+Probe-001 failed with blank selected dropdown values. Probe-002 passed the original/probe Settings comparison with Thai labels retained, including reported restart checks. Both original bundles restored and independently hash-checked. Full Thai shaping, wrapping, all scales and runtime coverage remain unvalidated. Next: separate synthetic diagnostic probe and trusted font reference before a new visual work order. Museum catalog references and serialized features are asset evidence only. Agent messages are currently relayed by the user. Controller command-line access to the private remote remains unresolved; GitHub Desktop is available for the user to push local commits. Later local commits have not been independently verified on the remote.
 
 Update this file on a completed handoff, meaningful finding, blocker or assignment change. Record tests as executed only with evidence; do not infer progress from elapsed time. Game binaries and local extracted assets remain outside version control.
