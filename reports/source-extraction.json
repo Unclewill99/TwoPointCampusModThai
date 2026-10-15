@@ -1,0 +1,221 @@
+{
+  "bundle_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+  "records": 15677,
+  "assets": [
+    {
+      "asset": "I2LS_UI",
+      "records": 1718,
+      "sha256": "feb0dca3a0763ce5213a20a10f7b1e77904c28e87bd96f621507e47ff4e4789d",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_ArchetypeSpecificNames",
+      "records": 1536,
+      "sha256": "410cd85e577ebe66c0574fae73ee1c559c3db25dbb41c68149a89f5f4c1cde58",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Items",
+      "records": 2058,
+      "sha256": "724bae55782ba1f3362682df0b8a88abd2217c8e530c09982fca680380a55de7",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_DLCs",
+      "records": 7,
+      "sha256": "b5b1a1e1bef05b6fa57a38cc03bc2e5ac9c7fa81f32947ae18b5073ab49398b2",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Objectives",
+      "records": 125,
+      "sha256": "c656f3a3eb3819a6a82d3d1e68ef167adaf5c6ed30e667ecbb827e4617dd5e08",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_CodeRef",
+      "records": 586,
+      "sha256": "373cee86035a7d0d885d43811832c6994df43f69973863c744a832825d765ee6",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Courses",
+      "records": 932,
+      "sha256": "7f6bddd56fa5bb88520a42f7c94edb2d11e3c43f5f1aa42c79b8e4dd7ff4b1d0",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_UI_Settings",
+      "records": 187,
+      "sha256": "292fbd085ddcda27fc9d93055b050b3b0d278041fa78571ad40bf62acf52a5c4",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_FlavourTraits",
+      "records": 400,
+      "sha256": "4f06c07260ebf8abe1c8ba24cd936f67030ee46f9ad3552be724385a8bf0a3d2",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_VO_Tannoy",
+      "records": 551,
+      "sha256": "8d7dfa364e2b0d5939df6f88b159f68876c7b7791543978aa38d00157e3eef55",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_VO_Radio",
+      "records": 350,
+      "sha256": "e2fefc8979e687aaeea63b806437495015cf1c5b619b1b7e39dcc275195b59a3",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_SubGoals",
+      "records": 529,
+      "sha256": "c8908a241452ab089dae350824ef3b6aab7c08334d4f79ef36cca8aede580203",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Fonts",
+      "records": 24,
+      "sha256": "f1a39c3143cb87dacc4387b9deb84837e38ea620b82b7fa68195143f63e09dad",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Meta",
+      "records": 423,
+      "sha256": "86b146f6812797ce87feb5a6ae3ff46c6c5c04c217c3cb329905f63452ad470a",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Music_Radio",
+      "records": 57,
+      "sha256": "c19275b5d055363b9816262bfa711c8f5f78eca6938e631798d7cfc0ebac0513",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_General",
+      "records": 146,
+      "sha256": "27577a388c092b32f3c4db354445ef5178d5816dcff07113375f60378b667f32",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Challenges",
+      "records": 751,
+      "sha256": "615aee7981a483781bf075c83c4d2b80821a49935a011d8aec59fd6667be61a9",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Characters",
+      "records": 1855,
+      "sha256": "7de9cc53a1529b84ca545a7c70279d51e2959f0021b5200fff6d5f4e5f663d37",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Advisor",
+      "records": 156,
+      "sha256": "46a6819eb7e69681884d91955caca5f1c66176632ed16b361610bc7bad5bafae",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Rooms",
+      "records": 504,
+      "sha256": "b01072c7a96c9af9abedca1ad86de7c715ac3c7eb1c1d6c60a2f959178220c9c",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Research_Marketing",
+      "records": 575,
+      "sha256": "0d11ab87c09ab1351c65f5c1fc4f0c2e0b866fd9c698420f15e98746b2ff94d4",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Mods",
+      "records": 203,
+      "sha256": "545d173e879d1b8c4d2ecdc6fa0f046a91063bedea87682808da449e96a65372",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_CharacterNames",
+      "records": 908,
+      "sha256": "64e6d4bae495a9fe581cd43883286180ecb6359f954c86f8b21e0f7898ceea9d",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Input",
+      "records": 164,
+      "sha256": "6e616d6a619c10626ac7ee3f0475001ab2950129fed883dfbfa649cf67d0c918",
+      "text_roundtrip": true
+    },
+    {
+      "asset": "I2LS_Levels",
+      "records": 932,
+      "sha256": "70ba279bb2c9fc81995288641708c7c77ce75acbbbc73ceedd1ea0490868070d",
+      "text_roundtrip": true
+    }
+  ],
+  "duplicate_ids": [
+    [
+      "I2LS_Characters",
+      "Characters/DLC_Hospital/Archetypes/Doctor_M_Name"
+    ],
+    [
+      "I2LS_Characters",
+      "Characters/DLC_Hospital/Archetypes/Nurse_F_Description"
+    ]
+  ],
+  "pilot_records": 50,
+  "pilot_ids": [
+    "I2LS_UI_Settings::UI/Settings/AdvanceSettings::segment-0",
+    "I2LS_UI_Settings::UI/Settings/AdvisorFilter::segment-1",
+    "I2LS_UI_Settings::UI/Settings/AudioLanuuage::segment-2",
+    "I2LS_UI_Settings::UI/Settings/Audio_Header::segment-3",
+    "I2LS_UI_Settings::UI/Settings/CameraPanSensitivity::segment-4",
+    "I2LS_UI_Settings::UI/Settings/CameraPitchSensitivity::segment-5",
+    "I2LS_UI_Settings::UI/Settings/CameraRotateSensitivity::segment-6",
+    "I2LS_UI_Settings::UI/Settings/CameraShake::segment-7",
+    "I2LS_UI_Settings::UI/Settings/CameraZoomSensitivity::segment-8",
+    "I2LS_UI_Settings::UI/Settings/CareerAutosaveFreq::segment-9",
+    "I2LS_UI::Code/InspectorStaffHire_RecruitementFee::segment-0",
+    "I2LS_UI::Code/InspectorStaffHire_Reference::segment-1",
+    "I2LS_UI::Code/InspectorStaffHire_Skills::segment-2",
+    "I2LS_UI::Objective/Challenge/BossFightScore::segment-3",
+    "I2LS_UI::UI/AdditionalStudents::segment-5",
+    "I2LS_UI::UI/Advisor/CampusLevelUp::segment-6",
+    "I2LS_UI::UI/Advisor/CareerGoalCompleted::segment-7",
+    "I2LS_UI::UI/Advisor/NewItemUnlocked::segment-8",
+    "I2LS_UI::UI/Advisor/OpenCareerHub::segment-10",
+    "I2LS_UI::UI/Attribute/Attractiveness::segment-13",
+    "I2LS_UI::UI/Advisor/ResearchAvailable::segment-11",
+    "I2LS_UI::UI/Attribute/NegativeEffect::segment-20",
+    "I2LS_UI::UI/Attribute/PositiveEffect::segment-21",
+    "I2LS_UI::UI/AwardsScreen/AwardsScreenSlideTitle::segment-44",
+    "I2LS_UI::UI/Challenge/EvictInvaders::segment-85",
+    "I2LS_UI::UI/ChallengeMode/BestTrophyAndScore::segment-86",
+    "I2LS_UI::UI/ChallengeMode/ChallengeModeUnlockTooltip::segment-90",
+    "I2LS_UI::UI/ChallengeMode/CurrentTrophyAndScore::segment-92",
+    "I2LS_UI::UI/ChallengeMode/TrophyCount::segment-102",
+    "I2LS_UI::UI/CourseManagement/CoursePointsFormat::segment-168",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearOne_DigSite_1::segment-0",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearOne_DigSite_2::segment-1",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearOne_Lecture_1::segment-2",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearOne_Lecture_2::segment-3",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearThree_DigSite_1::segment-4",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearThree_DigSite_2::segment-5",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearThree_Lecture::segment-6",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearThree_Science::segment-7",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearTwo_Computer::segment-8",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearTwo_DigSite_1::segment-9",
+    "I2LS_Advisor::Advisor/Advisor_Cash_Flow_Warning::segment-0",
+    "I2LS_Advisor::Advisor/Advisor_Characters_Personal_Goals::segment-1",
+    "I2LS_Advisor::Advisor/Advisor_Class_Primary_Available::segment-2",
+    "I2LS_Advisor::Advisor/Advisor_Course_Licensed_Text::segment-3",
+    "I2LS_Advisor::Advisor/Advisor_Course_Licensed_Title::segment-4",
+    "I2LS_Advisor::Advisor/Advisor_Favourite_Student_Assignment_Complete::segment-5",
+    "I2LS_Advisor::Advisor/Advisor_Favourite_Student_Assignment_Failed::segment-6",
+    "I2LS_Advisor::Advisor/Advisor_Favourite_Student_Campus_Event::segment-7",
+    "I2LS_Advisor::Advisor/Advisor_Favourite_Student_Class_Complete::segment-8",
+    "I2LS_Advisor::Advisor/Advisor_Favourite_Student_Class_Risk::segment-9"
+  ],
+  "format_observed": "TextAsset segments separated by [i2t]; first = separates key and value",
+  "limits": "Decoded-text roundtrip only; no bundle rebuild, runtime import or placeholder grammar verified."
+}

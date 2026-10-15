@@ -1,0 +1,439 @@
+{
+  "fonts": [
+    {
+      "name": "NotoSans_KR_LanguageNames",
+      "path_id": -8324840845654282218,
+      "characters": 22,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_TC_LanguageNames",
+      "path_id": -8210689273710970011,
+      "characters": 18,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_KR_Dynamic",
+      "path_id": -7564342437276428003,
+      "characters": 0,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 1,
+      "source_font": {
+        "m_AssetGUID": "092b5b00dff1a4646ad3a09a6b8493b6",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_SC_Dynamic",
+      "path_id": -7327810475703763076,
+      "characters": 0,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 1,
+      "source_font": {
+        "m_AssetGUID": "83b2a5403cd25a04e8a4259f9113c860",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "Alegreya_ExtraBoldItalic",
+      "path_id": -7294560861804627857,
+      "characters": 223,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "Bangers_Regular",
+      "path_id": -5744310833370202858,
+      "characters": 209,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_SC",
+      "path_id": -4490428621971594842,
+      "characters": 3180,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "68ed04ff349e26b42900cda255fc3158",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": 1374705391837917507
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7327810475703763076
+        }
+      ],
+      "multi_atlas": 1
+    },
+    {
+      "name": "RobotoSlab_Bold",
+      "path_id": -4093347645019204147,
+      "characters": 45,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 1,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_KR",
+      "path_id": -2400342095417319087,
+      "characters": 1541,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "a0a90ae7da246bc4c83bd99490cf02f7",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8324840845654282218
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7564342437276428003
+        }
+      ],
+      "multi_atlas": 1
+    },
+    {
+      "name": "Pacifico",
+      "path_id": -1429855356915084095,
+      "characters": 209,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "PalanquinDark_SemiBold",
+      "path_id": -1416814241196360573,
+      "characters": 288,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "a77d8b747f3467c49a5e1cc91cbfd468",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8324840845654282218
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1374705391837917507
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8210689273710970011
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7564342437276428003
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7327810475703763076
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3941152381726715680
+        }
+      ],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_Arabic_Dynamic",
+      "path_id": -1239755799206566947,
+      "characters": 0,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 1,
+      "source_font": {
+        "m_AssetGUID": "8ea2df6db11572548a2fb4d8b7f4e305",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_JP_LanguageNames",
+      "path_id": -154728553243105392,
+      "characters": 26,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_SC_LanguageNames",
+      "path_id": 1374705391837917507,
+      "characters": 19,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "PalanquinDark_Regular",
+      "path_id": 1456777345258535221,
+      "characters": 300,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "8a84852010bbba240ab1f969ca7e7e93",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8324840845654282218
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1374705391837917507
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8210689273710970011
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7564342437276428003
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7327810475703763076
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3941152381726715680
+        }
+      ],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_JP",
+      "path_id": 1655846613942601050,
+      "characters": 2025,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "ecac4a42dc99b47419d57f69e4b1c3da",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -154728553243105392
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 8624562849863044672
+        }
+      ],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_TC",
+      "path_id": 2527286722934203531,
+      "characters": 3320,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "68ed04ff349e26b42900cda255fc3158",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8210689273710970011
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3941152381726715680
+        }
+      ],
+      "multi_atlas": 1
+    },
+    {
+      "name": "Pacifico",
+      "path_id": 3838792201133059293,
+      "characters": 209,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_TC_Dynamic",
+      "path_id": 3941152381726715680,
+      "characters": 0,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 1,
+      "source_font": {
+        "m_AssetGUID": "2f332636b0ebba14984d96df5f18a061",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "Kalam_Regular",
+      "path_id": 4280511266615872966,
+      "characters": 226,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "add0186b02209494e97b61ad5a8a9c20",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "Chango_Regular",
+      "path_id": 5502961413838092832,
+      "characters": 209,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    },
+    {
+      "name": "PalanquinDark_Bold",
+      "path_id": 7082461376235757136,
+      "characters": 284,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 0,
+      "source_font": {
+        "m_AssetGUID": "cff78b963e4b8d14bab7f541ac8a1e97",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 0,
+          "m_PathID": -8324840845654282218
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 1374705391837917507
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -8210689273710970011
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7564342437276428003
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": -7327810475703763076
+        },
+        {
+          "m_FileID": 0,
+          "m_PathID": 3941152381726715680
+        }
+      ],
+      "multi_atlas": 0
+    },
+    {
+      "name": "NotoSans_JP_Dynamic",
+      "path_id": 8624562849863044672,
+      "characters": 0,
+      "thai_codepoints": [],
+      "atlas_population_mode_raw": 1,
+      "source_font": {
+        "m_AssetGUID": "cbc69479317d8ea498e12f84a2e60304",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "multi_atlas": 0
+    }
+  ],
+  "errors": [],
+  "limits": "Serialized TMP character tables in Campus fonts bundle only. No dynamic source-font cmap or runtime coverage proof."
+}
