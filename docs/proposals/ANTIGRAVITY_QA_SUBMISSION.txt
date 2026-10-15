@@ -1,0 +1,155 @@
+Viewed README.md:1-20
+Viewed AGENT_TASKS.md:1-24
+Viewed RESEARCH.md:1-16
+Viewed initial-inspection.json:1-100
+Ran command: Check JSON keys (`python -c "import json; data=json.load(open('reports/initial-inspection.json', encoding='utf-8')); print('top keys:', list(data.keys())); print('campus keys:', list(data['campus'].keys())); print('museum keys:', list(data['museum'].keys()) if 'museum' in data else 'none')"`)
+Ran command: Search font assets in JSON (`python -c "import json; data=json.load(open('reports/initial-inspection.json', encoding='utf-8'));
+for game in ['campus', 'museum']:
+    print(f'=== {game} ===')
+    rel = [k for k in data[game].get('catalog_keys', []) if any(x in k.lower() for x in ['thai', 'font', 'i2ls', 'local'])]
+    print(f'catalog_keys matches ({len(rel)}):', rel[:15])
+    asset_types = {k: [a['name'] for a in v if any(x in a['name'].lower() for x in ['thai', 'font'])] for k, v in data[game].get('assets', {}).items()}
+    non_empty = {k: v for k, v in asset_types.items() if v}
+    print('non empty asset matches count:', len(non_empty))
+    for k, v in list(non_empty.items())[:5]:
+        print(f'  {k}: {v[:5]}')
+"`)
+Ran command: Inspect catalog_relevant_ids (`python -c "import json; data=json.load(open('reports/initial-inspection.json', encoding='utf-8'));
+print('Campus relevant:', data['campus'].get('catalog_relevant_ids'))
+print('Museum relevant:', data['museum'].get('catalog_relevant_ids'))
+"`)
+Ran command: Check Campus catalog IDs (`python -c "import json; data=json.load(open('reports/initial-inspection.json', encoding='utf-8'));
+print('Campus relevant:', data['campus'].get('catalog_relevant_ids'))
+"`)
+
+ในฐานะ **QA (Quality Assurance)** ของโครงการ **Two Point Campus Thai Mod** ผมได้ศึกษาข้อมูลจาก [README.md](file:///d:/SteamLibrary/steamapps/common/Two%20Point%20Campus/ThaiCampusMod/README.md), [docs/AGENT_TASKS.md](file:///d:/SteamLibrary/steamapps/common/Two%20Point%20Campus/ThaiCampusMod/docs/AGENT_TASKS.md), [docs/RESEARCH.md](file:///d:/SteamLibrary/steamapps/common/Two%20Point%20Campus/ThaiCampusMod/docs/RESEARCH.md) และ [reports/initial-inspection.json](file:///d:/SteamLibrary/steamapps/common/Two%20Point%20Campus/ThaiCampusMod/reports/initial-inspection.json) เรียบร้อยแล้ว
+
+ขอเน้นย้ำจุดยืนด้าน QA: **"การมีชื่อฟอนต์ภาษาไทยหรือไฟล์ asset ในระบบ ไม่ใช่หลักฐานว่าการแสดงผลที่ runtime ทำงานได้ถูกต้อง"** (ห้ามสรุปว่าผ่านเพียงเพราะพบคีย์ฟอนต์หรือ asset name) และ **ในขั้นตอนนี้จะยังไม่มีการแก้ไขไฟล์เกมหรือไฟล์งานของ Agent ท่านอื่นโดยเด็ดขาด**
+
+---
+
+### ส่วนที่ 1: การแยกแยะข้อเท็จจริง (หลักฐานเชิงประจักษ์ vs สิ่งที่ต้องทดสอบในเกม)
+
+| หมวดหมู่ | สิ่งที่มีหลักฐานยืนยันแล้ว (Verified Evidence) | สิ่งที่ยังไม่มีข้อพิสูจน์ / ต้องทดสอบในเกมจริง (In-Game Unknowns) |
+| :--- | :--- | :--- |
+| **เวอร์ชันเอนจิน** | • Two Point Campus ใช้ Unity `2020.3.47f1` (IL2CPP)<br>• Two Point Museum ใช้ Unity `6000.0.63f1` (Unity 6) | การย้าย bundle หรือ asset ตรงๆ ข้ามเวอร์ชันหลักของ Unity อาจเกิด serialization mismatch หรือ crash ที่ runtime |
+| **Font Assets ในระบบ** | • Campus **ไม่มี** asset ฟอนต์ไทยหรือ I2LS localization ภาษาไทยใน Addressables catalog เลย (มีเฉพาะ Font Material/Texture พื้นฐาน และภาษาหลักอื่นๆ)<br>• Museum มี catalog key อ้างอิงถึง `NotoSans_Thai.asset`, `NotoSansThai-Medium.ttf`, `I2LS_Fonts.txt` | • TextMeshPro (TMP) ใน Campus รองรับ OpenType feature (GPOS/GSUB) หรือ HarfBuzz หรือไม่<br>• ฟอนต์ไทยเมื่อนำมาทำ Fallback Font ใน TMP จะแสดงผลครบทุก glyph หรือติดบั๊กสระลอยหรือไม่ |
+| **โครงสร้างข้อความ Localization** | • ระบบเกมใช้ I2 Localization (`I2LS_*.txt`) โดย Campus มี bundles สำหรับภาษาอังกฤษและภาษาอื่น 11 ภาษา | • การ inject หรือ swap ภาษาไทยเข้า runtime I2LS ต้อง Hook จุดใดและกระทบ layout เดิมอย่างไร<br>• ตัวเกมมีการ encode ข้อความแบบใด (UTF-8, UTF-16, Escaped Unicode) |
+| **การตัดคำ (Line Break)** | • ยังไม่มีหลักฐานว่าเอนจินเกมมี Thai Dictionary-based Word Breaker ภายในตัว | • หากไม่มี space ตัวเกมตัดคำไทยได้อย่างไร ล้นขอบจอ หรือตัดกลางพยางค์ หรือจำเป็นต้องใช้ Zero-Width Space (`\u200B`) |
+
+---
+
+### ส่วนที่ 2: แผนการทดสอบการแสดงผลภาษาไทย (Thai Rendering Test Matrix)
+
+การทดสอบจะครอบคลุม 8 มิติสำคัญของภาษาไทยและระบบ UI:
+
+#### 1. สระบน/ล่าง (Upper & Lower Vowels)
+*   **เป้าหมาย:** ตรวจสอบตำแหน่งการวางสระ ไม่ให้ซ้อนทับเส้นพยัญชนะ หรือตัดเชิงพยัญชนะผิดพลาด
+*   **กรณีทดสอบ:**
+    *   *สระบนทั่วไป:* อิ, อี, อึ, อือ, อั, อ็ (เช่น `กินดี รื้อตึก ตัดต้นไม้`)
+    *   *สระบนกับพยัญชนะหางชี้ขึ้น (ป, ผ, ฝ, ฟ):* ตรวจสอบว่าสระบนเยื้องหลบหาง หรือซ้อนทับหางตัวอักษร (เช่น `ปฏิรูป ผู้ว่า ฝีมือ ฟิตเนส ปิคนิค`)
+    *   *สระล่าง (อุ, อู, พินทุ ฺ):* ตรวจสอบระยะความลึก ไม่ให้หลุดกรอบล่าง (Leading) หรือทับขอบกล่องข้อความ
+    *   *สระล่างกับพยัญชนะมีเชิง/หางล่าง (ญ, ฎ, ฏ, ฐ):* ตรวจสอบว่าเชิงถูกตัดทิ้งเมื่อมีสระล่างหรือไม่ตามไวยากรณ์ฟอนต์ไทย (เช่น `ผู้หญิง ฐิติ รัชฎา กุฏิ ปุญญ์`)
+
+#### 2. วรรณยุกต์ซ้อน (Stacked Tone Marks & Combining Glyphs)
+*   **เป้าหมาย:** ป้องกันปัญหาวรรณยุกต์ลอย (Floating Marks) สูงผิดปกติ หรือวรรณยุกต์จมลงมาทับสระ
+*   **กรณีทดสอบ:**
+    *   *พยัญชนะ + สระบน + วรรณยุกต์ (3 ชั้น):* `ที่นี่`, `ปิ้งย่าง`, `พื้นที่`, `ฟื้นฟู`, `กลิ้ง`, `คลื่นลูกใหม่`
+    *   *พยัญชนะ + วรรณยุกต์ (ไม่มีสระบน):* ตรวจสอบว่าวรรณยุกต์ลดระดับลงมาอยู่ชิดหัวพยัญชนะหรือไม่ (เช่น `ตั๋ว`, `บ้า`, `พ่อ`, `โต๊ะ`, `ปู่`)
+    *   *กลุ่มกรณีพิเศษ สระอำ (ำ):* ตรวจสอบลำดับการรวมสระอำกับวรรณยุกต์ (เช่น `น้ำ`, `ถ้ำ`, `ต้มยำ`, `ลำกล้อง`) ทั้งลำดับคีย์บอร์ด `น + ้ + ำ` และ `น + ำ + ้`
+
+#### 3. การตัดคำและการขึ้นบรรทัดใหม่ (Word Wrapping & Line Breaking)
+*   **เป้าหมาย:** ป้องกันการตัดคำกลางพยางค์ และป้องกันสระหน้าตกไปอยู่ท้ายบรรทัดก่อนหน้า
+*   **กรณีทดสอบ:**
+    *   *ประโยคยาวไม่มี Space:* ตรวจสอบว่า TextMeshPro ตัดคำหลุดกรอบ หรือตัดกลางคำหรือไม่ (เช่น `มหาวิทยาลัยทูพอยต์แคมปัสเปิดรับสมัครนักศึกษาใหม่`)
+    *   *การตัดด้วย Zero-Width Space (`\u200B`):* ทดสอบการฉีด `\u200B` คั่นระหว่างคำ เพื่อดูว่า TMP ยอมตัดบรรทัด ณ จุดนั้นอย่างถูกต้องหรือไม่
+    *   *สระหน้า (เ, แ, โ, ใ, ไ):* ต้องไม่ตกค้างอยู่ตัวเดียวโดดๆ ที่ปลายบรรทัด (เช่น `...เปิดโ|รงอาหาร` = บั๊ก / ต้องเป็น `...เปิด|โรงอาหาร`)
+
+#### 4. ข้อความไทยปนอังกฤษและอักขระพิเศษ (Mixed Thai-English & Symbols)
+*   **เป้าหมาย:** ความกลมกลืนของ Font Fallback (ขนาด Base Line, X-Height, Line-Spacing)
+*   **กรณีทดสอบ:**
+    *   *ประโยคผสม:* `อัปเกรด Campus เป็น Level 5`, `จ้าง Janitor มาทำความสะอาดห้อง Lab`
+    *   *อักขระและเครื่องหมายวรรคตอน:* วงเล็บ `( )`, ทวิภาค `:`, อัญประกาศ `" "`, เครื่องหมายทับ `/`, ขีดกลาง `-`, จุดไข่ปลา `...`
+    *   *การเว้นวรรค:* ตรวจสอบช่องไฟรอบคำภาษาอังกฤษว่าไม่ชิดหรือห่างจนผิดปกติ
+
+#### 5. ตัวเลขและการจัดรูปแบบข้อมูล (Numbers, Placeholders & Tags)
+*   **เป้าหมาย:** ตัวแปรในเกมต้องถูกแทนที่อย่างถูกต้อง ไม่หลุดโค้ด tag
+*   **กรณีทดสอบ:**
+    *   *ตัวเลขและเครื่องหมายคำนวณ:* `$150,000`, `+25%`, `-10°C`, `3/10 คน`, `อันดับ #1`
+    *   *Placeholders:* `{0}`, `{1}`, `{AMOUNT}`, `{STUDENT_NAME}`, `{SUBJECT}`
+    *   *TMP Rich Text Tags:* ตรวจสอบว่าการครอบแท็กสีหรือสไตล์ไม่ทำลายภาษาไทย เช่น `<color=#FFDD00><b>นักศึกษาดีเด่น</b></color>`
+
+#### 6. ปุ่มแคบและพื้นที่ UI จำกัด (Narrow Buttons & Text Clipping)
+*   **เป้าหมาย:** ตรวจสอบข้อความล้นขอบปุ่ม หรือการทำงานของ Text Auto-Sizing
+*   **กรณีทดสอบ:**
+    *   *ปุ่มคำสั่งสั้น:* `ตกลง`, `ยกเลิก`, `สร้าง`, `จ้าง`, `ไล่ออก`, `ปรับปรุง`, `ปิด`
+    *   *แท็บและหัวตาราง:* แท็บหมวดหมู่สิ่งก่อสร้าง, สถิติเงินเดือนอาจารย์
+    *   *เกณฑ์การตรวจ:* อักษรต้องไม่ล้นหลุดปุ่ม (Clipping), ไม่ถูกบีบจนฟอนต์เล็กเกินอ่านไม่ออก (Min Font Size Limits), สระบนไม่โดนตัดยอดบน สระล่างไม่โดนตัดปลายล่าง
+
+#### 7. กล่องข้อความลอยและ Tooltips (Tooltips & Dynamic Popups)
+*   **เป้าหมาย:** กล่องขยายขนาดตามความยาวข้อความไทยได้อย่างถูกต้อง
+*   **กรณีทดสอบ:**
+    *   *Dynamic Tooltip:* นำเมาส์ไปชี้ที่ไอคอนค่าพลัง, ไอคอนคอร์สเรียน เพื่อดูว่าขนาดขอบกล่อง (Background Box) พอดีกับข้อความภาษาไทยหรือไม่
+    *   *กล่องข้อความหลายบรรทัด:* คำอธิบายเควสต์, คำแนะนำของ Advisor, จดหมายข่าวประจำปี
+
+#### 8. การปรับขนาด UI และความละเอียดหน้าจอ (UI Scaling & Resolutions)
+*   **เป้าหมาย:** ความคมชัดของ SDF Font และความถูกต้องของ Layout
+*   **กรณีทดสอบ:**
+    *   *Resolutions:* 1920x1080 (Base), 2560x1440 (2K), 3840x2160 (4K), และ 16:10 / 21:9
+    *   *UI Scale Slider:* ปรับ UI Scale ใน Settings ที่ 80%, 100%, 120%, 150%
+    *   *เกณฑ์การตรวจ:* ขอบฟอนต์ต้องไม่แตกเบลอ (SDF atlas มีความละเอียดเพียงพอ), ระยะบรรทัดไม่บวมจนทับกัน
+
+---
+
+### ส่วนที่ 3: ชุดข้อความทดสอบมาตรฐาน (Standard QA Test Corpus)
+
+ใช้สำหรับทดสอบ Inject ใน Prototype ขั้นแรก:
+
+```text
+[TC-01 สระ-วรรณยุกต์] ที่นี่มีผู้เชี่ยวชาญด้านประวัติศาสตร์คอยให้คำปรึกษาแก่ผู้ปฏิบัติงาน
+[TC-02 หางยาว-สระบน] ปิคนิคในป่าฝนกับผู้พันฟิตเนสเพื่อปฏิรูปการศึกษา
+[TC-03 เชิงล่าง-สระล่าง] คุณหญิงฐิตาภรณ์ตรวจพบปัญหากุฏิและข้อบัญญัติของรัฐ
+[TC-04 สระอำ] แนะนำให้ดื่มน้ำต้มยำในถ้ำเพื่อเพิ่มพลังชีวิต
+[TC-05 ปนอังกฤษ] อัปเกรด Campus Hub สู่ Level 10 เพื่อปลดล็อก Course ด้าน Robotics
+[TC-06 ตัวเลข-สัญลักษณ์] ค่าใช้จ่าย +$25,000 (คิดเป็น 15.5%) สำหรับการฝึกอบรม #1
+[TC-07 แท็กสี] ได้รับ <color=#00FF00><b>เหรียญทองเกียรตินิยม</b></color> เรียบร้อยแล้ว
+[TC-08 ข้อความยาวตัดคำ] ภารกิจเร่งด่วนสำหรับคณบดีคือการจัดสรรงบประมาณพัฒนาหอพักนักศึกษาให้เพียงพอต่อความต้องการในภาคเรียนหน้า
+```
+
+---
+
+### ส่วนที่ 4: แบบฟอร์มรายงานข้อผิดพลาด (QA Bug Report Template)
+
+เมื่อเริ่มขั้นตอนการทดสอบในเกม ทาง QA จะใช้แบบฟอร์มมาตรฐานดังนี้:
+
+```markdown
+### [BUG-ID] สรุปปัญหาโดยสังเขป (เช่น สระบนซ้อนทับหางตัวอักษร ป.ปลา ในหน้าต่างคอร์สเรียน)
+
+- **Build / Engine:** [เช่น Campus 10.3.169253 / Unity 2020.3.47f1]
+- **Screen / Location:** [เช่น Main Menu > Settings > Audio หรือ In-Game Course Management Panel]
+- **String ID / Key:** [เช่น UI/Buttons/Btn_Confirm หรือ TextAsset ID]
+- **Source English:** [เช่น "Upgrade your campus to level 5 to expand."]
+- **Thai Text Used:** [ข้อความภาษาไทยที่เกิดปัญหา]
+- **Category:** [ ] สระบน/ล่าง [ ] วรรณยุกต์ซ้อน [ ] การตัดบรรทัด [ ] ปุ่มแคบ/ล้นกรอบ [ ] ฟอนต์ Fallback/สี่เหลี่ยม [ ] อักขระ/แท็กพัง
+- **Severity:** 
+  - [ ] Critical (เกม Crash หรือตัวหนังสืออ่านไม่ได้ทั้งหมด)
+  - [ ] Major (ข้อความล้นหลุดกรอบ / บรรทัดขาดจนเสียความหมาย)
+  - [ ] Moderate (วรรณยุกต์ลอย / สระซ้อนทับหางตัวอักษร / ช่องไฟผิดปกติ)
+  - [ ] Minor (ความไม่สวยงามเล็กน้อย / ปัญหาสไตล์)
+- **Reproduction Steps:**
+  1. เปิดเกมและเข้าสู่หน้าจอ ...
+  2. สังเกตที่ปุ่ม ... หรือนำเมาส์ไปชี้ที่ ...
+  3. สังเกตการแสดงผลของข้อความ
+- **Expected Behavior:** [พฤติกรรมที่ถูกต้อง เช่น วรรณยุกต์ต้องอยู่เหนือบ่าของสระบน ไม่ลอยสูงเกิน 1 ช่วงบรรทัด]
+- **Actual Behavior:** [สิ่งที่เกิดขึ้นจริง เช่น ไม้โทลอยสูงจนทับบรรทัดด้านบน หรือข้อความถูกตัดคำว่า "นักศึ|กษา"]
+- **Screenshot / Artifact Link:** [แนบรูปหรือ Path ภาพบันทึกหน้าจอ]
+- **Technical Note / Suggested Fix:** [เช่น ปรับ Padding ใน TMP Font Asset หรือเติม \u200B ก่อนเข้าสู่ UI]
+```
+
+---
+
+### ส่วนที่ 5: สรุปสถานะและขั้นตอนถัดไปของ QA
+
+1. **สถานะปัจจุบัน:** เอกสารแผนทดสอบ (Test Matrix) และแบบฟอร์มรายงานข้อผิดพลาด (Bug Report Template) จัดเตรียมเสร็จสมบูรณ์
+2. **ขอบเขตความปลอดภัย:** ไม่มีการแตะต้องหรือดัดแปลงไฟล์เกม ไบนารี หรือไฟล์งานใดๆ ของ Controller และ Translator ในรอบนี้
+3. **ขั้นตอนถัดไป:** รอการส่งมอบ **Reversible Thai Rendering Prototype** จาก ChatGPT (Project Controller) เพื่อนำชุดข้อความทดสอบมาตรฐาน (Test Corpus) ไปทดสอบในตัวเกมจริง และบันทึกผลการตรวจสอบอย่างเป็นอิสระต่อไป
