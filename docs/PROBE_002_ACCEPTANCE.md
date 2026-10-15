@@ -5,6 +5,8 @@ Evidence: docs/qa/WO_VISUAL_002_REPORT.md and local/qa/WO-VISUAL-002/command-evi
 
 Decision: PASS for the reported Settings comparison only. Promote probe-002's original-primary-font plus Thai-fallback strategy as the engineering baseline for the next diagnostic probe. probe-001 remains failed and is not the installation candidate.
 
+User follow-up: BUG-THAI-001 records overlapping U+0E35 sara ii and U+0E48 mai ek in ถี่ within ความถี่, visible in the cited Game Settings screenshot. This is an observed mark-positioning failure, not an untested-only category. Dropdown acceptance remains scoped PASS; the fallback strategy is not a shaping solution. Prioritize this regression in the next diagnostic build and preserve exact spelling/code points.
+
 Observed scope: selected dropdown values and option lists visible against original baseline; Thai pilot Settings labels remain visible; reported Game/Video behavior persists after restart. Test environment: English, Medium UI Scale, 3840 x 2160 @ 60hz as read from the game, not inferred from screenshot dimensions. Controller's inspected image corroborates closed Game dropdown values and Thai labels; remaining paired views and restart outcomes are documented by the desktop agent.
 
 This result supports the fallback strategy but does not establish the precise internal cause of probe-001's failure. It does not approve all 50 strings, all UI scales, arbitrary glyphs, mark positioning, word wrapping, plural selection, runtime argument semantics, saved gameplay or release distribution.

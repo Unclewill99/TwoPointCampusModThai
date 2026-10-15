@@ -16,6 +16,8 @@ Owner: ChatGPT — Project Controller
 
 ## Current assignments
 
+**Open rendering defect: BUG-THAI-001** — ผู้ใช้พบสระอีและไม้เอกทับกันใน “ความถี่” ของ probe-002 (Settings > Game). Mark positioning ของกลุ่ม `ถี่` เป็น observed FAIL; dropdown comparison ยังคง PASS เฉพาะขอบเขต ต้องแก้และทดสอบซ้ำก่อนรับรอง shaping.
+
 | Owner | Work | State |
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
