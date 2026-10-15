@@ -1,5 +1,6 @@
 """Independent structural checks, not a runtime parser or translation approval."""
 import hashlib
+import argparse
 import json
 import re
 import unicodedata
@@ -7,7 +8,11 @@ from collections import Counter
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 source = json.loads((ROOT/'local/source/PILOT-001.json').read_text(encoding='utf-8'))
-target_path = ROOT/'local/translations/PILOT-001.th.json'
+parser = argparse.ArgumentParser()
+parser.add_argument('--target', default='local/translations/PILOT-001.th.json')
+parser.add_argument('--report', default='reports/pilot-001-validation.json')
+args = parser.parse_args()
+target_path = ROOT/args.target
 target = json.loads(target_path.read_text(encoding='utf-8'))
 errors = []
 pattern = re.compile(r'\{[^{}]+\}|<[^<>]+>|\[i2[^\]]*\]|%(?:\d+\$)?[-+#0 ]*\d*(?:\.\d+)?[sdif]')
@@ -33,6 +38,6 @@ report={'records':len(target),'errors':errors,'input_sha256':hashlib.sha256(targ
         'unique_codepoints':len(set(''.join(r['thai'] for r in target))),
         'token_detection':'Heuristic source/target syntax check, including observed [i2p_One]; not verified runtime grammar.',
         'limits':'No runtime argument semantics, font coverage, bundle rebuild/load or visual rendering validated.'}
-(ROOT/'reports/pilot-001-validation.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+(ROOT/args.report).write_text(json.dumps(report,indent=2),encoding='utf-8')
 print(json.dumps(report,indent=2))
 raise SystemExit(bool(errors))

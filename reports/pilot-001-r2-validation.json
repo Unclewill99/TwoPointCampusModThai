@@ -1,0 +1,16 @@
+{
+  "records": 50,
+  "errors": [],
+  "input_sha256": "d096505abd287089862017febcd82730119fe760c2ab1b75bbda88623745f39f",
+  "flag_counts": {
+    "AMBIGUOUS": 21,
+    "LENGTH": 4,
+    "WRAP_CONCERN": 6,
+    "PLURAL_REVIEW": 1,
+    "TOKEN_ANOMALY": 2,
+    "JOKE_UNRESOLVED": 3
+  },
+  "unique_codepoints": 108,
+  "token_detection": "Heuristic source/target syntax check, including observed [i2p_One]; not verified runtime grammar.",
+  "limits": "No runtime argument semantics, font coverage, bundle rebuild/load or visual rendering validated."
+}

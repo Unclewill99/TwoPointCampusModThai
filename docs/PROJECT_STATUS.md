@@ -21,8 +21,8 @@ Owner: ChatGPT — Project Controller
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Next engineering task; not completed |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
 | Controller | Reversible Thai rendering prototype | Pending investigation |
-| Claude | 50-source-string PILOT-001 | Draft received and structurally checked; focused r2 revision ready for relay |
-| Antigravity | Independent pilot language/token review; runtime rendering tests | Draft review available now; runtime NOT_RUN pending prototype |
+| Claude | 50-source-string PILOT-001 | r2 received and independently structurally checked; accepted for QA/prototype preparation; waiting for QA findings |
+| Antigravity | Independent pilot language/token review; runtime rendering tests | Assigned r2 review in docs/PILOT_001_R2_REVIEW.md; runtime NOT_RUN pending prototype |
 
 ## Limits and handoff
 
