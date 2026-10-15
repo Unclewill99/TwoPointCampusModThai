@@ -1,0 +1,26 @@
+{
+  "probe": "probe-001",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "translated_records_reloaded": 50,
+  "strategy": "Replace embedded Arabic source-font bytes with Museum Thai TTF, retain identities, map English font terms to existing Arabic dynamic TMP slot. Experimental only.",
+  "missing_pilot_cmap_codepoints": [],
+  "risks": [
+    "Addressables hash/CRC may reject modified bundles",
+    "Dynamic source font GUID resolution not runtime-verified",
+    "Campus mark positioning and Thai wrapping may be insufficient",
+    "Thai source font may lack Latin or symbol coverage; existing fallback behavior unverified"
+  ],
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "d4ee75cb2a54f9f17384c55a9b397cb7a53acf3976301cb868cb2f5ab04e0549"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "a15a40549f1c32b31acbf5a047245648344a0da3f8975ac2bb37768c1688c745"
+    }
+  ]
+}

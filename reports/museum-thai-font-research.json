@@ -1,0 +1,121 @@
+{
+  "museum_fonts": [
+    {
+      "bundle": "fonts_assets_notosans_thai.bundle",
+      "name": "NotoSans_Thai",
+      "path_id": -6517448087049396805,
+      "character_count": 168,
+      "atlas_population_mode_raw": 0,
+      "source_font_ref": {
+        "m_AssetGUID": "30b86ac7facaa2f478165525cc8e9119",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [
+        {
+          "m_FileID": 2,
+          "m_PathID": 5018731687672946809
+        },
+        {
+          "m_FileID": 3,
+          "m_PathID": -154728553243105392
+        },
+        {
+          "m_FileID": 4,
+          "m_PathID": -8324840845654282218
+        },
+        {
+          "m_FileID": 5,
+          "m_PathID": 5843989300473558533
+        },
+        {
+          "m_FileID": 6,
+          "m_PathID": 1374705391837917507
+        },
+        {
+          "m_FileID": 7,
+          "m_PathID": -8210689273710970011
+        },
+        {
+          "m_FileID": 8,
+          "m_PathID": 6831254204032645566
+        }
+      ],
+      "feature_counts": {
+        "m_MultipleSubstitutionRecords": 0,
+        "m_LigatureSubstitutionRecords": 9,
+        "m_GlyphPairAdjustmentRecords": 1734,
+        "m_MarkToBaseAdjustmentRecords": 1677,
+        "m_MarkToMarkAdjustmentRecords": 357
+      }
+    },
+    {
+      "bundle": "fonts_assets_notosans_thai_dynamic.bundle",
+      "name": "NotoSans_Thai_Dynamic",
+      "path_id": 6831254204032645566,
+      "character_count": 0,
+      "atlas_population_mode_raw": 1,
+      "source_font_ref": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "feature_counts": {
+        "m_MultipleSubstitutionRecords": 0,
+        "m_LigatureSubstitutionRecords": 0,
+        "m_GlyphPairAdjustmentRecords": 0,
+        "m_MarkToBaseAdjustmentRecords": 0,
+        "m_MarkToMarkAdjustmentRecords": 0
+      }
+    },
+    {
+      "bundle": "fonts_assets_notosans_thai_languagenames.bundle",
+      "name": "NotoSans_Thai_LanguageNames",
+      "path_id": 5018731687672946809,
+      "character_count": 4,
+      "atlas_population_mode_raw": 0,
+      "source_font_ref": {
+        "m_AssetGUID": "",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "feature_counts": {
+        "m_MultipleSubstitutionRecords": 0,
+        "m_LigatureSubstitutionRecords": 0,
+        "m_GlyphPairAdjustmentRecords": 0,
+        "m_MarkToBaseAdjustmentRecords": 0,
+        "m_MarkToMarkAdjustmentRecords": 0
+      }
+    }
+  ],
+  "limits": "Serialized evidence, not proof of runtime shaping or bundle compatibility.",
+  "source_font": {
+    "name": "NotoSansThai-Medium",
+    "sha256": "f9855a702e9899b9cfa1e8cb7cbf36c2c7bb6fe31ee0cd6860ae61ae012155d0",
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "prep",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "thai_cmap_entries": 87
+  },
+  "museum_font_mapping_values": [
+    "NotoSans_Thai"
+  ]
+}
