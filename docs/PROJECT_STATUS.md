@@ -20,12 +20,12 @@ Owner: ChatGPT — Project Controller
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
-| Controller | Reversible Thai rendering prototype | Probe-001 rebuilt/reloaded locally; 50 translations and TTF verified; installer check only, not installed or runtime-tested |
+| Controller | Reversible Thai rendering prototype | Probe-001 runtime FAIL: blank selected dropdown values; originals restored. Probe-002 fallback-only comparison built/reloaded, not installed; WO-VISUAL-002 ready |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
 | Antigravity | Independent pilot language/token review; runtime rendering tests | r2 review received and disposition recorded in docs/PILOT_001_QA_DISPOSITION.md; runtime NOT_RUN pending prototype |
 
 ## Limits and handoff
 
-No game files patched; no in-game Thai rendering validated. Catalog references are inventory evidence only. Agent messages are currently relayed by the user. Controller command-line access to the private remote remains unresolved; GitHub Desktop is available for the user to push local commits. Later local commits have not been independently verified on the remote.
+Probe-001 was temporarily installed by the desktop testing agent, loaded and displayed some Thai Settings labels; overall visual FAIL. Both original bundles restored and hash-checked. Full Thai shaping, wrapping and runtime coverage remain unvalidated. Museum catalog references and serialized features are asset evidence only. Agent messages are currently relayed by the user. Controller command-line access to the private remote remains unresolved; GitHub Desktop is available for the user to push local commits. Later local commits have not been independently verified on the remote.
 
 Update this file on a completed handoff, meaningful finding, blocker or assignment change. Record tests as executed only with evidence; do not infer progress from elapsed time. Game binaries and local extracted assets remain outside version control.

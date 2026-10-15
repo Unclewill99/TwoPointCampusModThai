@@ -6,12 +6,13 @@ import shutil
 import subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-probe=ROOT/'local/prototype/probe-001'
 game=ROOT.parent/'TPC_Data/StreamingAssets/aa/StandaloneWindows64'
-backup=ROOT/'local/backups/probe-001'
 parser=argparse.ArgumentParser()
 parser.add_argument('action',choices=['check','install','restore'],default='check',nargs='?')
+parser.add_argument('--probe', choices=['probe-001','probe-002'], default='probe-001')
 args=parser.parse_args()
+probe=ROOT/'local/prototype'/args.probe
+backup=ROOT/'local/backups'/args.probe
 manifest=json.loads((probe/'manifest.json').read_text(encoding='utf-8'))
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 if args.action!='check':

@@ -1,0 +1,45 @@
+{
+  "probe": "probe-002",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "strategy": "Keep original English font mappings and materials; append reused Thai dynamic slot as last TMP fallback.",
+  "modified_fallback_assets": [
+    "NotoSans_KR_LanguageNames",
+    "NotoSans_TC_LanguageNames",
+    "NotoSans_KR_Dynamic",
+    "NotoSans_SC_Dynamic",
+    "Alegreya_ExtraBoldItalic",
+    "Bangers_Regular",
+    "NotoSans_SC",
+    "RobotoSlab_Bold",
+    "NotoSans_KR",
+    "Pacifico",
+    "PalanquinDark_SemiBold",
+    "NotoSans_JP_LanguageNames",
+    "NotoSans_SC_LanguageNames",
+    "PalanquinDark_Regular",
+    "NotoSans_JP",
+    "NotoSans_TC",
+    "Pacifico",
+    "NotoSans_TC_Dynamic",
+    "Kalam_Regular",
+    "Chango_Regular",
+    "PalanquinDark_Bold",
+    "NotoSans_JP_Dynamic"
+  ],
+  "translations_reloaded": 50,
+  "original_font_mapping_reloaded": true,
+  "limits": "Dropdown cause unconfirmed: comparison probe tests primary-font remapping hypothesis. No original Settings A/B evidence yet.",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "167c3cabce9bdf40a1a9f5efc19dc9ad58e4d9bf26143248ecd6ac2648e9757a"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "4f1e6033cd54b3bf6f97a3f644dd9598514bac6d53781dcc235fe8d3177dd567"
+    }
+  ]
+}
