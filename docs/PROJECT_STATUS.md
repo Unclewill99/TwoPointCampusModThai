@@ -22,10 +22,10 @@ Owner: ChatGPT — Project Controller
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
-| Controller | Reversible Thai rendering prototype | Probe-001 FAIL; probe-002 PASS for paired Settings/dropdown comparison and reported restart. Fallback strategy accepted for next diagnostic build; originals restored |
+| Controller | Reversible Thai rendering prototype | Probe-003 built/reloaded with Thai feature records; localisation unchanged from probe-002; not installed. WO-VISUAL-003 ready for stacked-mark comparison |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
 | Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
-| Desktop visual agent | Settings comparison | WO-VISUAL-002 completed, scoped PASS; originals restored; waiting for diagnostic probe |
+| Desktop visual agent | Stacked-mark comparison | WO-VISUAL-003 ready; verify browser same-font reference and ความถี่ in probe-003, retain dropdown checks; runtime NOT_RUN |
 
 ## Limits and handoff
 
