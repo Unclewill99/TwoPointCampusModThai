@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+local/
+extracted/
+build/
+*.bundle
+*.dll
+*.exe
+*.ttf
+*.otf
+*.assets
+*.resS
+global-metadata.dat
