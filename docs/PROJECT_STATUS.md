@@ -25,10 +25,14 @@ Owner: ChatGPT — Project Controller
 | Controller | Reversible Thai rendering prototype | Read-only audit of 8 PC tooltip prefabs completed; TMP/custom layout/fitter references recorded. Runtime Settings binding remains unknown; no new speculative patch |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
 | Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
-| Desktop visual agent | Original multiline baseline | WO-VISUAL-006 ready: no installation; inspect original English UI and distinguish source-newline breaks from automatic wrapping |
+| Desktop visual agent | Original multiline baseline | WO-VISUAL-006 complete: 3 explicit-LF multiline tooltips; automatic wrapping NOT_ESTABLISHED; no probe installed; originals verified |
 
 ## Limits and handoff
 
 Probe-003 remains the translation engineering baseline after target-word PASS. Probe-004 gave five scoped passes; WO-VISUAL-005 additionally closes STACK-02's reference gap, while VOWEL-02 needs higher-detail game evidence. The width-tag English control failed with a blank oversized tooltip, so Thai wrapping A/B remains BLOCKED/NOT_RUN and uninstalled. Originals independently hash-checked after restoration. Next inspect actual tooltip TMP/layout settings or select an existing readable bounded English multiline component before rebuilding. Do not rerun unchanged probe-005 A/B. Full shaping, atlas stress, token/plural semantics and gameplay coverage remain pending. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
 
 Update this file on a completed handoff, meaningful finding, blocker or assignment change. Record tests as executed only with evidence; do not infer progress from elapsed time. Game binaries and local extracted assets remain outside version control.
+
+## WO-VISUAL-006 checkpoint
+
+Controller independently verified source LF positions in all three reported tooltips and original installed hashes. Readable explicit multiline display is established; automatic wrapping remains NOT_ESTABLISHED. Next trace Settings tooltip binding/layout constraints, then design a tag-free English length control. No new runtime work order yet.
