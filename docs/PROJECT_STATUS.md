@@ -56,3 +56,7 @@ Width experiment did not bound the visible long tooltip; English automatic wrapp
 ## Current handoff — probe-009 marker
 
 probe-009 staged/reloaded: one TMP asset colour changed to opaque magenta, layout unchanged, original English short tooltip. Three-file original preflight passed; NOT INSTALLED/runtime NOT_RUN. WO-VISUAL-009 ready to test serialized path consumption. Positive marker supports usage; negative result remains inconclusive. No layout fix, loader or assembly change.
+
+## Latest accepted result — WO-VISUAL-009
+
+POSITIVE MARKER accepted: Resolution's three lines magenta; Antialiasing also magenta per tester. Quality Presets not observed in this run. All THREE originals independently verified. Patched TMP path consumption is supported; runtime layout overrides remain unproven. Next verify actual wrapping enum/version and text-object constraints before a single-factor English control. No new visual WO yet. This supersedes the marker ready/NOT_RUN paragraph above.
