@@ -84,3 +84,7 @@ Traced text rect width=0 and parent layout ChildControlWidth=1; no separate Layo
 ## Latest accepted result — probe-011 English control PASS
 
 WO-VISUAL-011 establishes bounded readable automatic English wrapping: 17 rows reported, middle segment 14 rows with 13 extra breaks. Controller inspected the bounded multiline image and independently verified originals for all three bundles. Antialiasing remains readable but width changes, per report. Paired edit accepted as experimental configuration, not a release/global layout fix. Next same-slot Thai A/B should keep probe-011 UI/font bytes identical; no production ZWSP approval. Supersedes ready/NOT_RUN above; no new WO in this review.
+
+## Current handoff — bounded Thai A/B probe-012
+
+probe-012a/b built/reloaded on identical probe-011 UI/font bytes. Same synthetic Thai paragraph repeated three times, no manual LF; B differs only by mapped U+200B, removal matches A exactly. Only Resolution tooltip segment changes; r3 untouched. WO-VISUAL-012 ready, runtime NOT_RUN; originals verified for all three files. No production ZWSP/layout rollout approval.
