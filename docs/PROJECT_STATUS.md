@@ -60,3 +60,7 @@ probe-009 staged/reloaded: one TMP asset colour changed to opaque magenta, layou
 ## Latest accepted result — WO-VISUAL-009
 
 POSITIVE MARKER accepted: Resolution's three lines magenta; Antialiasing also magenta per tester. Quality Presets not observed in this run. All THREE originals independently verified. Patched TMP path consumption is supported; runtime layout overrides remain unproven. Next verify actual wrapping enum/version and text-object constraints before a single-factor English control. No new visual WO yet. This supersedes the marker ready/NOT_RUN paragraph above.
+
+## Current handoff — probe-010
+
+Local metadata confirms wrapping type/member names, but numeric mapping/package version remain unresolved. probe-010 stages a clearly labelled raw-mode candidate 1 to 0 on one TMP field, with original UI layout and identical probe-007-long English stimulus/fonts. Reload comparison passed, three originals verified; not installed. WO-VISUAL-010 ready, runtime NOT_RUN. Do not call raw 0 verified Normal or assume bounded wrapping. Supersedes earlier no-new-WO status.
