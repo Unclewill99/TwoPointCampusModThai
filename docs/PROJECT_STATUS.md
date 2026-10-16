@@ -100,3 +100,7 @@ TOOLTIPS-001 prepared: 20 actual Settings tooltip records in local/source/TOOLTI
 ## Latest tooltip handoff — independent language QA
 
 Claude's 20-record draft received; Controller independent validation zero errors (reports/tooltips-001-validation.json), nine AMBIGUOUS flags retained. Draft accepted for Antigravity review per docs/TOOLTIPS_001_CONTROLLER_REVIEW.md (WO-QA-TOOLTIPS-001). Output docs/qa/TOOLTIPS_001_LINGUISTIC_REVIEW.md. No runtime/visual approval, glossary promotion or game installation. Desktop agent waits for reviewed real-tooltip build.
+
+## Latest tooltip QA integration
+
+Antigravity review received. Eight selected editorial changes integrated into local/translations/TOOLTIPS-001.th.r2.json; r1 preserved. Controller validation: 20 records, zero structural errors, nine AMBIGUOUS flags retained. Runtime assertions in QA qualified in docs/TOOLTIPS_001_QA_DISPOSITION.md. Next checked real-tooltip build with pilot r3 and bounded experimental layout, then scale WO. No new installation; three originals verified.

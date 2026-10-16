@@ -1,9 +1,10 @@
 """Independent structural checks for TOOLTIPS-001; no runtime/semantic approval."""
-import hashlib,json,re,unicodedata
+import hashlib,json,re,unicodedata,argparse
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-src=ROOT/'local/source/TOOLTIPS-001.json';dst=ROOT/'local/translations/TOOLTIPS-001.th.json'
+parser=argparse.ArgumentParser();parser.add_argument('--target',default='local/translations/TOOLTIPS-001.th.json');parser.add_argument('--report',default='reports/tooltips-001-validation.json');args=parser.parse_args()
+src=ROOT/'local/source/TOOLTIPS-001.json';dst=ROOT/args.target
 a=json.loads(src.read_text(encoding='utf-8'));b=json.loads(dst.read_text(encoding='utf-8'));errors=[]
 if len(a)!=len(b):errors.append('record count mismatch')
 token=re.compile(r'\{[^{}]+\}|<[^<>]+>|\[i2[^\]]*\]')
@@ -26,4 +27,4 @@ if len({r['id'] for r in b})!=len(b):errors.append('duplicate IDs')
 r={'records':len(b),'errors':errors,'source_batch_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),
  'translation_sha256':hashlib.sha256(dst.read_bytes()).hexdigest(),'flags':dict(Counter(f for r in b for f in r.get('flags',[]))),
  'limits':'Heuristic token and structural checks only; no runtime substitution, semantic or rendering approval.'}
-(ROOT/'reports/tooltips-001-validation.json').write_text(json.dumps(r,indent=2),encoding='utf-8');print(json.dumps(r,indent=2));raise SystemExit(bool(errors))
+(ROOT/args.report).write_text(json.dumps(r,indent=2),encoding='utf-8');print(json.dumps(r,indent=2));raise SystemExit(bool(errors))
