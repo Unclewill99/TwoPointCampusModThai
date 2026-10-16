@@ -48,3 +48,7 @@ Short baseline PASS; long expanded horizontally and clipped off screen without e
 ## Current handoff — probe-008
 
 Static Resolution row/provider to arrowLeft tooltip/layout/fitter chain resolved. Probe-008 stages a two-object UI edit (horizontal fit disabled, content width requested 800) with unchanged long English stimulus/TMP settings. Three bundles reload/preflight checked, originals intact. WO-VISUAL-008 ready, runtime NOT_RUN. Actual effective width, wrapping and shared-tooltip regressions require testing; this supersedes the earlier no-new-WO status.
+
+## Latest result — WO-VISUAL-008
+
+Width experiment did not bound the visible long tooltip; English automatic wrapping remains NOT_ESTABLISHED. All THREE originals independently hash-checked. Runtime override causality is unproven; verify actual prefab instantiation/constraint ownership before another patch. Regression-image citations need correction before accepting full VSync/QualityPresets claims. See docs/PROBE_008_DISPOSITION.md. No new visual WO issued; supersedes probe-008 ready/NOT_RUN above.
