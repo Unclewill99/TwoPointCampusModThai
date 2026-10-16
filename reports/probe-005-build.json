@@ -1,0 +1,72 @@
+{
+  "variants": [
+    {
+      "probe": "probe-005-control",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "only_changed_key": "UI/Settings/Tooltips/Resolution",
+      "font_identical_to_probe003": true,
+      "diagnostic_map_sha256": "3aeffad8451f0c67a49249057827af70bbd82b376a5edd47b6cc4a2860911adc",
+      "limits": "Width tag and actual wrapping require control run. Same key is not proof of equal runtime bounds. Raw tags or differing measured widths invalidate controlled comparison.",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "ccc2af9adc5b95f18876e0e993ec234595172dc37541563979e3cd672226df74"
+        }
+      ]
+    },
+    {
+      "probe": "probe-005a",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "only_changed_key": "UI/Settings/Tooltips/Resolution",
+      "font_identical_to_probe003": true,
+      "diagnostic_map_sha256": "799c809a4c3f5914cc307ffb33fff42912b80b814843bc9c598b78b574e54b52",
+      "limits": "Width tag and actual wrapping require control run. Same key is not proof of equal runtime bounds. Raw tags or differing measured widths invalidate controlled comparison.",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "0cdcc5a605dd70741c199acd048df14ee36d447da60277bbd18be263d04e6244"
+        }
+      ]
+    },
+    {
+      "probe": "probe-005b",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "only_changed_key": "UI/Settings/Tooltips/Resolution",
+      "font_identical_to_probe003": true,
+      "diagnostic_map_sha256": "c9c58874d64d87686328b0192e9bf7fcfa3435f56e578f2ec7546d5e1589e513",
+      "limits": "Width tag and actual wrapping require control run. Same key is not proof of equal runtime bounds. Raw tags or differing measured widths invalidate controlled comparison.",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "ad29780e8ba0fd7e5833a5bbf2e550cf6342cac3f6485c9e0201f51e21aabc2c"
+        }
+      ]
+    }
+  ],
+  "same_key": "UI/Settings/Tooltips/Resolution",
+  "same_fonts": true,
+  "tag_width_requested": 400,
+  "runtime_width_verified": false,
+  "reference_exact_cases": 2
+}
