@@ -68,3 +68,7 @@ Local metadata confirms wrapping type/member names, but numeric mapping/package 
 ## Probe-010 execution blocker and retry
 
 First WO-VISUAL-010 attempt BLOCKED before writes: tasklist execution failed. All three originals independently verified; no probe runtime result. Manager now uses fail-closed Windows Toolhelp process enumeration; standalone closed-game enumeration succeeds. Probe bundles unchanged. WO_VISUAL_010_RETRY.md ready; enforce sequential install/check success before Steam launch. No rendering result yet.
+
+## Latest result — probe-010 retry completed
+
+Retry installed and restored successfully. NO OBSERVED IMPROVEMENT for raw wrapping-mode 1 to 0 alone: long tooltip still viewport-spanning/clipped, automatic wrapping NOT_ESTABLISHED. Separate Antialiasing explicit multiline check passed per report. All three originals independently verified. Next decode actual build enum constants or scope runtime property inspection; no unchanged repeat or new visual WO. This supersedes the earlier retry ready/NOT_RUN paragraphs.
