@@ -88,3 +88,7 @@ WO-VISUAL-011 establishes bounded readable automatic English wrapping: 17 rows r
 ## Current handoff — bounded Thai A/B probe-012
 
 probe-012a/b built/reloaded on identical probe-011 UI/font bytes. Same synthetic Thai paragraph repeated three times, no manual LF; B differs only by mapped U+200B, removal matches A exactly. Only Resolution tooltip segment changes; r3 untouched. WO-VISUAL-012 ready, runtime NOT_RUN; originals verified for all three files. No production ZWSP/layout rollout approval.
+
+## Latest acceptance — probe-012 A/B complete
+
+Both variants readable in six rows with equal observed bounds/boundaries; all three repeats accounted. No visible base/mark split at five observed boundaries. B shows NO OBSERVED IMPROVEMENT; keep ordinary Thai/no automatic production ZWSP. Scoped paragraph result only, not dictionary/full Thai wrapping approval. All three originals independently verified. Next representative real tooltip translations and width/scale regression, plus adversarial boundary backlog. No new WO yet; supersedes prior NOT_RUN.
