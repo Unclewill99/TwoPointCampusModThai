@@ -22,10 +22,10 @@ Owner: ChatGPT — Project Controller
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
-| Controller | Reversible Thai rendering prototype | Probe-005 English control failed (blank viewport-spanning tooltip); Thai A/B blocked and never installed. Next inspect actual TMP/layout or find bounded multiline baseline; originals verified |
+| Controller | Reversible Thai rendering prototype | Read-only audit of 8 PC tooltip prefabs completed; TMP/custom layout/fitter references recorded. Runtime Settings binding remains unknown; no new speculative patch |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
 | Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
-| Desktop visual agent | Exact reference and wrapping comparison | WO-VISUAL-005 complete: STACK-02 subset PASS; VOWEL-02 image detail PARTIAL; wrapping control FAIL/setup, A/B NOT_RUN; wait for revised engineering setup |
+| Desktop visual agent | Original multiline baseline | WO-VISUAL-006 ready: no installation; inspect original English UI and distinguish source-newline breaks from automatic wrapping |
 
 ## Limits and handoff
 

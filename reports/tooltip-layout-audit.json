@@ -1,0 +1,768 @@
+{
+  "bundle": "ui-prefabs-general_assets_all.bundle",
+  "sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+  "prefabs": [
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowLeft",
+      "root_id": -7935413827661432266,
+      "components": [
+        {
+          "controller_id": 5202969347434510902,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": 2671690608638065206
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": 1537959580418341430
+          },
+          "text_config": {
+            "m_text": "Tooltip text goes here. This should also wrap once the box has hit its maximum width.",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 2,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 1,
+            "_minimumSpacing": 0.0,
+            "_padding": {
+              "m_Left": 20,
+              "m_Right": 20,
+              "m_Top": 0,
+              "m_Bottom": 10
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": 2617668728378194486
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": -8613258678337963466
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 2,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 500.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.0,
+          "y": 0.5
+        },
+        "m_Pivot": {
+          "x": 0.0,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowRight_TreatmentPower",
+      "root_id": -7805339944494512061,
+      "components": [
+        {
+          "controller_id": 3597140419833284675,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": -4441296652684113853
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": 124566618339199043
+          },
+          "text_config": {
+            "m_text": "Illness Difficulty\nSuccess Chance:\n\nTreatment Power\nTeacher\nStudents\nItems\nResearch\n",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 579.260009765625,
+              "y": 407.3800048828125
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 2,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 1,
+            "_minimumSpacing": 0.0,
+            "_padding": {
+              "m_Left": 20,
+              "m_Right": 20,
+              "m_Top": 0,
+              "m_Bottom": 10
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": -95860846940141501
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": 8413390050694776899
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 2,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 500.0,
+          "y": 100.0
+        },
+        "m_AnchorMin": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_Pivot": {
+          "x": 1.0,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowDown",
+      "root_id": -7683406698953480771,
+      "components": [
+        {
+          "controller_id": 7089813523904947645,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": 1899861464746976701
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": -3043085822090648131
+          },
+          "text_config": {
+            "m_text": "Tooltip text goes here. This should also wrap once the box has hit its maximum width.",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 2,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 1,
+            "_minimumSpacing": 0.0,
+            "_padding": {
+              "m_Left": 20,
+              "m_Right": 20,
+              "m_Top": 0,
+              "m_Bottom": 10
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": -8557544417471601219
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": 7115515752971265469
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 2,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowDownWithWrapping",
+      "root_id": -6574131942791867777,
+      "components": [
+        {
+          "controller_id": 1445962508626662015,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": 3702570358715683455
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": -3860309962701827457
+          },
+          "text_config": {
+            "m_text": "Tooltip text goes here. This should also wrap once the box has hit its maximum width.",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 2,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 1,
+            "_minimumSpacing": 0.0,
+            "_padding": {
+              "m_Left": 20,
+              "m_Right": 20,
+              "m_Top": 0,
+              "m_Bottom": 10
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": -6545789900805533057
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": -8852269312947940737
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 2,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowRight_Feelings",
+      "root_id": -4151362875081268167,
+      "components": [
+        {
+          "controller_id": 3554923809514480697,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": -7426979743390342087
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": -7549939821011377095
+          },
+          "text_config": {
+            "m_text": "Feelings",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 155.3800048828125,
+              "y": 70.70999908447266
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 0,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 2,
+            "_minimumSpacing": 5.0,
+            "_padding": {
+              "m_Left": 0,
+              "m_Right": 8,
+              "m_Top": 0,
+              "m_Bottom": 5
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": 3970204094486635577
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": -8853551445407013831
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 0,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 500.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_Pivot": {
+          "x": 1.0,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowUp",
+      "root_id": -3539890180409089210,
+      "components": [
+        {
+          "controller_id": 7465456586731266886,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": -9155627543785856186
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": -7581997020160351418
+          },
+          "text_config": {
+            "m_text": "Tooltip text goes here. This should also wrap once the box has hit its maximum width.",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 2,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 1,
+            "_minimumSpacing": 0.0,
+            "_padding": {
+              "m_Left": 20,
+              "m_Right": 20,
+              "m_Top": 10,
+              "m_Bottom": 10
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": 4069500860940264262
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": -1562281375790488762
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 2,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 500.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 1.0
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowDownWithTitle",
+      "root_id": 7813665293287545008,
+      "components": [
+        {
+          "controller_id": -6537077698154866512,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": -3376599504019334992
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "text_config": {
+            "m_text": "Tooltip text goes here. This should also wrap once the box has hit its maximum width.",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.0
+        }
+      }
+    },
+    {
+      "name": "UI_General_P_Tooltip_Main_PC_arrowRight",
+      "root_id": 9098071079762618236,
+      "components": [
+        {
+          "controller_id": -7144768463915620484,
+          "text_ref": {
+            "m_FileID": 0,
+            "m_PathID": 2244603063720568700
+          },
+          "layout_ref": {
+            "m_FileID": 0,
+            "m_PathID": -3804905446437132420
+          },
+          "text_config": {
+            "m_text": "Tooltip text goes here. This should also wrap once the box has hit its maximum width.",
+            "m_fontSize": 34.0,
+            "m_fontSizeBase": 34.0,
+            "m_enableAutoSizing": 0,
+            "m_TextWrappingMode": 1,
+            "m_overflowMode": 0,
+            "m_isRichText": 1,
+            "m_margin": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.0
+            }
+          },
+          "text_rect": {
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "layout_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "_axis": 1,
+            "_verticalAlignment": 2,
+            "_horizontalAlignment": 1,
+            "_verticalResizeMode": 1,
+            "_horizontalResizeMode": 1,
+            "_minimumSpacing": 0.0,
+            "_padding": {
+              "m_Left": 20,
+              "m_Right": 20,
+              "m_Top": 0,
+              "m_Bottom": 10
+            },
+            "_reverseOrder": 0,
+            "_layoutGroup": {
+              "m_FileID": 0,
+              "m_PathID": 6823737722125772668
+            },
+            "_contentSizeFitter": {
+              "m_FileID": 0,
+              "m_PathID": -354777097662208132
+            }
+          },
+          "fitter_config": {
+            "m_Enabled": 1,
+            "m_Name": "",
+            "m_HorizontalFit": 2,
+            "m_VerticalFit": 2
+          }
+        }
+      ],
+      "root_rect": {
+        "m_SizeDelta": {
+          "x": 500.0,
+          "y": 0.0
+        },
+        "m_AnchorMin": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 0.5
+        },
+        "m_Pivot": {
+          "x": 1.0,
+          "y": 0.5
+        }
+      }
+    }
+  ],
+  "limits": "Serialized raw settings only. Numeric enums and custom resize modes not interpreted. Runtime prefab binding and overrides unverified."
+}
