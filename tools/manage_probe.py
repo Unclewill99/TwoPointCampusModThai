@@ -3,7 +3,8 @@ import argparse
 import hashlib
 import json
 import shutil
-import subprocess
+import ctypes
+from ctypes import wintypes
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 game=ROOT.parent/'TPC_Data/StreamingAssets/aa/StandaloneWindows64'
@@ -15,9 +16,36 @@ probe=ROOT/'local/prototype'/args.probe
 backup=ROOT/'local/backups'/args.probe
 manifest=json.loads((probe/'manifest.json').read_text(encoding='utf-8'))
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
-if args.action!='check':
-    running=subprocess.run(['tasklist','/FI','IMAGENAME eq TPC.exe','/FO','CSV','/NH'],capture_output=True,text=True,check=True)
-    if 'tpc.exe' in running.stdout.lower(): raise SystemExit('Close Campus before modifying files.')
+def campus_running():
+    """Enumerate local processes directly; errors abort instead of assuming closure."""
+    class Entry(ctypes.Structure):
+        _fields_=[('dwSize',wintypes.DWORD),('cntUsage',wintypes.DWORD),
+                  ('th32ProcessID',wintypes.DWORD),('th32DefaultHeapID',ctypes.c_size_t),
+                  ('th32ModuleID',wintypes.DWORD),('cntThreads',wintypes.DWORD),
+                  ('th32ParentProcessID',wintypes.DWORD),('pcPriClassBase',wintypes.LONG),
+                  ('dwFlags',wintypes.DWORD),('szExeFile',wintypes.WCHAR*260)]
+    kernel=ctypes.WinDLL('kernel32',use_last_error=True)
+    kernel.CreateToolhelp32Snapshot.argtypes=[wintypes.DWORD,wintypes.DWORD]
+    kernel.CreateToolhelp32Snapshot.restype=wintypes.HANDLE
+    for name in ['Process32FirstW','Process32NextW']:
+        fn=getattr(kernel,name);fn.argtypes=[wintypes.HANDLE,ctypes.POINTER(Entry)];fn.restype=wintypes.BOOL
+    kernel.CloseHandle.argtypes=[wintypes.HANDLE];kernel.CloseHandle.restype=wintypes.BOOL
+    handle=kernel.CreateToolhelp32Snapshot(2,0)
+    if handle==ctypes.c_void_p(-1).value:raise ctypes.WinError(ctypes.get_last_error())
+    try:
+        entry=Entry();entry.dwSize=ctypes.sizeof(Entry)
+        ok=kernel.Process32FirstW(handle,ctypes.byref(entry))
+        if not ok:raise ctypes.WinError(ctypes.get_last_error())
+        while ok:
+            if entry.szExeFile.casefold()=='tpc.exe':return True
+            ok=kernel.Process32NextW(handle,ctypes.byref(entry))
+        error=ctypes.get_last_error()
+        if error!=18:raise ctypes.WinError(error)
+        return False
+    finally:
+        kernel.CloseHandle(handle)
+if args.action!='check' and campus_running():
+    raise SystemExit('Close Campus before modifying files.')
 plans=[]
 for f in manifest['files']:
     name=f['name']

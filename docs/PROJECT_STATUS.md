@@ -64,3 +64,7 @@ POSITIVE MARKER accepted: Resolution's three lines magenta; Antialiasing also ma
 ## Current handoff — probe-010
 
 Local metadata confirms wrapping type/member names, but numeric mapping/package version remain unresolved. probe-010 stages a clearly labelled raw-mode candidate 1 to 0 on one TMP field, with original UI layout and identical probe-007-long English stimulus/fonts. Reload comparison passed, three originals verified; not installed. WO-VISUAL-010 ready, runtime NOT_RUN. Do not call raw 0 verified Normal or assume bounded wrapping. Supersedes earlier no-new-WO status.
+
+## Probe-010 execution blocker and retry
+
+First WO-VISUAL-010 attempt BLOCKED before writes: tasklist execution failed. All three originals independently verified; no probe runtime result. Manager now uses fail-closed Windows Toolhelp process enumeration; standalone closed-game enumeration succeeds. Probe bundles unchanged. WO_VISUAL_010_RETRY.md ready; enforce sequential install/check success before Steam launch. No rendering result yet.
