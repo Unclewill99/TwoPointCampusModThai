@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 game=ROOT.parent/'TPC_Data/StreamingAssets/aa/StandaloneWindows64'
 parser=argparse.ArgumentParser()
 parser.add_argument('action',choices=['check','install','restore'],default='check',nargs='?')
-parser.add_argument('--probe', choices=['probe-001','probe-002','probe-003','probe-004','probe-005-control','probe-005a','probe-005b','probe-007-short','probe-007-long','probe-008'], default='probe-001')
+parser.add_argument('--probe', choices=['probe-001','probe-002','probe-003','probe-004','probe-005-control','probe-005a','probe-005b','probe-007-short','probe-007-long','probe-008','probe-009'], default='probe-001')
 args=parser.parse_args()
 probe=ROOT/'local/prototype'/args.probe
 backup=ROOT/'local/backups'/args.probe

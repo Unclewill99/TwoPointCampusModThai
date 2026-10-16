@@ -52,3 +52,7 @@ Static Resolution row/provider to arrowLeft tooltip/layout/fitter chain resolved
 ## Latest result — WO-VISUAL-008
 
 Width experiment did not bound the visible long tooltip; English automatic wrapping remains NOT_ESTABLISHED. All THREE originals independently hash-checked. Runtime override causality is unproven; verify actual prefab instantiation/constraint ownership before another patch. Regression-image citations need correction before accepting full VSync/QualityPresets claims. See docs/PROBE_008_DISPOSITION.md. No new visual WO issued; supersedes probe-008 ready/NOT_RUN above.
+
+## Current handoff — probe-009 marker
+
+probe-009 staged/reloaded: one TMP asset colour changed to opaque magenta, layout unchanged, original English short tooltip. Three-file original preflight passed; NOT INSTALLED/runtime NOT_RUN. WO-VISUAL-009 ready to test serialized path consumption. Positive marker supports usage; negative result remains inconclusive. No layout fix, loader or assembly change.

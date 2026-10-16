@@ -1,0 +1,31 @@
+{
+  "probe": "probe-009",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "4f1e6033cd54b3bf6f97a3f644dd9598514bac6d53781dcc235fe8d3177dd567"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "88b26e636b078b813a586104535e1a052ed16214c3c059aa8369ace9cae049f5"
+    }
+  ],
+  "marker": {
+    "TMP_path_id": 2671690608638065206,
+    "colour": "magenta RGB 1,0,1 alpha 1",
+    "changed_fields": [
+      "m_fontColor",
+      "m_fontColor32"
+    ]
+  },
+  "limits": "Positive marker supports this serialized TMP path being consumed. Absence is inconclusive: colour may be overwritten or another prefab used. No width/wrapping conclusion."
+}
