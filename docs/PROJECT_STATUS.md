@@ -80,3 +80,7 @@ Build metadata directly confirms NoWrap=0, Normal=1, PreserveWhitespace=2, Prese
 ## Current handoff — text child constraint / probe-011
 
 Traced text rect width=0 and parent layout ChildControlWidth=1; no separate LayoutElement on text object. probe-011 tests paired child width=800 plus ChildControlWidth=0, keeping original Normal mode/fitter/custom wrapper and long English stimulus. Exactly two UI object edits reload-verified; three originals checked. WO-VISUAL-011 ready, runtime NOT_RUN. Supersedes earlier no-new-build status; no loader installed.
+
+## Latest accepted result — probe-011 English control PASS
+
+WO-VISUAL-011 establishes bounded readable automatic English wrapping: 17 rows reported, middle segment 14 rows with 13 extra breaks. Controller inspected the bounded multiline image and independently verified originals for all three bundles. Antialiasing remains readable but width changes, per report. Paired edit accepted as experimental configuration, not a release/global layout fix. Next same-slot Thai A/B should keep probe-011 UI/font bytes identical; no production ZWSP approval. Supersedes ready/NOT_RUN above; no new WO in this review.
