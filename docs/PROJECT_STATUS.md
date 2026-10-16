@@ -72,3 +72,7 @@ First WO-VISUAL-010 attempt BLOCKED before writes: tasklist execution failed. Al
 ## Latest result — probe-010 retry completed
 
 Retry installed and restored successfully. NO OBSERVED IMPROVEMENT for raw wrapping-mode 1 to 0 alone: long tooltip still viewport-spanning/clipped, automatic wrapping NOT_ESTABLISHED. Separate Antialiasing explicit multiline check passed per report. All three originals independently verified. Next decode actual build enum constants or scope runtime property inspection; no unchanged repeat or new visual WO. This supersedes the earlier retry ready/NOT_RUN paragraphs.
+
+## Latest engineering finding — actual enum decoded
+
+Build metadata directly confirms NoWrap=0, Normal=1, PreserveWhitespace=2, PreserveWhitespaceNoWrap=3. Reproducible decoder/report committed; original serialized mode is Normal. Probe-010 changed Normal to NoWrap, not an enable-wrapping fix. Runtime values/bounded width remain unverified. Next investigate effective width/text layout constraints, not more raw enum guesses. No new build or visual WO; three installed originals verified. See docs/WRAPPING_ENUM_FINDINGS.md.

@@ -1,0 +1,48 @@
+{
+  "metadata_sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb",
+  "metadata_version": 27,
+  "type": "TMPro.TextWrappingModes",
+  "type_index": 6109,
+  "type_definition_size": 88,
+  "field_start": 24913,
+  "field_count": 5,
+  "members": [
+    {
+      "name": "NoWrap",
+      "field_index": 24914,
+      "field_type_index": 46734,
+      "token": "0x4000395",
+      "type_index": 38573,
+      "data_index": 148453,
+      "value": 0
+    },
+    {
+      "name": "Normal",
+      "field_index": 24915,
+      "field_type_index": 46734,
+      "token": "0x4000396",
+      "type_index": 38573,
+      "data_index": 148457,
+      "value": 1
+    },
+    {
+      "name": "PreserveWhitespace",
+      "field_index": 24916,
+      "field_type_index": 46734,
+      "token": "0x4000397",
+      "type_index": 38573,
+      "data_index": 148461,
+      "value": 2
+    },
+    {
+      "name": "PreserveWhitespaceNoWrap",
+      "field_index": 24917,
+      "field_type_index": 46734,
+      "token": "0x4000398",
+      "type_index": 38573,
+      "data_index": 148465,
+      "value": 3
+    }
+  ],
+  "limits": "Build-specific static metadata layout with strict name/count/default checks; does not inspect runtime property assignment or compiled renderer behavior."
+}

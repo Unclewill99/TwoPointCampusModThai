@@ -1,5 +1,7 @@
 # Controller disposition — probe-010 retry
 
+**Subsequent metadata decoding (2026-10-16): NoWrap=0, Normal=1 in this actual game build. Probe-010 requests Normal to NoWrap, not enabling wrapping. See WRAPPING_ENUM_FINDINGS.md and reports/wrapping-enum-decoded.json. Historical uncertainty below is superseded; runtime no-improvement observation remains valid.**
+
 Date: 2026-10-16. Read retry section in WO_VISUAL_010_REPORT.md. Independently checked installed originals for all three files. Runtime visual observations remain attributed to tester; no new Controller game session.
 
 Accept NO OBSERVED IMPROVEMENT for the tested English long-tooltip case. Raw wrapping-mode 1 to 0 alone did not establish extra readable lines, bounded width or complete text. Antialiasing's original four explicit lines remain readable per separate evidence. Successful guarded install/restore resolves the earlier infrastructure blocker; the BLOCKED history remains valid for that earlier attempt only.
