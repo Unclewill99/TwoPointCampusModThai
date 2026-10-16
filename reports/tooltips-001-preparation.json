@@ -1,0 +1,32 @@
+{
+  "batch": "TOOLTIPS-001",
+  "records": 20,
+  "source_corpus_sha256": "600b759fcf4bea85a3ae6d993f9f3ebf59be11b7099901a97eb412b4f00a0b8c",
+  "batch_sha256": "65912bee2f07a1039f121c747612154fd73471e2b6196d7e3c291bd63e559cf4",
+  "ids": [
+    "I2LS_UI_Settings::UI/Settings/Tooltips/AmbientOcclusionMode::segment-107",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/AmbientOcclusionModeQuality::segment-108",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/AnimationSkinningQuality::segment-109",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/AnisoTextures::segment-110",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/AntialiasingMode::segment-111",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/AntialiasingQuality::segment-112",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/Bloom::segment-113",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/CharacterDrawDistance::segment-114",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/CharacterLimits::segment-115",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/DepthOfField::segment-116",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/FullScreenMode::segment-117",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/MSAASamples::segment-118",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/MaxFPS::segment-119",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/QualityPresets::segment-120",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/RenderScale::segment-121",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/Resolution::segment-122",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/ShadowQuality::segment-123",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/TextureQuality::segment-124",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/Vsync::segment-125",
+    "I2LS_UI_Settings::UI/Settings/Tooltips/WorldDetail::segment-126"
+  ],
+  "with_tokens": [
+    "I2LS_UI_Settings::UI/Settings/Tooltips/CharacterLimits::segment-115"
+  ],
+  "limits": "Source extraction only. Existence in corpus does not prove UI activation. No translation or build approved."
+}

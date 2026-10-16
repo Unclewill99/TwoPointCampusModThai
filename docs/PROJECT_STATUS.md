@@ -92,3 +92,7 @@ probe-012a/b built/reloaded on identical probe-011 UI/font bytes. Same synthetic
 ## Latest acceptance — probe-012 A/B complete
 
 Both variants readable in six rows with equal observed bounds/boundaries; all three repeats accounted. No visible base/mark split at five observed boundaries. B shows NO OBSERVED IMPROVEMENT; keep ordinary Thai/no automatic production ZWSP. Scoped paragraph result only, not dictionary/full Thai wrapping approval. All three originals independently verified. Next representative real tooltip translations and width/scale regression, plus adversarial boundary backlog. No new WO yet; supersedes prior NOT_RUN.
+
+## Current assignment — actual tooltip translation
+
+TOOLTIPS-001 prepared: 20 actual Settings tooltip records in local/source/TOOLTIPS-001.json, hashes verified; one token-bearing record. Claude assigned docs/WO_TRANSLATION_TOOLTIPS_001.md, output local/translations/TOOLTIPS-001.th.json. User relay pending. Preserve LF/tokens; no ZWSP. Controller integration/independent QA precede a new visual build and Small/Medium/Large regression. No new game mutation; three originals verified.
