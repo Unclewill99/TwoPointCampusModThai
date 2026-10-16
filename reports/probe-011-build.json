@@ -1,0 +1,39 @@
+{
+  "probe": "probe-011",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "fb3719a4f431e259340d51537395c3077ad5372968635139a69a3402723053c0"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+    }
+  ],
+  "strategy": "Text child rect width 800 plus parent layout ChildControlWidth=0. Original Normal mode, fitter, custom wrapper and other fields unchanged.",
+  "requested_text_width_units": 800,
+  "changes": [
+    {
+      "id": 3218277146759428662,
+      "field": "m_SizeDelta.x",
+      "before": 0.0,
+      "after": 800
+    },
+    {
+      "id": 2617668728378194486,
+      "field": "m_ChildControlWidth",
+      "before": 1,
+      "after": 0
+    }
+  ],
+  "limits": "Paired constraint hypothesis, not single-factor enum trial. Runtime custom logic may override either property. Shared tooltip affects other users."
+}

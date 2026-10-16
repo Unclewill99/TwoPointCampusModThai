@@ -76,3 +76,7 @@ Retry installed and restored successfully. NO OBSERVED IMPROVEMENT for raw wrapp
 ## Latest engineering finding — actual enum decoded
 
 Build metadata directly confirms NoWrap=0, Normal=1, PreserveWhitespace=2, PreserveWhitespaceNoWrap=3. Reproducible decoder/report committed; original serialized mode is Normal. Probe-010 changed Normal to NoWrap, not an enable-wrapping fix. Runtime values/bounded width remain unverified. Next investigate effective width/text layout constraints, not more raw enum guesses. No new build or visual WO; three installed originals verified. See docs/WRAPPING_ENUM_FINDINGS.md.
+
+## Current handoff — text child constraint / probe-011
+
+Traced text rect width=0 and parent layout ChildControlWidth=1; no separate LayoutElement on text object. probe-011 tests paired child width=800 plus ChildControlWidth=0, keeping original Normal mode/fitter/custom wrapper and long English stimulus. Exactly two UI object edits reload-verified; three originals checked. WO-VISUAL-011 ready, runtime NOT_RUN. Supersedes earlier no-new-build status; no loader installed.
