@@ -40,3 +40,7 @@ Controller independently verified source LF positions in all three reported tool
 ## Current engineering handoff — WO-VISUAL-007
 
 Two tag-free English length controls built/reloaded: probe-007-short and probe-007-long. Fonts identical to probe-003; only long's Resolution tooltip middle segment changes. WO-VISUAL-007 is ready, runtime NOT_RUN. Binding scan found four Resolution-related direct-string components and one explicit read error; complete tooltip runtime binding remains unverified. Installed originals hash-check successfully. This handoff supersedes the earlier no-new-work-order statement; no Thai A/B yet.
+
+## Latest result — WO-VISUAL-007 completed
+
+Short baseline PASS; long expanded horizontally and clipped off screen without establishing automatic wrapping. No width tags were used. Both variants restored between runs; originals independently verified after report receipt. No more unchanged content-only Resolution wrapping trials. Next resolve effective tooltip layout/provider references and bounded-width ownership before another English control. No new visual WO issued. This result supersedes the earlier ready/NOT_RUN status above; Thai/ZWSP comparison remains unexecuted.
