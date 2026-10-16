@@ -1,0 +1,29 @@
+{
+  "probe": "probe-008",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "fb3719a4f431e259340d51537395c3077ad5372968635139a69a3402723053c0"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "5359964749e4b0f1becf843646158aadc0c9cc2ed90ac9ef0ed02cac3ab9b94c"
+    }
+  ],
+  "requested_content_width_unity_units": 800,
+  "changed_ui_objects": [
+    -8613258678337963466,
+    -4793238305859864010
+  ],
+  "strategy": "probe-007-long stimulus unchanged; disable horizontal fit on traced arrowLeft content and request width 800. No TMP edits.",
+  "limits": "Shared tooltip prefab affects other users too; width and wrapping must be observed, not inferred. Three bundles require restoration."
+}

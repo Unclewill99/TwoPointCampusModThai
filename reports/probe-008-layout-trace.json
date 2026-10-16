@@ -1,0 +1,269 @@
+{
+  "resolution_provider": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": -9139768587585552679
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 4650329707858129939
+    },
+    "m_Name": "",
+    "_hoverTime": 0.5,
+    "_prefab": {
+      "m_FileID": 0,
+      "m_PathID": 5202969347434510902
+    },
+    "_prefabConsole": {
+      "m_FileID": 0,
+      "m_PathID": -4857281827392654351
+    },
+    "_tooltip": {
+      "_dev": "",
+      "_termID": -169992457
+    },
+    "_anchorToMouse": 0,
+    "_anchorOffset": {
+      "x": 32.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "_anchorTransform": {
+      "m_FileID": 0,
+      "m_PathID": 6959962060328500953
+    }
+  },
+  "tooltip_controller": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": -7935413827661432266
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 1728776678241535346
+    },
+    "m_Name": "",
+    "_text": {
+      "m_FileID": 0,
+      "m_PathID": 2671690608638065206
+    },
+    "_text2": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "_raycastTarget": 0,
+    "_layoutGroup": {
+      "m_FileID": 0,
+      "m_PathID": 1537959580418341430
+    },
+    "Animator": {
+      "m_FileID": 0,
+      "m_PathID": 2906839234677340726
+    },
+    "_rootContent": {
+      "m_FileID": 0,
+      "m_PathID": -4793238305859864010
+    },
+    "_rootArrow": {
+      "m_FileID": 0,
+      "m_PathID": 4026549266800671286
+    }
+  },
+  "layout_wrapper": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 6634168872553052726
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": -6897714828681614132
+    },
+    "m_Name": "",
+    "_axis": 1,
+    "_verticalAlignment": 2,
+    "_horizontalAlignment": 1,
+    "_verticalResizeMode": 1,
+    "_horizontalResizeMode": 1,
+    "_minimumSpacing": 0.0,
+    "_padding": {
+      "m_Left": 20,
+      "m_Right": 20,
+      "m_Top": 0,
+      "m_Bottom": 10
+    },
+    "_reverseOrder": 0,
+    "_layoutGroup": {
+      "m_FileID": 0,
+      "m_PathID": 2617668728378194486
+    },
+    "_contentSizeFitter": {
+      "m_FileID": 0,
+      "m_PathID": -8613258678337963466
+    }
+  },
+  "fitter_before": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 6634168872553052726
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": -1441584059848326128
+    },
+    "m_Name": "",
+    "m_HorizontalFit": 2,
+    "m_VerticalFit": 2
+  },
+  "fitter_after": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 6634168872553052726
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": -1441584059848326128
+    },
+    "m_Name": "",
+    "m_HorizontalFit": 0,
+    "m_VerticalFit": 2
+  },
+  "rect_id": -4793238305859864010,
+  "rect_before": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 6634168872553052726
+    },
+    "m_LocalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "m_LocalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "m_LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "m_Children": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -694270201272894922
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3218277146759428662
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2768792153800538678
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8422749620259227082
+      }
+    ],
+    "m_Father": {
+      "m_FileID": 0,
+      "m_PathID": -3103482177506084298
+    },
+    "m_AnchorMin": {
+      "x": 0.0,
+      "y": 0.5
+    },
+    "m_AnchorMax": {
+      "x": 0.0,
+      "y": 0.5
+    },
+    "m_AnchoredPosition": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "m_SizeDelta": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "m_Pivot": {
+      "x": 0.0,
+      "y": 0.5
+    }
+  },
+  "rect_after": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 6634168872553052726
+    },
+    "m_LocalRotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "m_LocalPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "m_LocalScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "m_Children": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -694270201272894922
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3218277146759428662
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2768792153800538678
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8422749620259227082
+      }
+    ],
+    "m_Father": {
+      "m_FileID": 0,
+      "m_PathID": -3103482177506084298
+    },
+    "m_AnchorMin": {
+      "x": 0.0,
+      "y": 0.5
+    },
+    "m_AnchorMax": {
+      "x": 0.0,
+      "y": 0.5
+    },
+    "m_AnchoredPosition": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "m_SizeDelta": {
+      "x": 800.0,
+      "y": 0.0
+    },
+    "m_Pivot": {
+      "x": 0.0,
+      "y": 0.5
+    }
+  },
+  "changed_object_ids": [
+    -8613258678337963466,
+    -4793238305859864010
+  ],
+  "limits": "Static references and serialized edits only; custom runtime layout may override width. TMP wrapping mode unchanged."
+}

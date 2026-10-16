@@ -44,3 +44,7 @@ Two tag-free English length controls built/reloaded: probe-007-short and probe-0
 ## Latest result — WO-VISUAL-007 completed
 
 Short baseline PASS; long expanded horizontally and clipped off screen without establishing automatic wrapping. No width tags were used. Both variants restored between runs; originals independently verified after report receipt. No more unchanged content-only Resolution wrapping trials. Next resolve effective tooltip layout/provider references and bounded-width ownership before another English control. No new visual WO issued. This result supersedes the earlier ready/NOT_RUN status above; Thai/ZWSP comparison remains unexecuted.
+
+## Current handoff — probe-008
+
+Static Resolution row/provider to arrowLeft tooltip/layout/fitter chain resolved. Probe-008 stages a two-object UI edit (horizontal fit disabled, content width requested 800) with unchanged long English stimulus/TMP settings. Three bundles reload/preflight checked, originals intact. WO-VISUAL-008 ready, runtime NOT_RUN. Actual effective width, wrapping and shared-tooltip regressions require testing; this supersedes the earlier no-new-WO status.
