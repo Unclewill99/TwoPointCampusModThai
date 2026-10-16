@@ -16,19 +16,19 @@ Owner: ChatGPT — Project Controller
 
 ## Current assignments
 
-**Open rendering defect: BUG-THAI-001** — ผู้ใช้พบสระอีและไม้เอกทับกันใน “ความถี่” ของ probe-002 (Settings > Game). Mark positioning ของกลุ่ม `ถี่` เป็น observed FAIL; dropdown comparison ยังคง PASS เฉพาะขอบเขต ต้องแก้และทดสอบซ้ำก่อนรับรอง shaping.
+**BUG-THAI-001: MITIGATED / TARGET-WORD VERIFIED ใน probe-003** — คำว่า “ความถี่” แยกสระอี/ไม้เอกสอดคล้อง reference ตาม WO-VISUAL-003 พร้อมผล Small/Large/restart/dropdown ตามขอบเขตที่ตรวจ ยังเปิดเพื่อ regression ของอักษรซ้อนอื่น ไม่ใช่ full shaping PASS.
 
 | Owner | Work | State |
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
-| Controller | Reversible Thai rendering prototype | Probe-003 built/reloaded with Thai feature records; localisation unchanged from probe-002; not installed. WO-VISUAL-003 ready for stacked-mark comparison |
+| Controller | Reversible Thai rendering prototype | Probe-003 scoped runtime PASS accepted; originals restored. Next: mapped synthetic diagnostic build |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
 | Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
-| Desktop visual agent | Stacked-mark comparison | WO-VISUAL-003 ready; verify browser same-font reference and ความถี่ in probe-003, retain dropdown checks; runtime NOT_RUN |
+| Desktop visual agent | Stacked-mark comparison | WO-VISUAL-003 complete with reference/zoom follow-ups; scoped PASS, waiting for broader diagnostic build |
 
 ## Limits and handoff
 
-Probe-001 failed with blank selected dropdown values. Probe-002 passed the original/probe Settings comparison with Thai labels retained, including reported restart checks, but BUG-THAI-001 remains open. On 2026-10-16 both installed originals and staged probe-003 bundle hashes were independently checked successfully. No WO_VISUAL_003_REPORT.md is present: probe-003 runtime remains NOT_RUN. Next: execute the existing WO-VISUAL-003 and inspect its same-font browser reference; synthetic in-game corpus coverage comes later. Full Thai shaping, wrapping, all scales and runtime coverage remain unvalidated. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
+Probe-001 failed with blank dropdown values; probe-002 recovered dropdowns but exposed stacked-mark overlap. Probe-003 passed the targeted word/reference comparison with reported restart and Small/Medium/Large checks. Both originals independently hash-checked after the reported restoration. Full synthetic shaping, wrapping and runtime coverage remain unvalidated. Next: mapped synthetic diagnostic build. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
 
 Update this file on a completed handoff, meaningful finding, blocker or assignment change. Record tests as executed only with evidence; do not infer progress from elapsed time. Game binaries and local extracted assets remain outside version control.
