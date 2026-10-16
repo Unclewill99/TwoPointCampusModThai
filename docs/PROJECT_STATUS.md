@@ -36,3 +36,7 @@ Update this file on a completed handoff, meaningful finding, blocker or assignme
 ## WO-VISUAL-006 checkpoint
 
 Controller independently verified source LF positions in all three reported tooltips and original installed hashes. Readable explicit multiline display is established; automatic wrapping remains NOT_ESTABLISHED. Next trace Settings tooltip binding/layout constraints, then design a tag-free English length control. No new runtime work order yet.
+
+## Current engineering handoff — WO-VISUAL-007
+
+Two tag-free English length controls built/reloaded: probe-007-short and probe-007-long. Fonts identical to probe-003; only long's Resolution tooltip middle segment changes. WO-VISUAL-007 is ready, runtime NOT_RUN. Binding scan found four Resolution-related direct-string components and one explicit read error; complete tooltip runtime binding remains unverified. Installed originals hash-check successfully. This handoff supersedes the earlier no-new-work-order statement; no Thai A/B yet.

@@ -1,0 +1,40 @@
+{
+  "matches": [
+    {
+      "bundle": "ui-prefabs-general_assets_all.bundle",
+      "path_id": -9195333740668027175,
+      "matching_fields": {
+        "mTerm": "UI/Settings/Video/Resolution"
+      }
+    },
+    {
+      "bundle": "ui-prefabs-general_assets_all.bundle",
+      "path_id": -6378666631368180007,
+      "matching_fields": {
+        "m_text": "Resolution"
+      }
+    },
+    {
+      "bundle": "ui-prefabs-general_assets_all.bundle",
+      "path_id": -4316324898836807975,
+      "matching_fields": {
+        "mTerm": "UI/Settings/Video/ApplyResolution"
+      }
+    },
+    {
+      "bundle": "ui-prefabs-general_assets_all.bundle",
+      "path_id": 90692161142750937,
+      "matching_fields": {
+        "mTerm": "UI/Settings/Video/ResolutionChangeTitle"
+      }
+    }
+  ],
+  "read_errors": [
+    {
+      "bundle": "ui-prefabs-general_assets_all.bundle",
+      "path_id": 820722457322749657,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    }
+  ],
+  "limits": "Only direct string-valued fields searched in two bundles; absence is not proof of missing runtime binding."
+}
