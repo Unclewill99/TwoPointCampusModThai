@@ -1,6 +1,6 @@
 # Project status
 
-Updated: 2026-10-15 (Asia/Bangkok)
+Updated: 2026-10-16 (Asia/Bangkok)
 Owner: ChatGPT — Project Controller
 
 ## Completed
@@ -11,7 +11,7 @@ Owner: ChatGPT — Project Controller
 - Antigravity QA matrix, report template and synthetic corpus reviewed and accepted for prototype planning, with corrections in docs/qa/CONTROLLER_ACCEPTANCE.md.
 - Extracted 15,677 English records from 25 Campus TextAssets; exact decoded-text roundtrip passed. Two duplicate keys retained with segment-qualified IDs. Full corpus is local-only.
 - Prepared 50-source-record PILOT-001 and docs/PILOT_001_HANDOFF.md for Claude.
-- Received Claude's 50-record translation draft; independent structural checks passed with zero errors, including observed square-bracket marker preservation. Editorial review requests a focused revision (docs/PILOT_001_REVIEW.md); 21 contextual ambiguities and 3 humor flags remain.
+- Received and reviewed Claude's pilot through local r3; independent structural checks passed with zero errors. Selected linguistic QA edits integrated; 21 contextual ambiguities and 3 humor flags remain. On 2026-10-16 the r3 file hash still matches its validation report.
 - Audited 23 serialized Campus TMP font character tables; no Thai-range entries in those tables, zero read errors. Dynamic/runtime coverage remains unknown.
 
 ## Current assignments
@@ -29,6 +29,6 @@ Owner: ChatGPT — Project Controller
 
 ## Limits and handoff
 
-Probe-001 failed with blank selected dropdown values. Probe-002 passed the original/probe Settings comparison with Thai labels retained, including reported restart checks. Both original bundles restored and independently hash-checked. Full Thai shaping, wrapping, all scales and runtime coverage remain unvalidated. Next: separate synthetic diagnostic probe and trusted font reference before a new visual work order. Museum catalog references and serialized features are asset evidence only. Agent messages are currently relayed by the user. Controller command-line access to the private remote remains unresolved; GitHub Desktop is available for the user to push local commits. Later local commits have not been independently verified on the remote.
+Probe-001 failed with blank selected dropdown values. Probe-002 passed the original/probe Settings comparison with Thai labels retained, including reported restart checks, but BUG-THAI-001 remains open. On 2026-10-16 both installed originals and staged probe-003 bundle hashes were independently checked successfully. No WO_VISUAL_003_REPORT.md is present: probe-003 runtime remains NOT_RUN. Next: execute the existing WO-VISUAL-003 and inspect its same-font browser reference; synthetic in-game corpus coverage comes later. Full Thai shaping, wrapping, all scales and runtime coverage remain unvalidated. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
 
 Update this file on a completed handoff, meaningful finding, blocker or assignment change. Record tests as executed only with evidence; do not infer progress from elapsed time. Game binaries and local extracted assets remain outside version control.
