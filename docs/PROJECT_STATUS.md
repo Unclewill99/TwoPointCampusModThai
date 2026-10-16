@@ -96,3 +96,7 @@ Both variants readable in six rows with equal observed bounds/boundaries; all th
 ## Current assignment — actual tooltip translation
 
 TOOLTIPS-001 prepared: 20 actual Settings tooltip records in local/source/TOOLTIPS-001.json, hashes verified; one token-bearing record. Claude assigned docs/WO_TRANSLATION_TOOLTIPS_001.md, output local/translations/TOOLTIPS-001.th.json. User relay pending. Preserve LF/tokens; no ZWSP. Controller integration/independent QA precede a new visual build and Small/Medium/Large regression. No new game mutation; three originals verified.
+
+## Latest tooltip handoff — independent language QA
+
+Claude's 20-record draft received; Controller independent validation zero errors (reports/tooltips-001-validation.json), nine AMBIGUOUS flags retained. Draft accepted for Antigravity review per docs/TOOLTIPS_001_CONTROLLER_REVIEW.md (WO-QA-TOOLTIPS-001). Output docs/qa/TOOLTIPS_001_LINGUISTIC_REVIEW.md. No runtime/visual approval, glossary promotion or game installation. Desktop agent waits for reviewed real-tooltip build.

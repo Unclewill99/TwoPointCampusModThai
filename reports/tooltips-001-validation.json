@@ -1,0 +1,10 @@
+{
+  "records": 20,
+  "errors": [],
+  "source_batch_sha256": "65912bee2f07a1039f121c747612154fd73471e2b6196d7e3c291bd63e559cf4",
+  "translation_sha256": "be8c51dc84b1bd80229c54e520be3bb18e6a2ea6b920e0ea67fdcd6c8433f5ff",
+  "flags": {
+    "AMBIGUOUS": 9
+  },
+  "limits": "Heuristic token and structural checks only; no runtime substitution, semantic or rendering approval."
+}
