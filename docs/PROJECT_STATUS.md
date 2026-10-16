@@ -22,13 +22,13 @@ Owner: ChatGPT — Project Controller
 |---|---|---|
 | Controller | Resolve Museum physical font bundles and inspect fallback/shaping configuration | Named Thai bundles found; mapping, feature counts and fallback references inspected; runtime behavior unverified |
 | Controller | Extract Campus source IDs and confirm text/token format | Source extraction done; runtime token grammar/import validation pending |
-| Controller | Reversible Thai rendering prototype | Probe-004 staged/reloaded: 12 mapped synthetic Settings cases; fonts unchanged from probe-003; originals verified; runtime NOT_RUN |
+| Controller | Reversible Thai rendering prototype | Probe-004 runtime report accepted: 5 scoped PASS, 2 PARTIAL, 2 diagnostic observations, 3 single-line wrapping observations; originals independently verified |
 | Claude | 50-source-string PILOT-001 | Linguistic review integrated into local r3; four selected wording changes structurally validated; no further revision assigned |
 | Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
-| Desktop visual agent | Broader synthetic diagnostics | WO-VISUAL-004 ready; exact map in local/prototype/probe-004/diagnostic-map.json; runtime NOT_RUN |
+| Desktop visual agent | Broader synthetic diagnostics | WO-VISUAL-004 completed; next needs exact unobscured references for 2 partial cases and a controlled wrapping build |
 
 ## Limits and handoff
 
-Probe-001 failed with blank dropdown values; probe-002 recovered dropdowns but exposed stacked-mark overlap. Probe-003 passed the targeted word/reference comparison with reported restart and Small/Medium/Large checks. Both originals independently hash-checked after the reported restoration. Full synthetic shaping, wrapping and runtime coverage remain unvalidated. Next: mapped synthetic diagnostic build. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
+Probe-001 failed with blank dropdown values; probe-002 recovered dropdowns but exposed stacked-mark overlap. Probe-003 passed the target-word/reference test. Probe-004 exercised 12 mapped synthetic cases; five scoped passes, two reference gaps, malformed/decomposed observations and three single-line tooltip observations. Wrapping remains NOT_EXERCISED. Originals independently hash-checked after restoration. Next: exact reference views for two partial cases, then a same-container forced-width wrapping experiment. Full shaping, atlas stress, token/plural semantics and gameplay coverage remain pending. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
 
 Update this file on a completed handoff, meaningful finding, blocker or assignment change. Record tests as executed only with evidence; do not infer progress from elapsed time. Game binaries and local extracted assets remain outside version control.
