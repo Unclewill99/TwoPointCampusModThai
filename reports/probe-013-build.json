@@ -1,0 +1,28 @@
+{
+  "probe": "probe-013",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "78f4ef1f44bef0425934522c27542e4df767a4f5bad344528dfbe0b0f4ae6624"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+    }
+  ],
+  "tooltip_records_reloaded": 20,
+  "pilot_records_reloaded": 50,
+  "translation_sha256": "5f1e8637c8a6c30396272b8fb61fd7bc547af82caeeb950709102758bf927e3d",
+  "tooltip_map_sha256": "81d596fed3d94cfff34b011fdd5c42e46a7127bf9cfd998759920000b9953fda",
+  "strategy": "Actual pilot r3 plus reviewed tooltip r2; probe-011 bounded experimental UI and probe-003 Thai feature fonts.",
+  "limits": "All scales, shared width effects, tooltip activation and runtime token substitution need validation. No release approved."
+}

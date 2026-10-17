@@ -1,6 +1,6 @@
 # Project status
 
-Updated: 2026-10-16 (Asia/Bangkok)
+Updated: 2026-10-17 (Asia/Bangkok)
 Owner: ChatGPT — Project Controller
 
 ## Completed
@@ -104,3 +104,7 @@ Claude's 20-record draft received; Controller independent validation zero errors
 ## Latest tooltip QA integration
 
 Antigravity review received. Eight selected editorial changes integrated into local/translations/TOOLTIPS-001.th.r2.json; r1 preserved. Controller validation: 20 records, zero structural errors, nine AMBIGUOUS flags retained. Runtime assertions in QA qualified in docs/TOOLTIPS_001_QA_DISPOSITION.md. Next checked real-tooltip build with pilot r3 and bounded experimental layout, then scale WO. No new installation; three originals verified.
+
+## Current handoff — probe-013 actual tooltips
+
+Built/reloaded 20 actual reviewed tooltips plus 50 pilot-r3 records; exact matches verified. Font/UI bytes match probe-011 bounded experiment, no synthetic bodies/ZWSP. WO-VISUAL-013 ready for five primary tooltip keys at Small/Medium/Large and Medium restart; other unseen records remain untested. Three originals verified, not installed/runtime NOT_RUN. No release approval.
