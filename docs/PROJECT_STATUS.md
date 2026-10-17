@@ -116,3 +116,7 @@ WO-VISUAL-013: five primary keys PASS at Small/Medium/Large; two Medium restart 
 ## Current handoff — WO-VISUAL-014 remaining coverage
 
 Unchanged staged probe-013 and tooltip-map hashes independently verified; three installed originals verified. WO-VISUAL-014 ready: six Small/Large gaps, five newly attempted controls at all scales, bounded QualityPresets/reachability observations; no repeat of accepted primary matrix. Exact current tracker docs/qa/TOOLTIPS_001_COVERAGE.md. No new build or installation by Controller; WO-014 runtime NOT_RUN.
+
+## Latest blocker — WO-VISUAL-014 desktop capability
+
+Attempt BLOCKED before install: wrong-target capture and no supported hover/pointer operation established in tester session. New coverage stays NOT_RUN; no new defect or control-absence evidence. Originals independently verified; no rebuild required. Resume via docs/qa/WO_VISUAL_014_RESUME.md after correct Windows target capture and documented pointer-placement capability. Current Medium/build/resolution not newly observed; prior WO-013 values historical only. No new visual acceptance.

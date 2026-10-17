@@ -2,6 +2,8 @@
 
 Updated: 2026-10-17. Baseline probe-013 unchanged. Accepted evidence: WO-VISUAL-013 / docs/PROBE_013_ACCEPTANCE.md. WO-VISUAL-014 is assigned but not executed; do not promote planned coverage.
 
+WO-VISUAL-014 attempt: BLOCKED before installation by wrong-target screenshot and unavailable documented hover/pointer capability in that session. All new cells stay NOT_RUN; no control-absence claims. Resume gate: WO_VISUAL_014_RESUME.md. Prior accepted coverage unchanged.
+
 | Group | Count | Medium | Small/Large | Follow-up |
 |---|---:|---|---|---|
 | Resolution, FullScreenMode, MaxFPS, AntialiasingMode, Vsync | 5 | scoped PASS | scoped PASS | No repeat |
