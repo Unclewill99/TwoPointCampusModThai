@@ -108,3 +108,7 @@ Antigravity review received. Eight selected editorial changes integrated into lo
 ## Current handoff — probe-013 actual tooltips
 
 Built/reloaded 20 actual reviewed tooltips plus 50 pilot-r3 records; exact matches verified. Font/UI bytes match probe-011 bounded experiment, no synthetic bodies/ZWSP. WO-VISUAL-013 ready for five primary tooltip keys at Small/Medium/Large and Medium restart; other unseen records remain untested. Three originals verified, not installed/runtime NOT_RUN. No release approval.
+
+## Latest accepted result — actual tooltip visual coverage
+
+WO-VISUAL-013: five primary keys PASS at Small/Medium/Large; two Medium restart rechecks passed. Six additional keys complete/readable at Medium (five show extra runtime breaks); nine of twenty still NOT_RUN, plus six Small/Large gaps. CharacterLimits variables and graphics-option-list expansion untested. Original three bundles independently verified; Medium restored. Next consolidate remaining naturally reachable coverage using unchanged probe-013, avoid repeating passed primary matrix. Shared fixed-width whitespace/short-line tradeoffs remain; no release/global layout or ZWSP approval. Supersedes prior NOT_RUN handoff.
