@@ -112,3 +112,7 @@ Built/reloaded 20 actual reviewed tooltips plus 50 pilot-r3 records; exact match
 ## Latest accepted result — actual tooltip visual coverage
 
 WO-VISUAL-013: five primary keys PASS at Small/Medium/Large; two Medium restart rechecks passed. Six additional keys complete/readable at Medium (five show extra runtime breaks); nine of twenty still NOT_RUN, plus six Small/Large gaps. CharacterLimits variables and graphics-option-list expansion untested. Original three bundles independently verified; Medium restored. Next consolidate remaining naturally reachable coverage using unchanged probe-013, avoid repeating passed primary matrix. Shared fixed-width whitespace/short-line tradeoffs remain; no release/global layout or ZWSP approval. Supersedes prior NOT_RUN handoff.
+
+## Current handoff — WO-VISUAL-014 remaining coverage
+
+Unchanged staged probe-013 and tooltip-map hashes independently verified; three installed originals verified. WO-VISUAL-014 ready: six Small/Large gaps, five newly attempted controls at all scales, bounded QualityPresets/reachability observations; no repeat of accepted primary matrix. Exact current tracker docs/qa/TOOLTIPS_001_COVERAGE.md. No new build or installation by Controller; WO-014 runtime NOT_RUN.
