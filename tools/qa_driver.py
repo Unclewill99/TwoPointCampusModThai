@@ -8,6 +8,21 @@ from PIL import Image, ImageGrab
 u = ctypes.windll.user32
 kernel32 = ctypes.windll.kernel32
 
+# Explicit pointer signatures avoid HWND/HANDLE truncation on 64-bit Windows.
+u.GetForegroundWindow.restype = wintypes.HWND
+u.IsWindowVisible.argtypes = [wintypes.HWND]
+u.GetWindowThreadProcessId.argtypes = [wintypes.HWND, ctypes.POINTER(wintypes.DWORD)]
+u.GetWindowThreadProcessId.restype = wintypes.DWORD
+u.ShowWindow.argtypes = [wintypes.HWND, ctypes.c_int]
+u.SetForegroundWindow.argtypes = [wintypes.HWND]
+u.GetWindowTextLengthW.argtypes = [wintypes.HWND]
+u.GetWindowTextW.argtypes = [wintypes.HWND, wintypes.LPWSTR, ctypes.c_int]
+kernel32.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
+kernel32.OpenProcess.restype = wintypes.HANDLE
+kernel32.QueryFullProcessImageNameW.argtypes = [wintypes.HANDLE, wintypes.DWORD, wintypes.LPWSTR, ctypes.POINTER(wintypes.DWORD)]
+kernel32.CloseHandle.argtypes = [wintypes.HANDLE]
+EXPECTED_GAME_EXE = Path(__file__).resolve().parents[2] / 'TPC.exe'
+
 u.SetProcessDPIAware()
 
 class MOUSEINPUT(ctypes.Structure):
@@ -45,6 +60,7 @@ def to_phys(x, y):
     return int(round(x * scale_x)), int(round(y * scale_y))
 
 def send_mouse_event(flags, dx=0, dy=0, data=0):
+    require_game_foreground()
     inp = INPUT()
     inp.type = 0
     inp.mi.dx = int(dx)
@@ -55,10 +71,14 @@ def send_mouse_event(flags, dx=0, dy=0, data=0):
 
 def move_mouse(x, y):
     set_desktop()
+    require_game_foreground()
     px, py = to_phys(x, y)
+    sw, sh = u.GetSystemMetrics(0), u.GetSystemMetrics(1)
+    if sw <= 1 or sh <= 1 or not (0 <= px < sw and 0 <= py < sh):
+        raise RuntimeError('Pointer outside current primary display; refresh capture mapping')
     u.SetCursorPos(px, py)
-    dx = int(round(px * 65535.0 / 3839.0))
-    dy = int(round(py * 65535.0 / 2159.0))
+    dx = int(round(px * 65535.0 / (sw - 1)))
+    dy = int(round(py * 65535.0 / (sh - 1)))
     send_mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_MOVE, dx, dy)
     time.sleep(0.05)
 
@@ -80,6 +100,7 @@ def scroll_wheel(x, y, amount):
 
 def grab_screen(save_path):
     set_desktop()
+    require_game_foreground()
     img = ImageGrab.grab()
     if img.size != (1920, 1080):
         img_resized = img.resize((1920, 1080), Image.Resampling.LANCZOS)
@@ -95,30 +116,55 @@ def hover_and_capture(x, y, save_path, hold_sec=1.8):
     time.sleep(hold_sec)
     return grab_screen(save_path)
 
+def window_is_game_process(hwnd):
+    """Match owning executable path, never a title substring; fail closed."""
+    if not hwnd or not u.IsWindowVisible(hwnd):
+        return False
+    pid = wintypes.DWORD()
+    if not u.GetWindowThreadProcessId(hwnd, ctypes.byref(pid)) or not pid.value:
+        return False
+    handle = kernel32.OpenProcess(0x1000, False, pid.value)
+    if not handle:
+        return False
+    try:
+        buffer = ctypes.create_unicode_buffer(32768)
+        size = wintypes.DWORD(len(buffer))
+        if not kernel32.QueryFullProcessImageNameW(handle, 0, buffer, ctypes.byref(size)):
+            return False
+        return str(Path(buffer.value).resolve()).casefold() == str(EXPECTED_GAME_EXE.resolve()).casefold()
+    finally:
+        kernel32.CloseHandle(handle)
+
+
+def require_game_foreground():
+    """Reject browser/report/screenshot overlays before pointer input/capture."""
+    if not window_is_game_process(u.GetForegroundWindow()):
+        raise RuntimeError('Foreground is not the verified TPC.exe window; no input sent')
+
+
 def find_tpc_window():
     set_desktop()
-    WNDENUMPROC = ctypes.WINFUNCTYPE(ctypes.c_int, wintypes.HWND, wintypes.LPARAM)
+    callback_type = ctypes.WINFUNCTYPE(wintypes.BOOL, wintypes.HWND, wintypes.LPARAM)
     found_hwnd = []
     def cb(hwnd, lparam):
-        if u.IsWindowVisible(hwnd):
+        if window_is_game_process(hwnd):
             length = u.GetWindowTextLengthW(hwnd)
-            if length > 0:
-                b = ctypes.create_unicode_buffer(length + 1)
-                u.GetWindowTextW(hwnd, b, length + 1)
-                t = b.value.lower()
-                if 'campus' in t or 'two point' in t:
-                    found_hwnd.append((hwnd, b.value))
-        return 1
-    proc = WNDENUMPROC(cb)
-    u.EnumWindows(proc, 0)
+            buffer = ctypes.create_unicode_buffer(length + 1)
+            u.GetWindowTextW(hwnd, buffer, length + 1)
+            found_hwnd.append((hwnd, buffer.value))
+        return True
+    callback = callback_type(cb)
+    if not u.EnumWindows(callback, 0):
+        raise ctypes.WinError()
     return found_hwnd
+
 
 def activate_tpc():
     hwnds = find_tpc_window()
-    if hwnds:
-        hwnd = hwnds[0][0]
-        u.ShowWindow(hwnd, 9)
-        u.SetForegroundWindow(hwnd)
-        time.sleep(0.5)
-        return True
-    return False
+    if len(hwnds) != 1:
+        return False
+    hwnd = hwnds[0][0]
+    u.ShowWindow(hwnd, 9)
+    u.SetForegroundWindow(hwnd)
+    time.sleep(0.5)
+    return u.GetForegroundWindow() == hwnd and window_is_game_process(hwnd)

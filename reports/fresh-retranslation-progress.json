@@ -2,12 +2,15 @@
   "total": 15677,
   "submitted": 15677,
   "pending_translation": 0,
-  "translated": 12716,
-  "keep_as_source": 2961,
-  "language_review": "PENDING",
+  "translated": 12710,
+  "keep_as_source": 2967,
+  "language_review": "TARGETED_R1_TO_R5_PENDING_FULL_REVIEW",
   "runtime_tested_new_corpus": 0,
   "glossary_proposals": 212,
   "primary_review_records": 2277,
-  "candidate": "fresh-translation-002",
-  "receipt": "docs/CLAUDE_FULL_RETRANSLATION_RECEIPT.md"
+  "candidate": "fresh-translation-004",
+  "receipt": "docs/CLAUDE_FULL_RETRANSLATION_RECEIPT.md",
+  "review_corrections_integrated": 292,
+  "controller_terminology_decisions_applied": "SCOPED_ROUND5_WITH_EXPLICIT_EXCEPTIONS",
+  "round5_corrections_integrated": 321
 }

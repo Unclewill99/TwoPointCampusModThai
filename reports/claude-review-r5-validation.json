@@ -1,0 +1,18 @@
+{
+  "records": 15677,
+  "batches": 171,
+  "changed_rows": 321,
+  "changed_batches": 62,
+  "status_counts": {
+    "TRANSLATED_PENDING_REVIEW": 12710,
+    "KEEP_AS_SOURCE_PENDING_REVIEW": 2967
+  },
+  "added_flags": {
+    "PROPER_NAME": 11
+  },
+  "errors": [],
+  "baseline_unchanged": true,
+  "word_tam_records": 50,
+  "runtime": "NOT_RUN",
+  "full_language_review": false
+}

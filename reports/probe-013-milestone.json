@@ -174,19 +174,21 @@
     "50 pilot records in candidate do not imply 50 runtime passes",
     "Build report and manifest runtime_status remain historical snapshots"
   ],
-  "next_owner": "Controller",
-  "next_task": "Review full Claude draft context/terminology;2277 primary-flagged rows,212 glossary proposals; no runtime WO",
+  "next_owner": "Antigravity via user relay",
+  "next_task": "Original-game exact-target/navigation preflight, then resume fresh smoke only on success; candidate unchanged",
   "vowel_02_preflight": "docs/VOWEL_02_EVIDENCE_PREFLIGHT.md",
   "boundary_followup_disposition": "docs/PROBE_016_DISPOSITION.md",
   "segmentation_followup": "docs/PROBE_017_ACCEPTANCE.md",
   "segmentation_evidence_gate": "docs/SEGMENTATION_EVIDENCE_GATE.md",
   "segmentation_map_acceptance": "docs/SEGMENTATION_001_ACCEPTANCE.md",
   "probe_018_acceptance": "docs/PROBE_018_ACCEPTANCE.md",
-  "current_integrated_candidate": "fresh-translation-002 (full Claude draft, NOT_RUN)",
+  "current_integrated_candidate": "fresh-translation-004 (main menu observed; target views NOT_RUN)",
   "settings_caption_acceptance": "docs/DROPDOWN_004_ACCEPTANCE.md",
   "initial_campus_acceptance": "docs/GAMEPLAY_002_ACCEPTANCE.md",
   "sara_am_bug": "docs/qa/BUG_THAI_003.md",
   "fresh_translation_progress": "reports/fresh-retranslation-progress.json",
   "claude_handoff": "docs/CLAUDE_FULL_RETRANSLATION_HANDOFF.md",
-  "claude_receipt": "docs/CLAUDE_FULL_RETRANSLATION_RECEIPT.md"
+  "claude_receipt": "docs/CLAUDE_FULL_RETRANSLATION_RECEIPT.md",
+  "review_receipt": "docs/CLAUDE_REVIEW_R5_RECEIPT.md",
+  "fresh_smoke_disposition": "docs/FRESH_SMOKE_001_DISPOSITION.md"
 }

@@ -1,10 +1,12 @@
 # Two Point Campus Thai Mod
 
+Resume from [22 Oct session checkpoint](docs/SESSION_CHECKPOINT_2026-10-22.md).
+
 Project started 2026-10-15. Controller: ChatGPT. Translator: Claude. QA: Antigravity.
 
-## Current direction — full Claude draft received
+## Current direction — full fresh corpus runtime sample
 
-2026-10-21: [171 batches/15,677 records received and structurally checked](docs/CLAUDE_FULL_RETRANSLATION_RECEIPT.md):12,716 translated,2,961 justified source identities,0 pending delivery. All remain pending language review. Full draft fresh-translation-002 built/reload-verified; fonts/UI identical to merge-006; NOT_RUN/not installed.212 glossary proposals and2,277 primary-flagged rows need contextual review. Known injected-promo markers absent. BUG-THAI-002/003 remain OPEN. Previous partial counts/editorial directions below are historical.
+2026-10-22: [Claude round5 scoped corrections integrated](docs/CLAUDE_REVIEW_R5_RECEIPT.md):321 rows/62 batches verified, no removed flags. Full15,677 records retained;12,710 translated and2,967 justified source identities pending review. fresh-translation-004 built/reload-verified; font/UI unchanged from merge-006; Main menu observed, requested target views NOT_RUN after [setup failure](docs/FRESH_SMOKE_001_DISPOSITION.md). Driver target guard patched and mock-checked; [original-game control preflight](docs/qa/WO_FRESH_SMOKE_001_RESUME.md) required before any reinstall. Good Friends, Pastoral Support, disease names and joke backlog remain; BUG-THAI-002/003 OPEN. Older counts below are historical.
 
 ## Current state
 

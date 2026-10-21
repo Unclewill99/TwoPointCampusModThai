@@ -1,0 +1,9 @@
+# Claude review rounds1–4 receipt — 2026-10-22
+
+ACCEPT_STRUCTURAL_CORRECTION_DELIVERY_PENDING_CONTEXT_REVIEW. Exactly292 changed Thai rows in58 batches; TSV292 unique IDs and all before/after values match actual baseline/merged rows (100 fields use escaped newline/backslash representation). Original171 output files independently match the original downloaded ZIP bytes.15,677 merged rows retain frozen handoff identity/count/order/source fields. Ordered heuristic token/tag/bracket/printf and LF/CR/tab/literal-backslash-n/percent checks pass all rows; not a parser/plural or language-accuracy guarantee.
+
+Five identity-status rows become translated; current totals12,721 TRANSLATED_PENDING_REVIEW and2,956 KEEP_AS_SOURCE_PENDING_REVIEW. No runtime PASS. Changes are accepted for integration into a pending-review candidate, not blanket linguistic approval of292 corrections or212 glossary proposals. Algorithmic NON_TERM grouping and18 disease-name sets are not automatically approved by Controller. No claim that1473 jokes were reviewed.
+
+fresh-translation-003 integrates output-merged-review-r1-4 only, no new Controller substitutions. All15,677 bundle values reload-match. Font/UI identical to community-merge-006. Manager check validates staged files and confirms three installed originals. No installation/game run/save edit/commit/push. New decisions in CONTROLLER_TERMINOLOGY_DECISIONS_2026-10-22.md await bounded Claude round5 application; they are NOT already in the candidate.
+
+Next: Claude context-specific terminology pass using Controller decisions, especially campus roles, DLC-vs-course names, relationship tiers and stat meanings. Controller then validates/integrates one corrected output; Antigravity gets a small representative sample afterward, not a repeated full Settings matrix. BUG-THAI-002/003 remain OPEN. Source-grounded decisions can be implemented within assignment without further permission; unresolved puns retain pending status.

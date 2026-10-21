@@ -1,6 +1,6 @@
 # Project status
 
-Updated: 2026-10-21 (Asia/Bangkok)
+Updated: 2026-10-22 (Asia/Bangkok)
 Owner: ChatGPT — Project Controller
 
 ## Current checkpoint
@@ -11,9 +11,9 @@ Current authority: [PROBE_013_MILESTONE.md](PROBE_013_MILESTONE.md), [coverage t
 
 | Owner | Current next work | State |
 |---|---|---|
-| Controller | Full Claude delivery structurally accepted; language/context triage next |171 batches/15,677 rows; fresh-translation-002 built NOT_RUN |
-| Claude | Translation draft delivery complete |12,716 translated +2,961 justified source identities; all pending review |
-| Antigravity / desktop QA | No new test assigned | Existing rendering observations retained; BUG-THAI-002/003 OPEN |
+| Controller | Smoke setup limit accepted; exact-process foreground guard patched | Compile/mock checks passed; live control preflight pending |
+| Claude | Round5 delivery complete | No further full glossary round assigned; context exceptions retained |
+| Antigravity / desktop QA | Original-game capability gate before fresh smoke resume | Target views NOT_RUN; resume only after verified target/navigation |
 
 ## Historical project log
 
@@ -293,3 +293,28 @@ User assigned full translation to Claude. Prepared local/handoffs/CLAUDE-FULL-RE
 ## Full Claude delivery received — 2026-10-21
 
 Independent source/token checks pass171 batches/15,677 unique rows, no missing translations as delivery. Full draft fresh-translation-002 built/reload-verified, font/UI same as merge-006, three originals checked, no install. Language212 glossary proposals and2,277 primary-flagged rows pending review. Supplemental997-row uncertainty summary has307 stale field comparisons; queue rebuilt from actual batch rows. See CLAUDE_FULL_RETRANSLATION_RECEIPT.md.
+
+
+## Claude review R1–4 received — 2026-10-22
+
+292 changed rows/58 batches verified against original files and TSV; frozen source identities and ordered token/control checks pass. Current translated12,721/source identities2,956. fresh-translation-003 built/reload-verified with old font/UI, no runtime. Controller wrote scoped terminology decisions for round5, not yet applied or dispatched. No blanket glossary/language approval. See CLAUDE_REVIEW_R1_4_RECEIPT.md and CONTROLLER_TERMINOLOGY_DECISIONS_2026-10-22.md.
+
+
+## Round5 integrated; full fresh runtime sample ready — 2026-10-22
+
+321 rows/62 sparse batches verified, no removed flags,11 new PROPER_NAME identities.12,710 translated/2,967 source identities pending review. fresh-translation-004 reload verified, font/UI retained, three originals checked. Good Friends/Pastoral Support/disease/joke backlog remains. Antigravity WO-FRESH-SMOKE-001 prepared for first full fresh corpus runtime, no install yet. See CLAUDE_REVIEW_R5_RECEIPT.md.
+
+
+## Full fresh smoke setup limit — 2026-10-22
+
+Main menu observed; requested Settings/campus/HUD views unreached, no new translation blocker established. Title-substring driver bug patched to exact executable/foreground guards and actual display coordinate denominators; compile+mock8 checks pass, no live verification. Three originals and10-file snapshot/live save comparison verified, campus unchanged. Original-game capability gate required before any reinstall. See FRESH_SMOKE_001_DISPOSITION.md and qa/WO_FRESH_SMOKE_001_RESUME.md.
+
+
+## User menu wording override — 2026-10-22
+
+Main-menu Mod approved by user, replacing ม็อด at UI/Modding/Mods (FRESH-036). Logged as pending integration, frozen fresh-translation-004 unchanged. Do not rebuild/reinstall merely to capture this wording. See USER_TEXT_CORRECTIONS.md; include in next text integration.
+
+
+## Session checkpoint saved — 2026-10-22
+
+User is stopping for rest. See SESSION_CHECKPOINT_2026-10-22.md for exact resume order, pending Mod menu override, original-game capability gate and local-only inputs. No automation/delegated work started. Fresh manager check confirms all3installed originals. Candidate remains fresh-translation-004; no new build or gameplay during checkpoint.
