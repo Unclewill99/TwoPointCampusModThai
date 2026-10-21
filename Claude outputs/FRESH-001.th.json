@@ -1,0 +1,1832 @@
+[
+ {
+  "id": "I2LS_General::General/Achievements/AllLevels_Description::segment-0",
+  "key": "General/Achievements/AllLevels_Description",
+  "asset": "I2LS_General",
+  "segment_index": 0,
+  "source": "Earn 1 star in TPU",
+  "source_sha256": "b179b2b3a146b87ef2fc5d25bd2193164e61334f1b1b00157ab908d7b677727b",
+  "context": {
+   "key_path": "General/Achievements/AllLevels_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 1 ดาวใน TPU",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/AllLevels_Name::segment-1",
+  "key": "General/Achievements/AllLevels_Name",
+  "asset": "I2LS_General",
+  "segment_index": 1,
+  "source": "Finishing School",
+  "source_sha256": "83370b8646c5b8826d10201dbb9943fd7587bb811fdaa641dcf541c47f92a45e",
+  "context": {
+   "key_path": "General/Achievements/AllLevels_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "จบโรงเรียนสอนมารยาท",
+  "translator_note": "Finishing School: เล่นคำ \"finishing\" = เรียนจบ/จบด่านกับ finishing school (โรงเรียนสอนมารยาท) ดัดแปลง T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/AllStars_Description::segment-2",
+  "key": "General/Achievements/AllStars_Description",
+  "asset": "I2LS_General",
+  "segment_index": 2,
+  "source": "Earn 36 stars across your career",
+  "source_sha256": "2c05e68b217bcd5cf38dd0e731e5feca26f00933cbd2894a505985489757d018",
+  "context": {
+   "key_path": "General/Achievements/AllStars_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 36 ดาวตลอดเส้นทางอาชีพ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/AllStars_Name::segment-3",
+  "key": "General/Achievements/AllStars_Name",
+  "asset": "I2LS_General",
+  "segment_index": 3,
+  "source": "PhDarn Good",
+  "source_sha256": "e428c46bd4ecb800a92f663d6d554073c2e72ac3fd5b102e9eebd665f62cc718",
+  "context": {
+   "key_path": "General/Achievements/AllStars_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ดีขั้นดอกเตอร์",
+  "translator_note": "PhDarn Good = PhD + darn good (ดีมาก) ไล่ระดับ ป.ตรี→ป.โท→ป.เอก กับ 12/24/36 ดาว T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/BlackKnight_Description::segment-4",
+  "key": "General/Achievements/BlackKnight_Description",
+  "asset": "I2LS_General",
+  "segment_index": 4,
+  "source": "Defeat Lord Blaggard in The Grand Joust",
+  "source_sha256": "aa3f5847aade33f8745934c8364e62b70dbd1c94368bb7510560277c2fc884a6",
+  "context": {
+   "key_path": "General/Achievements/BlackKnight_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เอาชนะ Lord Blaggard ใน The Grand Joust",
+  "translator_note": "ชื่อเฉพาะคงตามต้นฉบับชั่วคราว",
+  "flags": [
+   "PROPER_NAME"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/BlackKnight_Name::segment-5",
+  "key": "General/Achievements/BlackKnight_Name",
+  "asset": "I2LS_General",
+  "segment_index": 5,
+  "source": "Huzzah!",
+  "source_sha256": "cba3204214bcc26c4252b1ddab87e8ac46886da78066ece79cb72607c9bbc5d2",
+  "context": {
+   "key_path": "General/Achievements/BlackKnight_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ไชโย!",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Bookworm_Description::segment-6",
+  "key": "General/Achievements/Bookworm_Description",
+  "asset": "I2LS_General",
+  "segment_index": 6,
+  "source": "Capture a bookworm",
+  "source_sha256": "3c1251c068cac0e484e2d3eceed42e1d9c857133f41bca9093a3cafbef946f37",
+  "context": {
+   "key_path": "General/Achievements/Bookworm_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "จับหนอนหนังสือ 1 ตัว",
+  "translator_note": "bookworm เป็นสิ่งมีชีวิตที่จับได้ในเกม ใช้ \"หนอนหนังสือ\" (ศัพท์เสนอ)",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Bookworm_Name::segment-7",
+  "key": "General/Achievements/Bookworm_Name",
+  "asset": "I2LS_General",
+  "segment_index": 7,
+  "source": "Bookworm Collector",
+  "source_sha256": "563137181af9fa5e9a7d77ea1bf230b808f82b03a327831ec77fab30d308bf66",
+  "context": {
+   "key_path": "General/Achievements/Bookworm_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "นักสะสมหนอนหนังสือ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Bookworms_Description::segment-8",
+  "key": "General/Achievements/Bookworms_Description",
+  "asset": "I2LS_General",
+  "segment_index": 8,
+  "source": "Capture 50 bookworms",
+  "source_sha256": "19877120d1e19010bbcd25dbc27867c966a4e8c33672f33f498e561dfd98c478",
+  "context": {
+   "key_path": "General/Achievements/Bookworms_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "จับหนอนหนังสือ 50 ตัว",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Bookworms_Name::segment-9",
+  "key": "General/Achievements/Bookworms_Name",
+  "asset": "I2LS_General",
+  "segment_index": 9,
+  "source": "Bookworm Fanatic",
+  "source_sha256": "488c6a069d63558676da6096cecec4ba4264416f8c6b5325ee48c82d88073b9d",
+  "context": {
+   "key_path": "General/Achievements/Bookworms_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "คลั่งหนอนหนังสือ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/CheeseballLosses_Description::segment-10",
+  "key": "General/Achievements/CheeseballLosses_Description",
+  "asset": "I2LS_General",
+  "segment_index": 10,
+  "source": "Lose 5 cheeseball matches",
+  "source_sha256": "69b58b8c58003381e1267f18b184e8a926c729d72105a1c51ad04511ba2d6d26",
+  "context": {
+   "key_path": "General/Achievements/CheeseballLosses_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "แพ้ชีสบอล 5 นัด",
+  "translator_note": "cheeseball = กีฬาในเกม ทับศัพท์ \"ชีสบอล\" (ศัพท์เสนอ)",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/CheeseballLosses_Name::segment-11",
+  "key": "General/Achievements/CheeseballLosses_Name",
+  "asset": "I2LS_General",
+  "segment_index": 11,
+  "source": "You Lose Some",
+  "source_sha256": "a0b310c522f5dd14947eb39228571058ed4e29e6cebfaa14c4ba57e1a8a9b5f5",
+  "context": {
+   "key_path": "General/Achievements/CheeseballLosses_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีแพ้บ้าง",
+  "translator_note": "ตัดสำนวน \"You win some, you lose some\" เป็นสองครึ่ง คู่กับ \"มีชนะบ้าง\" T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/CheeseballWins_Description::segment-12",
+  "key": "General/Achievements/CheeseballWins_Description",
+  "asset": "I2LS_General",
+  "segment_index": 12,
+  "source": "Win 15 cheeseball matches",
+  "source_sha256": "e3298e92563e9f279b50f63411a7d140cf1273df11c75f3b46f17bbf30da3e7f",
+  "context": {
+   "key_path": "General/Achievements/CheeseballWins_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ชนะชีสบอล 15 นัด",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/CheeseballWins_Name::segment-13",
+  "key": "General/Achievements/CheeseballWins_Name",
+  "asset": "I2LS_General",
+  "segment_index": 13,
+  "source": "You Win Some",
+  "source_sha256": "5a25deea0e0c17b0d7b25c67615d77c3ac11d04cfdfcb67083621489aa398be3",
+  "context": {
+   "key_path": "General/Achievements/CheeseballWins_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีชนะบ้าง",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/CleanUp_Description::segment-14",
+  "key": "General/Achievements/CleanUp_Description",
+  "asset": "I2LS_General",
+  "segment_index": 14,
+  "source": "Clean up 1,000 bits of litter",
+  "source_sha256": "5ad0d73bd299e0550706be533d394a2c7664b60ce070b26c8d5b160736c4d6e4",
+  "context": {
+   "key_path": "General/Achievements/CleanUp_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เก็บขยะ 1,000 ชิ้น",
+  "translator_note": "\"bits of litter\" = ชิ้นขยะ",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/CleanUp_Name::segment-15",
+  "key": "General/Achievements/CleanUp_Name",
+  "asset": "I2LS_General",
+  "segment_index": 15,
+  "source": "Dropped on OUR Floor",
+  "source_sha256": "455dc1f19910995f3b3dd95ba2519373b8195cdcb4914cd7e9c93a100379d3c6",
+  "context": {
+   "key_path": "General/Achievements/CleanUp_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ใครทิ้งบนพื้นของเรา!",
+  "translator_note": "เน้นคำว่า OUR ในต้นฉบับ (ตัวพิมพ์ใหญ่) ใช้ประโยคตำหนิแทน T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/ClubStart_Description::segment-16",
+  "key": "General/Achievements/ClubStart_Description",
+  "asset": "I2LS_General",
+  "segment_index": 16,
+  "source": "Have a club with 5 members",
+  "source_sha256": "45ced4da7c48458542fe7e95c58c0d1a05b4fa1dd03ee7698637c7b941b60f5d",
+  "context": {
+   "key_path": "General/Achievements/ClubStart_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีชมรมที่มีสมาชิก 5 คน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/ClubStart_Name::segment-17",
+  "key": "General/Achievements/ClubStart_Name",
+  "asset": "I2LS_General",
+  "segment_index": 17,
+  "source": "Club Sandwich",
+  "source_sha256": "34811531c1ae17b2c6a2060e112970389ff4669c5c3e5e5de6f1f94fe59dc293",
+  "context": {
+   "key_path": "General/Achievements/ClubStart_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ชมรมแซนด์วิช",
+  "translator_note": "Club Sandwich: club = ชมรม + แซนด์วิชคลับ คงมุกอาหาร T1",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Club_Description::segment-18",
+  "key": "General/Achievements/Club_Description",
+  "asset": "I2LS_General",
+  "segment_index": 18,
+  "source": "Have 100 members in a single club",
+  "source_sha256": "c3802d78a46457131093e2e6988632a30025d3db9b9097b37798bdda8a67f65b",
+  "context": {
+   "key_path": "General/Achievements/Club_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีสมาชิก 100 คนในชมรมเดียว",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Club_Name::segment-19",
+  "key": "General/Achievements/Club_Name",
+  "asset": "I2LS_General",
+  "segment_index": 19,
+  "source": "The Populous Kids",
+  "source_sha256": "8b830c8357f450ce52158d1a1ab4b4c05831c2e785aeb0b8d416ae6f809919e3",
+  "context": {
+   "key_path": "General/Achievements/Club_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เด็กฮิตชมรมคนล้น",
+  "translator_note": "The Populous Kids ล้อ \"popular kids\" T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Ghost/AllPlots_Description::segment-20",
+  "key": "General/Achievements/DLC_Ghost/AllPlots_Description",
+  "asset": "I2LS_General",
+  "segment_index": 20,
+  "source": "Unlock all plots on Lifeless Estate",
+  "source_sha256": "e7f37526f4139b52b0b2fae04fc7d3f4c44babeadfc7ebbab0ef5966be636cdc",
+  "context": {
+   "key_path": "General/Achievements/DLC_Ghost/AllPlots_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ปลดล็อกแปลงที่ดินทั้งหมดใน Lifeless Estate",
+  "translator_note": "plot = แปลงที่ดิน ชื่อ DLC คงต้นฉบับ",
+  "flags": [
+   "PROPER_NAME"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Ghost/AllPlots_Name::segment-21",
+  "key": "General/Achievements/DLC_Ghost/AllPlots_Name",
+  "asset": "I2LS_General",
+  "segment_index": 21,
+  "source": "R.I.P & Quiet",
+  "source_sha256": "bb51eed81070dad6caa47d8e240d39a8761040219f3dece2d9c3836dc81f3e15",
+  "context": {
+   "key_path": "General/Achievements/DLC_Ghost/AllPlots_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "R.I.P & สงบเงียบ",
+  "translator_note": "ล้อ \"peace and quiet\" T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Ghost/CaptureGhosts_Description::segment-22",
+  "key": "General/Achievements/DLC_Ghost/CaptureGhosts_Description",
+  "asset": "I2LS_General",
+  "segment_index": 22,
+  "source": "Capture 300 ghosts",
+  "source_sha256": "40c05dff180306fa2e8176f7546265e64adfd3e0f4727fa6c649a3c5a5b96e5d",
+  "context": {
+   "key_path": "General/Achievements/DLC_Ghost/CaptureGhosts_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "จับผี 300 ตน",
+  "translator_note": "ลักษณนามผี \"ตน\"",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Ghost/CaptureGhosts_Name::segment-23",
+  "key": "General/Achievements/DLC_Ghost/CaptureGhosts_Name",
+  "asset": "I2LS_General",
+  "segment_index": 23,
+  "source": "Haunted Housework",
+  "source_sha256": "b20093eeca2c14b575e3dab9a7ae8254892510af245d818b9fb1110ed7d3648f",
+  "context": {
+   "key_path": "General/Achievements/DLC_Ghost/CaptureGhosts_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "งานบ้านผีสิง",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Ghost/CompleteGhost_Description::segment-24",
+  "key": "General/Achievements/DLC_Ghost/CompleteGhost_Description",
+  "asset": "I2LS_General",
+  "segment_index": 24,
+  "source": "Earn 1 star on Lifeless Estate",
+  "source_sha256": "25b3d0a80e3178574703e471cd2b2862d24efad87c86d8f74950a983f25edbbb",
+  "context": {
+   "key_path": "General/Achievements/DLC_Ghost/CompleteGhost_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 1 ดาวใน Lifeless Estate",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Ghost/CompleteGhost_Name::segment-25",
+  "key": "General/Achievements/DLC_Ghost/CompleteGhost_Name",
+  "asset": "I2LS_General",
+  "segment_index": 25,
+  "source": "Schools 'n Ghosts",
+  "source_sha256": "82322e8bf40050f1f277b2545fa9f030746658ae2fad1da42dce6f0548296622",
+  "context": {
+   "key_path": "General/Achievements/DLC_Ghost/CompleteGhost_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "โรงเรียนกับเหล่าผี",
+  "translator_note": "ล้อชื่อเกม Ghosts 'n Goblins (Ghouls 'n Ghosts) ใช้โครงสร้าง \"X กับ Y\" ไม่เพิ่มการอ้างอิงจริง T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/CompleteHospital_Description::segment-26",
+  "key": "General/Achievements/DLC_Hospital/CompleteHospital_Description",
+  "asset": "I2LS_General",
+  "segment_index": 26,
+  "source": "Earn 1 star on Pointy Peak",
+  "source_sha256": "d8aab620b9236abfe1285a24bd0f3daa015751b54f989ded3c120cda0bf4b9b5",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/CompleteHospital_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 1 ดาวใน Pointy Peak",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/CompleteHospital_Name::segment-27",
+  "key": "General/Achievements/DLC_Hospital/CompleteHospital_Name",
+  "asset": "I2LS_General",
+  "segment_index": 27,
+  "source": "The Old Gold Standard",
+  "source_sha256": "ddd20bdd289649f411a466f635fe7fe9fe8078d32e903be9b39f465d48c6bd3e",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/CompleteHospital_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มาตรฐานทองคำยุคเก่า",
+  "translator_note": "gold standard เล่นกับธีมทองของ Pointy Peak T1",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/CureStreak_Description::segment-28",
+  "key": "General/Achievements/DLC_Hospital/CureStreak_Description",
+  "asset": "I2LS_General",
+  "segment_index": 28,
+  "source": "Cure 15 patients in a row",
+  "source_sha256": "d5c66bd8ca4725c2491ba56a4e1c0092762db3a250a8d2782f7185797952bb4c",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/CureStreak_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "รักษาผู้ป่วย 15 คนติดต่อกัน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/CureStreak_Name::segment-29",
+  "key": "General/Achievements/DLC_Hospital/CureStreak_Name",
+  "asset": "I2LS_General",
+  "segment_index": 29,
+  "source": "Curing Spree!",
+  "source_sha256": "d99ed75a49e23368a4f83997336655a002e2615bc232aab9fd2310bc9a9fd63c",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/CureStreak_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "รักษาไม่หยุด!",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/EachPatientIllness_Description::segment-30",
+  "key": "General/Achievements/DLC_Hospital/EachPatientIllness_Description",
+  "asset": "I2LS_General",
+  "segment_index": 30,
+  "source": "Successfully treat every patient illness",
+  "source_sha256": "e6c5ebb8c0dd4a3a990c2c26beec0b4c2789d903a563a276b1080621f7d559be",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/EachPatientIllness_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "รักษาโรคของผู้ป่วยได้ครบทุกโรค",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/EachPatientIllness_Name::segment-31",
+  "key": "General/Achievements/DLC_Hospital/EachPatientIllness_Name",
+  "asset": "I2LS_General",
+  "segment_index": 31,
+  "source": "One Wise Cure-All",
+  "source_sha256": "767d3c693ad148fcccef3c537e1f41a9429d954dc0c30490ccb0ef1829e6a00c",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/EachPatientIllness_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ยาครอบจักรวาล",
+  "translator_note": "One Wise Cure-All ล้อ \"one-size cure-all\"/wise ตัด wise เพื่อกระชับ T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/MachineExplosion_Description::segment-32",
+  "key": "General/Achievements/DLC_Hospital/MachineExplosion_Description",
+  "asset": "I2LS_General",
+  "segment_index": 32,
+  "source": "Have a treatment machine explode",
+  "source_sha256": "ce90b48df2ec067272e5e59ad9402563338c681750fd1d35da662ba6214e3279",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/MachineExplosion_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ให้เครื่องรักษาระเบิด",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/MachineExplosion_Name::segment-33",
+  "key": "General/Achievements/DLC_Hospital/MachineExplosion_Name",
+  "asset": "I2LS_General",
+  "segment_index": 33,
+  "source": "Wham & Blast",
+  "source_sha256": "6210498ccc74785d60770ebb98ac2c3ff3f70d492491f84be6cbca238f1921f2",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/MachineExplosion_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ตูมตามเปรี้ยง",
+  "translator_note": "Wham & Blast ใช้เสียงระเบิดแทน T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/PatientResearch_Description::segment-34",
+  "key": "General/Achievements/DLC_Hospital/PatientResearch_Description",
+  "asset": "I2LS_General",
+  "segment_index": 34,
+  "source": "Complete 10 patient research projects",
+  "source_sha256": "c620136f90ee2b284fca0c93807dcbe00d02603de45c4aa55df4b6be89d63646",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/PatientResearch_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ทำโครงการวิจัยผู้ป่วยให้เสร็จ 10 โครงการ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Hospital/PatientResearch_Name::segment-35",
+  "key": "General/Achievements/DLC_Hospital/PatientResearch_Name",
+  "asset": "I2LS_General",
+  "segment_index": 35,
+  "source": "Your Own Medicine",
+  "source_sha256": "9aebd894322663909c831f4d7f0cac53b7e06608251396b286cb46887c62b8c8",
+  "context": {
+   "key_path": "General/Achievements/DLC_Hospital/PatientResearch_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ลองยาตัวเอง",
+  "translator_note": "Your Own Medicine ล้อ \"a taste of your own medicine\" T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/BuyAllRockets_Description::segment-36",
+  "key": "General/Achievements/DLC_Space/BuyAllRockets_Description",
+  "asset": "I2LS_General",
+  "segment_index": 36,
+  "source": "Unlock all rockets and reach maximum student transport capacity",
+  "source_sha256": "6639dc6e329afe852007aed050d55374ed5848eefdffdcee7793d140f4e3eda5",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/BuyAllRockets_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ปลดล็อกจรวดทั้งหมดและได้ความจุขนส่งนักศึกษาสูงสุด",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/BuyAllRockets_Name::segment-37",
+  "key": "General/Achievements/DLC_Space/BuyAllRockets_Name",
+  "asset": "I2LS_General",
+  "segment_index": 37,
+  "source": "All Aboard",
+  "source_sha256": "13d545e6566772ddd6f97d332f71645694741d8d20e768b873303709b8463744",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/BuyAllRockets_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ทุกคนขึ้นยาน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/CheeseClasses_Description::segment-38",
+  "key": "General/Achievements/DLC_Space/CheeseClasses_Description",
+  "asset": "I2LS_General",
+  "segment_index": 38,
+  "source": "Run 50 A-grade Cheese-Moongery classes",
+  "source_sha256": "7e35004b8524d9c9dac88c0a450d5eeae2942ed47edab12d50119f9f77345095",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/CheeseClasses_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เปิดคลาส Cheese-Moongery เกรด A 50 คลาส",
+  "translator_note": "ชื่อวิชาเฉพาะยังคงต้นฉบับจนกว่าจะตรวจชุด Courses; class ใช้ \"คลาส\" ชั่วคราว",
+  "flags": [
+   "COURSE_NAME_PENDING",
+   "AMBIGUOUS"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/CheeseClasses_Name::segment-39",
+  "key": "General/Achievements/DLC_Space/CheeseClasses_Name",
+  "asset": "I2LS_General",
+  "segment_index": 39,
+  "source": "The Good Stuff",
+  "source_sha256": "a3ace5aa975d32c702f9be7ba7a0dc4c7ca23449408374628a66fc6dc72cfd58",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/CheeseClasses_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ของดีล้วน ๆ",
+  "translator_note": "\"the good stuff\" = ของดี/ชีสชั้นดี T1",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/CompleteSpace_Description::segment-40",
+  "key": "General/Achievements/DLC_Space/CompleteSpace_Description",
+  "asset": "I2LS_General",
+  "segment_index": 40,
+  "source": "Earn 1 star on Cheesy Heap: Delta-Rye",
+  "source_sha256": "8a0b8e72c4f9be8459d22592f6b614d1084e5b43f9f90f2e63ef5d3a47c16288",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/CompleteSpace_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 1 ดาวใน Cheesy Heap: Delta-Rye",
+  "translator_note": "ชื่อด่านคงต้นฉบับชั่วคราว",
+  "flags": [
+   "PROPER_NAME"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/CompleteSpace_Name::segment-41",
+  "key": "General/Achievements/DLC_Space/CompleteSpace_Name",
+  "asset": "I2LS_General",
+  "segment_index": 41,
+  "source": "Space Cadet",
+  "source_sha256": "d3f570a3ca4061d9c872e1773edc5cb24a74921bb9ffb98deb0c4d59425deb91",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/CompleteSpace_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "นักเรียนนายร้อยอวกาศ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/MineSpaceRocks_Description::segment-42",
+  "key": "General/Achievements/DLC_Space/MineSpaceRocks_Description",
+  "asset": "I2LS_General",
+  "segment_index": 42,
+  "source": "Mine 100 space rocks",
+  "source_sha256": "92eec9a92f5b3b500292b247f25bb34060b010473d03fd9957db9e3541ca6a27",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/MineSpaceRocks_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ขุดหินอวกาศ 100 ก้อน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/MineSpaceRocks_Name::segment-43",
+  "key": "General/Achievements/DLC_Space/MineSpaceRocks_Name",
+  "asset": "I2LS_General",
+  "segment_index": 43,
+  "source": "Say, Cheese?",
+  "source_sha256": "7a545731e306c4b68601cb4d2a5159160a1af4bd438e0cb3857202019e52f033",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/MineSpaceRocks_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "พูดว่า \"ชีส!\"",
+  "translator_note": "\"Say cheese\" ล้อกับดวงจันทร์เป็นชีส T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/SpaceKnightCompetitions_Description::segment-44",
+  "key": "General/Achievements/DLC_Space/SpaceKnightCompetitions_Description",
+  "asset": "I2LS_General",
+  "segment_index": 44,
+  "source": "Win 10 Space Battle competitions",
+  "source_sha256": "0da6d24846e9722467421ba604c4d1c9f5055983721bfeeec84699adf15665cd",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/SpaceKnightCompetitions_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ชนะการแข่งขัน Space Battle 10 รายการ",
+  "translator_note": "ชื่อกิจกรรมแข่งขัน (key: SpaceKnightCompetitions) ยังไม่ชัดว่าเป็นชื่อเฉพาะหรือคำทั่วไป คงต้นฉบับชั่วคราว",
+  "flags": [
+   "AMBIGUOUS"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DLC_Space/SpaceKnightCompetitions_Name::segment-45",
+  "key": "General/Achievements/DLC_Space/SpaceKnightCompetitions_Name",
+  "asset": "I2LS_General",
+  "segment_index": 45,
+  "source": "Galactic Domination",
+  "source_sha256": "a60bdd7beaa87febaafc423c4624a41bd40fc17dd706eec4979ce39f9a9762ed",
+  "context": {
+   "key_path": "General/Achievements/DLC_Space/SpaceKnightCompetitions_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ครองกาแล็กซี",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DoResearch_Description::segment-46",
+  "key": "General/Achievements/DoResearch_Description",
+  "asset": "I2LS_General",
+  "segment_index": 46,
+  "source": "Complete 50 research projects",
+  "source_sha256": "2f19084a4bdae22453a4b6321d5f354e9de5fdfeadc9fa134669f17e78902992",
+  "context": {
+   "key_path": "General/Achievements/DoResearch_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ทำโครงการวิจัยให้เสร็จ 50 โครงการ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/DoResearch_Name::segment-47",
+  "key": "General/Achievements/DoResearch_Name",
+  "asset": "I2LS_General",
+  "segment_index": 47,
+  "source": "Do Your Homework",
+  "source_sha256": "265c24dc3a626994de2cb1e2261a12ad8aec427f58fa9fa5aaea39cc9f7d8bd0",
+  "context": {
+   "key_path": "General/Achievements/DoResearch_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ทำการบ้านซะ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Dumbledore_Description::segment-48",
+  "key": "General/Achievements/Dumbledore_Description",
+  "asset": "I2LS_General",
+  "segment_index": 48,
+  "source": "Train a staff member to level 5 in the Wizardry qualification",
+  "source_sha256": "a2a037973dc226734791f9b938253c26140e3e6e812b7621e147c5655f8e3603",
+  "context": {
+   "key_path": "General/Achievements/Dumbledore_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ฝึกบุคลากรให้ถึงระดับ 5 ในคุณวุฒิเวทมนตร์",
+  "translator_note": "qualification = คุณวุฒิ (ศัพท์เสนอ) key: Dumbledore (ไม่ใส่ชื่อจริงในข้อความ)",
+  "flags": [
+   "GLOSSARY_PROPOSAL"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Dumbledore_Name::segment-49",
+  "key": "General/Achievements/Dumbledore_Name",
+  "asset": "I2LS_General",
+  "segment_index": 49,
+  "source": "Magic Staff",
+  "source_sha256": "bda477151d56a52a4fdf254c4d16439266a8da71f747aef883db96d110bdcdbb",
+  "context": {
+   "key_path": "General/Achievements/Dumbledore_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ไม้เท้าเวทมนตร์",
+  "translator_note": "Magic Staff: staff = ไม้เท้า/บุคลากร เล่นสองความหมาย แปลไทยเสียมุกบุคลากร ตัวเลือก \"บุคลากรเวทมนตร์\" T3",
+  "flags": [
+   "JOKE_UNRESOLVED"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Failures_Description::segment-50",
+  "key": "General/Achievements/Failures_Description",
+  "asset": "I2LS_General",
+  "segment_index": 50,
+  "source": "Have 50 students drop out",
+  "source_sha256": "574b69d051ce456a156dcf68e6b5409e3e21d1fd88b7077a6c4917e8707c2586",
+  "context": {
+   "key_path": "General/Achievements/Failures_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ให้นักศึกษาลาออก 50 คน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Failures_Name::segment-51",
+  "key": "General/Achievements/Failures_Name",
+  "asset": "I2LS_General",
+  "segment_index": 51,
+  "source": "Like a Millionaire",
+  "source_sha256": "cd6c04b1cf57394800579397f8cdcbb050d7ecbbab9a0a415430c4a7e356e8d6",
+  "context": {
+   "key_path": "General/Achievements/Failures_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เหมือนเศรษฐี",
+  "translator_note": "ล้อภาพจำว่าคนดังที่ออกกลางคัน(drop out)แล้วรวย T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/FirstStar_Description::segment-52",
+  "key": "General/Achievements/FirstStar_Description",
+  "asset": "I2LS_General",
+  "segment_index": 52,
+  "source": "Earn 1 star in Freshleigh Meadows ",
+  "source_sha256": "d8194ba0096a5913bb895137d5fb49c24f830c44b2d4196dfa2ef47658bd1a65",
+  "context": {
+   "key_path": "General/Achievements/FirstStar_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 1 ดาวใน Freshleigh Meadows",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/FirstStar_Name::segment-53",
+  "key": "General/Achievements/FirstStar_Name",
+  "asset": "I2LS_General",
+  "segment_index": 53,
+  "source": "Campus Management 101",
+  "source_sha256": "074b8d73cb1065c121c8c891f9403b8682f54ca396fc27e4232014ebe391e56d",
+  "context": {
+   "key_path": "General/Achievements/FirstStar_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "การบริหารวิทยาเขต 101",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/FriendsForever_Description::segment-54",
+  "key": "General/Achievements/FriendsForever_Description",
+  "asset": "I2LS_General",
+  "segment_index": 54,
+  "source": "Have students become best friends",
+  "source_sha256": "2bd0ca718bd6cc70fb14452335be44abb2e941dd7c7c4778a2998fe7f008b718",
+  "context": {
+   "key_path": "General/Achievements/FriendsForever_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ให้นักศึกษาเป็นเพื่อนซี้กัน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/FriendsForever_Name::segment-55",
+  "key": "General/Achievements/FriendsForever_Name",
+  "asset": "I2LS_General",
+  "segment_index": 55,
+  "source": "Best Friends",
+  "source_sha256": "be131658df293df96139be8e86fa8467bf89f1993d26820db3eb588a4051b707",
+  "context": {
+   "key_path": "General/Achievements/FriendsForever_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เพื่อนซี้",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Graduation_Description::segment-56",
+  "key": "General/Achievements/Graduation_Description",
+  "asset": "I2LS_General",
+  "segment_index": 56,
+  "source": "Have a student graduate",
+  "source_sha256": "37c3431119ee2a8ed10b1e2c8eda11bf7bbb9d140995253b098396b868f08a53",
+  "context": {
+   "key_path": "General/Achievements/Graduation_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีนักศึกษาสำเร็จการศึกษา 1 คน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Graduation_Name::segment-57",
+  "key": "General/Achievements/Graduation_Name",
+  "asset": "I2LS_General",
+  "segment_index": 57,
+  "source": "Take a Scroll",
+  "source_sha256": "03041ccff3310fc0278de2ed5d35ccaa4fa9958f86d6a43d5f156d748d1b204c",
+  "context": {
+   "key_path": "General/Achievements/Graduation_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "รับปริญญาบัตร",
+  "translator_note": "Take a Scroll ล้อ \"take a stroll\" (scroll = ม้วนใบปริญญา) แปลไทยเสียเสียงเล่นคำ T3",
+  "flags": [
+   "JOKE_UNRESOLVED"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Graduations_Description::segment-58",
+  "key": "General/Achievements/Graduations_Description",
+  "asset": "I2LS_General",
+  "segment_index": 58,
+  "source": "Have 1,000 students graduate",
+  "source_sha256": "95f36ca151b8c1387aa6b9f7721db691b195ef0c0b15a44d4e8f034baaeaa5a1",
+  "context": {
+   "key_path": "General/Achievements/Graduations_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีนักศึกษาสำเร็จการศึกษา 1,000 คน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Graduations_Name::segment-59",
+  "key": "General/Achievements/Graduations_Name",
+  "asset": "I2LS_General",
+  "segment_index": 59,
+  "source": "Cap & Crown",
+  "source_sha256": "dc76594a51659a3ad7c330e340f105ba14f16d730adffdf0d20eb5b43a3011dc",
+  "context": {
+   "key_path": "General/Achievements/Graduations_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "หมวกกับมงกุฎ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Groups/Ghost_Description::segment-60",
+  "key": "General/Achievements/Groups/Ghost_Description",
+  "asset": "I2LS_General",
+  "segment_index": 60,
+  "source": "School Spirits",
+  "source_sha256": "0fe43f74233ed235a4f6e684f4f72eea800cec04ec3bc63cc2ecba6f53b7bb9b",
+  "context": {
+   "key_path": "General/Achievements/Groups/Ghost_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "วิญญาณโรงเรียน",
+  "translator_note": "School Spirits = วิญญาณ/จิตวิญญาณโรงเรียน ใช้ได้สองความหมาย ชื่อกลุ่มรางวัล DLC ผี T1",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Groups/Ghost_Name::segment-61",
+  "key": "General/Achievements/Groups/Ghost_Name",
+  "asset": "I2LS_General",
+  "segment_index": 61,
+  "source": "School Spirits",
+  "source_sha256": "0fe43f74233ed235a4f6e684f4f72eea800cec04ec3bc63cc2ecba6f53b7bb9b",
+  "context": {
+   "key_path": "General/Achievements/Groups/Ghost_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "วิญญาณโรงเรียน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Groups/Hospital_Description::segment-62",
+  "key": "General/Achievements/Groups/Hospital_Description",
+  "asset": "I2LS_General",
+  "segment_index": 62,
+  "source": "Medical School",
+  "source_sha256": "0eab4fe9a1278f080d4c96a7e23ea829cee7ad309628c982dac0b3df9f4556a4",
+  "context": {
+   "key_path": "General/Achievements/Groups/Hospital_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "คณะแพทยศาสตร์",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Groups/Hospital_Name::segment-63",
+  "key": "General/Achievements/Groups/Hospital_Name",
+  "asset": "I2LS_General",
+  "segment_index": 63,
+  "source": "Medical School",
+  "source_sha256": "0eab4fe9a1278f080d4c96a7e23ea829cee7ad309628c982dac0b3df9f4556a4",
+  "context": {
+   "key_path": "General/Achievements/Groups/Hospital_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "คณะแพทยศาสตร์",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Groups/Space_Description::segment-64",
+  "key": "General/Achievements/Groups/Space_Description",
+  "asset": "I2LS_General",
+  "segment_index": 64,
+  "source": "Space Academy",
+  "source_sha256": "571071261b8045f78d3d55ae6f6a9362f46aef1ac5d06af4407b82bcca47a075",
+  "context": {
+   "key_path": "General/Achievements/Groups/Space_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สถาบันอวกาศ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Groups/Space_Name::segment-65",
+  "key": "General/Achievements/Groups/Space_Name",
+  "asset": "I2LS_General",
+  "segment_index": 65,
+  "source": "Space Academy",
+  "source_sha256": "571071261b8045f78d3d55ae6f6a9362f46aef1ac5d06af4407b82bcca47a075",
+  "context": {
+   "key_path": "General/Achievements/Groups/Space_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สถาบันอวกาศ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Kudosh_Description::segment-66",
+  "key": "General/Achievements/Kudosh_Description",
+  "asset": "I2LS_General",
+  "segment_index": 66,
+  "source": "Earn 1,000 kudosh",
+  "source_sha256": "32ac1e85b077afa951792bb9a5c4f7bc1440bb395dad2d62db81178f924e6bf2",
+  "context": {
+   "key_path": "General/Achievements/Kudosh_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ Kudosh 1,000",
+  "translator_note": "Kudosh เป็นสกุล/แต้มในเกมตามบริบท คงต้นฉบับชั่วคราว",
+  "flags": [
+   "GLOSSARY_PROPOSAL",
+   "AMBIGUOUS"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Kudosh_Name::segment-67",
+  "key": "General/Achievements/Kudosh_Name",
+  "asset": "I2LS_General",
+  "segment_index": 67,
+  "source": "Unlocked & Loaded",
+  "source_sha256": "859afa2b8c6e1426021cebf13608a2250ae298781b8afd70419249a224150c86",
+  "context": {
+   "key_path": "General/Achievements/Kudosh_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ปลดล็อก พร้อมลุย",
+  "translator_note": "ล้อ \"locked and loaded\" T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/LoveDoc_Description::segment-68",
+  "key": "General/Achievements/LoveDoc_Description",
+  "asset": "I2LS_General",
+  "segment_index": 68,
+  "source": "Develop 50 soul mates",
+  "source_sha256": "84ecf54e983875553def5ce53f13d2cdd07c903395992f922976aecf62bb0597",
+  "context": {
+   "key_path": "General/Achievements/LoveDoc_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สร้างคู่แท้ 50 คู่",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/LoveDoc_Name::segment-69",
+  "key": "General/Achievements/LoveDoc_Name",
+  "asset": "I2LS_General",
+  "segment_index": 69,
+  "source": "Soul Mates",
+  "source_sha256": "c07c2504e7d3d6472fcb537578108c578a292f9a935f5888de3beb07272ad6e2",
+  "context": {
+   "key_path": "General/Achievements/LoveDoc_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "คู่แท้",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/MaxLevelClub_Description::segment-70",
+  "key": "General/Achievements/MaxLevelClub_Description",
+  "asset": "I2LS_General",
+  "segment_index": 70,
+  "source": "Have a club reach level 10",
+  "source_sha256": "97664a6676be17d4a89d12d0a069b662edcad86f2b0bc8c2f7e6cb9ef453fb6c",
+  "context": {
+   "key_path": "General/Achievements/MaxLevelClub_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ยกระดับชมรมถึงเลเวล 10",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/MaxLevelClub_Name::segment-71",
+  "key": "General/Achievements/MaxLevelClub_Name",
+  "asset": "I2LS_General",
+  "segment_index": 71,
+  "source": "Club Dub",
+  "source_sha256": "ebfc336e50a16338012c38c23aecb92f80dfd9514239e37ec80c47c6a73f9f38",
+  "context": {
+   "key_path": "General/Achievements/MaxLevelClub_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ชมรมขึ้นชั้น",
+  "translator_note": "Club Dub: เล่นสัมผัส/dub=แต่งตั้งขึ้นชั้น ไทยใช้ความหมายเลื่อนระดับ T3",
+  "flags": [
+   "JOKE_UNRESOLVED"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/MostStars_Description::segment-72",
+  "key": "General/Achievements/MostStars_Description",
+  "asset": "I2LS_General",
+  "segment_index": 72,
+  "source": "Earn 24 stars across your career",
+  "source_sha256": "6b3c6555627b502b0707548b9ee4cb631cd1387b151c86e899fee99afc529fa8",
+  "context": {
+   "key_path": "General/Achievements/MostStars_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 24 ดาวตลอดเส้นทางอาชีพ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/MostStars_Name::segment-73",
+  "key": "General/Achievements/MostStars_Name",
+  "asset": "I2LS_General",
+  "segment_index": 73,
+  "source": "Masters Minded",
+  "source_sha256": "e8bcaee0754ee47a441e2863053010d7eac5aee3291de773192718aae88e1cff",
+  "context": {
+   "key_path": "General/Achievements/MostStars_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สมองปริญญาโท",
+  "translator_note": "Masters Minded ล้อ mastermind + masters degree T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/OneFromEachCourse_Description::segment-74",
+  "key": "General/Achievements/OneFromEachCourse_Description",
+  "asset": "I2LS_General",
+  "segment_index": 74,
+  "source": "Have a student graduate in each course",
+  "source_sha256": "c3a040790c363db1657e1ac6582bad8baf26c28c873e0a9477fbe73ed81f1de7",
+  "context": {
+   "key_path": "General/Achievements/OneFromEachCourse_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ให้นักศึกษาสำเร็จการศึกษาในทุกหลักสูตร",
+  "translator_note": "\"course\" ในที่นี้เป็นหลักสูตร/วิชาที่เปิดสอน ใช้ \"หลักสูตร\" ชั่วคราว (ดูศัพท์เสนอ)",
+  "flags": [
+   "GLOSSARY_PROPOSAL"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/OneFromEachCourse_Name::segment-75",
+  "key": "General/Achievements/OneFromEachCourse_Name",
+  "asset": "I2LS_General",
+  "segment_index": 75,
+  "source": "The Academic Rainbow",
+  "source_sha256": "b84278b4ef9b7a16300a58b7794049002e1333af76c56ab6106eb4814b91f42c",
+  "context": {
+   "key_path": "General/Achievements/OneFromEachCourse_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สายรุ้งแห่งวิชาการ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Pastoral_Description::segment-76",
+  "key": "General/Achievements/Pastoral_Description",
+  "asset": "I2LS_General",
+  "segment_index": 76,
+  "source": "Resolve 100 pastoral issues",
+  "source_sha256": "d0b31cd32e30b42e0976ff1afacb25006c96e375a3042f286118964800ccb7b8",
+  "context": {
+   "key_path": "General/Achievements/Pastoral_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "แก้ปัญหาการดูแลนักศึกษา 100 เรื่อง",
+  "translator_note": "pastoral issues = ปัญหาที่ต้องดูแลด้านจิตใจ/สวัสดิการนักศึกษา",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Pastoral_Name::segment-77",
+  "key": "General/Achievements/Pastoral_Name",
+  "asset": "I2LS_General",
+  "segment_index": 77,
+  "source": "We're Listening",
+  "source_sha256": "c30703436013eab6617e277d9aaa73e89cdff74bf21cb71b686ff9cfcf1adf18",
+  "context": {
+   "key_path": "General/Achievements/Pastoral_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เรารับฟังอยู่นะ",
+  "translator_note": "เสียงสถาบันคุยกับนักศึกษา ใช้คำลงท้ายอ่อนเล็กน้อย",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Playstation_Platinum_Description::segment-78",
+  "key": "General/Achievements/Playstation_Platinum_Description",
+  "asset": "I2LS_General",
+  "segment_index": 78,
+  "source": "Collect every Trophy in Two Point Campus",
+  "source_sha256": "63ed2bf8008b9121da1aa1999cfc08baa41b2a9a6fe01ffb72a4e238d45bd547",
+  "context": {
+   "key_path": "General/Achievements/Playstation_Platinum_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สะสมถ้วยรางวัลครบทุกใบใน Two Point Campus",
+  "translator_note": "ชื่อเกมคงต้นฉบับ (ข้อความรางวัล PlayStation) \"Trophy\" = ถ้วยรางวัล",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Playstation_Platinum_Name::segment-79",
+  "key": "General/Achievements/Playstation_Platinum_Name",
+  "asset": "I2LS_General",
+  "segment_index": 79,
+  "source": "With Flying Colours",
+  "source_sha256": "427ecfb42cbcf126175be5beb8d8ba11eadb54b4e56bbc80d0ad7f8455b1c6cc",
+  "context": {
+   "key_path": "General/Achievements/Playstation_Platinum_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ผ่านฉลุย",
+  "translator_note": "With Flying Colours = ผ่านด้วยคะแนนสูง ใช้สำนวนไทยใกล้เคียง T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Relations_Description::segment-80",
+  "key": "General/Achievements/Relations_Description",
+  "asset": "I2LS_General",
+  "segment_index": 80,
+  "source": "Develop 500 friendships",
+  "source_sha256": "327a03d3544c8f6828eecccb8d8d24589e4236a4ad1bfd884924a43e244f3f2f",
+  "context": {
+   "key_path": "General/Achievements/Relations_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "สร้างมิตรภาพ 500 คู่",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Relations_Name::segment-81",
+  "key": "General/Achievements/Relations_Name",
+  "asset": "I2LS_General",
+  "segment_index": 81,
+  "source": "Super Group of Friends",
+  "source_sha256": "56d102877a47673edaeceb0ebf23be821d03ea616d964dbd49b7708d1fc1cb16",
+  "context": {
+   "key_path": "General/Achievements/Relations_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "กลุ่มเพื่อนระดับซูเปอร์",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/ResearchMoney_Description::segment-82",
+  "key": "General/Achievements/ResearchMoney_Description",
+  "asset": "I2LS_General",
+  "segment_index": 82,
+  "source": "Earn 100,000 from research projects",
+  "source_sha256": "32c555af44022993d9663d0ebd72a749ec3b62832899440dc27886b5d320655f",
+  "context": {
+   "key_path": "General/Achievements/ResearchMoney_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "หารายได้ 100,000 จากโครงการวิจัย",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/ResearchMoney_Name::segment-83",
+  "key": "General/Achievements/ResearchMoney_Name",
+  "asset": "I2LS_General",
+  "segment_index": 83,
+  "source": "Smart Money",
+  "source_sha256": "3a177ce1befa59403a8aa52a7886d8c8c21dbcbc61e90040bf250b035369f5de",
+  "context": {
+   "key_path": "General/Achievements/ResearchMoney_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เงินจากความฉลาด",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/SomeStars_Description::segment-84",
+  "key": "General/Achievements/SomeStars_Description",
+  "asset": "I2LS_General",
+  "segment_index": 84,
+  "source": "Earn 12 stars across your career",
+  "source_sha256": "202fece6b538d27c2ac7613f4459c7bad060d4c97a787500c2b155ee7d2771da",
+  "context": {
+   "key_path": "General/Achievements/SomeStars_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ได้รับ 12 ดาวตลอดเส้นทางอาชีพ",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/SomeStars_Name::segment-85",
+  "key": "General/Achievements/SomeStars_Name",
+  "asset": "I2LS_General",
+  "segment_index": 85,
+  "source": "Bachelor of Smarts",
+  "source_sha256": "34764ee64b565afd7c804d9f99a0f81c12a0903384f76c1f0a8a98ef76c82422",
+  "context": {
+   "key_path": "General/Achievements/SomeStars_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ปริญญาตรีด้านฉลาด",
+  "translator_note": "Bachelor of Smarts ล้อ Bachelor of Science/Arts T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/SportsLeague_Description::segment-86",
+  "key": "General/Achievements/SportsLeague_Description",
+  "asset": "I2LS_General",
+  "segment_index": 86,
+  "source": "Win a cheeseball match against the Jumbo Mega Team",
+  "source_sha256": "445d2a347b9590447045405d8bd62b124c0ca0496b1145caee75509585a5db67",
+  "context": {
+   "key_path": "General/Achievements/SportsLeague_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ชนะชีสบอลทีม Jumbo Mega Team",
+  "translator_note": "ชื่อทีมคงต้นฉบับชั่วคราว",
+  "flags": [
+   "PROPER_NAME"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/SportsLeague_Name::segment-87",
+  "key": "General/Achievements/SportsLeague_Name",
+  "asset": "I2LS_General",
+  "segment_index": 87,
+  "source": "Jumbo Mega Team",
+  "source_sha256": "a5450914f1ce6b1bc139fc405185dcaed5febbee72df0cb065a404638a182b87",
+  "context": {
+   "key_path": "General/Achievements/SportsLeague_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "Jumbo Mega Team",
+  "translator_note": "ชื่อทีมคงต้นฉบับ",
+  "flags": [
+   "KEEP_AS_SOURCE"
+  ],
+  "status": "KEEP_AS_SOURCE_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Spy_Description::segment-88",
+  "key": "General/Achievements/Spy_Description",
+  "asset": "I2LS_General",
+  "segment_index": 88,
+  "source": "Expose a mole in Blundergrad",
+  "source_sha256": "0b9274d6220f3048ac8af758829e7db58405d2bc329d9b3675fc8b1ec29ba2b8",
+  "context": {
+   "key_path": "General/Achievements/Spy_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "เปิดโปงตัวตุ่นใน Blundergrad",
+  "translator_note": "Track-a-Mole ล้อ Whac-A-Mole (ในไทยเรียก \"ตีตัวตุ่น\") \"ตัวตุ่น\" = สายลับ ไม่เพิ่มคำอธิบาย T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Spy_Name::segment-89",
+  "key": "General/Achievements/Spy_Name",
+  "asset": "I2LS_General",
+  "segment_index": 89,
+  "source": "Track-a-Mole",
+  "source_sha256": "ac0fc6da2fb2427d2120d3265f78f07fae189788b74a02c38c67fa0387e0d796",
+  "context": {
+   "key_path": "General/Achievements/Spy_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ตีตัวตุ่นสายลับ",
+  "translator_note": "ดูหมายเหตุรายการ 88 ตรวจกับบริบทเกมจริงว่า \"ตัวตุ่น\" เข้าใจได้",
+  "flags": [
+   "AMBIGUOUS"
+  ],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/StaffHired_Description::segment-90",
+  "key": "General/Achievements/StaffHired_Description",
+  "asset": "I2LS_General",
+  "segment_index": 90,
+  "source": "Hire 100 staff members",
+  "source_sha256": "99d7d52fdd7f1ca5e3c1a9122bc70baccb9e88b4f842eff3f3729368d2e3be0e",
+  "context": {
+   "key_path": "General/Achievements/StaffHired_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "จ้างบุคลากร 100 คน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/StaffHired_Name::segment-91",
+  "key": "General/Achievements/StaffHired_Name",
+  "asset": "I2LS_General",
+  "segment_index": 91,
+  "source": "Staff Boom",
+  "source_sha256": "1d621bfd23085995db4ac5f19b95fcca890ccee588556d38dc71dededd517766",
+  "context": {
+   "key_path": "General/Achievements/StaffHired_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ยุคบุคลากรบูม",
+  "translator_note": "ล้อ baby boom T2",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/TPHIllnesses_Description::segment-92",
+  "key": "General/Achievements/TPHIllnesses_Description",
+  "asset": "I2LS_General",
+  "segment_index": 92,
+  "source": "Treat 1 case of each illness from Two Point Hospital",
+  "source_sha256": "c559584d5c008723442eaa3025ad4322f00bbcd11a7c123feb01f8b468011819",
+  "context": {
+   "key_path": "General/Achievements/TPHIllnesses_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "รักษาโรคจาก Two Point Hospital อย่างละ 1 ราย",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/TPHIllnesses_Name::segment-93",
+  "key": "General/Achievements/TPHIllnesses_Name",
+  "asset": "I2LS_General",
+  "segment_index": 93,
+  "source": "Recurring Conditions",
+  "source_sha256": "79e321d1653fe687a73cc48b480fb2a5341fb5db6855588b282a17a854fbe2f7",
+  "context": {
+   "key_path": "General/Achievements/TPHIllnesses_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "อาการเก่ากลับมา",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Train_Description::segment-94",
+  "key": "General/Achievements/Train_Description",
+  "asset": "I2LS_General",
+  "segment_index": 94,
+  "source": "Train a staff member",
+  "source_sha256": "6fa4989bc7e9fc19ad6e4ad482e7cfc8bb7ae7932c20820d04282042349420f5",
+  "context": {
+   "key_path": "General/Achievements/Train_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ฝึกบุคลากร 1 คน",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/Train_Name::segment-95",
+  "key": "General/Achievements/Train_Name",
+  "asset": "I2LS_General",
+  "segment_index": 95,
+  "source": "A Little Wiser",
+  "source_sha256": "286568c2174969444215ba5f7d19ea01727ce0e0bbabcb7bb6d78091917d20a9",
+  "context": {
+   "key_path": "General/Achievements/Train_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ฉลาดขึ้นนิดหน่อย",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/TwoPointHospital_Description::segment-96",
+  "key": "General/Achievements/TwoPointHospital_Description",
+  "asset": "I2LS_General",
+  "segment_index": 96,
+  "source": "Treat 100 medical issues",
+  "source_sha256": "a0f89a638427153a70af529dd9760b59c10758aec41e02ba8b5949350abb2f82",
+  "context": {
+   "key_path": "General/Achievements/TwoPointHospital_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "รักษาปัญหาทางการแพทย์ 100 กรณี",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/TwoPointHospital_Name::segment-97",
+  "key": "General/Achievements/TwoPointHospital_Name",
+  "asset": "I2LS_General",
+  "segment_index": 97,
+  "source": "There's Always a Hospital",
+  "source_sha256": "1b31271553380e9382115251df357ab9b1fc01c12da3a23d2890bc7011c4f9ec",
+  "context": {
+   "key_path": "General/Achievements/TwoPointHospital_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "มีโรงพยาบาลเสมอ",
+  "translator_note": "\"There's always a banana stand\" ในซีรีส์ Arrested Development น่าจะเป็นที่มา ไม่เพิ่มการอ้างอิงจริง แปลตรงให้รักษาจังหวะ T1",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/UpgradeMachines_Description::segment-98",
+  "key": "General/Achievements/UpgradeMachines_Description",
+  "asset": "I2LS_General",
+  "segment_index": 98,
+  "source": "Upgrade 100 machines",
+  "source_sha256": "d71fd1bf4cbffde53a5cd5a6012f580ab4e8dab94293cb8e66b31983cde82e72",
+  "context": {
+   "key_path": "General/Achievements/UpgradeMachines_Description",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "อัปเกรดเครื่องจักร 100 เครื่อง",
+  "translator_note": "",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ },
+ {
+  "id": "I2LS_General::General/Achievements/UpgradeMachines_Name::segment-99",
+  "key": "General/Achievements/UpgradeMachines_Name",
+  "asset": "I2LS_General",
+  "segment_index": 99,
+  "source": "Spanner That Works",
+  "source_sha256": "bdbde10892510bf7f5922a4587c65289febf732c3307882312b91aa1443a19a5",
+  "context": {
+   "key_path": "General/Achievements/UpgradeMachines_Name",
+   "screen": null
+  },
+  "candidate_tokens": [],
+  "thai": "ประแจที่ใช้งานได้",
+  "translator_note": "Spanner in the works (ขัดขวาง) กลับความหมายเป็น \"ที่ใช้งานได้\" เล่นสำนวน แปลตรงคงภาพประแจ T1",
+  "flags": [],
+  "status": "TRANSLATED_PENDING_REVIEW",
+  "batch": "FRESH-001"
+ }
+]

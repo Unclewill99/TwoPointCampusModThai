@@ -1,0 +1,31 @@
+{
+  "probe": "fresh-translation-003",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "4e40e1a2a99a6f67eb99aef978357f5f4606bf1639f779f7e4d165a2ca71ab29"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+    }
+  ],
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "records_reloaded": 15677,
+  "translated": 12721,
+  "keep_as_source": 2956,
+  "translation_sha256": "f443016bf83ddffe7285000916bb5dbfff1ef1ed8b3c6588601488a2416e9f5f",
+  "validation_sha256": "4d09b384eeac082468b243dcf91089c900c04a38a86ed638ef4ddb27d8e95aab",
+  "review_changed_rows": 292,
+  "font_ui_identical_to": "community-merge-006",
+  "language_review": "PENDING",
+  "limits": "Claude review rounds1-4 integrated,292 text changes; Controller terminology decisions NOT yet applied. Not fully linguistically approved. Glossary212 pending, inconsistent terminology, plural/source anomalies, wrapping and BUG-THAI-003 remain. No release approval."
+}

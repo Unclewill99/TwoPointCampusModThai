@@ -11,9 +11,9 @@ Current authority: [PROBE_013_MILESTONE.md](PROBE_013_MILESTONE.md), [coverage t
 
 | Owner | Current next work | State |
 |---|---|---|
-| Controller | Investigate Thai-specific processing and caption generation | CHECK Error visible; active lookup confirmed for Error; Thai fix unresolved |
-| Claude | No bulk retranslation assigned | Reuse community corpus; targeted issue correction later |
-| Antigravity / desktop QA | WO-DROPDOWN-002 complete | CHECK_VISIBLE accepted; no new runtime assignment |
+| Controller | Full Claude delivery structurally accepted; language/context triage next |171 batches/15,677 rows; fresh-translation-002 built NOT_RUN |
+| Claude | Translation draft delivery complete |12,716 translated +2,961 justified source identities; all pending review |
+| Antigravity / desktop QA | No new test assigned | Existing rendering observations retained; BUG-THAI-002/003 OPEN |
 
 ## Historical project log
 
@@ -238,3 +238,58 @@ Option getter delegates to numeric LocalisedString lookup; TMP caption refresh s
 ## ASCII control accepted — 2026-10-21
 
 CHECK Error directly verified in submitted image; adjacent captions still blank. Marked Error option is loaded and reaches visible caption with unchanged merge-002 UI/font. Thai-specific processing/rendering remains unresolved; no automatic font-cause claim or new test. Three originals freshly checked. See DROPDOWN_002_DISPOSITION.md.
+
+
+## Caption overflow control — 2026-10-21
+
+Working Thai labels use same primary font/material but overflow mode0 versus caption1 and different vertical bounds/font size. merge-005 changes only LogLevel caption overflow to0; Thai input retained. Root cause unconfirmed. Reload isolation passes, three originals checked. See DROPDOWN_CAPTION_COMPARISON.md; WO-DROPDOWN-003 ready, NOT_RUN.
+
+
+## LogLevel mitigation accepted — 2026-10-21
+
+Thai ข้อผิดพลาด visible/contained after overflow1 to0, primary image inspected. Fine shaping/general root cause remain unproven. merge-006 applies overflow0 to19 Settings captions (12 mode1, seven mode3); mode3 extension explicitly untested. Other fields/objects, font/localisation unchanged; reload isolation verified, three originals checked. WO-DROPDOWN-004 ready, no installation. See DROPDOWN_003_ACCEPTANCE.md.
+
+
+## Settings caption milestone accepted — 2026-10-21
+
+merge-006: eight Thai and two ASCII selected values visible/contained in directly inspected Game/Video initial views; Medium directly observed. Original blocking defect mitigated within this scope, not general all-option approval. Three originals freshly verified. No repeated Settings matrix. Next select bounded practical gameplay context. See DROPDOWN_004_ACCEPTANCE.md.
+
+
+## Practical trial ready — 2026-10-21
+
+Existing career.csav identified, no campus save confirmed. Five Cloud/local preference files locally snapshotted and hash-verified, no source writes. WO-GAMEPLAY-001 requires a fresh snapshot before install, then existing career/map and only an existing resumable campus if available; stop on creation/overwrite requirement. Saves may auto-update; record hash changes, do not auto-restore. No installation/runtime yet.
+
+
+## Campaign intro accepted; campus setup limit — 2026-10-21
+
+Advisor intro Thai readable in inspected map image. Existing brief prohibits advancing intro/new campus; no resumable campus established, so two campus views NOT_RUN. Snapshot ZIP verified and live changes independently match two changed/one new/zero missing/three unchanged. Three game bundles original. Next requires a new-campus trial scope or existing campus context, not identical rerun. See GAMEPLAY_001_DISPOSITION.md.
+
+
+## First-campus setup authorized — 2026-10-21
+
+User authorized continuing after explanation of Slot1 progression. WO-GAMEPLAY-002 allows advancing initial intro and starting Freshleigh Meadows, normal saves permitted to current Slot1. Fresh save snapshot required, no rollback/other-slot overwrite. Pause and inspect initial text only; no building/hiring/spending/year start. Ready for relay, NOT_RUN; no install by Controller.
+
+
+## Initial campus trial accepted with known issues — 2026-10-21
+
+Freshleigh entry/opening modal readable; internal ของคุ/ณ split is an observed wrapping defect (BUG-THAI-002 remains OPEN), with targeted language backlog. Source says lowly, so ต่ำต้อย needs contextual style review rather than automatic mistranslation classification. HUD/overview untested. Snapshot verified; live3 changed/4 new/0 missing/3 unchanged; campus save exists. Three originals checked. See GAMEPLAY_002_ACCEPTANCE.md; next targeted correction, no same-view repeat.
+
+
+## User-reported sara-am collision — 2026-10-21
+
+BUG-THAI-003 OPEN: mai ek and upper sara-am component overlap in ต่ำ, Freshleigh opening modal. User PNG preserved byte-for-byte with provenance. Initial campus acceptance now explicitly includes observed shaping defect plus wrapping/language issues. Next static same-font sara-am/modal investigation; no repeated screen capture needed. See qa/BUG_THAI_003.md.
+
+
+## Full fresh translation authorized — 2026-10-21
+
+User selected all15,677 messages incl dialogue/descriptions, superseding reuse-first approach. Fresh190 drafts authored from English;15,487 pending. Known injected promo at3 keys replaced while original legal/developer credits preserved. fresh-translation-001 built/reload-verified, not installed. Other imported values temporarily retained in that draft and explicitly not freshly translated. Source/provenance retained locally. See FRESH_RETRANSLATION.md and reports/fresh-retranslation-progress.json.
+
+
+## Claude translation handoff prepared — 2026-10-21
+
+User assigned full translation to Claude. Prepared local/handoffs/CLAUDE-FULL-RETRANSLATION-001.zip and unpacked folder:171 asset-context packages,15,677 unique records exactly once. No imported Thai authority; old190 drafts retained for later comparison, not exemption from Claude pass. Output contract/glossary/progress and editorial override included. Tool inventory has no direct Claude connector, so delivery is via user relay; not marked received/started. Older RETRANSLATE source batches are alternate inventory, not additional assignments. See CLAUDE_FULL_RETRANSLATION_HANDOFF.md.
+
+
+## Full Claude delivery received — 2026-10-21
+
+Independent source/token checks pass171 batches/15,677 unique rows, no missing translations as delivery. Full draft fresh-translation-002 built/reload-verified, font/UI same as merge-006, three originals checked, no install. Language212 glossary proposals and2,277 primary-flagged rows pending review. Supplemental997-row uncertainty summary has307 stale field comparisons; queue rebuilt from actual batch rows. See CLAUDE_FULL_RETRANSLATION_RECEIPT.md.

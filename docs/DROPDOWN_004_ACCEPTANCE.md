@@ -1,0 +1,9 @@
+# WO-DROPDOWN-004 scoped acceptance — 2026-10-21
+
+ACCEPT_VISIBLE_CAPTIONS_CONTAINED for community-merge-006. Controller read report and directly inspected both primary images. Game view: six selected Thai values visible and contained (ข้อผิดพลาด, ทุกๆ เดือน, ทุกการเปลี่ยนแปลง, อังกฤษ twice, กลาง). Video view: หน้าต่างเต็มหน้าจอ and เปิด visible/contained; resolution ASCII and SMAA remain visible. No observed arrow overlap or new blank selected caption in these ten fully visible controls. UI Scale directly observed as กลาง/Medium. Lower partially obscured controls remain NOT_OBSERVED. Capture is downsampled 3840x2160 to1920x1080, so fine mark positioning remains unverified.
+
+The original blocking blank-caption defect is mitigated in the observed Game/Video initial-view selected values at this environment. This covers examples from both prior overflow modes1 and3; it does not establish an internal renderer root cause or approval of all19 controls, longer alternate values, opened item lists, other scales or gameplay. Main-menu smoke result remains historical merge-002 evidence, not a new merge-006 run.
+
+Fresh manager check validates community-merge-006 and confirms all three installed originals. Tester reports four minutes, two captures, zero recovery and normal exit/restore; token use not measured. No repeat of these passing views assigned. Retain merge-006 as current integrated trial candidate; merge-003/004/005 remain diagnostic history. No permanent installation, release, commit or push by this acceptance.
+
+Next: a bounded practical gameplay trial with a selected save/new-session context and understood save behavior. No runtime WO assigned until that context is chosen. Remaining dropdown alternatives/items can be observed during actual use rather than an exhaustive matrix. Imported translation quality/provenance and existing shaping/tooltip limits remain tracked separately.

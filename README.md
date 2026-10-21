@@ -2,9 +2,9 @@
 
 Project started 2026-10-15. Controller: ChatGPT. Translator: Claude. QA: Antigravity.
 
-## Current direction — existing translation reuse
+## Current direction — full Claude draft received
 
-2026-10-21: [Community merge draft built](docs/COMMUNITY_MERGE_001.md), preserving our 70 translations and font/UI baseline. Corrected community-merge-002 resolves all five fallbacks; all 15,677 records reload-match. [Smoke test completed with blocking blank dropdown captions](docs/SMOKE_MERGE_001_DISPOSITION.md). Game originals restored; [One-caption font diagnostic remains blank](docs/DROPDOWN_001_DISPOSITION.md); [ASCII control displays CHECK Error](docs/DROPDOWN_002_DISPOSITION.md), confirming active option lookup; Thai-specific processing/rendering remains unresolved. No further desktop test assigned. This supersedes bulk-retranslation planning.
+2026-10-21: [171 batches/15,677 records received and structurally checked](docs/CLAUDE_FULL_RETRANSLATION_RECEIPT.md):12,716 translated,2,961 justified source identities,0 pending delivery. All remain pending language review. Full draft fresh-translation-002 built/reload-verified; fonts/UI identical to merge-006; NOT_RUN/not installed.212 glossary proposals and2,277 primary-flagged rows need contextual review. Known injected-promo markers absent. BUG-THAI-002/003 remain OPEN. Previous partial counts/editorial directions below are historical.
 
 ## Current state
 

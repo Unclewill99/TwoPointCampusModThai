@@ -1,0 +1,31 @@
+{
+  "probe": "fresh-translation-002",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "0d53e82a50ab25b4b56e916410baf7b40c5a2cb4f8af40fcbe8b1356db5374d6"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+    }
+  ],
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "records_reloaded": 15677,
+  "translated": 12716,
+  "keep_as_source": 2961,
+  "translation_sha256": "4d1b33f06bd5293ba549dc9c0d9613d850f4578913efeb05b19b456263df4950",
+  "validation_sha256": "bc8abe393213ef11551f3f9f98674db1083b0a79173a5ab065eaa0d01a396f9f",
+  "archive_sha256": "66627ae67c6a30b8d99f9558cd2e8d3375730590e0052370827f58bb66c2a64c",
+  "font_ui_identical_to": "community-merge-006",
+  "language_review": "PENDING",
+  "limits": "Full newly submitted corpus integrated, not linguistically approved. Glossary212 pending, inconsistent terminology, plural/source anomalies, wrapping and BUG-THAI-003 remain. No release approval."
+}

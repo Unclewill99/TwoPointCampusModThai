@@ -1,0 +1,36 @@
+{
+  "archive_sha256": "66627ae67c6a30b8d99f9558cd2e8d3375730590e0052370827f58bb66c2a64c",
+  "records": 15677,
+  "unique_ids": 15677,
+  "batches": 171,
+  "counts": {
+    "TRANSLATED_PENDING_REVIEW": 12716,
+    "KEEP_AS_SOURCE_PENDING_REVIEW": 2961
+  },
+  "flags": {
+    "PROPER_NAME": 3139,
+    "COURSE_NAME_PENDING": 41,
+    "AMBIGUOUS": 393,
+    "GLOSSARY_PROPOSAL": 407,
+    "JOKE_UNRESOLVED": 1473,
+    "KEEP_AS_SOURCE": 2961,
+    "TECHNICAL_IDENTIFIER": 257,
+    "PLURAL_REVIEW": 166,
+    "TOKEN_ANOMALY": 233,
+    "NEEDS_RUNTIME_REVIEW": 70,
+    "EMPTY_SOURCE": 5,
+    "LEGAL_CREDIT": 2,
+    "GRADE_LETTER": 8,
+    "SYMBOL_ONLY": 87,
+    "WHITESPACE_ONLY": 1
+  },
+  "glossary_entries": 212,
+  "uncertain_entries": 997,
+  "word_tam_records": 50,
+  "errors": [],
+  "warnings": [],
+  "installed": false,
+  "language_review": "NOT_DONE",
+  "runtime": "NOT_RUN",
+  "limits": "Heuristic token/markup checks do not prove grammar, semantic fidelity, font behavior, plural routing or human review."
+}

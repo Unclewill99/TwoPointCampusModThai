@@ -1,0 +1,31 @@
+{
+  "probe": "community-merge-005",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "726c09b8f54f9c3a6345d7dc388d1e69cdbfd49082f718f18d60644ec3d76d59"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "7076c926786466275975e51c22259f15525098737f855253f1c1b801533d9f18"
+    }
+  ],
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "changed_ui_object": 295032210435112665,
+  "changed_fields": {
+    "m_overflowMode": {
+      "before": 1,
+      "after": 0
+    }
+  },
+  "strategy": "Match working-label overflow mode on LogLevel caption only; retain original Thai Error option, font/material/rect/size",
+  "limits": "Unverified layout hypothesis; could allow spill outside box. Other dropdowns intentionally unchanged; not release ready."
+}

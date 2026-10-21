@@ -1,0 +1,2537 @@
+{
+  "records": 15677,
+  "counts": {
+    "TRANSLATED_PENDING_REVIEW": 12716,
+    "KEEP_AS_SOURCE_PENDING_REVIEW": 2961
+  },
+  "primary_review_records": 2277,
+  "uncertain_file_unique_ids": 997,
+  "primary_review_ids_not_in_uncertain_file": [
+    "I2LS_Levels::Levels/DLC_ChallengeMode/CM1_Spiffinmoore_Pumpkin_Title::segment-57",
+    "I2LS_Levels::Levels/DLC_ChallengeMode/CM3_UpperEtching_Valentine_Advisor_ReactiveSnogwarts_Text::segment-71",
+    "I2LS_Levels::Levels/DLC_ChallengeMode/CM4_LifelessEstate_Ghost_Title::segment-98",
+    "I2LS_Levels::Levels/DLC_ChallengeMode/CM5_FreshleighMeadows_Easter_Advisor_Wiggy_Intro_Title::segment-102",
+    "I2LS_Levels::Levels/DLC_ChallengeMode/CM5_FreshleighMeadows_Easter_Level_Intro_Title::segment-107",
+    "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Tutorial_Fire_Title::segment-227",
+    "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_FirstPatient_Title::segment-237",
+    "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Inbox_FirstPatient_Title::segment-256",
+    "I2LS_Levels::Levels/DLC_Hospital/LakeHospital_Title::segment-274",
+    "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Advisor_Briney_WagerFail_Text::segment-301",
+    "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Advisor_Pirate_Reactive_Invasion_Text_V5::segment-311",
+    "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Advisor_Vitality_Reactive_TrialFail_Text::segment-323",
+    "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Advisor_Vitality_ThanksForCleaning_Title::segment-332",
+    "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/V2_Advisor_Vitality_PostCleanUp_Title::segment-357",
+    "I2LS_Levels::Levels/DLC_Space/LaunchPad_Title::segment-370",
+    "I2LS_Levels::Levels/DLC_Space/LaunchpadLevel/Advisor_CaptainCushion_BuildResearch_Title::segment-372",
+    "I2LS_Levels::Levels/DLC_Space/LaunchpadLevel/Advisor_CaptainCushion_ResearchReminder_Title::segment-382",
+    "I2LS_Levels::Levels/DLC_Space/MoonBaseLevel/Advisor_CaptainCushion_Intro_Title::segment-403",
+    "I2LS_Levels::Levels/Freshleigh/Level_Intro_Text::segment-533",
+    "I2LS_Levels::Levels/Gastronomy/Level_Intro_Text::segment-596",
+    "I2LS_Levels::Levels/Knight/Advisor_Blaggard_Invaders_Text::segment-614",
+    "I2LS_Levels::Levels/LevelBeats/SportsLevel_JumboDefeat_Title::segment-654",
+    "I2LS_Levels::Levels/LevelBeats/SportsLevel_SmogleyMatch_Text::segment-657",
+    "I2LS_Levels::Levels/LevelBeats/SportsLevel_SportsField_Title::segment-661",
+    "I2LS_Levels::Levels/Robotics/Level_Intro_Title::segment-756",
+    "I2LS_Levels::Levels/Robotics/Level_Name::segment-757",
+    "I2LS_Levels::Levels/Social/Reactive_Advisor_BeachParties_V1_Title::segment-773",
+    "I2LS_Levels::Levels/Sports/Advisor_Jumbo_Intro_Text::segment-785",
+    "I2LS_Levels::Levels/Sports/Advisor_Jumbo_PostMatch_Title::segment-788",
+    "I2LS_Levels::Levels/Sports/Advisor_Tutorial_CampusLevel_Title::segment-796",
+    "I2LS_Levels::Levels/Sports/Level_Intro_Title::segment-803",
+    "I2LS_Levels::Levels/SpySchool/Level_Intro_Title::segment-843",
+    "I2LS_Levels::Levels/SpySchool/Level_Title::segment-845",
+    "I2LS_Levels::Levels/StarLetters/Noblestead_TwoStar::segment-863",
+    "I2LS_Levels::Levels/StarLetters/PiazzaLanatra_ThreeStar::segment-869",
+    "I2LS_Levels::Levels/StarLetters/PiazzaLanatra_TwoStar::segment-870",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearThree_DigSite_1::segment-4",
+    "I2LS_Courses::Courses/Classes/Archaeology_YearTwo_DigSite_1::segment-9",
+    "I2LS_Courses::Courses/Classes/CounterculturalStudies_YearOne_Gym::segment-13",
+    "I2LS_Courses::Courses/Classes/CounterculturalStudies_YearThree_Science_2::segment-19",
+    "I2LS_Courses::Courses/Classes/CounterculturalStudies_YearTwo_Computing_2::segment-21",
+    "I2LS_Courses::Courses/Classes/CounterculturalStudies_YearTwo_Science_1::segment-23",
+    "I2LS_Courses::Courses/Classes/DarkArt_YearTwo_Gym_1::segment-30",
+    "I2LS_Courses::Courses/Classes/FunnyBusiness_YearTwo_Lecture_1::segment-41",
+    "I2LS_Courses::Courses/Classes/Gastronomy_YearTwo_Sweets_1::segment-54",
+    "I2LS_Courses::Courses/Classes/GeneralKnowledge_YearOne_Lecture_2::segment-57",
+    "I2LS_Courses::Courses/Classes/InternetHistory_YearOne_Computing_1::segment-60",
+    "I2LS_Courses::Courses/Classes/InternetHistory_YearThree_Computing_1::segment-64",
+    "I2LS_Courses::Courses/Classes/InternetHistory_YearThree_Computing_2::segment-65",
+    "I2LS_Courses::Courses/Classes/InternetHistory_YearThree_Lecture_1::segment-66",
+    "I2LS_Courses::Courses/Classes/Knights_YearThree_Training::segment-79",
+    "I2LS_Courses::Courses/Classes/MoneyWangling_YearTwo_Computing_2::segment-89",
+    "I2LS_Courses::Courses/Classes/Music_YearOne_Lecture_1::segment-92",
+    "I2LS_Courses::Courses/Classes/Music_YearOne_Music_1::segment-94",
+    "I2LS_Courses::Courses/Classes/Music_YearTwo_Computer::segment-100",
+    "I2LS_Courses::Courses/Classes/Robotics_YearOne_RoboticsDesign_1::segment-106",
+    "I2LS_Courses::Courses/Classes/Robotics_YearThree_RoboticsLab_2::segment-110",
+    "I2LS_Courses::Courses/Classes/Robotics_YearTwo_Science::segment-115",
+    "I2LS_Courses::Courses/Classes/SchoolofThought_YearThree_Gym_1::segment-124",
+    "I2LS_Courses::Courses/Classes/Scientography_YearOne_Science_1::segment-134",
+    "I2LS_Courses::Courses/Classes/Scientography_YearOne_Science_2::segment-135",
+    "I2LS_Courses::Courses/Classes/Scientography_YearThree_Lecture_2::segment-137",
+    "I2LS_Courses::Courses/Classes/Scientography_YearThree_Science_1::segment-138",
+    "I2LS_Courses::Courses/Classes/Sports_YearOne_Gym_2::segment-145",
+    "I2LS_Courses::Courses/Classes/Sports_YearOne_Lecture_2::segment-147",
+    "I2LS_Courses::Courses/Classes/VirtualReality_YearOne_Computing_1::segment-168",
+    "I2LS_Courses::Courses/Classes/VirtualReality_YearOne_Lecture_2::segment-170",
+    "I2LS_Courses::Courses/Classes/Wizardry_YearThree_Lecture::segment-183",
+    "I2LS_Courses::Courses/Classes/Wizardry_YearTwo_Potions::segment-188",
+    "I2LS_Courses::Courses/DLC_ChallengeMode/EasterArchaeology_Class::segment-229",
+    "I2LS_Courses::Courses/DLC_ChallengeMode/SummerSchool_Class_2::segment-233",
+    "I2LS_Courses::Courses/DLC_Ghost/Classes/GhostBusting_YearThree_Busting_2::segment-242",
+    "I2LS_Courses::Courses/DLC_Ghost/Classes/GhostBusting_YearThree_Detection_1::segment-243",
+    "I2LS_Courses::Courses/DLC_Ghost/Classes/GhostBusting_YearTwo_Lecture_1::segment-246",
+    "I2LS_Courses::Courses/DLC_Ghost/Classes/GhostStudents_YearTwo_Lecture_2::segment-255",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/GhostDetection_Doll_Description::segment-260",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/GhostDetection_Title::segment-263",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/GhostStorage_Rack_Description::segment-266",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Gym_Title::segment-270",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Bookcase_Description_1::segment-271",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Bookcase_Description_2::segment-272",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Bookcase_Specialist_Advanced_Description_1::segment-273",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Bookcase_Specialist_Advanced_Description_2::segment-274",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Bookcase_Specialist_Description_1::segment-275",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Bookcase_Specialist_Description_2::segment-276",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostBusting/Library_Cubicle_Study_Description::segment-279",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostStudents/Library_Bookcase_Description_1::segment-281",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostStudents/Library_Bookcase_Description_2::segment-282",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostStudents/Library_Bookcase_Specialist_Advanced_Description_1::segment-283",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostStudents/Library_Bookcase_Specialist_Description_1::segment-285",
+    "I2LS_Courses::Courses/DLC_Ghost/SelfStudy/GhostStudents/Library_Bookcase_Specialist_Description_2::segment-286",
+    "I2LS_Courses::Courses/DLC_Hospital/Doctor/Library_Bookcase_Description_1::segment-295",
+    "I2LS_Courses::Courses/DLC_Hospital/Doctor/Library_Bookcase_Specialist_HeadClinic_Description_1::segment-297",
+    "I2LS_Courses::Courses/DLC_Hospital/Doctor/Library_Bookcase_Specialist_HeadClinic_Description_2::segment-298",
+    "I2LS_Courses::Courses/DLC_Hospital/Doctor/Library_Bookcase_Specialist_Psychiatry_Description_2::segment-300",
+    "I2LS_Courses::Courses/DLC_Hospital/Doctor/Library_Bookcase_Specialist_Surgery_Description_2::segment-302",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/FaceStamp_Crane_Description::segment-316",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/FaceStamp_MouldMaker_Description::segment-317",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Injection_Disposer_Description::segment-321",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Library_Bookcase_Description_1::segment-325",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Library_Bookcase_Description_2::segment-326",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Library_Bookcase_Specialist_FaceStamp_Description_1::segment-327",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Library_Bookcase_Specialist_InjectionRoom_Description_1::segment-329",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Library_Bookcase_Specialist_InjectionRoom_Description_2::segment-330",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Library_Bookcase_Specialist_Ward_Description_2::segment-332",
+    "I2LS_Courses::Courses/DLC_Hospital/Nurse/Ward_Trolley_Description::segment-341",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienCheese_YearOne_AlienCheese_1::segment-350",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienCheese_YearOne_AlienCheese_2::segment-351",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienCheese_YearOne_Science_1::segment-352",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienCheese_YearThree_AlienCheese_1::segment-353",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienCheese_YearTwo_Science_1::segment-358",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienHumanities_YearOne_Humanity_1::segment-359",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienHumanities_YearTwo_Computing_1::segment-365",
+    "I2LS_Courses::Courses/DLC_Space/Classes/AlienHumanities_YearTwo_Lecture_1::segment-367",
+    "I2LS_Courses::Courses/DLC_Space/Classes/SpaceKnight_YearTwo_SpaceCombat_2::segment-400",
+    "I2LS_Courses::Courses/DLC_Space/SelfStuduy/AlienCheese/Library_Cubicle_Microfiche_Description::segment-403",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienCheese/CheesePosters_Description::segment-409",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienCheese/Library_Bookcase_Description_2::segment-415",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienCheese/Library_Bookcase_Specialist_Advanced_Description_2::segment-417",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienCheese/Library_Bookcase_Specialist_Description_1::segment-418",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienHumanities/Library_Bookcase_Description_1::segment-433",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienHumanities/Library_Cubicle_Textbook_Description::segment-441",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/AlienHumanities/LivingRoom_Title::segment-445",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/Astronaut/Library_Bookcase_Specialist_Advanced_Description_1::segment-460",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/Astronaut/Library_Bookcase_Specialist_Advanced_Description_2::segment-461",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceAcademy/CommandRoom_SpaceDesk_Description::segment-467",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceAcademy/CommandRoom_Title::segment-469",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceAcademy/CommandRoom_Transporter_Description::segment-470",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceAcademy/Library_Bookcase_Specialist_Description_1::segment-476",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceKnight/Library_Bookcase_Description_2::segment-493",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceKnight/Library_Bookcase_Specialist_Advanced_Description_2::segment-495",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceKnight/Library_Bookcase_Specialist_Description_1::segment-496",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceKnight/Library_Bookcase_Specialist_Description_2::segment-497",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceKnight/Library_Cubicle_Computer_Description::segment-498",
+    "I2LS_Courses::Courses/DLC_Space/SelfStudy/SpaceKnight/SpaceCombat_Display_Description::segment-501",
+    "I2LS_Courses::Courses/SelfStudy/Archaeology/Library_Description_3::segment-526",
+    "I2LS_Courses::Courses/SelfStudy/Archaeology/Library_Specialist_Description_3::segment-535",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Description_1::segment-552",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Description_2::segment-553",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Description_3::segment-554",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Description_4::segment-555",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Advanced_Description_1::segment-557",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Advanced_Description_2::segment-558",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Advanced_Description_4::segment-560",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Description_1::segment-561",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Description_2::segment-562",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Description_3::segment-563",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Library_Specialist_Description_4::segment-564",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Oven_Description::segment-569",
+    "I2LS_Courses::Courses/SelfStudy/Gastronomy/Patisserie_Description_2::segment-572",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Computing_Description_2::segment-607",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Dormitory_Description_3::segment-612",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Description_1::segment-614",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Description_2::segment-615",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Description_3::segment-616",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Specialist_Advanced_Description_2::segment-619",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Specialist_Advanced_Description_3::segment-620",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Specialist_Description_1::segment-621",
+    "I2LS_Courses::Courses/SelfStudy/Knights/Library_Specialist_Description_2::segment-622",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/CounterCulturalStudies_Library_Cubicle_Textbook_Description::segment-645",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/CounterCulturalStudies_Library_Description_1::segment-646",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/CounterCulturalStudies_Library_Specialist_Description_2::segment-649",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/DarkArt_Gym_Description_1::segment-660",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/DarkArt_Gym_Title::segment-661",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/DarkArt_Library_Specialist_Description_1::segment-666",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/DarkArt_Library_Specialist_Description_2::segment-667",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/FunnyBusiness_Library_Specialist_Description_2::segment-684",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/FunnyBusiness_VR_Description_2::segment-692",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/InternetHistory_Library_Cubicle_Computer_Description::segment-716",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/InternetHistory_Library_Cubicle_Study_Description::segment-717",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/MoneyWangling_Library_Description_2::segment-738",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/SchoolOfThought_Library_Specialist_Description_1::segment-753",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/SchoolOfThought_Library_Specialist_Description_2::segment-754",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/Scientography_Library_Specialist_Description_1::segment-767",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/Scientography_Library_Specialist_Description_2::segment-768",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/Sports_Library_Specialist_Advanced_Description_1::segment-789",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/Sports_Library_Specialist_Description_2::segment-792",
+    "I2LS_Courses::Courses/SelfStudy/MinorCourses/VirtualReality_Library_Specialist_Advanced_Description_2::segment-805",
+    "I2LS_Courses::Courses/SelfStudy/Music/Library_Microfiche_Description::segment-830",
+    "I2LS_Courses::Courses/SelfStudy/Music/Library_Specialist_Advanced_Description_3::segment-833",
+    "I2LS_Courses::Courses/SelfStudy/Music/Library_Specialist_Description_2::segment-835",
+    "I2LS_Courses::Courses/SelfStudy/Robotics/BorgCube_Description::segment-840",
+    "I2LS_Courses::Courses/SelfStudy/Robotics/Library_Description_1::segment-847",
+    "I2LS_Courses::Courses/SelfStudy/Robotics/Library_Description_3::segment-849",
+    "I2LS_Courses::Courses/SelfStudy/Robotics/Library_Specialist_Advanced_Description_1::segment-851",
+    "I2LS_Courses::Courses/SelfStudy/Robotics/Library_Specialist_Description_3::segment-856",
+    "I2LS_Courses::Courses/SelfStudy/Robotics/WorkBench_Description_2::segment-864",
+    "I2LS_Courses::Courses/SelfStudy/SpySchool/Library_Description_1::segment-881",
+    "I2LS_Courses::Courses/SelfStudy/SpySchool/Library_Description_2::segment-882",
+    "I2LS_Courses::Courses/SelfStudy/SpySchool/Library_Description_3::segment-883",
+    "I2LS_Courses::Courses/SelfStudy/SpySchool/Library_Specialist_Advanced_Description_2::segment-886",
+    "I2LS_Courses::Courses/SelfStudy/SpySchool/Library_Specialist_Description_1::segment-888",
+    "I2LS_Courses::Courses/SelfStudy/SpySchool/Library_Specialist_Description_3::segment-890",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Dormitory_Description_3::segment-908",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Library_Description_1::segment-910",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Library_Description_3::segment-912",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Library_Specialist_Advanced_Description_2::segment-915",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Library_Specialist_Advanced_Description_3::segment-916",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/MagicPainting_Fez_Description_1::segment-923",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/MagicPainting_Moustache_Description_1::segment-924",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Tome_Description::segment-930",
+    "I2LS_Courses::Courses/SelfStudy/Wizardry/Tome_Title::segment-931",
+    "I2LS_UI::UI/ChallengeMode/TauntLine::segment-101",
+    "I2LS_UI::UI/LoanMenu/SmellMyCashName::segment-825",
+    "I2LS_Challenges::Challenge/ArchaeologyLevel/MinorChallenge/Earn_Monthly_5000_Title::segment-13",
+    "I2LS_Challenges::Challenge/ArchaeologyLevel/MinorChallenge/PersonalGoals_Archaeology_7_Title::segment-15",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/CM6_BreakingPoint_SummerSchool_AlbertInspection::segment-38",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Excellent_Text::segment-53",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Excellent_Title::segment-54",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Fail_Title::segment-56",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Fine_Text::segment-57",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Fine_Title::segment-58",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Good_Text::segment-59",
+    "I2LS_Challenges::Challenge/DLC_ChallengeMode/Results/SummerSchool_AlbertInspection_Good_Title::segment-60",
+    "I2LS_Challenges::Challenge/DLC_Ghost/Results/Inspection_DeadlyJobsworth_Fail_Text::segment-79",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_GreenEnvy_ArrivalAdvisor::segment-103",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_GreenEnvy_Text::segment-104",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_GreenEnvy_Title::segment-105",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_Wooden_ArrivalAdvisor::segment-109",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_Wooden_Text::segment-110",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_Wooden_Title::segment-111",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MimeCrisis_ArrivalAdvisor::segment-112",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MimeCrisis_Text::segment-113",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MimeCrisis_Title::segment-114",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MockStar_ArrivalAdvisor::segment-115",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MockStar_Text::segment-116",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MockStar_Title::segment-117",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_NightFever_ArrivalAdvisor::segment-118",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_NightFever_Text::segment-119",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_NightFever_Title::segment-120",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_ReptileDysfunction_ArrivalAdvisor::segment-121",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_ReptileDysfunction_Text::segment-122",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_ReptileDysfunction_Title::segment-123",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_SpaceCaged_ArrivalAdvisor::segment-124",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_SpaceCaged_Text::segment-125",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_SpaceCaged_Title::segment-126",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BodilyDruids_ArrivalAdvisor::segment-127",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BodilyDruids_Text::segment-128",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BodilyDruids_Title::segment-129",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_HeartThrob_ArrivalAdvisor::segment-133",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_HeartThrob_Text::segment-134",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_HeartThrob_Title::segment-135",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_PisteOff_ArrivalAdvisor::segment-151",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_PisteOff_Text::segment-152",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_PisteOff_Title::segment-153",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_BlankLook_Text::segment-166",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_BlockHead_Text::segment-168",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_Woodworms_Text::segment-170",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Lightheadedness_Text::segment-172",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Metalheadedness_Text::segment-174",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Screwheadedness_Text::segment-176",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Turnipheadedness_Text::segment-178",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_GreenEnvy_Text::segment-180",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_GreenEnvy_Title::segment-181",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_LeopardSkin_Text::segment-182",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_Wooden_Text::segment-184",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_Wooden_Title::segment-185",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_MimeCrisis_Text::segment-186",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_MimeCrisis_Title::segment-187",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_MockStar_Text::segment-188",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_MockStar_Title::segment-189",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_NightFever_Text::segment-190",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_NightFever_Title::segment-191",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_ReptileDysfunction_Text::segment-192",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_ReptileDysfunction_Title::segment-193",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_SpaceCaged_Text::segment-194",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_SpaceCaged_Title::segment-195",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BodilyDruids_Text::segment-196",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BodilyDruids_Title::segment-197",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BrainFarts_Text::segment-198",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_HeartThrob_Text::segment-200",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_HeartThrob_Title::segment-201",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_BrokenFace_Text::segment-205",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_PisteOff_Text::segment-213",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_PisteOff_Title::segment-214",
+    "I2LS_Challenges::Challenge/DLC_Hospital/Results/Inspection_VitalityJohnson_Fail_Text::segment-219",
+    "I2LS_Challenges::Challenge/GastroLevel/MinorChallenge/CleanUp_Litter_3_Title::segment-331",
+    "I2LS_Challenges::Challenge/GeneralWeather/RustyRain_Knights_Text::segment-335",
+    "I2LS_Challenges::Challenge/MagicLevel/MagicLevel_LightningStorm_Title::segment-371",
+    "I2LS_Challenges::Challenge/MagicLevel/MagicLevel_Meteor_Title::segment-373",
+    "I2LS_Challenges::Challenge/PartyLevel/PartyLevel_ForcedParty_Large_Title::segment-444",
+    "I2LS_Challenges::Challenge/PartyLevel/PartyLevel_ForcedParty_Medium_Title::segment-446",
+    "I2LS_Challenges::Challenge/Results/Inspection_AgathaSphere/AgathaSphere_Fine_Text::segment-483",
+    "I2LS_Challenges::Challenge/Results/Inspection_MeatWizard/MeatWizard_Fail_Text::segment-561",
+    "I2LS_Challenges::Challenge/Results/Inspection_TarquinFoxbridge/TarquinFoxbridge_Fail_Text::segment-609",
+    "I2LS_Challenges::Challenge/Results/OpenDay/OpenDay_Excellent_Text::segment-635",
+    "I2LS_Challenges::Challenge/SpyLevel/SpyLevel_StaffMission_Easy_Text::segment-737",
+    "I2LS_Characters::Characters/Archetypes/Dancer_Archetype_F_Description::segment-12",
+    "I2LS_Characters::Characters/Archetypes/Dancer_Archetype_M_Description::segment-14",
+    "I2LS_Characters::Characters/Archetypes/Musicality_Archetype_F_Description::segment-36",
+    "I2LS_Characters::Characters/Archetypes/Musicality_Archetype_M_Description::segment-38",
+    "I2LS_Characters::Characters/ChallengeMode/VIPs/Titles/Cupid::segment-78",
+    "I2LS_Characters::Characters/ClubRequests/ClubRequest_Flavour_Nature_V1::segment-87",
+    "I2LS_Characters::Characters/ClubRequests/ClubRequest_Flavour_Nature_V2::segment-88",
+    "I2LS_Characters::Characters/ClubRequests/ClubRequest_Flavour_SpeedWalking_V2::segment-97",
+    "I2LS_Characters::Characters/ClubRequests/ClubRequest_Flavour_SpeedWalking_V3::segment-98",
+    "I2LS_Characters::Characters/Clubs/Club_OrbFoundation_Overview::segment-109",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/Medical&Pastoral/Medical/BrainFreeze_F_Name::segment-125",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/Medical&Pastoral/Medical/BrainFreeze_M_Name::segment-127",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/Medical&Pastoral/SummerSchool_Gloom_F_Name::segment-137",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/Medical&Pastoral/SummerSchool_Gloom_M_Name::segment-139",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/PersonalGoals/Flavour/PG_Flavour_Item_Easter_V1::segment-140",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/PersonalGoals/Flavour/PG_Flavour_Item_Easter_V2::segment-141",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/StatusEffects/StatusEffect_SSummerSchoolBlues_F_Name::segment-152",
+    "I2LS_Characters::Characters/DLC_ChallengeMode/StatusEffects/StatusEffect_SummerSchoolBlues_M_Name::segment-155",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Medical/PlotCleansing_Electric_F_Name::segment-201",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Medical/PlotCleansing_Electric_M_Name::segment-203",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Medical/PlotCleansing_F_Name::segment-205",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Medical/PlotCleansing_M_Name::segment-207",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Pastoral/GhostFear_F_Name::segment-209",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Pastoral/GhostFear_M_Name::segment-211",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Pastoral/PlotCleansing_F_Name::segment-217",
+    "I2LS_Characters::Characters/DLC_Ghost/Medical&Pastoral/Pastoral/PlotCleansing_M_Name::segment-219",
+    "I2LS_Characters::Characters/DLC_Ghost/PersonalGoals/Flavour/PG_Flavour_Item_DeadStudents_V1::segment-224",
+    "I2LS_Characters::Characters/DLC_Ghost/PersonalGoals/Flavour/PG_Flavour_Item_DeadStudents_V4::segment-227",
+    "I2LS_Characters::Characters/DLC_Ghost/PersonalGoals/Flavour/PG_Flavour_Item_GhostBusters_V1::segment-230",
+    "I2LS_Characters::Characters/DLC_Ghost/Qualifications/Teacher/GhostBusting_Description::segment-236",
+    "I2LS_Characters::Characters/DLC_Ghost/Qualifications/Teacher/GhostStudents_Description::segment-238",
+    "I2LS_Characters::Characters/DLC_Ghost/StatusEffects/StatusEffect_Ectovat_General_F_Name::segment-241",
+    "I2LS_Characters::Characters/DLC_Ghost/StatusEffects/StatusEffect_Ectovat_General_M_Name::segment-243",
+    "I2LS_Characters::Characters/DLC_Ghost/StatusEffects/StatusEffect_PlotCleansing_Defeat_F_Name::segment-257",
+    "I2LS_Characters::Characters/DLC_Ghost/StatusEffects/StatusEffect_PlotCleansing_Defeat_M_Name::segment-259",
+    "I2LS_Characters::Characters/DLC_Ghost/StatusEffects/StatusEffect_PlotCleansing_Victory_F_Name::segment-261",
+    "I2LS_Characters::Characters/DLC_Ghost/StatusEffects/StatusEffect_PlotCleansing_Victory_M_Name::segment-263",
+    "I2LS_Characters::Characters/DLC_Ghost/StudentTraits/Archetype/GhostBusting_Buster_F_Name::segment-265",
+    "I2LS_Characters::Characters/DLC_Ghost/StudentTraits/Archetype/GhostBusting_Buster_M_Name::segment-267",
+    "I2LS_Characters::Characters/DLC_Ghost/VIPs/Titles/LadyLifeless::segment-278",
+    "I2LS_Characters::Characters/DLC_Hospital/Medical&Pastoral/Medical/MachineExplosion_F_Name::segment-293",
+    "I2LS_Characters::Characters/DLC_Hospital/Medical&Pastoral/Medical/MachineExplosion_M_Name::segment-295",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/FaceStamp_BlockHead_Description::segment-298",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/FaceStamp_BlockHead_Name::segment-299",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/FaceStamp_Woodworms_Description::segment-300",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Head_Lightheadedness_Description::segment-302",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Head_Metalheadedness_Description::segment-304",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Head_Screwheadedness_Description::segment-306",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Head_Turnipheadedness_Description::segment-308",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Injection_GreenEnvy_Description::segment-310",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Injection_Wooden_Description::segment-314",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Psychiatry_MimeCrisis_Description::segment-317",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Psychiatry_MockStar_Description::segment-319",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Psychiatry_NightFever_Description::segment-321",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Psychiatry_ReptileDysfunction_Description::segment-323",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Psychiatry_SpaceCaged_Description::segment-325",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Surgery_BodilyDruids_Description::segment-327",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Surgery_BrainFarts_Description::segment-329",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Surgery_HeartThrob_Description::segment-331",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Ward_Arm_FlappyHamper_Description::segment-333",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Ward_Body_PisteOff_Description::segment-335",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Ward_Head_PineDented_Description::segment-339",
+    "I2LS_Characters::Characters/DLC_Hospital/Patient_Illnesses/Ward_Leg_Limpette_Description::segment-343",
+    "I2LS_Characters::Characters/DLC_Hospital/StatusEffects/StatusEffect_GhostRun_F_Name::segment-363",
+    "I2LS_Characters::Characters/DLC_Hospital/StatusEffects/StatusEffect_GhostRun_M_Name::segment-365",
+    "I2LS_Characters::Characters/DLC_Hospital/VIPs/PirateInvaders_Background::segment-370",
+    "I2LS_Characters::Characters/DLC_Hospital/VIPs/Titles/VitalityJohnson::segment-375",
+    "I2LS_Characters::Characters/DLC_Hospital/VIPs/VitalityJohnson_Background::segment-376",
+    "I2LS_Characters::Characters/DLC_Space/Archetypes/AstronautArchetype_F_Description::segment-386",
+    "I2LS_Characters::Characters/DLC_Space/Archetypes/AstronautArchetype_M_Description::segment-388",
+    "I2LS_Characters::Characters/DLC_Space/ClubRequests/ClubsRequest_Flavour_TimeTourism_V2::segment-404",
+    "I2LS_Characters::Characters/DLC_Space/Events/SpaceKnight_SpaceBattle_Text::segment-412",
+    "I2LS_Characters::Characters/DLC_Space/Medical&Pastoral/Medical/AlienCheese_F_Name::segment-415",
+    "I2LS_Characters::Characters/DLC_Space/Medical&Pastoral/Medical/AlienCheese_M_Name::segment-417",
+    "I2LS_Characters::Characters/DLC_Space/Medical&Pastoral/Medical/SpaceKnight_F_Name::segment-423",
+    "I2LS_Characters::Characters/DLC_Space/Medical&Pastoral/Medical/SpaceKnight_M_Name::segment-425",
+    "I2LS_Characters::Characters/DLC_Space/Medical&Pastoral/Pastoral/SpaceAcademy_F_Name::segment-435",
+    "I2LS_Characters::Characters/DLC_Space/Medical&Pastoral/Pastoral/SpaceAcademy_M_Name::segment-437",
+    "I2LS_Characters::Characters/DLC_Space/PersonalGoals/Flavour/PG_Flavour_Events_SciFiCon_V3::segment-451",
+    "I2LS_Characters::Characters/DLC_Space/PersonalGoals/Flavour/PG_Flavour_Item_IndoorSpacePlants_V3::segment-455",
+    "I2LS_Characters::Characters/DLC_Space/PersonalGoals/Flavour/PG_Flavour_Item_SpaceStuff_V3::segment-458",
+    "I2LS_Characters::Characters/DLC_Space/Qualifications/Teacher/Astronaut_Qualification_Description::segment-466",
+    "I2LS_Characters::Characters/DLC_Space/StatusEffects/StatusEffect_SciFiCon_F_Name::segment-479",
+    "I2LS_Characters::Characters/DLC_Space/StatusEffects/StatusEffect_SciFiCon_M_Name::segment-481",
+    "I2LS_Characters::Characters/DLC_Space/StudentTraits/Archetype/Astronaut_BuiltInToilet_F_Name::segment-487",
+    "I2LS_Characters::Characters/DLC_Space/StudentTraits/Archetype/Astronaut_BuiltInToilet_M_Name::segment-489",
+    "I2LS_Characters::Characters/DLC_Space/StudentTraits/Archetype/SpaceExplorer_Teleportation_F_Name::segment-499",
+    "I2LS_Characters::Characters/DLC_Space/StudentTraits/Archetype/SpaceExplorer_Teleportation_M_Name::segment-501",
+    "I2LS_Characters::Characters/DLC_Space/StudentTraits/Archetype/SpaceKnight_Meditation_F_Name::segment-503",
+    "I2LS_Characters::Characters/DLC_Space/StudentTraits/Archetype/SpaceKnight_Meditation_M_Name::segment-505",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Bands/AlienElvis_Background::segment-531",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Titles/AlienElvis::segment-542",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Titles/Alien_Convention::segment-543",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Titles/Doctor_Convention::segment-544",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Titles/Engineer_Convention::segment-545",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Titles/Pilot_Convention::segment-546",
+    "I2LS_Characters::Characters/DLC_Space/VIPs/Titles/RoderickCushion_Convention::segment-547",
+    "I2LS_Characters::Characters/Events/Cafeteria_Casserole_Speed_Eatathon_Description::segment-553",
+    "I2LS_Characters::Characters/Events/Cafeteria_Lasagne_Happiness_Eatathon_Description::segment-555",
+    "I2LS_Characters::Characters/Events/Film_Comedy_Description::segment-590",
+    "I2LS_Characters::Characters/Events/Film_Horror_Description::segment-592",
+    "I2LS_Characters::Characters/GuiltTrip/Staff/GuiltTrip_Fire_F_25::segment-648",
+    "I2LS_Characters::Characters/GuiltTrip/Staff/GuiltTrip_Fire_M_25::segment-678",
+    "I2LS_Characters::Characters/GuiltTrip/Student/GuiltTrip_Expel_F_29::segment-712",
+    "I2LS_Characters::Characters/GuiltTrip/Student/GuiltTrip_Expel_F_5::segment-715",
+    "I2LS_Characters::Characters/GuiltTrip/Student/GuiltTrip_Expel_M_29::segment-742",
+    "I2LS_Characters::Characters/GuiltTrip/Student/GuiltTrip_Expel_M_5::segment-745",
+    "I2LS_Characters::Characters/Invaders/Magic_Invader_Name::segment-757",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Accommodation_F_Name::segment-809",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Accommodation_M_Name::segment-811",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Computing_F_Name::segment-817",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Computing_M_Name::segment-819",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/FoodPoisoning_F_Name::segment-825",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/FoodPoisoning_M_Name::segment-827",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Gastronomy_F_Name::segment-829",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Gastronomy_M_Name::segment-831",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Gigs_F_Name::segment-833",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Gigs_M_Name::segment-835",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Greaser_F_Name::segment-837",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Greaser_M_Name::segment-839",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Jock_F_Name::segment-845",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Jock_M_Name::segment-847",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Knights_Rusty_Rain_F_Name::segment-857",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Knights_Rusty_Rain_M_Name::segment-859",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Limp_F_Name::segment-865",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Limp_M_Name::segment-867",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Milkshakes_F_Name::segment-879",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Milkshakes_M_Name::segment-881",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Music_F_Name::segment-883",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Music_M_Name::segment-885",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Nerd_F_Name::segment-887",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Nerd_M_Name::segment-889",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Robotics_F_Name::segment-895",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Robotics_M_Name::segment-897",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Romantic_F_Name::segment-899",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/Romantic_M_Name::segment-901",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/ScienceLab_F_Name::segment-903",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/ScienceLab_M_Name::segment-905",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/SpySchool_F_Name::segment-911",
+    "I2LS_Characters::Characters/Medical&Pastoral/Medical/SpySchool_M_Name::segment-913",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Archaeology_F_Name::segment-923",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Archaeology_M_Name::segment-925",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Cheerleader_F_Name::segment-939",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Cheerleader_M_Name::segment-941",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Gastronomy_F_Name::segment-951",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Gastronomy_M_Name::segment-953",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Goth_F_Name::segment-955",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Goth_M_Name::segment-957",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Knights_F_Name::segment-959",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Knights_M_Name::segment-961",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Robotics_F_Name::segment-986",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/Robotics_M_Name::segment-988",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/SpySchool_F_Name::segment-990",
+    "I2LS_Characters::Characters/Medical&Pastoral/Pastoral/SpySchool_M_Name::segment-992",
+    "I2LS_Characters::Characters/Microbehaviour/MB_ToiletBursting::segment-1020",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_CoffeeKiosk::segment-1039",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_ExteriorPlants_V4::segment-1044",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_FoodKiosk_V2::segment-1048",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_Greaser_V3::segment-1058",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_Gubbins::segment-1059",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_GymEquipment_V2::segment-1061",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_GymEquipment_V3::segment-1062",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_StudentUnion_V3::segment-1084",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_Toff_V2::segment-1089",
+    "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_Wizardry_V2::segment-1092",
+    "I2LS_Characters::Characters/Qualifications/Teacher/Goth_Qualification_Description::segment-1190",
+    "I2LS_Characters::Characters/Qualifications/Teacher/Lecture_Qualification_Description::segment-1200",
+    "I2LS_Characters::Characters/Qualifications/Teacher/Music_Qualification_Description::segment-1202",
+    "I2LS_Characters::Characters/Qualifications/Teacher/Science_Qualification_Description::segment-1208",
+    "I2LS_Characters::Characters/Qualifications/Teacher/Toff_Qualification_Description::segment-1214",
+    "I2LS_Characters::Characters/RelationshipRequests/RR_Flavour_Romantic_TierThree_V2::segment-1244",
+    "I2LS_Characters::Characters/RelationshipRequests/RR_Flavour_Romantic_TierThree_V3::segment-1245",
+    "I2LS_Characters::Characters/Relationships/Friendship_Tier_3::segment-1252",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_BeachParty_F_Name::segment-1272",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_BeachParty_M_Name::segment-1274",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Burger_Health_F_Name::segment-1276",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Burger_Health_M_Name::segment-1278",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Casserole_Speed_F_Name::segment-1280",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Casserole_Speed_M_Name::segment-1282",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Lasagne_Happiness_F_Name::segment-1284",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Lasagne_Happiness_M_Name::segment-1286",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Pizza_Hunger_F_Name::segment-1288",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Cafeteria_Pizza_Hunger_M_Name::segment-1290",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_CheeseballDefeat_M_Name::segment-1298",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_CheeseballVictory_F_Name::segment-1300",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_CheeseballVictory_M_Name::segment-1302",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_ComicRelief_F_Name::segment-1320",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_ComicRelief_M_Name::segment-1322",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Fairground_F_Name::segment-1352",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Fairground_M_Name::segment-1354",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Freshleigh_F_Name::segment-1360",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Freshleigh_M_Name::segment-1362",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Gig_F_Name::segment-1364",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Gig_M_Name::segment-1366",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_HadCoffee_F_Name::segment-1368",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_HadCoffee_M_Name::segment-1370",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_IceCreamVan_F_Name::segment-1396",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_IceCreamVan_M_Name::segment-1398",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_MilkMadeKiosk_F_Name::segment-1412",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_MilkMadeKiosk_M_Name::segment-1414",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_MorselMen_F_Name::segment-1424",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_MorselMen_M_Name::segment-1426",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Party_F_Name::segment-1440",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_Party_M_Name::segment-1442",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_RoachBurgerKiosk_F_Name::segment-1456",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_RoachBurgerKiosk_M_Name::segment-1458",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_TheShakesAfter_F_Name::segment-1480",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_TheShakesAfter_M_Name::segment-1482",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_TheShakes_F_Name::segment-1484",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffect_TheShakes_M_Name::segment-1486",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffects_HadHotdog_F_Name::segment-1524",
+    "I2LS_Characters::Characters/StatusEffects/StatusEffects_HadHotdog_M_Name::segment-1526",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/ArchaeologyTrait_Treasure_F_Name::segment-1532",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/ArchaeologyTrait_Treasure_M_Name::segment-1534",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/ClownTrait_Jokes_F_Name::segment-1540",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/ClownTrait_Jokes_M_Name::segment-1542",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/GastronomyTrait_Caterer_F_Name::segment-1544",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/GastronomyTrait_Caterer_M_Name::segment-1546",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/GreaserTrait_Repairer_F_Name::segment-1560",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/GreaserTrait_Repairer_M_Name::segment-1562",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/JockTrait_Runner_F_Name::segment-1564",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/JockTrait_Runner_M_Name::segment-1566",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/RoboticsTrait_Research_F_Name::segment-1576",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/RoboticsTrait_Research_M_Name::segment-1578",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/WizardryTrait_DoubleTrait_F_Name::segment-1588",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/WizardryTrait_DoubleTrait_M_Name::segment-1590",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/WizardryTrait_GoodWitch_F_Name::segment-1592",
+    "I2LS_Characters::Characters/StudentTraits/Archetype/WizardryTrait_GoodWitch_M_Name::segment-1594",
+    "I2LS_Characters::Characters/StudentTraits/Generic/Self_Study_Less_F_Name::segment-1738",
+    "I2LS_Characters::Characters/StudentTraits/Generic/Self_Study_Less_M_Name::segment-1740",
+    "I2LS_Characters::Characters/VIPs/AgathaSphere_Background::segment-1765",
+    "I2LS_Characters::Characters/VIPs/Bands/DJSueChef_Background::segment-1776",
+    "I2LS_Characters::Characters/VIPs/Bands/TheHonourRollers_Background::segment-1790",
+    "I2LS_Characters::Characters/VIPs/Bureaucats_Background::segment-1795",
+    "I2LS_Characters::Characters/VIPs/Bureaucats_Name::segment-1796",
+    "I2LS_Characters::Characters/VIPs/Cheeseball_Flemington_Background::segment-1798",
+    "I2LS_Characters::Characters/VIPs/Cheeseball_Hogsport_Background::segment-1799",
+    "I2LS_Characters::Characters/VIPs/CheesyGoblin_Background::segment-1802",
+    "I2LS_Characters::Characters/VIPs/Titles/BlackKnight::segment-1830",
+    "I2LS_Characters::Characters/VIPs/Titles/CheesyGoblin::segment-1834",
+    "I2LS_Characters::Characters/VIPs/Titles/DJSueChef::segment-1835",
+    "I2LS_Characters::Characters/VIPs/Titles/WiggySilverbottom::segment-1849",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_101::segment-4",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_103::segment-6",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_104::segment-7",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_107::segment-10",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_108::segment-11",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_111::segment-15",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_116::segment-20",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_118::segment-22",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_119::segment-23",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_12::segment-24",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_123::segment-28",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_124::segment-29",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_125::segment-30",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_134::segment-40",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_139::segment-45",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_145::segment-52",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_149::segment-56",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_150::segment-58",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_152::segment-60",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_157::segment-65",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_167::segment-76",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_171::segment-81",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_174::segment-84",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_191::segment-103",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_196::segment-108",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_199::segment-111",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_24::segment-117",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_3::segment-123",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_30::segment-124",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_34::segment-128",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_35::segment-129",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_38::segment-132",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_39::segment-133",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_43::segment-138",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_45::segment-140",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_52::segment-148",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_54::segment-150",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_57::segment-153",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_61::segment-158",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_65::segment-162",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_84::segment-183",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_F_94::segment-194",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_101::segment-204",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_103::segment-206",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_104::segment-207",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_107::segment-210",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_108::segment-211",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_111::segment-215",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_116::segment-220",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_118::segment-222",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_119::segment-223",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_12::segment-224",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_123::segment-228",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_124::segment-229",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_125::segment-230",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_134::segment-240",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_139::segment-245",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_145::segment-252",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_149::segment-256",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_150::segment-258",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_152::segment-260",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_157::segment-265",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_167::segment-276",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_171::segment-281",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_174::segment-284",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_191::segment-303",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_196::segment-308",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_199::segment-311",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_24::segment-317",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_3::segment-323",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_30::segment-324",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_34::segment-328",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_35::segment-329",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_38::segment-332",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_39::segment-333",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_43::segment-338",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_45::segment-340",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_52::segment-348",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_54::segment-350",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_57::segment-353",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_61::segment-358",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_65::segment-362",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_84::segment-383",
+    "I2LS_FlavourTraits::FlavourTraits/StaffCV_FlavourTraits_M_94::segment-394",
+    "I2LS_Items::Items/Archaeology/Artefact_DecGem_Description::segment-7",
+    "I2LS_Items::Items/Archaeology/Artefact_DecPyramid_Description::segment-9",
+    "I2LS_Items::Items/Archaeology/Artefact_DecUFO_Description::segment-11",
+    "I2LS_Items::Items/Archaeology/SceneItem_Pillar_Broken_Description::segment-44",
+    "I2LS_Items::Items/Archaeology/SceneItem_Pillar_Short_Description::segment-46",
+    "I2LS_Items::Items/Archetype/BoothCar_Greaser_Name::segment-55",
+    "I2LS_Items::Items/Archetype/Broomsticks_Wizardry_Description::segment-56",
+    "I2LS_Items::Items/Archetype/Goth_CoffinBooks_Description::segment-62",
+    "I2LS_Items::Items/Archetype/Harp_Musicality_Description::segment-64",
+    "I2LS_Items::Items/Archetype/HerbGarden_Gastronomy_Description::segment-66",
+    "I2LS_Items::Items/Archetype/Lamp_Goth_Description::segment-68",
+    "I2LS_Items::Items/Archetype/Poster_Toff__Description::segment-79",
+    "I2LS_Items::Items/Archetype/Poster_V2_Wizardry_Name::segment-83",
+    "I2LS_Items::Items/Archetype/Throne_Goth_Description::segment-86",
+    "I2LS_Items::Items/Archetype/ToolSet_Archaeology_Description::segment-90",
+    "I2LS_Items::Items/Bathroom/HandDryer_Description::segment-96",
+    "I2LS_Items::Items/Bathroom/Poster_Toilet_Phone_Description::segment-98",
+    "I2LS_Items::Items/Bathroom/Poster_Toilet_Soap_Description::segment-100",
+    "I2LS_Items::Items/Bathroom/Poster_Toilet_Standing_Description::segment-102",
+    "I2LS_Items::Items/Bathroom/Toilet_Description::segment-108",
+    "I2LS_Items::Items/Cafeteria/CrumleySignage_Burger_Description::segment-120",
+    "I2LS_Items::Items/Cafeteria/CrumleySignage_Pizza_Description::segment-124",
+    "I2LS_Items::Items/Cafeteria/Ketchup_Description::segment-130",
+    "I2LS_Items::Items/Cafeteria/Mustard_Description::segment-132",
+    "I2LS_Items::Items/ChallengeMode/ChallengeReward_Fountain_Description::segment-150",
+    "I2LS_Items::Items/Cheeseball/CheeseballBanner_JMT_Description::segment-168",
+    "I2LS_Items::Items/Cheeseball/Scoreboard_Definition::segment-174",
+    "I2LS_Items::Items/Cheeseball/Stand_Definition::segment-176",
+    "I2LS_Items::Items/Clubs/Club_Book_BigBook_Description::segment-180",
+    "I2LS_Items::Items/Clubs/Club_Nature_Topiary_Description::segment-196",
+    "I2LS_Items::Items/Clubs/Club_Orb_Fountain_Description::segment-204",
+    "I2LS_Items::Items/Clubs/Club_Orb_Statue_Description::segment-206",
+    "I2LS_Items::Items/Clubs/Club_PowerNap_Moon_Description::segment-208",
+    "I2LS_Items::Items/Clubs/Club_PowerNap_Recruitment_Description::segment-210",
+    "I2LS_Items::Items/Clubs/Club_PowerNap_Sheep_Description::segment-212",
+    "I2LS_Items::Items/Clubs/Club_PowerNap_ZZZ_Description::segment-214",
+    "I2LS_Items::Items/Clubs/Club_SpeedWalking_Recruitment_Description::segment-216",
+    "I2LS_Items::Items/Clubs/Club_SpeedWalking_SlowDownSign_Description::segment-218",
+    "I2LS_Items::Items/Clubs/Club_SpeedWalking_Track_Description::segment-220",
+    "I2LS_Items::Items/ComputerLab/Computer_Super_Description::segment-228",
+    "I2LS_Items::Items/ComputerLab/Console_Digital_Description::segment-232",
+    "I2LS_Items::Items/ComputerLab/Console_Super_Description::segment-234",
+    "I2LS_Items::Items/ComputerLab/Device_Draw_Description::segment-236",
+    "I2LS_Items::Items/ComputerLab/Device_Track_Description::segment-240",
+    "I2LS_Items::Items/ComputerLab/Server_Digital_Description::segment-244",
+    "I2LS_Items::Items/DLC_Ghost/Bench_Stone_Description::segment-254",
+    "I2LS_Items::Items/DLC_Ghost/Bookcase_GhostStudents_Description::segment-258",
+    "I2LS_Items::Items/DLC_Ghost/BusterRack_Description::segment-260",
+    "I2LS_Items::Items/DLC_Ghost/BusterRepair_Description::segment-262",
+    "I2LS_Items::Items/DLC_Ghost/Camera_Ghost_Description::segment-264",
+    "I2LS_Items::Items/DLC_Ghost/GhostBusting/GhostBusting_Machine_Description::segment-274",
+    "I2LS_Items::Items/DLC_Ghost/GhostDetection/GhostDetection_Machine_Description::segment-276",
+    "I2LS_Items::Items/DLC_Ghost/GraveDigging_Description::segment-278",
+    "I2LS_Items::Items/DLC_Ghost/GraveDigging_Name::segment-279",
+    "I2LS_Items::Items/DLC_Ghost/HauntedBoardGame_Description::segment-286",
+    "I2LS_Items::Items/DLC_Ghost/HauntedObject_Description::segment-288",
+    "I2LS_Items::Items/DLC_Ghost/Mausoleum_Description::segment-292",
+    "I2LS_Items::Items/DLC_Ghost/Necronomicon_Name::segment-297",
+    "I2LS_Items::Items/DLC_Ghost/Poster_GhostStudents_Description::segment-302",
+    "I2LS_Items::Items/DLC_Ghost/PracticeWardrobe_Name::segment-305",
+    "I2LS_Items::Items/DLC_Ghost/TV_Ghost_Description::segment-306",
+    "I2LS_Items::Items/DLC_Ghost/Tree_GhostFace_Description::segment-308",
+    "I2LS_Items::Items/DLC_Ghost/Wall_GhostOrnament_Description::segment-320",
+    "I2LS_Items::Items/DLC_Hospital/AnatomicalModel_Description::segment-322",
+    "I2LS_Items::Items/DLC_Hospital/Bench_Description::segment-324",
+    "I2LS_Items::Items/DLC_Hospital/BigPill_Description::segment-326",
+    "I2LS_Items::Items/DLC_Hospital/Bookcase_FacePunch_Description::segment-328",
+    "I2LS_Items::Items/DLC_Hospital/Bookcase_HeadClinic_Description::segment-330",
+    "I2LS_Items::Items/DLC_Hospital/Bookcase_Injection_Description::segment-332",
+    "I2LS_Items::Items/DLC_Hospital/Bookcase_Psychiatry_Description::segment-334",
+    "I2LS_Items::Items/DLC_Hospital/Bookcase_Surgery_Description::segment-336",
+    "I2LS_Items::Items/DLC_Hospital/Bookcase_Ward_Description::segment-338",
+    "I2LS_Items::Items/DLC_Hospital/BrainJar_Description::segment-340",
+    "I2LS_Items::Items/DLC_Hospital/Certificates_Description::segment-342",
+    "I2LS_Items::Items/DLC_Hospital/CoatOfArms_Name::segment-345",
+    "I2LS_Items::Items/DLC_Hospital/DeluxClinic_Machine_Description::segment-346",
+    "I2LS_Items::Items/DLC_Hospital/DeluxClinic_Machine_Name::segment-347",
+    "I2LS_Items::Items/DLC_Hospital/FacePunch/Crane_Description::segment-348",
+    "I2LS_Items::Items/DLC_Hospital/FacePunch/MouldMaker_Description::segment-350",
+    "I2LS_Items::Items/DLC_Hospital/FacePunch/Printer_Description::segment-352",
+    "I2LS_Items::Items/DLC_Hospital/FacePunch_Machine_Description::segment-354",
+    "I2LS_Items::Items/DLC_Hospital/FlaskTable_Description::segment-357",
+    "I2LS_Items::Items/DLC_Hospital/Gazebo_Description::segment-359",
+    "I2LS_Items::Items/DLC_Hospital/GermWall_Description::segment-361",
+    "I2LS_Items::Items/DLC_Hospital/HeadClinic/BulbBox_Description::segment-363",
+    "I2LS_Items::Items/DLC_Hospital/HeadClinic/Generator_Description::segment-365",
+    "I2LS_Items::Items/DLC_Hospital/HeadClinic/ProgressModel_Description::segment-367",
+    "I2LS_Items::Items/DLC_Hospital/HeadClinic/ProgressModel_Name::segment-368",
+    "I2LS_Items::Items/DLC_Hospital/Helipad_Description::segment-369",
+    "I2LS_Items::Items/DLC_Hospital/Injection_BigNeedle_Description::segment-372",
+    "I2LS_Items::Items/DLC_Hospital/Injection_Disposer_Description::segment-374",
+    "I2LS_Items::Items/DLC_Hospital/Injection_Machine_Description::segment-376",
+    "I2LS_Items::Items/DLC_Hospital/Injection_PracticeDummy_Description::segment-378",
+    "I2LS_Items::Items/DLC_Hospital/MonobrowStatue_Description::segment-384",
+    "I2LS_Items::Items/DLC_Hospital/PhrenologyModel_Description::segment-386",
+    "I2LS_Items::Items/DLC_Hospital/Pond_Description::segment-388",
+    "I2LS_Items::Items/DLC_Hospital/Poster_HeadClinic_Description::segment-392",
+    "I2LS_Items::Items/DLC_Hospital/Poster_Injection_Description::segment-394",
+    "I2LS_Items::Items/DLC_Hospital/Poster_Psychiatry_Description::segment-396",
+    "I2LS_Items::Items/DLC_Hospital/Poster_Surgery_Description::segment-398",
+    "I2LS_Items::Items/DLC_Hospital/Poster_Ward_Description::segment-400",
+    "I2LS_Items::Items/DLC_Hospital/Psychiatry/ChaiseLongue_Description::segment-402",
+    "I2LS_Items::Items/DLC_Hospital/Psychiatry/CreepyDrawers_Description::segment-404",
+    "I2LS_Items::Items/DLC_Hospital/Psychiatry/PsychiatristChair_Description::segment-406",
+    "I2LS_Items::Items/DLC_Hospital/Psychiatry/PuzzleTable_Description::segment-408",
+    "I2LS_Items::Items/DLC_Hospital/Psychiatry/Rorschach_Description::segment-410",
+    "I2LS_Items::Items/DLC_Hospital/Rug_Germ_Description::segment-412",
+    "I2LS_Items::Items/DLC_Hospital/Skeleton_Description::segment-414",
+    "I2LS_Items::Items/DLC_Hospital/Skull_MultiColour_Description::segment-416",
+    "I2LS_Items::Items/DLC_Hospital/Skull_MultiColour_Name::segment-417",
+    "I2LS_Items::Items/DLC_Hospital/Statue_Injection_Description::segment-418",
+    "I2LS_Items::Items/DLC_Hospital/Stethoscope_Description::segment-420",
+    "I2LS_Items::Items/DLC_Hospital/Surgery/Curtain_Description::segment-422",
+    "I2LS_Items::Items/DLC_Hospital/Surgery/Monitor_Description::segment-424",
+    "I2LS_Items::Items/DLC_Hospital/Surgery/Sink_Description::segment-426",
+    "I2LS_Items::Items/DLC_Hospital/Surgery/SurgeryTable_Description::segment-428",
+    "I2LS_Items::Items/DLC_Hospital/Surgery/Trolley_Description::segment-430",
+    "I2LS_Items::Items/DLC_Hospital/Ward/AlternativeMedicineCabinet_Description::segment-450",
+    "I2LS_Items::Items/DLC_Hospital/Ward/Monitor_Description::segment-454",
+    "I2LS_Items::Items/DLC_Hospital/Ward/PlasterCaster_Description::segment-456",
+    "I2LS_Items::Items/DLC_Hospital/Ward/Scales_Description::segment-458",
+    "I2LS_Items::Items/DLC_Hospital/Ward/WardBed_Description::segment-460",
+    "I2LS_Items::Items/DLC_Space/AdBoard_Exterior_Planet_Description::segment-462",
+    "I2LS_Items::Items/DLC_Space/AdBoard_Exterior_Rocket_Description::segment-464",
+    "I2LS_Items::Items/DLC_Space/AlienCheese/AlienCheese_Refiner_Description::segment-466",
+    "I2LS_Items::Items/DLC_Space/AlienCheese/StuffedSlug_Description::segment-476",
+    "I2LS_Items::Items/DLC_Space/AlienLifeChart_Description::segment-486",
+    "I2LS_Items::Items/DLC_Space/Astronaut_RespiratorHelmet_Description::segment-492",
+    "I2LS_Items::Items/DLC_Space/Astronaut_SuitRack_Description::segment-494",
+    "I2LS_Items::Items/DLC_Space/Bench_Space_Description::segment-498",
+    "I2LS_Items::Items/DLC_Space/Bookcase_AlienHumanities_Description::segment-506",
+    "I2LS_Items::Items/DLC_Space/Bookcase_SpaceBillionaire_Description::segment-512",
+    "I2LS_Items::Items/DLC_Space/BurnerCycle_Description::segment-516",
+    "I2LS_Items::Items/DLC_Space/CaptainChair_Description::segment-518",
+    "I2LS_Items::Items/DLC_Space/Club_TimeTourism_Statue_Name::segment-521",
+    "I2LS_Items::Items/DLC_Space/Clubs/Club_TimeTourism_PennyRide_Description::segment-522",
+    "I2LS_Items::Items/DLC_Space/Clubs/Club_TimeTourism_Yesterizer_Description::segment-526",
+    "I2LS_Items::Items/DLC_Space/FlightSimulator_Description::segment-530",
+    "I2LS_Items::Items/DLC_Space/GoodMeteor_Name::segment-536",
+    "I2LS_Items::Items/DLC_Space/Hexagonal_ConnectFour_Description::segment-537",
+    "I2LS_Items::Items/DLC_Space/OrangePlant_Description::segment-546",
+    "I2LS_Items::Items/DLC_Space/PhoenixPod_Description::segment-548",
+    "I2LS_Items::Items/DLC_Space/Planetarium_Description::segment-550",
+    "I2LS_Items::Items/DLC_Space/PlantIncubator_Description::segment-552",
+    "I2LS_Items::Items/DLC_Space/Plant_Cucumber_Description::segment-554",
+    "I2LS_Items::Items/DLC_Space/Plant_Cucumber_Name::segment-555",
+    "I2LS_Items::Items/DLC_Space/Plant_Mushroom_Description::segment-558",
+    "I2LS_Items::Items/DLC_Space/Poster_Cow_Description::segment-560",
+    "I2LS_Items::Items/DLC_Space/Poster_Gravity_Apple_Description::segment-562",
+    "I2LS_Items::Items/DLC_Space/Poster_SpaceShip_Description::segment-568",
+    "I2LS_Items::Items/DLC_Space/RocketLab/MoonOnAStick_Description::segment-570",
+    "I2LS_Items::Items/DLC_Space/SpaceAcademy/SpaceAcademy_SpaceDeck_Description::segment-578",
+    "I2LS_Items::Items/DLC_Space/SpaceAcademy_Sputnik_Description::segment-582",
+    "I2LS_Items::Items/DLC_Space/SpaceKnight/SpaceKnight_SparringPlatform_Description::segment-586",
+    "I2LS_Items::Items/DLC_Space/SpaceKnight_Charger_Description::segment-588",
+    "I2LS_Items::Items/DLC_Space/SpaceKnight_Display_Description::segment-590",
+    "I2LS_Items::Items/DLC_Space/SpaceKnight_Dummy_Description::segment-592",
+    "I2LS_Items::Items/DLC_Space/SpaceKnight_Polisher_Description::segment-594",
+    "I2LS_Items::Items/DLC_Space/SpaceTransporter_Description::segment-602",
+    "I2LS_Items::Items/DLC_Space/SteggsPlant_Description::segment-608",
+    "I2LS_Items::Items/DLC_Space/Table_Hologram_Description::segment-610",
+    "I2LS_Items::Items/DLC_Space/Teleporter_Description::segment-612",
+    "I2LS_Items::Items/DLC_Space/Telescope_Description::segment-615",
+    "I2LS_Items::Items/DLC_Space/Wall_SpaceAcademy_Panel_Description::segment-641",
+    "I2LS_Items::Items/DLC_Space/Wall_Spider_Description::segment-643",
+    "I2LS_Items::Items/Dormitory/Bed_Brown_Description::segment-646",
+    "I2LS_Items::Items/Dormitory/Bed_Description::segment-648",
+    "I2LS_Items::Items/Dormitory/Desk_Description::segment-654",
+    "I2LS_Items::Items/Dormitory/Drawers_Dorm_Description::segment-657",
+    "I2LS_Items::Items/Dormitory/RoadSign_NoEntry_Description::segment-666",
+    "I2LS_Items::Items/Dormitory/Rug_Dorm_Duck_Description::segment-668",
+    "I2LS_Items::Items/Dormitory/Rug_Dorm_Stars_Description::segment-674",
+    "I2LS_Items::Items/Dormitory/Wardrobe_Description::segment-676",
+    "I2LS_Items::Items/G2G/CatClock_Description::segment-719",
+    "I2LS_Items::Items/G2G/Hamster_Description::segment-721",
+    "I2LS_Items::Items/G2G/Hamster_Name::segment-722",
+    "I2LS_Items::Items/Gastronomy/Cupboard_Containers_Description::segment-723",
+    "I2LS_Items::Items/Gastronomy/Cupboard_Corner_Description::segment-725",
+    "I2LS_Items::Items/Gastronomy/Fridge_Description::segment-731",
+    "I2LS_Items::Items/Gastronomy/Machine_Savoury_Description::segment-733",
+    "I2LS_Items::Items/Gastronomy/Machine_Sweet_Description::segment-735",
+    "I2LS_Items::Items/Gastronomy/Poster_Food_Description::segment-737",
+    "I2LS_Items::Items/Gastronomy/Station_Chopping_Description::segment-741",
+    "I2LS_Items::Items/Gastronomy/Station_Mixing_Description::segment-745",
+    "I2LS_Items::Items/Gastronomy/Station_Recipe_Description::segment-747",
+    "I2LS_Items::Items/Gastronomy/Wall_SpiceRack_Description::segment-751",
+    "I2LS_Items::Items/General/AirCon_Description::segment-753",
+    "I2LS_Items::Items/General/AirCon_Wall_Description::segment-757",
+    "I2LS_Items::Items/General/ArcadeMachine_CrazyTaxi_Description::segment-759",
+    "I2LS_Items::Items/General/ArcadeMachine_Description::segment-761",
+    "I2LS_Items::Items/General/Bench_Description::segment-781",
+    "I2LS_Items::Items/General/Bin_Description::segment-783",
+    "I2LS_Items::Items/General/Canvas_Sunset_Description::segment-785",
+    "I2LS_Items::Items/General/Canvas_TubeMap_Description::segment-789",
+    "I2LS_Items::Items/General/Chair_Blue_Description::segment-791",
+    "I2LS_Items::Items/General/Chair_Wooden_Description::segment-793",
+    "I2LS_Items::Items/General/Column_Description::segment-795",
+    "I2LS_Items::Items/General/Door_Description::segment-797",
+    "I2LS_Items::Items/General/Easter_Chicks_Description::segment-801",
+    "I2LS_Items::Items/General/Easter_Chicks_Name::segment-802",
+    "I2LS_Items::Items/General/Easter_ChocolateRabbit_Description::segment-803",
+    "I2LS_Items::Items/General/Easter_Egg_Description::segment-805",
+    "I2LS_Items::Items/General/FilingCabinet_Description::segment-809",
+    "I2LS_Items::Items/General/Halloween_Bunting_Description::segment-813",
+    "I2LS_Items::Items/General/Halloween_Pumpkin_Description::segment-817",
+    "I2LS_Items::Items/General/Halloween_Tree_Description::segment-819",
+    "I2LS_Items::Items/General/HandSanitiser_Description::segment-823",
+    "I2LS_Items::Items/General/Hopscotch_Description::segment-825",
+    "I2LS_Items::Items/General/Kiosk_Coffee_Description::segment-827",
+    "I2LS_Items::Items/General/Kiosk_Popcorn_Description::segment-831",
+    "I2LS_Items::Items/General/Kiosk_Ramen_Description::segment-833",
+    "I2LS_Items::Items/General/Kiosk_Smoothie_Description::segment-835",
+    "I2LS_Items::Items/General/Kiosk_Veggie_Description::segment-837",
+    "I2LS_Items::Items/General/MiniGolf_Game_Description::segment-839",
+    "I2LS_Items::Items/General/Painting_Lake_Description::segment-843",
+    "I2LS_Items::Items/General/PartitionWall_Description::segment-849",
+    "I2LS_Items::Items/General/Pennant_Duck_Description::segment-851",
+    "I2LS_Items::Items/General/Pennant_Flower_Description::segment-853",
+    "I2LS_Items::Items/General/Pennant_Star_Description::segment-855",
+    "I2LS_Items::Items/General/Pennant_TP_Description::segment-857",
+    "I2LS_Items::Items/General/Plants_Cactus_Description::segment-867",
+    "I2LS_Items::Items/General/Plants_Droopy_Description::segment-869",
+    "I2LS_Items::Items/General/Plants_Leafy_Description::segment-871",
+    "I2LS_Items::Items/General/Plants_Rose_Description::segment-875",
+    "I2LS_Items::Items/General/Plants_Yucca_Description::segment-879",
+    "I2LS_Items::Items/General/Poster_CheeseHole_Description::segment-881",
+    "I2LS_Items::Items/General/Poster_ChefSmile_Description::segment-883",
+    "I2LS_Items::Items/General/Poster_JasminePortrait_Description::segment-887",
+    "I2LS_Items::Items/General/Poster_MusicGreen_Description::segment-891",
+    "I2LS_Items::Items/General/Poster_MusicSoundOn_Description::segment-897",
+    "I2LS_Items::Items/General/Radiator_Description::segment-903",
+    "I2LS_Items::Items/General/Rose_Description::segment-911",
+    "I2LS_Items::Items/General/Rug_LP_Description::segment-913",
+    "I2LS_Items::Items/General/Rug_Pride_Description::segment-915",
+    "I2LS_Items::Items/General/ScholarStatue_Description::segment-917",
+    "I2LS_Items::Items/General/SeeSaw_Relationship_Description::segment-919",
+    "I2LS_Items::Items/General/SummerSchool_SunBomb_Description::segment-921",
+    "I2LS_Items::Items/General/Table_Outside_Description::segment-926",
+    "I2LS_Items::Items/General/TestYourStrength_Description::segment-928",
+    "I2LS_Items::Items/General/Valentine_ClawMachine_Description::segment-932",
+    "I2LS_Items::Items/General/Valentine_LoveBomb_Description::segment-934",
+    "I2LS_Items::Items/General/Valentine_LoveTunnel_Description::segment-938",
+    "I2LS_Items::Items/General/Valentine_RoseVase_Large_Description::segment-940",
+    "I2LS_Items::Items/General/Valentine_RoseVase_Small_Description::segment-942",
+    "I2LS_Items::Items/General/Valentine_Rug_Description::segment-944",
+    "I2LS_Items::Items/General/Valentine_Wall_Heart_Concentric_Description::segment-946",
+    "I2LS_Items::Items/General/Valentine_Wall_Heart_Stack_Description::segment-948",
+    "I2LS_Items::Items/General/Valentine_Wall_Lights_Description::segment-950",
+    "I2LS_Items::Items/General/VendingMachine_Burp_Description::segment-952",
+    "I2LS_Items::Items/General/VendingMachine_MorselMen_Description::segment-956",
+    "I2LS_Items::Items/General/WheelieTV_Description::segment-960",
+    "I2LS_Items::Items/General/WhiteBoard_Description::segment-962",
+    "I2LS_Items::Items/General/Window_Big_Description::segment-964",
+    "I2LS_Items::Items/General/Window_Description::segment-966",
+    "I2LS_Items::Items/General/Winter_Kiosk_Description::segment-968",
+    "I2LS_Items::Items/General/Winter_LightBunting_Description::segment-970",
+    "I2LS_Items::Items/General/Winter_PresentPileTwo_Description::segment-974",
+    "I2LS_Items::Items/General/Winter_Reindeer_Description::segment-976",
+    "I2LS_Items::Items/General/Winter_Sack_Description::segment-978",
+    "I2LS_Items::Items/General/Winter_Sleigh_Description::segment-980",
+    "I2LS_Items::Items/General/Winter_SnowPersonPunk_Description::segment-982",
+    "I2LS_Items::Items/General/Winter_SnowPersonToff_Description::segment-984",
+    "I2LS_Items::Items/General/Winter_SnowPerson_Description::segment-986",
+    "I2LS_Items::Items/General/Winter_SnowRug_Description::segment-988",
+    "I2LS_Items::Items/General/Winter_SnowWall_Description::segment-990",
+    "I2LS_Items::Items/General/Winter_TreeRug_Description::segment-994",
+    "I2LS_Items::Items/Influencer/AnniTheDuck_Description::segment-1037",
+    "I2LS_Items::Items/Influencer/Doncon_Statue_Temple_Description::segment-1051",
+    "I2LS_Items::Items/KnightSchool/Bows_Description::segment-1073",
+    "I2LS_Items::Items/KnightSchool/Wall_Fireplace_Description::segment-1113",
+    "I2LS_Items::Items/Landscape/BrickPile_Description::segment-1135",
+    "I2LS_Items::Items/Landscape/Digger_Description::segment-1139",
+    "I2LS_Items::Items/Landscape/Girder_Description::segment-1173",
+    "I2LS_Items::Items/Landscape/LowHedge_Procedural_Description::segment-1185",
+    "I2LS_Items::Items/Landscape/Timber_Description::segment-1223",
+    "I2LS_Items::Items/Library/LibraryPrinter_Description::segment-1379",
+    "I2LS_Items::Items/Medical/ExamBench_Description::segment-1415",
+    "I2LS_Items::Items/Music/Organ_Name::segment-1438",
+    "I2LS_Items::Items/Music/Piano_Name::segment-1440",
+    "I2LS_Items::Items/Party/BeachUmbrella_Description::segment-1463",
+    "I2LS_Items::Items/Prime/MeatWizardTwo_Sword_Description::segment-1505",
+    "I2LS_Items::Items/Prime/Prime_Cheeseball_Bin_Description::segment-1523",
+    "I2LS_Items::Items/Prime/PrivatePets_Dog_Description::segment-1555",
+    "I2LS_Items::Items/Promo/Fair2023_Wheel_Description::segment-1566",
+    "I2LS_Items::Items/Promo/SpringCleaning2023_Bin_Frog_Description::segment-1574",
+    "I2LS_Items::Items/Relationship/HeartBench_Description::segment-1599",
+    "I2LS_Items::Items/Research/FilingCabinet_Description::segment-1623",
+    "I2LS_Items::Items/SpySchool/Spy_AssaultCourse_General_Description::segment-1709",
+    "I2LS_Items::Items/SpySchool/Spy_AssaultCourse_Lasers_Description::segment-1713",
+    "I2LS_Items::Items/StudentLounge/Keg_Description::segment-1763",
+    "I2LS_Items::Items/StudentLounge/KitchenMicrowave_Description::segment-1767",
+    "I2LS_Items::Items/Update10/ChilliPlant_Description::segment-1813",
+    "I2LS_Items::Items/Update10/ChilliPlant_Name::segment-1814",
+    "I2LS_Items::Items/Wizardry/MagicTome_Description::segment-1943",
+    "I2LS_Items::Items/Wizardry/Potions_Description::segment-1955",
+    "I2LS_Items::Items/Wizardry/Wall_Cards_Description::segment-1973",
+    "I2LS_Meta::Meta/Awards/Award_Clubs_Name::segment-8",
+    "I2LS_Meta::Meta/Awards/Award_Relationships_Name::segment-12",
+    "I2LS_Meta::Meta/CareerChallenges/Clubs_Name::segment-35",
+    "I2LS_Meta::Meta/CareerChallenges/Clubs_XP_Orb_Name::segment-39",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Clown_Name::segment-43",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Gastronomy_Name::segment-45",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Grease_Name::segment-47",
+    "I2LS_Meta::Meta/CareerChallenges/Course_KnightSchool_Name::segment-48",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Magic_Name::segment-50",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Robotics_Name::segment-52",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Science_Name::segment-53",
+    "I2LS_Meta::Meta/CareerChallenges/Course_Toffs_Name::segment-56",
+    "I2LS_Meta::Meta/CareerChallenges/Course_VR_Name::segment-57",
+    "I2LS_Meta::Meta/CareerChallenges/Course_VeryHard_Name::segment-58",
+    "I2LS_Meta::Meta/CareerChallenges/DigSite_Discoverables_Name::segment-59",
+    "I2LS_Meta::Meta/CareerChallenges/Expel_Name::segment-62",
+    "I2LS_Meta::Meta/CareerChallenges/ExtraTuition_Name::segment-63",
+    "I2LS_Meta::Meta/CareerChallenges/Goth_Name::segment-64",
+    "I2LS_Meta::Meta/CareerChallenges/Graduates_Name::segment-65",
+    "I2LS_Meta::Meta/CareerChallenges/Janitor_Maintenance_Name::segment-67",
+    "I2LS_Meta::Meta/CareerChallenges/Janitor_Plant_Name::segment-68",
+    "I2LS_Meta::Meta/CareerChallenges/Janitor_Toilet_Name::segment-69",
+    "I2LS_Meta::Meta/CareerChallenges/MedicalCare_Name::segment-72",
+    "I2LS_Meta::Meta/CareerChallenges/Money_Artefacts_Name::segment-73",
+    "I2LS_Meta::Meta/CareerChallenges/PersonalGoals_Name::segment-77",
+    "I2LS_Meta::Meta/CareerChallenges/Relationships_Platonic_Name::segment-78",
+    "I2LS_Meta::Meta/CareerChallenges/Student_Grease_Name::segment-84",
+    "I2LS_Meta::Meta/CareerChallenges/Student_Musician_Name::segment-85",
+    "I2LS_Meta::Meta/CareerChallenges/Train_Janitor_Name::segment-90",
+    "I2LS_Meta::Meta/CareerChallenges/Train_Staff_Name::segment-91",
+    "I2LS_Meta::Meta/CareerChallenges/Upgrade_Name::segment-93",
+    "I2LS_Meta::Meta/CareerGoals/Club_Cheeseball_Description::segment-118",
+    "I2LS_Meta::Meta/CareerGoals/StaffCustomisation_Description::segment-196",
+    "I2LS_Meta::Meta/CareerGoals/Staff_Janitors_Description::segment-200",
+    "I2LS_Meta::Meta/CareerGoals/StudentAccomodation_Description::segment-204",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_Fluffborough_Floor_V2::segment-215",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_Freshleigh_Floor_V2::segment-219",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_Mitton_Wall_V2::segment-225",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_Noblestead_Wall_V1::segment-227",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_PiazzaLanatra_Wall_V1::segment-234",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_UpperEtching_Floor_V1::segment-236",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_UpperEtching_Floor_V2::segment-237",
+    "I2LS_Meta::Meta/CustomisationOptions/Building_UpperEtching_Wall_V2::segment-239",
+    "I2LS_Meta::Meta/CustomisationOptions/Staff_Halloween_Mummy::segment-252",
+    "I2LS_Meta::Meta/CustomisationOptions/Staff_Halloween_Zombie::segment-254",
+    "I2LS_Meta::Meta/CustomisationOptions/Staff_Prime_RestorationGarden::segment-265",
+    "I2LS_Meta::Meta/CustomisationOptions/Staff_Winter_Snowman::segment-284",
+    "I2LS_Meta::Meta/FrontEnd/NewsFeed_CommunityChallenge_Easter2023_Ongoing_Description::segment-290",
+    "I2LS_Meta::Meta/FrontEnd/NewsFeed_CommunityChallenge_Valentine2023_Complete_Description::segment-292",
+    "I2LS_Meta::Meta/FrontEnd/NewsFeed_EasterUpdate_Description::segment-308",
+    "I2LS_Meta::Meta/FrontEnd/NewsFeed_Hamster_Name::segment-313",
+    "I2LS_Meta::Meta/FrontEnd/NewsFeed_SpringCleaning_Description::segment-318",
+    "I2LS_Meta::Meta/FrontEnd/NewsFeed_Valentine2023_Description::segment-322",
+    "I2LS_Meta::Meta/FrontEnd/Newsfeed_Cafeteria_Description::segment-326",
+    "I2LS_Meta::Meta/FrontEnd/Newsfeed_Fair2023_Description::segment-330",
+    "I2LS_Meta::Meta/FrontEnd/Newsfeed_Fair2023_Name::segment-331",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_CareerGoals_Title::segment-338",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_CampusOverview_Title::segment-348",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_CourseManagement_Title::segment-350",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_Education_Title::segment-352",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_Extensions_Title::segment-354",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_Favourites_Title::segment-356",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_Happiness_Title::segment-362",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_NeedsInformHappiness_Title::segment-369",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_Paths_Title::segment-371",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_QualificationsHelpsLearning_Title::segment-377",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_StaffCustomisation_Title::segment-389",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_StudentArchetypes_Text::segment-390",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_TheGreatOutdoors_Title::segment-395",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_VisualisationModes_Title::segment-397",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_LS_XPMoneyBonus_Title::segment-399",
+    "I2LS_Meta::Meta/LoadingScreen/Tips_StaffCapacity_Title::segment-401",
+    "I2LS_Music_Radio::Music/DLC/Songs/Hospital_1_KeepingItNicely::segment-15",
+    "I2LS_Music_Radio::Music/DLC/Songs/Hospital_3_NewScrubs::segment-17",
+    "I2LS_Music_Radio::Music/DLC/Songs/Space_AlienElvis_Mooniversity::segment-21",
+    "I2LS_Music_Radio::Music/DLC/Songs/Space_AlienElvis_PocketRocket::segment-22",
+    "I2LS_Music_Radio::Music/Songs/80s_FoodOnTheStreets::segment-24",
+    "I2LS_Music_Radio::Music/Songs/80s_SwillTheBeans::segment-25",
+    "I2LS_Music_Radio::Music/Songs/Emo_FourShort::segment-28",
+    "I2LS_Music_Radio::Music/Songs/Funk_LetsLance::segment-31",
+    "I2LS_Music_Radio::Music/Songs/HipHop_TheOnlyRemainder::segment-34",
+    "I2LS_Music_Radio::Music/Songs/Hippie_HackySackin::segment-35",
+    "I2LS_Music_Radio::Music/Songs/MetaMap_GlowWithTheFlow::segment-39",
+    "I2LS_Music_Radio::Music/Songs/MetaMap_TheSyllabusCycle::segment-40",
+    "I2LS_Music_Radio::Music/Songs/Ska_SupernormalSupernatural::segment-47",
+    "I2LS_Music_Radio::Radio/Songs/Funk_LooselyGoosey::segment-52",
+    "I2LS_Objectives::Objectives/ArchaeologyLevel/ArchaeologyLevel_Build_Building::segment-0",
+    "I2LS_Objectives::Objectives/ChallengeMode/Freshleigh_Easter::segment-6",
+    "I2LS_Objectives::Objectives/ChallengeMode/Freshleigh_Easter_Tooltip::segment-7",
+    "I2LS_Objectives::Objectives/DLC_Ghost/LifelessEstate_DetectionClass::segment-12",
+    "I2LS_Objectives::Objectives/DLC_Ghost/LifelessEstate_GhostCapture::segment-14",
+    "I2LS_Objectives::Objectives/DLC_Ghost/LifelessEstate_PlotCleansing::segment-16",
+    "I2LS_Objectives::Objectives/DLC_Hospital/LakeHospital/Mockstar::segment-17",
+    "I2LS_Objectives::Objectives/DLC_Hospital/LakeHospital/Psychiatry::segment-18",
+    "I2LS_Objectives::Objectives/DLC_Hospital/LakeHospital/Ward::segment-20",
+    "I2LS_Objectives::Objectives/DLC_Hospital/MountainHospital/Surgery::segment-23",
+    "I2LS_Objectives::Objectives/DLC_Hospital/ReactiveFireTutorial::segment-24",
+    "I2LS_Objectives::Objectives/DLC_Hospital/VolcanoHospital/BuildRooms::segment-25",
+    "I2LS_Objectives::Objectives/DLC_Space/LaunchpadLevel/Launchpad_Fire&Sell::segment-31",
+    "I2LS_Objectives::Objectives/DLC_Space/LaunchpadLevel/Launchpad_MineOneMeteor::segment-32",
+    "I2LS_Objectives::Objectives/DLC_Space/SpacePortLevel/SpacePort_BuildSpaceRooms::segment-37",
+    "I2LS_Objectives::Objectives/FinalLevel/FinalLevel_Start_Courses::segment-41",
+    "I2LS_Objectives::Objectives/GastroLevel/Gastro_Build_Extra_Tuition::segment-43",
+    "I2LS_Objectives::Objectives/GastroLevel/Gastro_Extra_Tuition_Complete::segment-46",
+    "I2LS_Objectives::Objectives/KnightLevel/Knight_Medical_Centre::segment-60",
+    "I2LS_Objectives::Objectives/PartyLevel/PartyLevel_Beach_Party_Item::segment-85",
+    "I2LS_Objectives::Objectives/SportsLevel/SportsLevel_Setup::segment-95",
+    "I2LS_Objectives::Objectives/SpyLevel/Spy_EarlyGastro::segment-97",
+    "I2LS_Objectives::Objectives/TutorialLevel/TutorialLevel_Extra_Tuition_V2::segment-109",
+    "I2LS_Objectives::Objectives/TutorialLevel/TutorialLevel_ItemMenu::segment-118",
+    "I2LS_Research_Marketing::Marketing/Courses/Gastronomy_Description::segment-2",
+    "I2LS_Research_Marketing::Marketing/Courses/KnightSchool_Description::segment-4",
+    "I2LS_Research_Marketing::Marketing/Courses/Minor/Lectures_Description::segment-28",
+    "I2LS_Research_Marketing::Marketing/DLC_Ghost/GhostStudents_Name::segment-52",
+    "I2LS_Research_Marketing::Marketing/DLC_Hospital/Doctor_Description::segment-57",
+    "I2LS_Research_Marketing::Research/Courses/GeneralKnowledge_Description::segment-103",
+    "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostBusting_Kudosh_Title::segment-108",
+    "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostBusting_Large_Title::segment-110",
+    "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostBusting_Small_Title::segment-114",
+    "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostStudents_Kudosh_Title::segment-116",
+    "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostStudents_Large_Title::segment-118",
+    "I2LS_Research_Marketing::Research/DLC_Ghost/Upgrades/GhostBusting_Machine_V3_Description::segment-125",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/ItemUnlock_Helipad_Description::segment-131",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/FaceStamp_BlockHead_Name::segment-136",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/FaceStamp_Woodworms_Name::segment-138",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Head_Metalheadedness_Name::segment-142",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Head_Turnipheadedness_Name::segment-146",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Injection_GreenEnvy_Name::segment-148",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Injection_Wooden_Name::segment-152",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Psychiatry_MimeCrisis_Name::segment-154",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Psychiatry_MockStar_Name::segment-156",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Psychiatry_NightFever_Name::segment-158",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Psychiatry_ReptileDysfunction_Name::segment-160",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Psychiatry_SpaceCaged_Name::segment-162",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Surgery_BodilyDruids_Name::segment-164",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Surgery_HeartThrob_Name::segment-168",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Ward_Arm_FlappyHamper_Name::segment-170",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Ward_Body_PisteOff_Name::segment-172",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Ward_Head_PineDented_Name::segment-176",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Patient_Illnesses/Ward_Leg_Limpette_Name::segment-180",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/DeluxeClinic_Machine_V2_Name::segment-190",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/DeluxeClinic_Machine_V3_Name::segment-192",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Injection_Machine_V2_Name::segment-198",
+    "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Ward_PlasterCaster_V2_Description::segment-201",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_Astronaut_Kudosh_Title::segment-206",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_Astronaut_Small_Title::segment-212",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_CheeseAlien_Kudosh_Title::segment-214",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_CheeseAlien_Large_Title::segment-216",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_CheeseAlien_Medium_Title::segment-218",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_CheeseAlien_Small_Title::segment-220",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_HumanityAlien_Kudosh_Title::segment-222",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_HumanityAlien_Small_Title::segment-228",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceBillionaire_Large_Title::segment-232",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceBillionaire_Medium_Title::segment-234",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceCadet_Kudosh_Title::segment-238",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceCadet_Large_Title::segment-240",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceCadet_Medium_Title::segment-242",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceCadet_Small_Title::segment-244",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceKnight_Kudosh_Title::segment-246",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceKnight_Large_Title::segment-248",
+    "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_SpaceKnight_Small_Title::segment-252",
+    "I2LS_Research_Marketing::Research/DLC_Space/Unlock_SpaceTransporter_Name::segment-260",
+    "I2LS_Research_Marketing::Research/DLC_Space/Upgrades/Astronaut_GravitySimulator_V2_Description::segment-271",
+    "I2LS_Research_Marketing::Research/Items/Bookcase/Bookcase_Gastronomy_Description::segment-295",
+    "I2LS_Research_Marketing::Research/Items/Bookcase/Bookcase_KnightSchool_Description::segment-297",
+    "I2LS_Research_Marketing::Research/Items/Bookcase/Bookcase_Music_Description::segment-299",
+    "I2LS_Research_Marketing::Research/Items/Bookcase/Bookcase_Robotics_Description::segment-301",
+    "I2LS_Research_Marketing::Research/Items/Bookcase/Bookcase_SpySchool_Description::segment-303",
+    "I2LS_Research_Marketing::Research/Items/Bookcase/Bookcase_Wizardry_Description::segment-305",
+    "I2LS_Research_Marketing::Research/Items/KnightSchool/Dummies_Name::segment-324",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Archaeology_Large_Title::segment-342",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Archaeology_Small_Title::segment-346",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Clown_Large_Text::segment-349",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Clown_Medium_Title::segment-352",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Clown_Small_Title::segment-354",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Computing_Large_Title::segment-358",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Gastronomy_Kudosh_Title::segment-364",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Gastronomy_Large_Title::segment-366",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Gastronomy_Medium_Title::segment-368",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Gastronomy_Small_Title::segment-370",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_GeneralKnowledge_Kudosh_Title::segment-372",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_GeneralKnowledge_Large_Title::segment-374",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Goth_Kudosh_Title::segment-380",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Goth_Large_Title::segment-382",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Grease_Large_Title::segment-390",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Grease_Medium_Title::segment-392",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_KnightSchool_Large_Title::segment-398",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_KnightSchool_Medium_Title::segment-400",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_KnightSchool_Small_Title::segment-402",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Magic_Kudosh_Title::segment-404",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Magic_Medium_Title::segment-408",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Music_Large_Title::segment-414",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Music_Medium_Title::segment-416",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Music_Small_Title::segment-418",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Robotics_Kudosh_Title::segment-420",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Robotics_Medium_Title::segment-424",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Robotics_Small_Text::segment-425",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Robotics_Small_Title::segment-426",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Science_Large_Title::segment-430",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Science_Medium_Text::segment-431",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Science_Small_Title::segment-434",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Sports_Kudosh_Title::segment-436",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Sports_Large_Title::segment-438",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Sports_Medium_Text::segment-439",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_SpySchool_Small_Title::segment-450",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_VeryHard_Kudosh_Title::segment-468",
+    "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_VeryHard_Large_Title::segment-470",
+    "I2LS_Research_Marketing::Research/Upgrades/Research_ResearchMachine_V2_Description::segment-523",
+    "I2LS_Research_Marketing::Research/Upgrades/Robotics_MegaHand_V2_Description::segment-527",
+    "I2LS_Research_Marketing::Research/Upgrades/Robotics_MegaHand_V3_Description::segment-529",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Computer_Lab_Floor_V2::segment-100",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Computer_Lab_Floor_V3::segment-101",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Computer_Lab_Floor_V4::segment-102",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Computer_Lab_Wall_V2::segment-104",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Easter_Wall_V1::segment-106",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Easter_Wall_V2::segment-107",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Easter_Wall_V3::segment-108",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Extra_Tuition_Floor_V1::segment-109",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Extra_Tuition_Floor_V2::segment-110",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Extra_Tuition_Wall_V2::segment-112",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Gastro_Cookery_Floor_V2::segment-114",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Gastro_Cookery_Wall_V2::segment-116",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Gastro_Patisserie_Wall_V1::segment-119",
+    "I2LS_Rooms::Rooms/Customisable/Custom_General_Wall_Pride::segment-126",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Generic_Wooden_Floor_V3::segment-129",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Health_Centre_Floor_V1::segment-131",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Health_Centre_Wall_V2::segment-134",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Kitchen_Wall_V2::segment-138",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Lecture_Floor_V2::segment-140",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Library_Floor_V1::segment-143",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Library_Floor_V2::segment-144",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Magic_Duelling_Wall_V2::segment-150",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Magic_Potions_Floor_V1::segment-151",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Marketing_Floor_V2::segment-156",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Marketing_Wall_V1::segment-157",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Music_Floor_V2::segment-160",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Music_Wall_V1::segment-161",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Music_Wall_V2::segment-162",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Pastoral_Floor_V2::segment-164",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Pastoral_Wall_V2::segment-166",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Research_Wall_V2::segment-170",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Robotics_Wall_V1::segment-177",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Spy_Escape_Floor_V2::segment-188",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Staff_Room_Wall_V1::segment-197",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Valentine_Wall_V2::segment-212",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Valentine_Wall_V3::segment-213",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Valentine_Wall_V4::segment-214",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Wall_Winter_RedSnowflakes::segment-216",
+    "I2LS_Rooms::Rooms/Customisable/Custom_Wall_Winter_Winterscape::segment-218",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Bedroom_Floor_GhostBusters::segment-219",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Bedroom_Floor_GhostStudents::segment-220",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Building_Mansion_Floor_V1::segment-223",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Building_Mansion_Floor_V2::segment-224",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Building_Mansion_Wall_V1::segment-225",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Building_Mansion_Wall_V2::segment-226",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Busting_Floor_V1::segment-227",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Busting_Wall_V1::segment-229",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Busting_Wall_V2::segment-230",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Detection_Floor_V2::segment-232",
+    "I2LS_Rooms::Rooms/DLC_Ghost/Customisable/Custom_Detection_Wall_V1::segment-233",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Bedroom_Floor_Doctor::segment-242",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Bedroom_Floor_Scrubs::segment-244",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Bedroom_Wall_Doctor::segment-245",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Bedroom_Wall_Scrubs::segment-247",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_FaceStamp_Floor_V1::segment-248",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_FaceStamp_Floor_V2::segment-249",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_FaceStamp_Wall_V2::segment-251",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_HeadClinic_Wall_V2::segment-255",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Injection_Floor_V2::segment-257",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Injection_Wall_V1::segment-258",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Psychiatry_Floor_V1::segment-260",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Psychiatry_Wall_V1::segment-262",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Psychiatry_Wall_V2::segment-263",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Customisable/Custom_Surgery_Floor_V2::segment-265",
+    "I2LS_Rooms::Rooms/DLC_Hospital/Ward_Description::segment-289",
+    "I2LS_Rooms::Rooms/DLC_Space/Astronaut_Description::segment-298",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_AlienCheese_Wall_V2::segment-304",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_AlienHumanities_Floor_V1::segment-305",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_AlienHumanities_Floor_V2::segment-306",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_AlienHumanities_Wall_V2::segment-308",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Astronaut_Floor_V1::segment-309",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Astronaut_Floor_V2::segment-310",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Astronaut_Wall_V2::segment-312",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Building_Academy_Floor_V2::segment-314",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Building_Astro_Floor_V2::segment-318",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Building_Astro_Wall_V1::segment-319",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_Building_Meteor_Wall_V2::segment-324",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_SpaceAcademy_Floor_V1::segment-327",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_SpaceKnight_Floor_V2::segment-332",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_SpaceKnight_Wall_V1::segment-333",
+    "I2LS_Rooms::Rooms/DLC_Space/Customisable/Custom_SpaceKnight_Wall_V2::segment-334",
+    "I2LS_Rooms::Rooms/Gastronomy_Savoury_Description::segment-414",
+    "I2LS_Rooms::Rooms/Gym_Description::segment-420",
+    "I2LS_Rooms::Rooms/Marketing_Description::segment-435",
+    "I2LS_Rooms::Rooms/Pastoral_Description::segment-444",
+    "I2LS_Rooms::Rooms/TeacherOffice_Description::segment-485",
+    "I2LS_Rooms::Rooms/Training_Description::segment-491",
+    "I2LS_SubGoals::SubGoals/ChallengeMode/CM6_PebberleyRuins_Puzzle_Riddle_13::segment-83",
+    "I2LS_SubGoals::SubGoals/ChallengeMode/CM6_PebberleyRuins_Puzzle_Riddle_15::segment-85",
+    "I2LS_SubGoals::SubGoals/ChallengeMode/CollectEggs_Tooltip::segment-98",
+    "I2LS_SubGoals::SubGoals/Tooltips/University_Level::segment-477",
+    "I2LS_VO_Radio::VO/Ad_Bungle_BeaverWheels::segment-2",
+    "I2LS_VO_Radio::VO/Ad_Crumley_Chicken::segment-11",
+    "I2LS_VO_Radio::VO/Ad_Jumbo_Employees::segment-19",
+    "I2LS_VO_Radio::VO/Ad_RoachBurger_Yeeslaw::segment-28",
+    "I2LS_VO_Radio::VO/HW_DLC1_MoonLevel::segment-45",
+    "I2LS_VO_Radio::VO/HW_S1_L4::segment-53",
+    "I2LS_VO_Radio::VO/HW_S2_L3::segment-59",
+    "I2LS_VO_Radio::VO/HW_S3_L1::segment-64",
+    "I2LS_VO_Radio::VO/HW_S7_L3::segment-94",
+    "I2LS_VO_Radio::VO/Host_Outro_4::segment-143",
+    "I2LS_VO_Radio::VO/NB_S1_L7::segment-161",
+    "I2LS_VO_Radio::VO/NB_S4_L1::segment-176",
+    "I2LS_VO_Radio::VO/NB_S4_L3::segment-178",
+    "I2LS_VO_Radio::VO/NB_S7_L6::segment-202",
+    "I2LS_VO_Radio::VO/NB_S7_L7::segment-203",
+    "I2LS_VO_Radio::VO/Pseudo_Handover_1::segment-220",
+    "I2LS_VO_Radio::VO/Pseudo_Handover_2::segment-221",
+    "I2LS_VO_Radio::VO/Pseudo_Intro_5::segment-229",
+    "I2LS_VO_Radio::VO/RH_DLC1_SpacePort::segment-235",
+    "I2LS_VO_Radio::VO/RH_DLC3_LakeHospital::segment-236",
+    "I2LS_VO_Radio::VO/RH_S1_L7::segment-245",
+    "I2LS_VO_Radio::VO/RH_S3_L4::segment-256",
+    "I2LS_VO_Radio::VO/RH_S3_L5::segment-257",
+    "I2LS_VO_Radio::VO/RH_S3_L6::segment-258",
+    "I2LS_VO_Radio::VO/RH_S5_L2::segment-268",
+    "I2LS_VO_Radio::VO/RH_S5_L4::segment-270",
+    "I2LS_VO_Radio::VO/RH_S5_L5::segment-271",
+    "I2LS_VO_Radio::VO/RH_S6_L1::segment-274",
+    "I2LS_VO_Radio::VO/RH_S7_L4::segment-284",
+    "I2LS_VO_Radio::VO/RH_S7_L7::segment-287",
+    "I2LS_VO_Radio::VO/RH_Sting_3_A::segment-296",
+    "I2LS_VO_Radio::VO/STF_Handover_3::segment-303",
+    "I2LS_VO_Radio::VO/STF_StudentLife_1::segment-320",
+    "I2LS_VO_Radio::VO/STF_StudentLife_2::segment-321",
+    "I2LS_VO_Radio::VO/STF_StudentLife_7::segment-326",
+    "I2LS_VO_Radio::VO/SobStory_1::segment-328",
+    "I2LS_VO_Radio::VO/SobStory_3::segment-330",
+    "I2LS_VO_Radio::VO/SobStory_4::segment-331",
+    "I2LS_VO_Radio::VO/SobStory_8::segment-335",
+    "I2LS_VO_Radio::VO/Socialite_Review_1::segment-339",
+    "I2LS_VO_Radio::VO/Socialite_Review_2::segment-342",
+    "I2LS_VO_Radio::VO/Socialite_Review_9::segment-349",
+    "I2LS_VO_Tannoy::VO/Tannoy_ArchetypeColour_Clown_1::segment-0",
+    "I2LS_VO_Tannoy::VO/Tannoy_Colour_24::segment-129",
+    "I2LS_VO_Tannoy::VO/Tannoy_Colour_40::segment-147",
+    "I2LS_VO_Tannoy::VO/Tannoy_Colour_5::segment-157",
+    "I2LS_VO_Tannoy::VO/Tannoy_Colour_66::segment-175",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_FaceStamp_BlankLook_1::segment-296",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_FaceStamp_BlockHead_1::segment-297",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_FaceStamp_Woodworms_1::segment-298",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Lightheadedness_1::segment-299",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Metalheadedness_1::segment-300",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Rootheadedness_1::segment-301",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Screwheadedness_1::segment-302",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Injection_CheeseBored_1::segment-303",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Injection_Greenvious_1::segment-304",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Injection_LeopardSkin_1::segment-305",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Psychiatry_MimeCrisis_1::segment-306",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Psychiatry_MockStar_1::segment-307",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Psychiatry_NightFever_1::segment-308",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Psychiatry_ReptileDysfunction_1::segment-309",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Surgery_BrainFarts_1::segment-312",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Surgery_HeartThrob_1::segment-313",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_BonelessThighs_1::segment-314",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_BrokenFace_1::segment-315",
+    "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_PisteOff_1::segment-319",
+    "I2LS_VO_Tannoy::VO/Tannoy_Issue_InsufficientAccommodation_2::segment-371",
+    "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_Dormitory_1::segment-463",
+    "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_Library_5::segment-476",
+    "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_SU_1::segment-490"
+  ],
+  "pun_lost_marker_ids": [],
+  "priorities": [
+    "Keep BUG-THAI-003 independent of text revisions",
+    "Resolve recurring course/disease/item names using source context and proposed glossary",
+    "Review plural endpoints/source anomalies and literal backslash-n without silent repairs",
+    "Review key opening UI/dialogue plus representative humorous names before broad runtime test"
+  ],
+  "limits": "Flag counts overlap; UNCERTAIN_ITEMS is not assumed exhaustive. Repeated English source can have contextually valid different Thai.",
+  "uncertain_file_flags": {
+    "AMBIGUOUS": 393,
+    "COURSE_NAME_PENDING": 41,
+    "JOKE_PUN_LOST_T3": 140,
+    "PLURAL_REVIEW": 166,
+    "TOKEN_ANOMALY": 233,
+    "NEEDS_RUNTIME_REVIEW": 70
+  },
+  "uncertain_file_value_mismatches": [
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Accommodation::segment-70",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Accommodation::segment-70",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Better_Accommodation::segment-71",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Club::segment-73",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Club::segment-73",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Dropout::segment-74",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Dropout::segment-74",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Fail_Warning::segment-75",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Fail_Warning::segment-75",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Self_Study::segment-79",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Self_Study::segment-79",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Want_Club::segment-81",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Students_Want_Club::segment-81",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Advisor::Advisor/DigsiteDiscoveriesComplete_Text::segment-139",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Archaeology/Advisor_Tutoriall_Artefacts_Text::segment-16",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Archaeology/Advisor_Tutoriall_Artefacts_Text::segment-16",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM1_Spiffinmoore_Pumpkin_Level_Intro_Text::segment-54",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM1_Spiffinmoore_Pumpkin_Level_Intro_Text::segment-54",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM2_PiazzaLanatra_Krampus_Level_Intro_Text::segment-67",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM2_PiazzaLanatra_Krampus_Level_Intro_Text::segment-67",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM6_PebberleyRuins_Puzzle_Advisor_Mummy_Riddles_Text::segment-151",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Advisor_Tutorial_PlotCleansing_Text::segment-185",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Advisor_Tutorial_PlotCleansing_Text::segment-185",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Inbox_PlotCleansing_Text::segment-195",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Inbox_PlotCleansing_Text::segment-195",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Tutorial_Emergencies_Text::segment-224",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Tutorial_Emergencies_Text::segment-224",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_HeadClinicResearch_Text::segment-240",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_HeadClinicResearch_Text::segment-240",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_Intro_V2_Text::segment-246",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_Intro_V2_Text::segment-246",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/MountainHospital/Advisor_Vitality_Surgery_Text::segment-277",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/MountainHospital/Advisor_Vitality_Surgery_Text::segment-277",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Advisor_Briney_Intro_Text::segment-297",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Advisor_Briney_Intro_Text::segment-297",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/LaunchPad_Level_Intro_Text::segment-367",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/LaunchPad_Level_Intro_Text::segment-367",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/MoonBaseLevel/Advisor_CaptainCushion_CheeseProduction_Text::segment-399",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/MoonBaseLevel/Advisor_CaptainCushion_CheeseProduction_Text::segment-399",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/SpacePortLevel/Advisor_CaptainCushion_SetUpSciFiCon_Text::segment-421",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/SpacePortLevel/Advisor_CaptainCushion_SetUpSciFiCon_Text::segment-421",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Freshleigh/Advisor_Tutorial_Energy&Toilet_Text::segment-480",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Freshleigh/Advisor_Tutorial_Energy&Toilet_Text::segment-480",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Freshleigh/Advisor_Tutorial_Friendships_Text::segment-484",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Freshleigh/Advisor_Tutorial_Friendships_Text::segment-484",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Gastronomy/Advisor_DJSueChef_Tuition_Text::segment-580",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Gastronomy/Advisor_DJSueChef_Tuition_Text::segment-580",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Gastronomy/Advisor__Tutorial_Pastoral_Text::segment-593",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Gastronomy/Advisor__Tutorial_Pastoral_Text::segment-593",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/LevelBeats/SportsLevel_Club_Text::segment-649",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Musicality/Advisor_Orb_Offer_Text::segment-731",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Musicality/Advisor_Orb_Offer_Text::segment-731",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Musicality/Advisor_Tutorial_Money_Text::segment-733",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Musicality/Advisor_Tutorial_Money_Text::segment-733",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Robotics/Advisor_Nova_Unlock_Very_Hard_Text::segment-750",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Robotics/Advisor_Nova_Unlock_Very_Hard_Text::segment-750",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Sports/Advisor_Jumbo_PostMatch_Text::segment-787",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Sports/Advisor_Tutorial_CampusLevel_Text::segment-795",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Sports/Advisor_Tutorial_CampusLevel_Text::segment-795",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Sports/Advisor_Tutorial_Marketing_Text::segment-799",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Sports/Level_Intro_Text::segment-802",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Sports/Level_Intro_Text::segment-802",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/StarLetters/PebberleyRuins_TwoStar::segment-867",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/StarLetters/Spiffinmoore_ThreeStar::segment-872",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/StarLetters/TPU_ThreeStar::segment-875",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Levels::Levels/StarLetters/TPU_ThreeStar::segment-875",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Levels::Levels/StarLetters/TPU_TwoStar::segment-876",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Courses::Courses/DLC_ChallengeMode/EasterArchaeology_Overivew::segment-231",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Courses::Courses/DLC_Hospital/Nurse_Description::segment-342",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_BonelessThighs_Text::segment-203",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_BonelessThighs_Text::segment-203",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_FlappyHamper_Text::segment-207",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_FlappyHamper_Text::segment-207",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_Limpette_Text::segment-209",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_Limpette_Text::segment-209",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_PineDented_Text::segment-211",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_PineDented_Text::segment-211",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Space/SpaceRocksMeteor_Bad_Text::segment-246",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/Results/Inspection_AgathaSphere/AgathaSphere_Excellent_Text::segment-479",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/Results/Inspection_CheesyGoblin/CheesyGoblin_Fail_Text::segment-489",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/Results/Inspection_JasmineOdyssey/JasmineOdyssey_Excellent_Text::segment-543",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/Results/Inspection_SophieNova/SophieNova_Excellent_Text::segment-591",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/Results/Inspection_SophieNova/SophieNova_Excellent_Text::segment-591",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/ChallengeMode/VIPs/Gloom_Background::segment-72",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/ChallengeMode/VIPs/Gloom_Background::segment-72",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/ChallengeMode/VIPs/SummerSchoolAlbert_Background::segment-76",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/ChallengeMode/VIPs/SummerSchoolAlbert_Background::segment-76",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_Book_Overview::segment-101",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_Cheeseball_Overview::segment-103",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_Cheeseball_Overview::segment-103",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_Nature_Overview::segment-106",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_Nature_Overview::segment-106",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_PowerNap_Overview::segment-112",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Clubs/Club_PowerNap_Overview::segment-112",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/DLC_Space/Events/SciFiConvention_Description::segment-410",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/DLC_Space/Events/SciFiConvention_Description::segment-410",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Film_Action_Description::segment-588",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Film_Action_Description::segment-588",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Film_SciFi_Description::segment-596",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/Bands/Kneegraze_Background::segment-1782",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/Bands/Kneegraze_Background::segment-1782",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/JasmineOdyssey_Background::segment-1806",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/JasmineOdyssey_Background::segment-1806",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/MeatWizard_Background::segment-1810",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/MeatWizard_Background::segment-1810",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/NefariaMunch_Background::segment-1812",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/NefariaMunch_Background::segment-1812",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/RoderickCushion_Background::segment-1820",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/RoderickCushion_Background::segment-1820",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/TabithaWindsock_Background::segment-1824",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/TabithaWindsock_Background::segment-1824",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/TarquinFoxbridge_Background::segment-1826",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Characters::Characters/VIPs/TarquinFoxbridge_Background::segment-1826",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_DLCs::Levels/DLC_Space/MoonBase_Tutorial_Marketing_Text::segment-5",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_DLCs::Levels/DLC_Space/MoonBase_Tutorial_Marketing_Text::segment-5",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Bookworms_Description::segment-114",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Bookworms_Description::segment-114",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Kudosh_Description::segment-170",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Kudosh_Description::segment-170",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Medical_Description::segment-180",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Medical_Description::segment-180",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/PastoralCare_Description::segment-184",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/PastoralCare_Description::segment-184",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Staff_Assistants_Description::segment-198",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Meta::Meta/FrontEnd/NewsFeed_DLC_Hospital_Description::segment-302",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Meta::Meta/FrontEnd/NewsFeed_DLC_Hospital_Description::segment-302",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Mods::UI/Mods/Mod.io/Report_content_violating_the_sites_Terms_of_Use_text::segment-78",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Mods::UI/Mods/Mod.io/Report_content_violating_the_sites_Terms_of_Use_text::segment-78",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Mods::UI/Mods/Mod.io/Report_content_violation_text::segment-79",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Mods::UI/Mods/Mod.io/Report_content_violation_text::segment-79",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Mods::UI/Mods/Mod.io/log_out_description::segment-144",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Marketing/Courses/Minor/Clown_Description::segment-20",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostStudents_Large_Text::segment-117",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Ghost/RepeatableResearch/Commerical_GhostStudents_Large_Text::segment-117",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Space/RepeatableResearch/Commerical_CheeseAlien_Large_Text::segment-215",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_KnightSchool_Large_Text::segment-397",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_KnightSchool_Small_Text::segment-401",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/RepeatableResearch/Commerical_Toff_Large_Text::segment-453",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Archaeology_DigSite_Description_Long::segment-21",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Archaeology_DigSite_Description_Long::segment-21",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Challenge_Mode/EasterArchaeology_Digsite_Descripton_Long::segment-28",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Challenge_Mode/EasterArchaeology_Digsite_Descripton_Long::segment-28",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Ghost/GhostBusting_Description_Long::segment-237",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Ghost/GhostBusting_Description_Long::segment-237",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Ghost/GhostDetection_Description_Long::segment-240",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Ghost/GhostDetection_Description_Long::segment-240",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/DeluxClinic_Description_Long::segment-273",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/DeluxClinic_Description_Long::segment-273",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/FacePunch_Description_Long::segment-276",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/FacePunch_Description_Long::segment-276",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Injection_Long_Description_Long::segment-281",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Injection_Long_Description_Long::segment-281",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Psychiatry_Description_Long::segment-284",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Psychiatry_Description_Long::segment-284",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Surgery_Description_Long::segment-287",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Surgery_Description_Long::segment-287",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Ward_Description_Long::segment-290",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Hospital/Ward_Description_Long::segment-290",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/AlienCheese_Description_Long::segment-293",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/AlienCheese_Description_Long::segment-293",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/AlienHumanities_Description_Long::segment-296",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/AlienHumanities_Description_Long::segment-296",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/Astronaut_Description_Long::segment-299",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/Astronaut_Description_Long::segment-299",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/Rocket_Description_Long::segment-343",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/Rocket_Description_Long::segment-343",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/SpaceKnight_Description_Long::segment-346",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/SpaceKnight_Description_Long::segment-346",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/StarTrek_Description_Long::segment-349",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/StarTrek_Description_Long::segment-349",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Dormitory_Description_Long::segment-352",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Dormitory_Description_Long::segment-352",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/FoodCourt_Description_Long::segment-355",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/FoodCourt_Description_Long::segment-355",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Gastronomy_Savoury_Description_Long::segment-415",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Gastronomy_Savoury_Description_Long::segment-415",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Gastronomy_Sweet_Description_Long::segment-418",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Gastronomy_Sweet_Description_Long::segment-418",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Gym_Description_Long::segment-421",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Gym_Description_Long::segment-421",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Knights_Combat_Description_Long::segment-424",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Knights_Combat_Description_Long::segment-424",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Knights_Jousting_Description_Long::segment-427",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Knights_Jousting_Description_Long::segment-427",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Library_Description_Long::segment-433",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Library_Description_Long::segment-433",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Marketing_Description_Long::segment-436",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Marketing_Description_Long::segment-436",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Medical_Description_Long::segment-439",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Medical_Description_Long::segment-439",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Music_Description_Long::segment-442",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Music_Description_Long::segment-442",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Pastoral_Description_Long::segment-445",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Pastoral_Description_Long::segment-445",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Research_Description_Long::segment-449",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Research_Description_Long::segment-449",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Robotics_RoboticsDesign_Description_Long::segment-452",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Robotics_RoboticsDesign_Description_Long::segment-452",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Robotics_RoboticsDevelopment_Description_Long::segment-455",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Robotics_RoboticsDevelopment_Description_Long::segment-455",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/ScienceLab_Description_Long::segment-463",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/ScienceLab_Description_Long::segment-463",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/SportsField_Description_Long::segment-469",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/SportsField_Description_Long::segment-469",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Spy_Gadgets_Description_Long::segment-472",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Spy_Gadgets_Description_Long::segment-472",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Spy_Stealth_Description_Long::segment-475",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Spy_Stealth_Description_Long::segment-475",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/StudentUnion_Description_Long::segment-483",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/StudentUnion_Description_Long::segment-483",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/TeacherOffice_Description_Long::segment-486",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/TeacherOffice_Description_Long::segment-486",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/VirtualReality_Description_Long::segment-495",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/VirtualReality_Description_Long::segment-495",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Wizardry_Potions_Description_Long::segment-498",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Wizardry_Potions_Description_Long::segment-498",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Wizardry_Spells_Description_Long::segment-501",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Wizardry_Spells_Description_Long::segment-501",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/staffRoom_Description_Long::segment-503",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/staffRoom_Description_Long::segment-503",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/ChallengeMode/CM6_PebberleyRuins_Puzzle_Riddle_3::segment-87",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/ChallengeMode/CM6_PebberleyRuins_Puzzle_Riddle_3::segment-87",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Artefacts_Selling::segment-383",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Ghost_HauntedRooms::segment-393",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Hospital_Fires::segment-399",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Hospital_TreatingPatients::segment-405",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Hospital_TreatingPatients::segment-405",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/GhostRemixFunding_Attractiveness_Tooltip::segment-423",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/GhostRemixFunding_Attractiveness_Tooltip::segment-423",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Improve_Attractiveness::segment-428",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Improve_Attractiveness::segment-428",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Improve_Club_Prestige::segment-429",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Marketing::segment-446",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Marketing::segment-446",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Space_Artefacts::segment-465",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Space_Artefacts::segment-465",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Win_Events_Cooking::segment-481",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Win_Events_Cooking::segment-481",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Win_Events_KnightDuelling::segment-483",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Win_Events_KnightDuelling::segment-483",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Cheesy_Sensual::segment-9",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Cheesy_Sensual::segment-9",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Crumley_Casserole::segment-10",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Crumley_Casserole::segment-10",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_HogLogs_Waiter::segment-15",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_HogLogs_Waiter::segment-15",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_MilkMade_GoodMilk::segment-23",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_MilkMade_GoodMilk::segment-23",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Orb_Purpose::segment-26",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Orb_Purpose::segment-26",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Roderick_ImmatureStudents::segment-29",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Ad_Roderick_ImmatureStudents::segment-29",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Correspondent_3::segment-42",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Correspondent_3::segment-42",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_MittonLevel::segment-47",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_MittonLevel::segment-47",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_S1_L5::segment-54",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_S1_L5::segment-54",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_S3_L5::segment-68",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_S3_L5::segment-68",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_S6_L3::segment-87",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_S6_L3::segment-87",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_Sting_1_A::segment-99",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_Sting_1_A::segment-99",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_Sting_2_A::segment-102",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/HW_Sting_2_A::segment-102",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_ArchaeologyLevel::segment-149",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_ArchaeologyLevel::segment-149",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_CM_KrampusLevel::segment-150",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_CM_KrampusLevel::segment-150",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_DLC2_Ghost::segment-152",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_DLC2_Ghost::segment-152",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_GastronomyLevel::segment-154",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_GastronomyLevel::segment-154",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S1_L5::segment-159",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S1_L5::segment-159",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S2_L4::segment-165",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S2_L4::segment-165",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S3_L1::segment-169",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S3_L1::segment-169",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S3_L6::segment-174",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S3_L6::segment-174",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S4_L5::segment-180",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S4_L5::segment-180",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S4_L7::segment-182",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S4_L7::segment-182",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S7_L5::segment-201",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/NB_S7_L5::segment-201",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Pseudo_4::segment-218",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/Pseudo_4::segment-218",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S2_L7::segment-252",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S2_L7::segment-252",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S5_L3::segment-269",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S5_L3::segment-269",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S5_L7::segment-273",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S5_L7::segment-273",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S6_L5::segment-278",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S6_L5::segment-278",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S7_L2::segment-282",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/RH_S7_L2::segment-282",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/STF_Intro_3::segment-312",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/STF_Intro_3::segment-312",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/STF_Intro_5::segment-314",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/STF_Intro_5::segment-314",
+      "field": "thai"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/STF_Outro_2::segment-316",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/SobStory_7::segment-334",
+      "field": "source"
+    },
+    {
+      "id": "I2LS_VO_Radio::VO/SobStory_7::segment-334",
+      "field": "thai"
+    }
+  ]
+}

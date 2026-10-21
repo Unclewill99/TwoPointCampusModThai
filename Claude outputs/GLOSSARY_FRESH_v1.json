@@ -1,0 +1,72 @@
+[
+ {
+  "source_term": "bookworm",
+  "thai_proposal": "หนอนหนังสือ",
+  "context": "creature captured by player (achievements)",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/Bookworm_Description::segment-6"
+  ],
+  "rationale": "Literal and widely understood; keeps the creature/pun image",
+  "status": "PROPOSED_PENDING_REVIEW"
+ },
+ {
+  "source_term": "cheeseball",
+  "thai_proposal": "ชีสบอล",
+  "context": "in-game sport",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/CheeseballWins_Description::segment-12"
+  ],
+  "rationale": "Transliterated coined sport name",
+  "status": "PROPOSED_PENDING_REVIEW"
+ },
+ {
+  "source_term": "Kudosh",
+  "thai_proposal": "Kudosh (คงตามต้นฉบับ)",
+  "context": "currency/points earned by player",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/Kudosh_Description::segment-66"
+  ],
+  "rationale": "Coined in-game term; no official Thai; kept Latin until UI context (I2LS_UI) confirms. UNRESOLVED_UNCERTAINTY",
+  "status": "PROPOSED_PENDING_REVIEW"
+ },
+ {
+  "source_term": "qualification (staff)",
+  "thai_proposal": "คุณวุฒิ",
+  "context": "staff skill/qualification e.g. Wizardry",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/Dumbledore_Description::segment-48"
+  ],
+  "rationale": "Matches staff training/skill ranks; verify against Characters/Items assets",
+  "status": "PROPOSED_PENDING_REVIEW"
+ },
+ {
+  "source_term": "course (offered by campus)",
+  "thai_proposal": "หลักสูตร",
+  "context": "academic course/degree programme the campus runs",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/OneFromEachCourse_Description::segment-74"
+  ],
+  "rationale": "Context: students graduate in each course; verify against I2LS_Courses",
+  "status": "PROPOSED_PENDING_REVIEW"
+ },
+ {
+  "source_term": "stars (rating)",
+  "thai_proposal": "ดาว",
+  "context": "level star rating",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/AllStars_Description::segment-2"
+  ],
+  "rationale": "Counted with no classifier needed (\"1 ดาว\")",
+  "status": "PROPOSED_PENDING_REVIEW"
+ },
+ {
+  "source_term": "ghost",
+  "thai_proposal": "ผี (ลักษณนาม ตน)",
+  "context": "Lifeless Estate DLC creatures",
+  "evidence_ids": [
+   "I2LS_General::General/Achievements/DLC_Ghost/CaptureGhosts_Description::segment-22"
+  ],
+  "rationale": "Casual game tone",
+  "status": "PROPOSED_PENDING_REVIEW"
+ }
+]

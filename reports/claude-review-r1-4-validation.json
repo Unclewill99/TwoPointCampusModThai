@@ -1,0 +1,2357 @@
+{
+  "records": 15677,
+  "batches": 171,
+  "changed_rows": 292,
+  "changed_batches": 58,
+  "status_counts": {
+    "TRANSLATED_PENDING_REVIEW": 12721,
+    "KEEP_AS_SOURCE_PENDING_REVIEW": 2956
+  },
+  "tsv_rows": 292,
+  "tsv_match_modes": {
+    "exact": 484,
+    "escaped": 100
+  },
+  "original_archive_files_unchanged": true,
+  "errors": [],
+  "runtime": "NOT_RUN",
+  "language_review": "TARGETED_REVIEW_PENDING_CONTROLLER",
+  "changes": [
+    {
+      "id": "I2LS_Advisor::Advisor/Advisor_Pastoral_Missing_Room::segment-44",
+      "before": "มีคนมีปัญหาด้านจิตใจ แต่เรายังไม่มีห้องดูแลด้านจิตใจ",
+      "after": "มีคนมีปัญหาด้านจิตใจ แต่เรายังไม่มีศูนย์สนับสนุนด้านจิตใจ",
+      "batch": "FRESH-005",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM5_FreshleighMeadows_Easter_Advisor_Wiggy_Intro_Text::segment-101",
+      "before": "คราวนี้ผมพลาดจริง ๆ ทำไข่ใบโปรดหายไปซะแล้ว! คงหลุดไปอยู่กอง \"ฝังลึกใต้ดิน\" แน่ ๆ อีกแล้วเหรอเนี่ย<br>แต่ถึงอย่างไรก็ไม่มีใครหาไข่ได้เก่งเท่าผมหรอก เหมือนไข่ทุกใบที่ผมไม่เคยหาเจอนั่นแหละ ผมไร้เทียมทานจริง ๆ ผมจึงมอบภูมิปัญญาแห่งการล่าไข่ให้คุณ<br>ส่งนักศึกษาลงโพรงกระต่าย ส่วนคุณรออยู่ข้างบนคอยหาไข่บนพื้นผิว นั่นคือวิธีที่ผมกับ Giles ชนะสามแชมป์ติด น่าเสียดายที่ข้อศอกของเขาพังไปเสียก่อน...",
+      "after": "คราวนี้ผมพลาดจริง ๆ ทำไข่ใบโปรดหายไปซะแล้ว! คงหลุดไปอยู่กอง \"ฝังลึกใต้ดิน\" แน่ ๆ อีกแล้วเหรอเนี่ย<br>แต่ถึงอย่างไรก็ไม่มีใครหาไข่ได้เก่งเท่าผมหรอก เหมือนไข่ทุกใบที่ผมไม่เคยหาเจอนั่นแหละ ผมไร้เทียมทานจริง ๆ ผมจึงมอบภูมิปัญญาแห่งการตามล่าไข่ให้คุณ<br>ส่งนักศึกษาลงโพรงกระต่าย ส่วนคุณรออยู่ข้างบนคอยหาไข่บนพื้นผิว นั่นคือวิธีที่ผมกับ Giles ชนะสามแชมป์ติด น่าเสียดายที่ข้อศอกของเขาพังไปเสียก่อน...",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM5_FreshleighMeadows_Easter_Level_Intro_Text::segment-106",
+      "before": "Wiggy Silverbottom กลับมาอีกแล้ว พร้อมส่วนผสมเด็ดประจำตัว คือเวลาว่างเหลือเฟือกับความคิดแย่ ๆ ที่ล้นเกิน คราวนี้เขาจัดการล่าไข่ใน Freshleigh Meadows \n\nใช่ เขาฝังคอลเลกชันไข่ Fitzpocket สุดล้ำค่าไว้ทั่วเมือง และตอนนี้เป็นหน้าที่ของคุณ ไม่สิ ความสุข! ที่จะเอามันกลับมา คอยหาไข่ที่ซ่อนอยู่รอบวิทยาเขต และเปิดหลักสูตรล่าไข่เพื่อหาไข่ที่ซ่อนลึกใต้ดิน",
+      "after": "Wiggy Silverbottom กลับมาอีกแล้ว พร้อมส่วนผสมเด็ดประจำตัว คือเวลาว่างเหลือเฟือกับความคิดแย่ ๆ ที่ล้นเกิน คราวนี้เขาจัดการล่าไข่ใน Freshleigh Meadows \n\nใช่ เขาฝังคอลเลกชันไข่ Fitzpocket สุดล้ำค่าไว้ทั่วเมือง และตอนนี้เป็นหน้าที่ของคุณ ไม่สิ ความสุข! ที่จะเอามันกลับมา คอยหาไข่ที่ซ่อนอยู่รอบวิทยาเขต และเปิดหลักสูตรตามล่าไข่เพื่อหาไข่ที่ซ่อนลึกใต้ดิน",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM5_FreshleighMeadows_Easter_Reacap_EggHunting_Header::segment-111",
+      "before": "ล่าไข่",
+      "after": "ตามล่าไข่",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM6_BreakingPoint_SummerSchool_Advisor_Albert_Intro_Text::segment-125",
+      "before": "รู้ว่าไม่ควรทำงานอยู่ แต่บังเอิญอยู่ที่ชายหาด Breaking Point แล้วได้ยินเรื่องซัมเมอร์สคูลก็ห้ามใจไม่ไหว<br>คงจริงที่ว่าพาที่ปรึกษาออกจากวิทยาเขตได้ แต่ห้ามไม่ให้กลับมาตอนที่ควรจะลาพักร้อนไม่ได้<br>ที่ซัมเมอร์สคูล คุณจะได้รับเงินทุนจากกระทรวงศึกษาธิการตามเกรดของนักศึกษา แต่นักศึกษาจะตัดสินคุณจากความสนุกที่พวกเขาได้รับ<br>ถ้าอยากให้ทุกคนมีความสุข ความเห็นเชิงวิชาชีพคือควรเริ่มที่ใกล้ ๆ ชายหาด",
+      "after": "รู้ว่าไม่ควรทำงานอยู่ แต่บังเอิญอยู่ที่หาดจุดแตกหัก แล้วได้ยินเรื่องซัมเมอร์สคูลก็ห้ามใจไม่ไหว<br>คงจริงที่ว่าพาที่ปรึกษาออกจากวิทยาเขตได้ แต่ห้ามไม่ให้กลับมาตอนที่ควรจะลาพักร้อนไม่ได้<br>ที่ซัมเมอร์สคูล คุณจะได้รับเงินทุนจากกระทรวงศึกษาธิการตามเกรดของนักศึกษา แต่นักศึกษาจะตัดสินคุณจากความสนุกที่พวกเขาได้รับ<br>ถ้าอยากให้ทุกคนมีความสุข ความเห็นเชิงวิชาชีพคือควรเริ่มที่ใกล้ ๆ ชายหาด",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_ChallengeMode/CM6_BreakingPoint_SummerSchool_Advisor_Albert_SunBombs_Text::segment-127",
+      "before": "กระทรวงดูมุ่งมั่นทำให้ซัมเมอร์สคูลเป็นประสบการณ์ที่หดหู่ บางทีสีสันท้องถิ่นอาจช่วยให้บรรยากาศสดใสขึ้น?<br>อย่าลืมใช้ชายหาด Breaking Point จัดงานปาร์ตี้ ส่วนดอกไม้ไฟ เดี๋ยวจะไปหามาให้<br>ระเบิดตะวันเป็นประเพณีของ Breaking Point และเป็นวิธีแน่นอนที่จะสาดแดดเข้าสู่ฤดูร้อน",
+      "after": "กระทรวงดูมุ่งมั่นทำให้ซัมเมอร์สคูลเป็นประสบการณ์ที่หดหู่ บางทีสีสันท้องถิ่นอาจช่วยให้บรรยากาศสดใสขึ้น?<br>อย่าลืมใช้หาดจุดแตกหัก จัดงานปาร์ตี้ ส่วนดอกไม้ไฟ เดี๋ยวจะไปหามาให้<br>ระเบิดตะวันเป็นประเพณีของ Breaking Point และเป็นวิธีแน่นอนที่จะสาดแดดเข้าสู่ฤดูร้อน",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Advisor_LadyLifeless_Ectovats_Text::segment-173",
+      "before": "อา ดีขึ้นแล้ว! แขกของคุณทำเลอะเทอะพอสมควร แต่คนทำความสะอาดจะชดเชยได้ดี นานแล้วที่คฤหาสน์ไม่มีบุคลากรครบ<br>เมื่อเพื่อนผีของเราถูกจับได้ พลังชีวิตของพวกเขาสามารถเก็บไว้ในเอ็กโตแวตให้ทุกคนได้ใช้ประโยชน์! รู้ได้อย่างไรน่ะเหรอ ฉันใช้ฤดูร้อนที่ดีที่สุดของความตายอัดอยู่ในเอ็กโตแวต นั่นไง",
+      "after": "อา ดีขึ้นแล้ว! แขกของคุณทำเลอะเทอะพอสมควร แต่คนทำความสะอาดจะชดเชยได้ดี นานแล้วที่คฤหาสน์ไม่มีบุคลากรครบ<br>เมื่อเพื่อนผีของเราถูกจับได้ พลังชีวิตของพวกเขาสามารถเก็บไว้ในเอ็กโทแวตให้ทุกคนได้ใช้ประโยชน์! รู้ได้อย่างไรน่ะเหรอ ฉันใช้ฤดูร้อนที่ดีที่สุดของความตายอัดอยู่ในเอ็กโทแวต นั่นไง",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Advisor_Tutorial_GhostDetection_Text::segment-181",
+      "before": "คาบเรียนในห้องตรวจจับจะเผยผีในวิทยาเขต ผีอาจน่ารำคาญ แต่นั่นเป็นเรื่องที่ต้องมาพร้อมกับที่นี่ และใครจะรู้ อาจมีประโยชน์ก็ได้",
+      "after": "คาบเรียนในสำนักงานตรวจจับจะเผยผีในวิทยาเขต ผีอาจน่ารำคาญ แต่นั่นเป็นเรื่องที่ต้องมาพร้อมกับที่นี่ และใครจะรู้ อาจมีประโยชน์ก็ได้",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Advisor_Tutorial_PlotCleansing_Text::segment-185",
+      "before": "วิญญาณร้ายขัดขวางไม่ให้เราเปิดแปลงที่ดินใหม่ และต้องถูกกำจัดก่อนจึงจะขยายได้ น่าเสียดายที่สหภาพคนทำความสะอาด แม้ยินดีจัดการผีทุกชนิด แต่ไม่แตะต้องวิญญาณร้าย<br>โชคดีที่เรามีนักศึกษาตรวจจับเหนือธรรมชาติมาลองสุดกำลังแบบนักเรียน คงไม่อันตรายขนาดนั้น คงงั้น ขับไล่วิญญาณร้ายโดยเลือกแปลงที่ยังไม่เป็นเจ้าของแล้วกำหนดพิธีขับไล่ ",
+      "after": "วิญญาณร้ายขัดขวางไม่ให้เราเปิดแปลงที่ดินใหม่ และต้องถูกกำจัดก่อนจึงจะขยายได้ น่าเสียดายที่สหภาพคนทำความสะอาด แม้ยินดีจัดการผีทุกชนิด แต่ไม่แตะต้องวิญญาณร้าย<br>โชคดีที่เรามีนักศึกษาหลักสูตรการตรวจจับเหนือธรรมชาติมาลองสุดกำลังแบบนักเรียน คงไม่อันตรายขนาดนั้น คงงั้น ขับไล่วิญญาณร้ายโดยเลือกแปลงที่ยังไม่เป็นเจ้าของแล้วกำหนดพิธีขับไล่ ",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Inbox_Ghosts_Text::segment-191",
+      "before": "คนทำความสะอาดที่มีคุณวุฒิด้านการจับผีสามารถนำผีออกจากวิทยาเขตได้\n\nพบผีได้หลังคาบเรียนในห้องตรวจจับ ปรากฏเพราะฝูงผีในวิทยาเขต หรือถูกเผยเมื่อไล่ผีออกจากห้อง\n\nคนทำความสะอาดสามารถนำผีที่จับได้ไปเก็บไว้ในเอ็กโตแวต นักศึกษาจะมาเยือนเอ็กโตแวตที่มีผีอยู่เพื่อรับโบนัส",
+      "after": "คนทำความสะอาดที่มีคุณวุฒิด้านการจับผีสามารถนำผีออกจากวิทยาเขตได้\n\nพบผีได้หลังคาบเรียนในสำนักงานตรวจจับ ปรากฏเพราะฝูงผีในวิทยาเขต หรือถูกเผยเมื่อไล่ผีออกจากห้อง\n\nคนทำความสะอาดสามารถนำผีที่จับได้ไปเก็บไว้ในเอ็กโทแวต นักศึกษาจะมาเยือนเอ็กโทแวตที่มีผีอยู่เพื่อรับโบนัส",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Inbox_PlotCleansing_Text::segment-195",
+      "before": "ที่ Lifeless Estate วิญญาณร้ายขัดขวางไม่ให้เราขยายวิทยาเขต เลือกแปลงที่ยังไม่เป็นเจ้าของเพื่อกำหนดพิธีขับไล่ ลองขับไล่เหนือธรรมชาติและขยายวิทยาเขต\n\nวิญญาณร้ายแต่ละตนถูกทรมานจากบางสิ่งในอดีต เช่น ช่วงเวลาน่าอับอาย ความทุกข์ตรมหลายสิบปี ฯลฯ ทำเป้าหมายโบนัสความเสียหายให้สำเร็จเพื่อทรมานวิญญาณร้าย และใช้ชีวิตในวิทยาเขตลดพลังโพลเทอร์ไกสต์ของพวกมัน\n\nสนับสนุนหลักสูตรตรวจจับเหนือธรรมชาติ และใช้จุดอ่อนของวิญญาณร้ายให้เป็นประโยชน์ เพื่อขับไล่ให้สำเร็จ",
+      "after": "ที่ Lifeless Estate วิญญาณร้ายขัดขวางไม่ให้เราขยายวิทยาเขต เลือกแปลงที่ยังไม่เป็นเจ้าของเพื่อกำหนดพิธีขับไล่ ลองขับไล่เหนือธรรมชาติและขยายวิทยาเขต\n\nวิญญาณร้ายแต่ละตนถูกทรมานจากบางสิ่งในอดีต เช่น ช่วงเวลาน่าอับอาย ความทุกข์ตรมหลายสิบปี ฯลฯ ทำเป้าหมายโบนัสความเสียหายให้สำเร็จเพื่อทรมานวิญญาณร้าย และใช้ชีวิตในวิทยาเขตลดพลังโพลเทอร์ไกสต์ของพวกมัน\n\nสนับสนุนหลักสูตรการตรวจจับเหนือธรรมชาติ และใช้จุดอ่อนของวิญญาณร้ายให้เป็นประโยชน์ เพื่อขับไล่ให้สำเร็จ",
+      "batch": "FRESH-008",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Ghost/GhostMansion/Recap_PlotCleansing_Defeating_Text::segment-204",
+      "before": "นักศึกษาตรวจจับเหนือธรรมชาติสามารถลองขับไล่วิญญาณร้ายที่ครอบครองส่วนหนึ่งของคฤหาสน์ เลือกแปลงที่ยังไม่เป็นเจ้าของเพื่อกำหนดพิธีขับไล่",
+      "after": "นักศึกษาหลักสูตรการตรวจจับเหนือธรรมชาติสามารถลองขับไล่วิญญาณร้ายที่ครอบครองส่วนหนึ่งของคฤหาสน์ เลือกแปลงที่ยังไม่เป็นเจ้าของเพื่อกำหนดพิธีขับไล่",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeEndTutorial/Advisor_Vitality_EndTutorial_Text::segment-222",
+      "before": "เรียบร้อย! ผู้คนหายป่วยเพราะโรงพยาบาลของคุณ หรือ... วิทยาเขต? ช่างเถอะ...<br>ไม่มีเวลาเถียงเรื่องความหมายคำ ผู้ปิกนิกกลุ่มหนึ่งได้รับบาดเจ็บเล็กน้อยบน Tumble Downs<br>ไม่มีอะไรเทียบการรักษาผู้คนได้ ไปดูกันว่าคุณทำต่อเนื่องได้ไหมในภาวะฉุกเฉินของผู้ป่วย คุณไม่อยากรู้หรอกว่าทางเลือกอื่นรู้สึกอย่างไร!",
+      "after": "เรียบร้อย! ผู้คนหายป่วยเพราะโรงพยาบาลของคุณ หรือ... วิทยาเขต? ช่างเถอะ...<br>ไม่มีเวลาเถียงเรื่องความหมายคำ ผู้ปิกนิกกลุ่มหนึ่งได้รับบาดเจ็บเล็กน้อยบน Tumble Downs<br>ไม่มีอะไรเทียบการรักษาผู้คนได้ ไปดูกันว่าคุณทำต่อเนื่องได้ไหมในเหตุฉุกเฉินของผู้ป่วย คุณไม่อยากรู้หรอกว่าทางเลือกอื่นรู้สึกอย่างไร!",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Tutorial_Emergencies_Text::segment-224",
+      "before": "ในภาวะฉุกเฉินของผู้ป่วย กลุ่มผู้ป่วยที่เป็นโรคหรือบาดเจ็บเหมือนกันจะมาที่วิทยาเขตเพื่อรับการรักษา<br>รักษาผู้ป่วยให้สำเร็จมากพอเพื่อรับรางวัล! สร้างหอผู้ป่วย และจ้างครูที่มีคุณวุฒิด้านการพยาบาล เพื่อรักษาภาวะฉุกเฉิน Flappy Hamper",
+      "after": "ในเหตุฉุกเฉินของผู้ป่วย กลุ่มผู้ป่วยที่เป็นโรคหรือบาดเจ็บเหมือนกันจะมาที่วิทยาเขตเพื่อรับการรักษา<br>รักษาผู้ป่วยให้สำเร็จมากพอเพื่อรับรางวัล! สร้างหอผู้ป่วย และจ้างครูที่มีคุณวุฒิด้านการพยาบาล เพื่อรักษาเหตุฉุกเฉิน Flappy Hamper",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Tutorial_Emergencies_Title::segment-225",
+      "before": "ภาวะฉุกเฉินของผู้ป่วย",
+      "after": "เหตุฉุกเฉินของผู้ป่วย",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_EmergencyFail_Text::segment-232",
+      "before": "โธ่ ภาวะฉุกเฉินไม่เป็นไปตามแผน คราวหน้าคุณจะทำได้ ไม่ใช่กับคนกลุ่มนั้นหรอก แต่... เข้าใจนะ",
+      "after": "โธ่ เหตุฉุกเฉินไม่เป็นไปตามแผน คราวหน้าคุณจะทำได้ ไม่ใช่กับคนกลุ่มนั้นหรอก แต่... เข้าใจนะ",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_EmergencyFail_Title::segment-233",
+      "before": "ภาวะฉุกเฉินล้มเหลว",
+      "after": "เหตุฉุกเฉินล้มเหลว",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_EmergencySuccess_Text::segment-234",
+      "before": "เยี่ยมมาก คุณรับมือภาวะฉุกเฉินของผู้ป่วยได้! ที่เหลือก็แค่ทำต่อไปเรื่อย ๆ ไม่มีกำหนด ไม่ต้องห่วง ไม่ใช่เรื่องความเป็นความตาย ไม่ใช่ทุกครั้งหรอก",
+      "after": "เยี่ยมมาก คุณรับมือเหตุฉุกเฉินของผู้ป่วยได้! ที่เหลือก็แค่ทำต่อไปเรื่อย ๆ ไม่มีกำหนด ไม่ต้องห่วง ไม่ใช่เรื่องความเป็นความตาย ไม่ใช่ทุกครั้งหรอก",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Advisor_Vitality_EmergencySuccess_Title::segment-235",
+      "before": "ภาวะฉุกเฉินสำเร็จ",
+      "after": "เหตุฉุกเฉินสำเร็จ",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Inbox_Emergency_Text::segment-250",
+      "before": "วิทยาเขตแพทย์ของคุณจะถูกขอให้รับมือภาวะฉุกเฉินของผู้ป่วย เหมือนโรงพยาบาลอื่น ๆ ในเคาน์ตี\n\n\nระหว่างภาวะฉุกเฉินของผู้ป่วย กลุ่มคนป่วยที่เป็นโรค อาการ หรือความเจ็บป่วยเหมือนกันจะมาถึงพร้อมกัน\n\n\nรักษาผู้ป่วยให้ได้มากพอ (ดีที่สุดคือทุกคน) เพื่อรับรางวัล!",
+      "after": "วิทยาเขตแพทย์ของคุณจะถูกขอให้รับมือเหตุฉุกเฉินของผู้ป่วย เหมือนโรงพยาบาลอื่น ๆ ในเคาน์ตี\n\n\nระหว่างเหตุฉุกเฉินของผู้ป่วย กลุ่มคนป่วยที่เป็นโรค อาการ หรือความเจ็บป่วยเหมือนกันจะมาถึงพร้อมกัน\n\n\nรักษาผู้ป่วยให้ได้มากพอ (ดีที่สุดคือทุกคน) เพื่อรับรางวัล!",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/LakeHospital/Inbox_Emergency_Title::segment-251",
+      "before": "ภาวะฉุกเฉินของผู้ป่วย",
+      "after": "เหตุฉุกเฉินของผู้ป่วย",
+      "batch": "FRESH-009",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Inbox_Helipad_Description::segment-333",
+      "before": "ทำได้ดีมาก! ตอนนี้การวิจัยเสร็จแล้ว และเราหาสีที่เหมาะกับตัว \"H\" ใหญ่ ๆ ได้แล้ว คุณจะวางลานเฮลิคอปเตอร์รอบวิทยาเขตได้ \n\nมีเพียงผู้ป่วยที่ใช้ลานเฮลิคอปเตอร์เพื่อมาถึงวิทยาเขต เพราะเรื่องนักศึกษากับเฮลิคอปเตอร์ฟังดูไม่ใช่ความคิดที่ดี...\n\nวางลานเฮลิคอปเตอร์เพื่อช่วยจัดผังวิทยาเขตแพทย์ ลดการเดิน/รอการรักษาที่ยาวนาน และท้ายที่สุดรักษาผู้ป่วยได้มากขึ้น ",
+      "after": "ทำได้ดีมาก! ตอนนี้การวิจัยเสร็จแล้ว และเราหาสีที่เหมาะกับตัว \"H\" ใหญ่ ๆ ได้แล้ว คุณจะวางลานจอดเฮลิคอปเตอร์รอบวิทยาเขตได้ \n\nมีเพียงผู้ป่วยที่ใช้ลานจอดเฮลิคอปเตอร์เพื่อมาถึงวิทยาเขต เพราะเรื่องนักศึกษากับเฮลิคอปเตอร์ฟังดูไม่ใช่ความคิดที่ดี...\n\nวางลานจอดเฮลิคอปเตอร์เพื่อช่วยจัดผังวิทยาเขตแพทย์ ลดการเดิน/รอการรักษาที่ยาวนาน และท้ายที่สุดรักษาผู้ป่วยได้มากขึ้น ",
+      "batch": "FRESH-010",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Hospital/VolcanoHospital/Inbox_Helipad_Name::segment-334",
+      "before": "ผู้ป่วยและลานเฮลิคอปเตอร์",
+      "after": "ผู้ป่วยและลานจอดเฮลิคอปเตอร์",
+      "batch": "FRESH-010",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/LaunchPad_Level_Intro_Text::segment-367",
+      "before": "โครงการอวกาศของ Two Point อยู่ไกลแสนไกลจากยุครุ่งเรืองที่จรวดขึ้นข่าวพาดหัวและนักบินอวกาศกึ่งมีชื่อเสียง เหมือนนักแสดงบีลิสต์ที่คุณจำหน้าไม่ได้ด้วยซ้ำ สมัยก่อน Universe City เป็นสถานที่คึกคัก มีคนเดินไม่ขาดสาย แต่ตอนนี้เต็มไปด้วยฝุ่น ถูกลืม และขาดทุน\n\nฟื้นฟูสถาบัน ดูแลการเปิดตัว Cosmic Expansion อนาคตของการท่องอวกาศในประเทศ! และลงจอดอย่างปลอดภัยในรุ่งอรุณของยุคอวกาศครั้งที่สอง",
+      "after": "โครงการอวกาศของ Two Point อยู่ไกลแสนไกลจากยุครุ่งเรืองที่จรวดขึ้นข่าวพาดหัวและนักบินอวกาศกึ่งมีชื่อเสียง เหมือนนักแสดงบีลิสต์ที่คุณจำหน้าไม่ได้ด้วยซ้ำ สมัยก่อน Universe City เป็นสถานที่คึกคัก มีคนเดินไม่ขาดสาย แต่ตอนนี้เต็มไปด้วยฝุ่น ถูกลืม และขาดทุน\n\nฟื้นฟูสถาบัน ดูแลการเปิดตัวหลักสูตรการขยายจักรวาล อนาคตของการท่องอวกาศในประเทศ! และลงจอดอย่างปลอดภัยในรุ่งอรุณของยุคอวกาศครั้งที่สอง",
+      "batch": "FRESH-010",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/LaunchpadLevel/Recap_SpaceResearch_GenerateProjects_Text::segment-394",
+      "before": "สร้างโครงการเชิงพาณิชย์ใหม่โดยให้บุคลากรทำงานได้อย่างอิสระในห้องปฏิบัติการวิจัย นักศึกษา Cosmic Expansion อาจพบโอกาสบางอย่างจากเส้นสายพิเศษของพวกเขาด้วย",
+      "after": "สร้างโครงการเชิงพาณิชย์ใหม่โดยให้บุคลากรทำงานได้อย่างอิสระในห้องปฏิบัติการวิจัย นักศึกษาหลักสูตรการขยายจักรวาลอาจพบโอกาสบางอย่างจากเส้นสายพิเศษของพวกเขาด้วย",
+      "batch": "FRESH-010",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/DLC_Space/MoonBaseLevel/Advisor_CaptainCushion_CheeseProduction_Text::segment-399",
+      "before": "โอ้โห ดูพวกพ่อค้าชีสอิสระนั่นสิ ตามที่ผมคำนวณ ทุกคาบ Creamatorium น่าจะทำเงินให้เรา... บ้างล่ะ<br>ยิ่งเราสอน Cheese-Moongers ได้ดีเท่าไร พวกเขาก็ยิ่งผลิตของดีชีสมันที่ทำกำไรมากขึ้น เห็นไหม ผมช่างสังเกตจริง ๆ",
+      "after": "โอ้โห ดูพวกพ่อค้าชีสอิสระนั่นสิ ตามที่ผมคำนวณ ทุกคาบ ครีมาโทเรียม น่าจะทำเงินให้เรา... บ้างล่ะ<br>ยิ่งเราสอน Cheese-Moongers ได้ดีเท่าไร พวกเขาก็ยิ่งผลิตของดีชีสมันที่ทำกำไรมากขึ้น เห็นไหม ผมช่างสังเกตจริง ๆ",
+      "batch": "FRESH-010",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Freshleigh/Advisor_Tutorial_Janitors_Title::segment-501",
+      "before": "การดูแลวิทยาเขต",
+      "after": "ซ่อมบำรุงวิทยาเขต",
+      "batch": "FRESH-012",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Gastronomy/Advisor__Tutorial_Pastoral_Text::segment-593",
+      "before": "ชีวิตในวิทยาเขตอาจลำบาก โดยเฉพาะเมื่อมีพ่อมดชั่วร้ายเดินเพ่นพ่านอยู่ แต่บางเรื่องก็แค่ต้องการคนที่รับฟังด้วยความเข้าใจและเก้าอี้ที่ใช่<br>สร้างห้องดูแลด้านจิตใจและจ้างผู้ช่วยที่มีคุณวุฒิด้านการดูแลด้านจิตใจ",
+      "after": "ชีวิตในวิทยาเขตอาจลำบาก โดยเฉพาะเมื่อมีพ่อมดชั่วร้ายเดินเพ่นพ่านอยู่ แต่บางเรื่องก็แค่ต้องการคนที่รับฟังด้วยความเข้าใจและเก้าอี้ที่ใช่<br>สร้างศูนย์สนับสนุนด้านจิตใจและจ้างผู้ช่วยที่มีคุณวุฒิด้านการดูแลด้านจิตใจ",
+      "batch": "FRESH-012",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Mitton/Advisor_Tutorial_Research_Text::segment-688",
+      "before": "ใช้การวิจัยพัฒนาการอัปเกรดและเทคโนโลยีชิ้นใหม่ วิจัย \"ชั้นหนังสือหุ่นยนต์\" เพื่อปรับปรุงหลักสูตรหุ่นยนต์ของเรา",
+      "after": "ใช้การวิจัยพัฒนาการอัปเกรดและเทคโนโลยีชิ้นใหม่ วิจัย \"ตู้หนังสือหุ่นยนต์\" เพื่อปรับปรุงหลักสูตรวิทยาการหุ่นยนต์ของเรา",
+      "batch": "FRESH-013",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Levels::Levels/Musicality/Advisor_Jasmine_OpenMic_Text::segment-723",
+      "before": "จัดงานไมค์เปิดในสโมสรนักศึกษาเพื่อดนตรีสดแบบประหยัดงบ งานนี้ยังช่วยให้นักศึกษา ดนตรีศึกษา ได้ XP เพิ่มอีกหน่อย!",
+      "after": "จัดงานไมค์เปิดในสหภาพนักศึกษาเพื่อดนตรีสดแบบประหยัดงบ งานนี้ยังช่วยให้นักศึกษา ดนตรีศึกษา ได้ XP เพิ่มอีกหน่อย!",
+      "batch": "FRESH-014",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Courses::Courses/DLC_Space/Classes/SpaceKnight_YearOne_SpaceCombat_1::segment-393",
+      "before": "เข้าสู่วงแหวนดาวเคราะห์",
+      "after": "เข้าสู่สังเวียนดาวเคราะห์",
+      "batch": "FRESH-020",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_UI::UI/AwardsScreen/AwardsScreenSlideTitle::segment-44",
+      "before": "ปีที่ {YEAR}",
+      "after": "ชั้นปีที่ {YEAR}",
+      "batch": "FRESH-027",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_UI::UI/CourseManagement/StartCourse::segment-191",
+      "before": "เปิดหลักสูตร",
+      "after": "เริ่มหลักสูตร",
+      "batch": "FRESH-028",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_UI::UI/General/Request::segment-527",
+      "before": "คำร้อง",
+      "after": "คำขอ",
+      "batch": "FRESH-032",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_UI::UI/General/Research::segment-531",
+      "before": "การวิจัย",
+      "after": "วิจัย",
+      "batch": "FRESH-032",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_UI::UI/Messages/ClubRequests::segment-898",
+      "before": "คำร้องชมรม",
+      "after": "คำขอชมรม",
+      "batch": "FRESH-035",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_ChallengeMode/CM2_PiazzaLanatra_Krampus_KrampusInspection_Tooltip::segment-33",
+      "before": "แครมปัสแห่ง Two Point จะพยายามทำลายบรรยากาศเทศกาลของนักศึกษา นักศึกษาที่ป่วยเป็นวันหยุดสุดห่วยต้องรักษาในห้องดูแลด้านจิตใจ",
+      "after": "แครมปัสแห่ง Two Point จะพยายามทำลายบรรยากาศเทศกาลของนักศึกษา นักศึกษาที่ป่วยเป็นวันหยุดสุดห่วยต้องรักษาในศูนย์สนับสนุนด้านจิตใจ",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_ChallengeMode/CM6_BreakingPoint_SummerSchool_SadiusGloomInspection_Tooltip::segment-41",
+      "before": "Sadius Gloom รัฐมนตรีแห่งความทุกข์ (ไม่เป็นทางการ) จะทำให้นักศึกษาเศร้าและดูดแสงแดดออกจากฤดูร้อน นักศึกษาที่ป่วยเป็นความหม่นหมองต้องรักษาในห้องดูแลด้านจิตใจ",
+      "after": "Sadius Gloom รัฐมนตรีแห่งความทุกข์ (ไม่เป็นทางการ) จะทำให้นักศึกษาเศร้าและดูดแสงแดดออกจากฤดูร้อน นักศึกษาที่ป่วยเป็นความหม่นหมองต้องรักษาในศูนย์สนับสนุนด้านจิตใจ",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_ChallengeMode/CM6_BreakingPoint_SummerSchool_SummerStorm_Text::segment-43",
+      "before": "พยากรณ์ว่าวิทยาเขตจะเจอพายุนอกฤดู ไม่ค่อยเหมือนหน้าร้อนเลย\n\nนักศึกษาที่ป่วยเป็นความหม่นหมองต้องรักษาในห้องดูแลด้านจิตใจ",
+      "after": "พยากรณ์ว่าวิทยาเขตจะเจอพายุนอกฤดู ไม่ค่อยเหมือนหน้าร้อนเลย\n\nนักศึกษาที่ป่วยเป็นความหม่นหมองต้องรักษาในศูนย์สนับสนุนด้านจิตใจ",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_BlankLook_ArrivalAdvisor::segment-82",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหน้าเหม่อลอย</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องบำบัดด้วยการทุบ</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยสีหน้าเลื่อนลอย</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องบำบัดด้วยการทุบ</style>",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_BlankLook_Text::segment-83",
+      "before": "เกิดการระบาดของหน้าเหม่อลอยในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องบำบัดด้วยการทุบ ว่าไง?",
+      "after": "เกิดการระบาดของสีหน้าเลื่อนลอยในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องบำบัดด้วยการทุบ ว่าไง?",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_BlankLook_Title::segment-84",
+      "before": "ฉุกเฉิน: หน้าเหม่อลอย",
+      "after": "ฉุกเฉิน: สีหน้าเลื่อนลอย",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_BlockHead_ArrivalAdvisor::segment-85",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหัวทึบ</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องบำบัดด้วยการทุบ</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหัวบล็อก</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องบำบัดด้วยการทุบ</style>",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_BlockHead_Text::segment-86",
+      "before": "เกิดการระบาดของหัวทึบในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องบำบัดด้วยการทุบ ว่าไง?",
+      "after": "เกิดการระบาดของหัวบล็อกในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องบำบัดด้วยการทุบ ว่าไง?",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_BlockHead_Title::segment-87",
+      "before": "ฉุกเฉิน: หัวทึบ",
+      "after": "ฉุกเฉิน: หัวบล็อก",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_Woodworms_ArrivalAdvisor::segment-88",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหนอนไม้</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องบำบัดด้วยการทุบ</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหนอนเจาะไม้</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องบำบัดด้วยการทุบ</style>",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_Woodworms_Text::segment-89",
+      "before": "เกิดการระบาดของหนอนไม้ในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องบำบัดด้วยการทุบ ว่าไง?",
+      "after": "เกิดการระบาดของหนอนเจาะไม้ในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องบำบัดด้วยการทุบ ว่าไง?",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_FaceStamp_Woodworms_Title::segment-90",
+      "before": "ฉุกเฉิน: หนอนไม้",
+      "after": "ฉุกเฉิน: หนอนเจาะไม้",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Head_Metalheadedness_ArrivalAdvisor::segment-94",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยภาวะหัวโลหะ</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">คลินิกศีรษะ</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยภาวะหัวเมทัล</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">คลินิกศีรษะ</style>",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Head_Metalheadedness_Text::segment-95",
+      "before": "เกิดการระบาดของภาวะหัวโลหะในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในคลินิกศีรษะ ว่าไง?",
+      "after": "เกิดการระบาดของภาวะหัวเมทัลในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในคลินิกศีรษะ ว่าไง?",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Head_Metalheadedness_Title::segment-96",
+      "before": "ฉุกเฉิน: ภาวะหัวโลหะ",
+      "after": "ฉุกเฉิน: ภาวะหัวเมทัล",
+      "batch": "FRESH-061",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Head_Turnipheadedness_ArrivalAdvisor::segment-100",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยภาวะหัวราก</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">คลินิกศีรษะ</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยภาวะหัวรากผัก</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">คลินิกศีรษะ</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Head_Turnipheadedness_Text::segment-101",
+      "before": "เกิดการระบาดของภาวะหัวรากในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในคลินิกศีรษะ ว่าไง?",
+      "after": "เกิดการระบาดของภาวะหัวรากผักในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในคลินิกศีรษะ ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Head_Turnipheadedness_Title::segment-102",
+      "before": "ฉุกเฉิน: ภาวะหัวราก",
+      "after": "ฉุกเฉิน: ภาวะหัวรากผัก",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_GreenEnvy_ArrivalAdvisor::segment-103",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยอิจฉาเขียว</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องฉีดยา</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยเขียวอิจฉา</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องฉีดยา</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_GreenEnvy_Text::segment-104",
+      "before": "เกิดการระบาดของอิจฉาเขียวในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องฉีดยา ว่าไง?",
+      "after": "เกิดการระบาดของเขียวอิจฉาในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องฉีดยา ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_GreenEnvy_Title::segment-105",
+      "before": "ฉุกเฉิน: อิจฉาเขียว",
+      "after": "ฉุกเฉิน: เขียวอิจฉา",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_LeopardSkin_ArrivalAdvisor::segment-106",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยผิวลายเสือดาว</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องฉีดยา</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยลายเสือดาว</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ห้องฉีดยา</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_LeopardSkin_Text::segment-107",
+      "before": "เกิดการระบาดของผิวลายเสือดาวในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องฉีดยา ว่าไง?",
+      "after": "เกิดการระบาดของลายเสือดาวในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในห้องฉีดยา ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Injection_LeopardSkin_Title::segment-108",
+      "before": "ฉุกเฉิน: ผิวลายเสือดาว",
+      "after": "ฉุกเฉิน: ลายเสือดาว",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MockStar_ArrivalAdvisor::segment-115",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยดาราล้อเลียน</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">จิตเวชศาสตร์</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยร็อกสตาร์เก๊</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">จิตเวชศาสตร์</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MockStar_Text::segment-116",
+      "before": "เกิดการระบาดของดาราล้อเลียนในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในจิตเวชศาสตร์ ว่าไง?",
+      "after": "เกิดการระบาดของร็อกสตาร์เก๊ในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในจิตเวชศาสตร์ ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_MockStar_Title::segment-117",
+      "before": "ฉุกเฉิน: ดาราล้อเลียน",
+      "after": "ฉุกเฉิน: ร็อกสตาร์เก๊",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_ReptileDysfunction_ArrivalAdvisor::segment-121",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยความผิดปกติแบบสัตว์เลื้อยคลาน</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">จิตเวชศาสตร์</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยภาวะสัตว์เลื้อยคลานเสื่อมสมรรถภาพ</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">จิตเวชศาสตร์</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_ReptileDysfunction_Text::segment-122",
+      "before": "เกิดการระบาดของความผิดปกติแบบสัตว์เลื้อยคลานในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในจิตเวชศาสตร์ ว่าไง?",
+      "after": "เกิดการระบาดของภาวะสัตว์เลื้อยคลานเสื่อมสมรรถภาพในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในจิตเวชศาสตร์ ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Psychiatry_ReptileDysfunction_Title::segment-123",
+      "before": "ฉุกเฉิน: ความผิดปกติแบบสัตว์เลื้อยคลาน",
+      "after": "ฉุกเฉิน: ภาวะสัตว์เลื้อยคลานเสื่อมสมรรถภาพ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BodilyDruids_ArrivalAdvisor::segment-127",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยดรูอิดในร่างกาย</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ศัลยศาสตร์</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยดรูอิดในร่าง</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ศัลยศาสตร์</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BodilyDruids_Text::segment-128",
+      "before": "เกิดการระบาดของดรูอิดในร่างกายในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในศัลยศาสตร์ ว่าไง?",
+      "after": "เกิดการระบาดของดรูอิดในร่างในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในศัลยศาสตร์ ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BodilyDruids_Title::segment-129",
+      "before": "ฉุกเฉิน: ดรูอิดในร่างกาย",
+      "after": "ฉุกเฉิน: ดรูอิดในร่าง",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BrainFarts_ArrivalAdvisor::segment-130",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยสมองผายลม</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ศัลยศาสตร์</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยสมองตด</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ศัลยศาสตร์</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BrainFarts_Text::segment-131",
+      "before": "เกิดการระบาดของสมองผายลมในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในศัลยศาสตร์ ว่าไง?",
+      "after": "เกิดการระบาดของสมองตดในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในศัลยศาสตร์ ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_BrainFarts_Title::segment-132",
+      "before": "ฉุกเฉิน: สมองผายลม",
+      "after": "ฉุกเฉิน: สมองตด",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_HeartThrob_ArrivalAdvisor::segment-133",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยใจเต้นตึกตัก</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ศัลยศาสตร์</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหัวใจเต้นตุบ</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">ศัลยศาสตร์</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_HeartThrob_Text::segment-134",
+      "before": "เกิดการระบาดของใจเต้นตึกตักในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในศัลยศาสตร์ ว่าไง?",
+      "after": "เกิดการระบาดของหัวใจเต้นตุบในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในศัลยศาสตร์ ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Surgery_HeartThrob_Title::segment-135",
+      "before": "ฉุกเฉิน: ใจเต้นตึกตัก",
+      "after": "ฉุกเฉิน: หัวใจเต้นตุบ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_BrokenFace_ArrivalAdvisor::segment-139",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยใบหน้าแตกร้าว</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">หอผู้ป่วย</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยหน้าแตก</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">หอผู้ป่วย</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_BrokenFace_Text::segment-140",
+      "before": "เกิดการระบาดของใบหน้าแตกร้าวในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในหอผู้ป่วย ว่าไง?",
+      "after": "เกิดการระบาดของหน้าแตกในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในหอผู้ป่วย ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_BrokenFace_Title::segment-141",
+      "before": "ฉุกเฉิน: ใบหน้าแตกร้าว",
+      "after": "ฉุกเฉิน: หน้าแตก",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_FlappyHamper_ArrivalAdvisor::segment-142",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยตะกร้าพึ่บพั่บ</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">หอผู้ป่วย</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยตะกร้าผ้าพะเยิบ</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">หอผู้ป่วย</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_FlappyHamper_Text::segment-143",
+      "before": "เกิดการระบาดของตะกร้าพึ่บพั่บในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในหอผู้ป่วย ว่าไง?",
+      "after": "เกิดการระบาดของตะกร้าผ้าพะเยิบในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในหอผู้ป่วย ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_FlappyHamper_Title::segment-144",
+      "before": "ฉุกเฉิน: ตะกร้าพึ่บพั่บ",
+      "after": "ฉุกเฉิน: ตะกร้าผ้าพะเยิบ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_PisteOff_ArrivalAdvisor::segment-151",
+      "before": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยลานสกีเดือด</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">หอผู้ป่วย</style>",
+      "after": "กลุ่ม<style=\"BodyBold\">ผู้ป่วยสกีหัวร้อน</style>มาถึงเพื่อรับการรักษาใน<style=\"BodyBold\">หอผู้ป่วย</style>",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_PisteOff_Text::segment-152",
+      "before": "เกิดการระบาดของลานสกีเดือดในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในหอผู้ป่วย ว่าไง?",
+      "after": "เกิดการระบาดของสกีหัวร้อนในพื้นที่!\n\nผู้ป่วยกลุ่มหนึ่งกำลังมองหาการรักษาในหอผู้ป่วย ว่าไง?",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Emergency_Ward_PisteOff_Title::segment-153",
+      "before": "ฉุกเฉิน: ลานสกีเดือด",
+      "after": "ฉุกเฉิน: สกีหัวร้อน",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_BlankLook_Text::segment-166",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยหน้าเหม่อลอยกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องบำบัดด้วยการทุบ",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยสีหน้าเลื่อนลอยกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องบำบัดด้วยการทุบ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_BlankLook_Title::segment-167",
+      "before": "พนันโจรสลัด: หน้าเหม่อลอย",
+      "after": "พนันโจรสลัด: สีหน้าเลื่อนลอย",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_BlockHead_Text::segment-168",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยหัวทึบกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องบำบัดด้วยการทุบ",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยหัวบล็อกกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องบำบัดด้วยการทุบ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_BlockHead_Title::segment-169",
+      "before": "พนันโจรสลัด: หัวทึบ",
+      "after": "พนันโจรสลัด: หัวบล็อก",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_Woodworms_Text::segment-170",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยหนอนไม้กลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องบำบัดด้วยการทุบ",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยหนอนเจาะไม้กลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องบำบัดด้วยการทุบ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_FaceStamp_Woodworms_Title::segment-171",
+      "before": "พนันโจรสลัด: หนอนไม้",
+      "after": "พนันโจรสลัด: หนอนเจาะไม้",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Metalheadedness_Text::segment-174",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยภาวะหัวโลหะกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในคลินิกศีรษะ",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยภาวะหัวเมทัลกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในคลินิกศีรษะ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Metalheadedness_Title::segment-175",
+      "before": "พนันโจรสลัด: ภาวะหัวโลหะ",
+      "after": "พนันโจรสลัด: ภาวะหัวเมทัล",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Turnipheadedness_Text::segment-178",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยภาวะหัวรากกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในคลินิกศีรษะ",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยภาวะหัวรากผักกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในคลินิกศีรษะ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Head_Turnipheadedness_Title::segment-179",
+      "before": "พนันโจรสลัด: ภาวะหัวราก",
+      "after": "พนันโจรสลัด: ภาวะหัวรากผัก",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_GreenEnvy_Text::segment-180",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยอิจฉาเขียวกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องฉีดยา",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยเขียวอิจฉากลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องฉีดยา",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_GreenEnvy_Title::segment-181",
+      "before": "พนันโจรสลัด: อิจฉาเขียว",
+      "after": "พนันโจรสลัด: เขียวอิจฉา",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_LeopardSkin_Text::segment-182",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยผิวลายเสือดาวกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องฉีดยา",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยลายเสือดาวกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในห้องฉีดยา",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Injection_LeopardSkin_Title::segment-183",
+      "before": "พนันโจรสลัด: ผิวลายเสือดาว",
+      "after": "พนันโจรสลัด: ลายเสือดาว",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_MockStar_Text::segment-188",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยดาราล้อเลียนกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในจิตเวชศาสตร์",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยร็อกสตาร์เก๊กลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในจิตเวชศาสตร์",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_MockStar_Title::segment-189",
+      "before": "พนันโจรสลัด: ดาราล้อเลียน",
+      "after": "พนันโจรสลัด: ร็อกสตาร์เก๊",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_ReptileDysfunction_Text::segment-192",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยความผิดปกติแบบสัตว์เลื้อยคลานกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในจิตเวชศาสตร์",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยภาวะสัตว์เลื้อยคลานเสื่อมสมรรถภาพกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในจิตเวชศาสตร์",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Psychiatry_ReptileDysfunction_Title::segment-193",
+      "before": "พนันโจรสลัด: ความผิดปกติแบบสัตว์เลื้อยคลาน",
+      "after": "พนันโจรสลัด: ภาวะสัตว์เลื้อยคลานเสื่อมสมรรถภาพ",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BodilyDruids_Text::segment-196",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยดรูอิดในร่างกายกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในศัลยศาสตร์",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยดรูอิดในร่างกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในศัลยศาสตร์",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BodilyDruids_Title::segment-197",
+      "before": "พนันโจรสลัด: ดรูอิดในร่างกาย",
+      "after": "พนันโจรสลัด: ดรูอิดในร่าง",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BrainFarts_Text::segment-198",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยสมองผายลมกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในศัลยศาสตร์",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยสมองตดกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในศัลยศาสตร์",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_BrainFarts_Title::segment-199",
+      "before": "พนันโจรสลัด: สมองผายลม",
+      "after": "พนันโจรสลัด: สมองตด",
+      "batch": "FRESH-062",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_HeartThrob_Text::segment-200",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยใจเต้นตึกตักกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในศัลยศาสตร์",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยหัวใจเต้นตุบกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในศัลยศาสตร์",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Surgery_HeartThrob_Title::segment-201",
+      "before": "พนันโจรสลัด: ใจเต้นตึกตัก",
+      "after": "พนันโจรสลัด: หัวใจเต้นตุบ",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_BrokenFace_Text::segment-205",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยใบหน้าแตกร้าวกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในหอผู้ป่วย",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยหน้าแตกกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในหอผู้ป่วย",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_BrokenFace_Title::segment-206",
+      "before": "พนันโจรสลัด: ใบหน้าแตกร้าว",
+      "after": "พนันโจรสลัด: หน้าแตก",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_FlappyHamper_Text::segment-207",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยตะกร้าพึ่บพั่บกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในหอผู้ป่วย",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยตะกร้าผ้าพะเยิบกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในหอผู้ป่วย",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_FlappyHamper_Title::segment-208",
+      "before": "พนันโจรสลัด: ตะกร้าพึ่บพั่บ",
+      "after": "พนันโจรสลัด: ตะกร้าผ้าพะเยิบ",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_PisteOff_Text::segment-213",
+      "before": "การแพทย์โจรสลัดส่งผู้ป่วยลานสกีเดือดกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในหอผู้ป่วย",
+      "after": "การแพทย์โจรสลัดส่งผู้ป่วยสกีหัวร้อนกลุ่มหนึ่งมาทดสอบสิ่งอำนวยความสะดวกของเราจนล้นมือ และทดสอบว่าเราพร้อมออกทะเลหรือยัง\n\nถ้าแพ้พนัน โจรสลัดจะรู้ว่าเราอ่อนแอ แล้วมาที่วิทยาเขตเพื่อขโมยผู้ป่วยของเรา ถ้าชนะพนันก็พิสูจน์ความเหนือกว่าได้ และตามธรรมเนียมโจรสลัด จะได้แผนที่ขุมทรัพย์\n\nผู้ป่วยต้องรักษาในหอผู้ป่วย",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/DLC_Hospital/Pirate_Emergency_Ward_PisteOff_Title::segment-214",
+      "before": "พนันโจรสลัด: ลานสกีเดือด",
+      "after": "พนันโจรสลัด: สกีหัวร้อน",
+      "batch": "FRESH-063",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/GastroLevel/GastroLevel_FoodCompetition_Medium_Title::segment-317",
+      "before": "ศึกทำอาหารระดับเคาน์ตี",
+      "after": "ศึกทำอาหารของเคาน์ตี",
+      "batch": "FRESH-064",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/GastroLevel/MinorChallenge/Cure_EyeCandy_Text::segment-332",
+      "before": "ผู้ตรวจสุขอนามัย Henry Jobsworth เป็นห่วงเรื่องผู้ป่วย Eye Candy ที่เพิ่มขึ้นในนักศึกษาศาสตร์แห่งอาหารของเคาน์ตี ถ้าเราช่วยรักษาปัญหานี้ได้ จะได้รับเงินสนับสนุนเพิ่ม",
+      "after": "ผู้ตรวจสุขอนามัย Henry Jobsworth เป็นห่วงเรื่องผู้ป่วยของหวานตาที่เพิ่มขึ้นในนักศึกษาศาสตร์แห่งอาหารของเคาน์ตี ถ้าเราช่วยรักษาปัญหานี้ได้ จะได้รับเงินสนับสนุนเพิ่ม",
+      "batch": "FRESH-064",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/GastroLevel/MinorChallenge/Cure_EyeCandy_Title::segment-333",
+      "before": "Eye Candy",
+      "after": "ของหวานตา",
+      "batch": "FRESH-064",
+      "status_before": "KEEP_AS_SOURCE_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/GeneralWeather/RustyRain_Knights_Text::segment-335",
+      "before": "ไม่มีอะไรทำให้อัศวินหวาดกลัวเท่าพยากรณ์ฝนเบา ๆ\n\nอัศวินที่ป่วยเป็นสนิมนูนต้องรักษาในห้องพยาบาล",
+      "after": "ไม่มีอะไรทำให้อัศวินหวาดกลัวเท่าพยากรณ์ฝนเบา ๆ\n\nอัศวินที่ป่วยเป็นตุงสนิมต้องรักษาในห้องพยาบาล",
+      "batch": "FRESH-064",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/PerformingArtsLevel/MinorChallenge/Cure_3_WritersBlock_Text::segment-453",
+      "before": "ผู้ตรวจสุขอนามัย Henry Jobsworth เป็นห่วงเรื่องผู้ป่วยภาวะนักเขียนตันที่เพิ่มขึ้นในนักศึกษาดนตรีศึกษาของเคาน์ตี ถ้าเราช่วยรักษาปัญหานี้ได้ จะได้รับเงินสนับสนุนเพิ่ม",
+      "after": "ผู้ตรวจสุขอนามัย Henry Jobsworth เป็นห่วงเรื่องผู้ป่วยนักเขียนตันที่เพิ่มขึ้นในนักศึกษาดนตรีศึกษาของเคาน์ตี ถ้าเราช่วยรักษาปัญหานี้ได้ จะได้รับเงินสนับสนุนเพิ่ม",
+      "batch": "FRESH-065",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/PerformingArtsLevel/MinorChallenge/Cure_3_WritersBlock_Title::segment-454",
+      "before": "ภาวะนักเขียนตัน",
+      "after": "นักเขียนตัน",
+      "batch": "FRESH-065",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/Sandbox/Sandbox_Inspection_Academic_Title::segment-678",
+      "before": "การตรวจทางวิชาการ",
+      "after": "การตรวจวิชาการ",
+      "batch": "FRESH-067",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Challenges::Challenge/SpyLevel/SpyLevel_HealthInspection_Title::segment-736",
+      "before": "การตรวจโดยเอเจนต์",
+      "after": "การตรวจโดยสายลับ",
+      "batch": "FRESH-068",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/DLC_ChallengeMode/Medical&Pastoral/Medical/BrainFreeze_F_Name::segment-125",
+      "before": "สมองแข็ง",
+      "after": "สมองเยือกแข็ง",
+      "batch": "FRESH-080",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/DLC_ChallengeMode/Medical&Pastoral/Medical/BrainFreeze_M_Name::segment-127",
+      "before": "สมองแข็ง",
+      "after": "สมองเยือกแข็ง",
+      "batch": "FRESH-080",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Film_Action_Description::segment-588",
+      "before": "Jasmine Odyssey พักจากห้องอัด เพื่อทำลายสถิติให้ Plywood Studios ใน \"Heist Coffee\" ภาพยนตร์เกี่ยวกับบาริสตาที่กลายเป็นนอกกฎหมาย หรืออะไรสักอย่าง… Jasmine ใช้เวลาส่วนใหญ่เล่นมุกและขี่มอเตอร์ไซค์ และรู้ไหม ก็ไม่เลวเลย",
+      "after": "Jasmine Odyssey พักจากสตูดิโออัดเสียง เพื่อทำลายสถิติให้ Plywood Studios ใน \"Heist Coffee\" ภาพยนตร์เกี่ยวกับบาริสตาที่กลายเป็นนอกกฎหมาย หรืออะไรสักอย่าง… Jasmine ใช้เวลาส่วนใหญ่เล่นมุกและขี่มอเตอร์ไซค์ และรู้ไหม ก็ไม่เลวเลย",
+      "batch": "FRESH-084",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Joust_Title::segment-619",
+      "before": "การประลองทวนครั้งใหญ่",
+      "after": "ศึกประลองทวนครั้งใหญ่",
+      "batch": "FRESH-085",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Party_HouseParty_Description::segment-626",
+      "before": "ให้นักศึกษาจัดปาร์ตี้ในห้องรับรองนักศึกษา พวกเขาต้องเรียนรู้ความรับผิดชอบสักทาง และกลุ่มเพื่อนที่ดื่มนมกันในพื้นที่ส่วนกลางดูเป็นก้าวแรกที่ดี",
+      "after": "ให้นักศึกษาจัดปาร์ตี้ในเลานจ์นักศึกษา พวกเขาต้องเรียนรู้ความรับผิดชอบสักทาง และกลุ่มเพื่อนที่ดื่มนมกันในพื้นที่ส่วนกลางดูเป็นก้าวแรกที่ดี",
+      "batch": "FRESH-085",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Events/Party_HouseParty_Name::segment-627",
+      "before": "ปาร์ตี้ห้องรับรองนักศึกษา",
+      "after": "ปาร์ตี้เลานจ์นักศึกษา",
+      "batch": "FRESH-085",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Medical&Pastoral/Medical/Computing_F_Description::segment-816",
+      "before": "ติดจากห้องปฏิบัติการคอมพิวเตอร์",
+      "after": "ติดจากห้องคอมพิวเตอร์",
+      "batch": "FRESH-087",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Medical&Pastoral/Medical/Computing_M_Description::segment-818",
+      "before": "ติดจากห้องปฏิบัติการคอมพิวเตอร์",
+      "after": "ติดจากห้องคอมพิวเตอร์",
+      "batch": "FRESH-087",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Medical&Pastoral/Medical/Nerd_F_Name::segment-887",
+      "before": "สมองแข็ง",
+      "after": "สมองเยือกแข็ง",
+      "batch": "FRESH-087",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/Medical&Pastoral/Medical/Nerd_M_Name::segment-889",
+      "before": "สมองแข็ง",
+      "after": "สมองเยือกแข็ง",
+      "batch": "FRESH-087",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Characters::Characters/PersonalGoals/Flavour/PG_Flavour_Item_StudentLounge_V1::segment-1079",
+      "before": "ฉันว่าฉันรู้ว่าห้องพักนักศึกษาต้องการอะไรเป๊ะ เมื่อวานมันผุดขึ้นมา รู้แล้ว! ไม่รู้ว่าทำได้ยังไง…",
+      "after": "ฉันว่าฉันรู้ว่าเลานจ์นักศึกษาต้องการอะไรเป๊ะ เมื่อวานมันผุดขึ้นมา รู้แล้ว! ไม่รู้ว่าทำได้ยังไง…",
+      "batch": "FRESH-089",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_CodeRef::Code/LevelManager_SignedOutButtonQuit::segment-127",
+      "before": "ออกสู่เมนูหลัก",
+      "after": "ออกไปยังเมนูหลัก",
+      "batch": "FRESH-099",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_CodeRef::UI/DropWarning_TrainStaff::segment-500",
+      "before": "อบรมบุคลากร",
+      "after": "ฝึกบุคลากร",
+      "batch": "FRESH-103",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_CodeRef::UI/Inspector/MedicalIssuesCured::segment-536",
+      "before": "ปัญหาสุขภาพที่รักษาหาย",
+      "after": "ปัญหาทางการแพทย์ที่รักษาหาย",
+      "batch": "FRESH-103",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Input::Input/HUD_Gamepad/StartEvent::segment-113",
+      "before": "เริ่มอีเวนต์",
+      "after": "เริ่มกิจกรรม",
+      "batch": "FRESH-111",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Input::Input/HUD_Gamepad/SwitchProfile::segment-117",
+      "before": "เปลี่ยนโปรไฟล์",
+      "after": "สลับโปรไฟล์",
+      "batch": "FRESH-111",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/Ectovat_General_Function::segment-271",
+      "before": "คนทำความสะอาดสามารถนำผีที่จับได้ใส่ในเอ็กโตแวต\nเอ็กโตแวตแต่ละตัวเก็บผีได้สูงสุด 5 ตนในเวลาเดียวกัน\nทุกคนสามารถใช้เอ็กโตแวตที่มีผีอยู่เพื่อรับพลังเสริมจากผีข้างใน",
+      "after": "คนทำความสะอาดสามารถนำผีที่จับได้ใส่ในเอ็กโทแวต\nเอ็กโทแวตแต่ละตัวเก็บผีได้สูงสุด 5 ตนในเวลาเดียวกัน\nทุกคนสามารถใช้เอ็กโทแวตที่มีผีอยู่เพื่อรับพลังเสริมจากผีข้างใน",
+      "batch": "FRESH-114",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/Ectovat_General_Name::segment-272",
+      "before": "เอ็กโตแวต",
+      "after": "เอ็กโทแวต",
+      "batch": "FRESH-114",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/GhostBusting/GhostBusting_Machine_Name::segment-275",
+      "before": "ออกโต-เอ็กโตแวต",
+      "after": "ออกโต-เอ็กโทแวต",
+      "batch": "FRESH-114",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/Upgrades/Upgrade_GhostBusting_Machine_V2::segment-310",
+      "before": "ออกโต-เอ็กโตแวต II",
+      "after": "ออกโต-เอ็กโทแวต II",
+      "batch": "FRESH-115",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/Upgrades/Upgrade_GhostBusting_Machine_V2_UpgradePreviewDescription::segment-311",
+      "before": "อัปเกรดเป็นออกโต-เอ็กโตแวต II",
+      "after": "อัปเกรดเป็นออกโต-เอ็กโทแวต II",
+      "batch": "FRESH-115",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/Upgrades/Upgrade_GhostBusting_Machine_V3::segment-312",
+      "before": "ออกโต-เอ็กโตแวต III",
+      "after": "ออกโต-เอ็กโทแวต III",
+      "batch": "FRESH-115",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/DLC_Ghost/Upgrades/Upgrade_GhostBusting_Machine_V3_UpgradePreviewDescription::segment-313",
+      "before": "อัปเกรดเป็นออกโต-เอ็กโตแวต III",
+      "after": "อัปเกรดเป็นออกโต-เอ็กโทแวต III",
+      "batch": "FRESH-115",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Landscape/Tree_Round_Name::segment-1256",
+      "before": "พุ่มไม้กลม",
+      "after": "พุ่มไม้ตัดแต่งกลม",
+      "batch": "FRESH-124",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Archaeology_Name::segment-1304",
+      "before": "ชั้นหนังสือโบราณคดี",
+      "after": "ตู้หนังสือโบราณคดี",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_CounterCultural_Name::segment-1306",
+      "before": "ชั้นหนังสือวัฒนธรรมต่อต้านศึกษา",
+      "after": "ตู้หนังสือวัฒนธรรมต่อต้านศึกษา",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_DarkArt_Name::segment-1308",
+      "before": "ชั้นหนังสือศิลปะมืด",
+      "after": "ตู้หนังสือศิลปะมืด",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_FunnyBusiness_Name::segment-1313",
+      "before": "ชั้นหนังสือธุรกิจตลก",
+      "after": "ตู้หนังสือธุรกิจตลก",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Gastronomy_Name::segment-1315",
+      "before": "ชั้นหนังสือศาสตร์แห่งอาหาร",
+      "after": "ตู้หนังสือศาสตร์แห่งอาหาร",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_GeneralKnowledge_Name::segment-1317",
+      "before": "ชั้นหนังสือความรู้ทั่วไป",
+      "after": "ตู้หนังสือความรู้ทั่วไป",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_InternetHistory_Name::segment-1319",
+      "before": "ชั้นหนังสือประวัติศาสตร์อินเทอร์เน็ต",
+      "after": "ตู้หนังสือประวัติศาสตร์อินเทอร์เน็ต",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_KnightSchool_Name::segment-1321",
+      "before": "ชั้นหนังสือโรงเรียนอัศวิน",
+      "after": "ตู้หนังสือโรงเรียนอัศวิน",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_MoneyWangling_Name::segment-1323",
+      "before": "ชั้นหนังสือเล่ห์เหลี่ยมการเงิน",
+      "after": "ตู้หนังสือเล่ห์เหลี่ยมการเงิน",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Music_Name::segment-1325",
+      "before": "ชั้นหนังสือดนตรีศึกษา",
+      "after": "ตู้หนังสือดนตรีศึกษา",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Name::segment-1326",
+      "before": "ชั้นหนังสือ",
+      "after": "ตู้หนังสือ",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Robotics_Name::segment-1328",
+      "before": "ชั้นหนังสือวิทยาการหุ่นยนต์",
+      "after": "ตู้หนังสือวิทยาการหุ่นยนต์",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_SchoolOfThought_Name::segment-1330",
+      "before": "ชั้นหนังสือสำนักคิด",
+      "after": "ตู้หนังสือสำนักคิด",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Scientography_Name::segment-1332",
+      "before": "ชั้นหนังสือวิทยาศาสตร์ศึกษา",
+      "after": "ตู้หนังสือวิทยาศาสตร์ศึกษา",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Small_Name::segment-1334",
+      "before": "ชั้นหนังสือเล็ก",
+      "after": "ตู้หนังสือเล็ก",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Sports_Name::segment-1336",
+      "before": "ชั้นหนังสือออกกำลังกายเชิงวิชาการ",
+      "after": "ตู้หนังสือออกกำลังกายเชิงวิชาการ",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_SpySchool_Name::segment-1338",
+      "before": "ชั้นหนังสือสายลับ",
+      "after": "ตู้หนังสือสายลับ",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_VirtualReality_Name::segment-1340",
+      "before": "ชั้นหนังสือความปกติเสมือน",
+      "after": "ตู้หนังสือความปกติเสมือน",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Library/Bookcase_Wizardry_Name::segment-1342",
+      "before": "ชั้นหนังสือวิชาพ่อมด",
+      "after": "ตู้หนังสือวิชาพ่อมด",
+      "batch": "FRESH-125",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Pastoral/Bookcase_Name::segment-1468",
+      "before": "ชั้นหนังสือด้านจิตใจ",
+      "after": "ตู้หนังสือด้านจิตใจ",
+      "batch": "FRESH-126",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Promo/Summer2023_DeckChair_Name::segment-1584",
+      "before": "เก้าอี้ชายหาด",
+      "after": "เก้าอี้ผ้าใบ",
+      "batch": "FRESH-127",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Upgrades/Upgrade_Machine_Sweet_V2::segment-1885",
+      "before": "พาทิสเซอไรเซอร์ II",
+      "after": "Patisseriser II",
+      "batch": "FRESH-130",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Upgrades/Upgrade_Machine_Sweet_V2_UpgradePreviewDesc::segment-1886",
+      "before": "อัปเกรดเป็น พาทิสเซอไรเซอร์ II",
+      "after": "อัปเกรดเป็น Patisseriser II",
+      "batch": "FRESH-130",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Upgrades/Upgrade_Machine_Sweet_V3::segment-1887",
+      "before": "พาทิสเซอไรเซอร์ III",
+      "after": "Patisseriser III",
+      "batch": "FRESH-130",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::Items/Upgrades/Upgrade_Machine_Sweet_V3_UpgradePreviewDesc::segment-1888",
+      "before": "อัปเกรดเป็น พาทิสเซอไรเซอร์ III",
+      "after": "อัปเกรดเป็น Patisseriser III",
+      "batch": "FRESH-130",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Items::LandscapeBrush/EarthTutorial::segment-2003",
+      "before": "ดินบทเรียน",
+      "after": "ดิน (บทเรียน)",
+      "batch": "FRESH-132",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Landscaping_Name::segment-173",
+      "before": "การจัดสวนภูมิทัศน์",
+      "after": "การจัดภูมิทัศน์",
+      "batch": "FRESH-134",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/Library_Description::segment-176",
+      "before": "ศูนย์กลางของการเรียนนอกชั้นเรียนทั้งหมด ห้องสมุดคือที่อยู่ของหนังสือ ความรู้ไหลผ่านหนังสือเข้าสู่วิทยาเขต และสุดท้ายเข้าสู่สมองนักศึกษา วิจัยชั้นหนังสือเฉพาะทางเพื่อให้สื่อที่ดีที่สุดและตรงประเด็นที่สุดแก่นักศึกษาทุกคน",
+      "after": "ศูนย์กลางของการเรียนนอกชั้นเรียนทั้งหมด ห้องสมุดคือที่อยู่ของหนังสือ ความรู้ไหลผ่านหนังสือเข้าสู่วิทยาเขต และสุดท้ายเข้าสู่สมองนักศึกษา วิจัยตู้หนังสือเฉพาะทางเพื่อให้สื่อที่ดีที่สุดและตรงประเด็นที่สุดแก่นักศึกษาทุกคน",
+      "batch": "FRESH-134",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Meta::Meta/CareerGoals/PastoralCare_Description::segment-184",
+      "before": "ชีวิตในวิทยาเขตสร้างความท้าทายสารพัดให้นักศึกษา แต่บางครั้งสิ่งที่พวกเขาต้องการคือมือที่สองและหูที่มีคุณวุฒิ จัดให้มีการดูแลด้านจิตใจแก่นักศึกษาด้วยการสร้างห้องสนับสนุนด้านจิตใจและจ้างผู้ช่วยที่มีคุณวุฒิด้านการดูแลด้านจิตใจ",
+      "after": "ชีวิตในวิทยาเขตสร้างความท้าทายสารพัดให้นักศึกษา แต่บางครั้งสิ่งที่พวกเขาต้องการคือมือที่สองและหูที่มีคุณวุฒิ จัดให้มีการดูแลด้านจิตใจแก่นักศึกษาด้วยการสร้างศูนย์สนับสนุนด้านจิตใจและจ้างผู้ช่วยที่มีคุณวุฒิด้านการดูแลด้านจิตใจ",
+      "batch": "FRESH-134",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Meta::Meta/FrontEnd/NewsFeed_Hamster_Name::segment-313",
+      "before": "สัตว์น่ารัก",
+      "after": "สัตว์น่าดู",
+      "batch": "FRESH-136",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Meta::Meta/FrontEnd/NewsFeed_SpringCleaning_Name::segment-319",
+      "before": "ทำความสะอาดใหญ่ฤดูใบไม้ผลิ",
+      "after": "ทำความสะอาดประจำฤดูใบไม้ผลิ",
+      "batch": "FRESH-136",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Meta::Meta/LoadingScreen/Tips_LS_Assignments_Title::segment-344",
+      "before": "งานที่ได้รับมอบหมาย",
+      "after": "งานมอบหมาย",
+      "batch": "FRESH-136",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Objectives::Objectives/DLC_Hospital/MountainHospital/Surgery::segment-23",
+      "before": "ผ่าเปิด",
+      "after": "ผ่าเปิดใจ",
+      "batch": "FRESH-142",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Objectives::Objectives/Generic/GenericObjectives_CampusRequirements::segment-51",
+      "before": "ข้อกำหนดวิทยาเขต",
+      "after": "ข้อกำหนดของวิทยาเขต",
+      "batch": "FRESH-142",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Ghost/Upgrades/GhostBusting_Machine_V2_Name::segment-124",
+      "before": "Octo-Ectovat II",
+      "after": "ออกโต-เอ็กโทแวต II",
+      "batch": "FRESH-145",
+      "status_before": "KEEP_AS_SOURCE_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Ghost/Upgrades/GhostBusting_Machine_V3_Name::segment-126",
+      "before": "Octo-Ectovat III",
+      "after": "ออกโต-เอ็กโทแวต III",
+      "batch": "FRESH-145",
+      "status_before": "KEEP_AS_SOURCE_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/ItemUnlock_Helipad_Description::segment-131",
+      "before": "มาทำตัวเหมือนสถานพยาบาลจริง ๆ แล้วพัฒนาวิธีทิ้งผู้ป่วยลงวิทยาเขตทางอากาศกันเถอะ ฉันเคยคิดมาตลอดว่า “H” ย่อมาจาก hospital แต่ “helicopter” ก็สมเหตุสมผลกว่ามาก...\n\nคุณวางลานเฮลิคอปเตอร์ที่ไหนก็ได้ในวิทยาเขต เพื่อสร้างจุดมาถึงใหม่ให้ผู้ป่วยที่มาเยือนวิทยาเขตการแพทย์",
+      "after": "มาทำตัวเหมือนสถานพยาบาลจริง ๆ แล้วพัฒนาวิธีทิ้งผู้ป่วยลงวิทยาเขตทางอากาศกันเถอะ ฉันเคยคิดมาตลอดว่า “H” ย่อมาจาก hospital แต่ “helicopter” ก็สมเหตุสมผลกว่ามาก...\n\nคุณวางลานจอดเฮลิคอปเตอร์ที่ไหนก็ได้ในวิทยาเขต เพื่อสร้างจุดมาถึงใหม่ให้ผู้ป่วยที่มาเยือนวิทยาเขตการแพทย์",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/ItemUnlock_Helipad_Name::segment-132",
+      "before": "ลานเฮลิคอปเตอร์: จุดผู้ป่วยมาถึง",
+      "after": "ลานจอดเฮลิคอปเตอร์: จุดผู้ป่วยมาถึง",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/DeluxeClinic_Machine_V2_Name::segment-190",
+      "before": "ตัวหมับหัว II",
+      "after": "Noggin Nabber II",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/DeluxeClinic_Machine_V3_Name::segment-192",
+      "before": "ตัวหมับหัว III",
+      "after": "Noggin Nabber III",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/FacePunch_Machine_V2_Name::segment-194",
+      "before": "ตราประทับหน้า II",
+      "after": "เครื่องปั๊มหน้า II",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/FacePunch_Machine_V3_Description::segment-195",
+      "before": "ผู้ป่วยถูกทำลายจนหายป่วยด้วยตราประทับหน้า II แต่การทดสอบของเราชี้ว่าแรงอีกนิดช่วยให้การรักษาสำเร็จขึ้นเล็กน้อย และดูตลกขึ้นไปอีก ได้ประโยชน์ทั้งสองทาง",
+      "after": "ผู้ป่วยถูกทำลายจนหายป่วยด้วยเครื่องปั๊มหน้า II แต่การทดสอบของเราชี้ว่าแรงอีกนิดช่วยให้การรักษาสำเร็จขึ้นเล็กน้อย และดูตลกขึ้นไปอีก ได้ประโยชน์ทั้งสองทาง",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/FacePunch_Machine_V3_Name::segment-196",
+      "before": "ตราประทับหน้า III",
+      "after": "เครื่องปั๊มหน้า III",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Injection_Machine_V2_Name::segment-198",
+      "before": "เจ้าแห่งการจิ้ม II",
+      "after": "เจ้าแห่งการฉีด II",
+      "batch": "FRESH-145",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Injection_Machine_V3_Name::segment-200",
+      "before": "เจ้าแห่งการจิ้ม III",
+      "after": "เจ้าแห่งการฉีด III",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Ward_PlasterCaster_V2_Description::segment-201",
+      "before": "เครื่องหล่อปูนของเราไม่ได้ช้า แต่คำถามยังค้างคาว่าจะหล่อเร็วกว่านี้ได้ไหม",
+      "after": "เครื่องเข้าเฝือกของเราไม่ได้ช้า แต่คำถามยังค้างคาว่าจะหล่อเร็วกว่านี้ได้ไหม",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Ward_PlasterCaster_V2_Name::segment-202",
+      "before": "เครื่องหล่อปูน II",
+      "after": "เครื่องเข้าเฝือก II",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Ward_PlasterCaster_V3_Description::segment-203",
+      "before": "เชี่ยวชาญการออกแบบเครื่องหล่อปูนแล้วพัฒนาเครื่องที่หล่อปูนได้เร็วกว่าเครื่องก่อนหน้าอีก",
+      "after": "เชี่ยวชาญการออกแบบเครื่องเข้าเฝือกแล้วพัฒนาเครื่องที่หล่อปูนได้เร็วกว่าเครื่องก่อนหน้าอีก",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Hospital/Upgrades/Ward_PlasterCaster_V3_Name::segment-204",
+      "before": "เครื่องหล่อปูน III",
+      "after": "เครื่องเข้าเฝือก III",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Space/Upgrades/AlienHumanity_V2_Name::segment-268",
+      "before": "เครื่องจำลองสังคม II",
+      "after": "ตัวจำลองสังคม II",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Space/Upgrades/AlienHumanity_V3_Name::segment-270",
+      "before": "เครื่องจำลองสังคม III",
+      "after": "ตัวจำลองสังคม III",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Space/Upgrades/Astronaut_GravitySimulator_V2_Name::segment-272",
+      "before": "เครื่องจำลองต้านแรงโน้มถ่วง II",
+      "after": "ตัวจำลองต้านแรงโน้มถ่วง II",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/DLC_Space/Upgrades/Astronaut_GravitySimulator_V3_Name::segment-274",
+      "before": "เครื่องจำลองต้านแรงโน้มถ่วง III",
+      "after": "ตัวจำลองต้านแรงโน้มถ่วง III",
+      "batch": "FRESH-146",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Items/FoodCourt/Ramen_Kiosk_Name::segment-318",
+      "before": "ซุ้มราเม็ง",
+      "after": "ซุ้มราเมน",
+      "batch": "FRESH-147",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Rooms/FoodCourt_Room_Name::segment-476",
+      "before": "ฟู้ดคอร์ต",
+      "after": "ศูนย์อาหาร",
+      "batch": "FRESH-148",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/LectureTheatre_Lectern_V2_Description::segment-507",
+      "before": "พัฒนาสิ่งอำนวยความสะดวกด้านการบรรยายของเราด้วยการปรับปรุงแท่นบรรยายธรรมดา ๆ การปรับแต่งไม่กี่อย่างน่าจะเพิ่มช่วงความสนใจของนักศึกษาได้... ร้อยละหนึ่ง",
+      "after": "พัฒนาสิ่งอำนวยความสะดวกด้านการบรรยายของเราด้วยการปรับปรุงแท่นปาฐกถาธรรมดา ๆ การปรับแต่งไม่กี่อย่างน่าจะเพิ่มช่วงความสนใจของนักศึกษาได้... ร้อยละหนึ่ง",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/LectureTheatre_Lectern_V2_Name::segment-508",
+      "before": "แท่นบรรยาย II",
+      "after": "แท่นปาฐกถา II",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/LectureTheatre_Lectern_V3_Name::segment-510",
+      "before": "แท่นบรรยาย III",
+      "after": "แท่นปาฐกถา III",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Marketing_GreenScreen_V2_Name::segment-512",
+      "before": "กรีนสกรีน II",
+      "after": "ฉากสีเขียว II",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Marketing_GreenScreen_V3_Name::segment-514",
+      "before": "กรีนสกรีน III",
+      "after": "ฉากสีเขียว III",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Medical_HealthMachine_V2_Name::segment-520",
+      "before": "Omni-Cure II",
+      "after": "เครื่องรักษาสารพัด II",
+      "batch": "FRESH-149",
+      "status_before": "KEEP_AS_SOURCE_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Medical_HealthMachine_V3_Name::segment-522",
+      "before": "Omni-Cure III",
+      "after": "เครื่องรักษาสารพัด III",
+      "batch": "FRESH-149",
+      "status_before": "KEEP_AS_SOURCE_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Robotics_MegaHand_V2_Name::segment-528",
+      "before": "มือเมกะ II",
+      "after": "เมกะแฮนด์ II",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Robotics_MegaHand_V3_Name::segment-530",
+      "before": "มือเมกะ III",
+      "after": "เมกะแฮนด์ III",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Robotics_RobotProject_V2_Name::segment-532",
+      "before": "โครงการหุ่นยนต์ II",
+      "after": "โปรเจกต์วิทยาการหุ่นยนต์ II",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Robotics_RobotProject_V3_Name::segment-534",
+      "before": "โครงการหุ่นยนต์ III",
+      "after": "โปรเจกต์วิทยาการหุ่นยนต์ III",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/VR_Visors_V2_Name::segment-564",
+      "before": "แพลตฟอร์ม VR II",
+      "after": "แท่น VR II",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/VR_Visors_V3_Name::segment-566",
+      "before": "แพลตฟอร์ม VR III",
+      "after": "แท่น VR III",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Wizardry_DuellingRing_V2_Name::segment-572",
+      "before": "เวทีดวลเวท II",
+      "after": "สังเวียนดวล II",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Wizardry_DuellingRing_V3_Description::segment-573",
+      "before": "ปรับแต่งคุณสมบัติเวทมนตร์ของเวทีดวลอย่างละเอียด เพื่อให้นักศึกษาใช้ศักยภาพที่แท้จริงและเปี่ยมด้วยมนตร์เสน่ห์",
+      "after": "ปรับแต่งคุณสมบัติเวทมนตร์ของสังเวียนดวลอย่างละเอียด เพื่อให้นักศึกษาใช้ศักยภาพที่แท้จริงและเปี่ยมด้วยมนตร์เสน่ห์",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Research_Marketing::Research/Upgrades/Wizardry_DuellingRing_V3_Name::segment-574",
+      "before": "เวทีดวลเวท III",
+      "after": "สังเวียนดวล III",
+      "batch": "FRESH-149",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Archaeology_DigSite_Description_Long::segment-21",
+      "before": "แหล่งขุดค้นใช้สำหรับหลักสูตรโบราณคดี ทั้งคาบเรียนและงานมอบหมาย วิจัยอุปกรณ์โบราณคดีเพิ่มเติมในห้องแล็บวิจัย และอบรมครูของคุณเพิ่มในคุณวุฒิโบราณคดี เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น\n\nแหล่งขุดค้นยิ่งใหญ่ นักศึกษาของคุณยิ่งค้นพบโบราณวัตถุมากขึ้น หยิบและวางโบราณวัตถุไว้รอบวิทยาเขตเพื่อเพิ่มความน่าดึงดูดและเกียรติภูมิอย่างมาก หรือขายเป็นเงิน เมื่อสิ้นปี โบราณวัตถุที่ยังไม่มีใครเก็บในแหล่งขุดค้นจะถูกขาย",
+      "after": "แหล่งขุดค้นใช้สำหรับหลักสูตรโบราณคดี ทั้งคาบเรียนและงานมอบหมาย วิจัยอุปกรณ์โบราณคดีเพิ่มเติมในห้องปฏิบัติการวิจัย และอบรมครูของคุณเพิ่มในคุณวุฒิโบราณคดี เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น\n\nแหล่งขุดค้นยิ่งใหญ่ นักศึกษาของคุณยิ่งค้นพบโบราณวัตถุมากขึ้น หยิบและวางโบราณวัตถุไว้รอบวิทยาเขตเพื่อเพิ่มความน่าดึงดูดและเกียรติภูมิอย่างมาก หรือขายเป็นเงิน เมื่อสิ้นปี โบราณวัตถุที่ยังไม่มีใครเก็บในแหล่งขุดค้นจะถูกขาย",
+      "batch": "FRESH-150",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/ComputerLab_Description_Long::segment-32",
+      "before": "ห้องคอมพิวเตอร์ใช้โดยหลายหลักสูตร รวมถึงประวัติศาสตร์อินเทอร์เน็ต วิจัยอุปกรณ์คอมพิวเตอร์เพิ่มเติมในห้องแล็บวิจัย และอบรมครูเพิ่มในคุณวุฒิเฉพาะหลักสูตร เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น",
+      "after": "ห้องคอมพิวเตอร์ใช้โดยหลายหลักสูตร รวมถึงประวัติศาสตร์อินเทอร์เน็ต วิจัยอุปกรณ์คอมพิวเตอร์เพิ่มเติมในห้องปฏิบัติการวิจัย และอบรมครูเพิ่มในคุณวุฒิเฉพาะหลักสูตร เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น",
+      "batch": "FRESH-150",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Ghost/GhostBusting_Description_Long::segment-237",
+      "before": "ที่เก็บผีใช้ในหลักสูตรการตรวจจับเหนือธรรมชาติ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดOcto-Ectovat และอบรมครูของคุณเพิ่มในคุณวุฒิการตรวจจับเหนือธรรมชาติ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "after": "ห้องเก็บผีใช้ในหลักสูตรการตรวจจับเหนือธรรมชาติ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดOcto-Ectovat และอบรมครูของคุณเพิ่มในคุณวุฒิการตรวจจับเหนือธรรมชาติ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "batch": "FRESH-152",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Ghost/GhostBusting_Name::segment-238",
+      "before": "ที่เก็บผี",
+      "after": "ห้องเก็บผี",
+      "batch": "FRESH-152",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/AlienHumanities_Description_Long::segment-296",
+      "before": "ห้องนั่งเล่นใช้ในหลักสูตรมนุษยศาสตร์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดเครื่องจำลองสังคม และอบรมครูของคุณเพิ่มในคุณวุฒิมนุษยศาสตร์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "after": "ห้องนั่งเล่นใช้ในหลักสูตรมนุษยศาสตร์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดตัวจำลองสังคม และอบรมครูของคุณเพิ่มในคุณวุฒิมนุษยศาสตร์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "batch": "FRESH-152",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/DLC_Space/Astronaut_Description_Long::segment-299",
+      "before": "ห้องต้านแรงโน้มถ่วงใช้ในหลักสูตรโหราศาสตร์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดเครื่องจำลองต้านแรงโน้มถ่วง และอบรมครูของคุณเพิ่มในคุณวุฒิโหราศาสตร์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "after": "ห้องต้านแรงโน้มถ่วงใช้ในหลักสูตรโหราศาสตร์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดตัวจำลองต้านแรงโน้มถ่วง และอบรมครูของคุณเพิ่มในคุณวุฒิโหราศาสตร์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "batch": "FRESH-152",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Function/BathroomShower::segment-361",
+      "before": "ช่วยเพิ่มสุขอนามัย",
+      "after": "เพิ่มสุขอนามัย",
+      "batch": "FRESH-153",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/LectureTheatre_Description_Long::segment-430",
+      "before": "ห้องบรรยายใช้ในหลายหลักสูตร รวมถึงความรู้ทั่วไป อัปเกรดแท่นบรรยาย และอบรมครูของคุณในคุณวุฒิเฉพาะหลักสูตร เพื่อเพิ่มอัตราการเรียนรู้\n\nห้องบรรยายจัดโรงหนังนักศึกษาได้ เหมาะสำหรับเพิ่มความบันเทิงและความสุขของนักศึกษา จองกิจกรรมโดยใช้ตัวตรวจห้อง",
+      "after": "ห้องบรรยายใช้ในหลายหลักสูตร รวมถึงความรู้ทั่วไป อัปเกรดแท่นปาฐกถา และอบรมครูของคุณในคุณวุฒิเฉพาะหลักสูตร เพื่อเพิ่มอัตราการเรียนรู้\n\nห้องบรรยายจัดโรงหนังนักศึกษาได้ เหมาะสำหรับเพิ่มความบันเทิงและความสุขของนักศึกษา จองกิจกรรมโดยใช้ตัวตรวจห้อง",
+      "batch": "FRESH-154",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Robotics_RoboticsDesign_Description_Long::segment-452",
+      "before": "ออกแบบหุ่นยนต์ใช้ในหลักสูตรวิทยาการหุ่นยนต์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดมือเมกะ และอบรมครูของคุณเพิ่มในคุณวุฒิวิทยาการหุ่นยนต์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "after": "ออกแบบหุ่นยนต์ใช้ในหลักสูตรวิทยาการหุ่นยนต์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดเมกะแฮนด์ และอบรมครูของคุณเพิ่มในคุณวุฒิวิทยาการหุ่นยนต์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "batch": "FRESH-154",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Robotics_RoboticsDevelopment_Description_Long::segment-455",
+      "before": "ก่อสร้างหุ่นยนต์ใช้ในหลักสูตรวิทยาการหุ่นยนต์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดโครงการหุ่นยนต์ และอบรมครูของคุณเพิ่มในคุณวุฒิวิทยาการหุ่นยนต์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "after": "ก่อสร้างหุ่นยนต์ใช้ในหลักสูตรวิทยาการหุ่นยนต์ ทั้งคาบเรียนและงานมอบหมาย อัปเกรดโปรเจกต์วิทยาการหุ่นยนต์ และอบรมครูของคุณเพิ่มในคุณวุฒิวิทยาการหุ่นยนต์ เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น ",
+      "batch": "FRESH-154",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/VirtualReality_Description_Long::segment-495",
+      "before": "แล็บ VR ถูกใช้ในหลายหลักสูตร รวมถึงความปกติเสมือน อัปเกรดแพลตฟอร์ม VR และอบรมครูเพิ่มในคุณวุฒิเฉพาะหลักสูตร เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น",
+      "after": "แล็บ VR ถูกใช้ในหลายหลักสูตร รวมถึงความปกติเสมือน อัปเกรดแท่น VR และอบรมครูเพิ่มในคุณวุฒิเฉพาะหลักสูตร เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น",
+      "batch": "FRESH-154",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_Rooms::Rooms/Wizardry_Spells_Description_Long::segment-501",
+      "before": "ห้องคาถาใช้ในหลักสูตรวิชาพ่อมดและศิลปะมืด ทั้งคาบเรียนและงานมอบหมาย อัปเกรดเวทีดวลเวท และอบรมครูของคุณเพิ่มในคุณวุฒิวิชาพ่อมดและศิลปะมืด เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น",
+      "after": "ห้องคาถาใช้ในหลักสูตรวิชาพ่อมดและศิลปะมืด ทั้งคาบเรียนและงานมอบหมาย อัปเกรดสังเวียนดวล และอบรมครูของคุณเพิ่มในคุณวุฒิวิชาพ่อมดและศิลปะมืด เพื่อเพิ่มอัตราการเรียนรู้\n\nเพิ่มอุปกรณ์ให้นักศึกษาใช้ทำงานมอบหมายให้มากเข้าไว้ รวมถึงเพื่อเกียรติภูมิห้องที่สูง เพื่อให้นักศึกษามีความสุขและเรียนรู้ได้เร็วขึ้น",
+      "batch": "FRESH-155",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Camera_Pan_X::segment-74",
+      "before": "แพนกล้อง",
+      "after": "เลื่อนกล้อง",
+      "batch": "FRESH-156",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Camera_Pitch_X::segment-75",
+      "before": "เงยก้มกล้อง",
+      "after": "เงย/ก้มกล้อง",
+      "batch": "FRESH-156",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/DLC_Hospital/Place_A_Helipad::segment-163",
+      "before": "วิจัยและวางลานเฮลิคอปเตอร์",
+      "after": "วิจัยและวางลานจอดเฮลิคอปเตอร์",
+      "batch": "FRESH-157",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Ectovat_Deposit::segment-168",
+      "before": "ใส่ผี [COUNT] ตนลงในเอ็กโตแวต[i2p_One]ใส่ผีลงในเอ็กโตแวต",
+      "after": "ใส่ผี [COUNT] ตนลงในเอ็กโทแวต[i2p_One]ใส่ผีลงในเอ็กโทแวต",
+      "batch": "FRESH-157",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Money_Earn_AlienCheeseBonus_X::segment-263",
+      "before": "หาเงิน {AMOUNT} จากคาบเรียนใน Creamatorium",
+      "after": "หาเงิน {AMOUNT} จากคาบเรียนใน ครีมาโทเรียม",
+      "batch": "FRESH-158",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Ghost_Ectovats::segment-391",
+      "before": "เมื่อคนทำความสะอาดจับผีได้แล้ว สามารถนำผีไปฝากไว้ในเอ็กโตแวตได้ นักศึกษาและบุคลากรสามารถไปที่เอ็กโตแวตที่เต็มเพื่อรับบัฟ",
+      "after": "เมื่อคนทำความสะอาดจับผีได้แล้ว สามารถนำผีไปฝากไว้ในเอ็กโทแวตได้ นักศึกษาและบุคลากรสามารถไปที่เอ็กโทแวตที่เต็มเพื่อรับบัฟ",
+      "batch": "FRESH-159",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Ghost_GhostCapture::segment-392",
+      "before": "คนทำความสะอาดที่มีคุณวุฒิด้านการจับผีสามารถจับผีและไล่ผีออกจากห้องได้ ผีเป็นตัวกวนใจที่พบได้หลังคาบเรียนในห้องตรวจจับ ปรากฏเพราะฝูงผีในวิทยาเขต หรือถูกเผยเมื่อไล่ผีออกจากห้อง",
+      "after": "คนทำความสะอาดที่มีคุณวุฒิด้านการจับผีสามารถจับผีและไล่ผีออกจากห้องได้ ผีเป็นตัวกวนใจที่พบได้หลังคาบเรียนในสำนักงานตรวจจับ ปรากฏเพราะฝูงผีในวิทยาเขต หรือถูกเผยเมื่อไล่ผีออกจากห้อง",
+      "batch": "FRESH-159",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/DLC_Hospital_HelipadResearchNudge::segment-400",
+      "before": "หากหาไม่เจอในรายการไอเท็ม (<sprite=\"UI_General_All_T_TMP_Objectives\" name=\"ITEMS\">) ลองเปิดห้องแล็บวิจัยแล้วพัฒนาขึ้นมาเอง",
+      "after": "หากหาไม่เจอในรายการไอเท็ม (<sprite=\"UI_General_All_T_TMP_Objectives\" name=\"ITEMS\">) ลองเปิดห้องปฏิบัติการวิจัยแล้วพัฒนาขึ้นมาเอง",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Marketing::segment-446",
+      "before": "เลือกห้องการตลาดแล้วใช้ปุ่มเริ่มแคมเปญการตลาด <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"MARKET\"> เพื่อเปิดแคมเปญใหม่ คุณต้องมีผู้ช่วยที่ผ่านการฝึกด้านการตลาด <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"MARKETING\">",
+      "after": "เลือกสำนักงานการตลาดแล้วใช้ปุ่มเริ่มแคมเปญการตลาด <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"MARKET\"> เพื่อเปิดแคมเปญใหม่ คุณต้องมีผู้ช่วยที่ผ่านการฝึกด้านการตลาด <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"MARKETING\">",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Money_Earn_AlienCheeseBonus_Tooltip::segment-449",
+      "before": "นักศึกษาการค้าชีสดวงจันทร์ผลิตชีสอวกาศล้ำค่าในคาบเรียน Creamatorium ได้เกรดสูงขึ้นในคาบ Creamatorium เพื่อผลิตชีสที่ดีขึ้นและรับเงินมากขึ้น",
+      "after": "นักศึกษาการค้าชีสดวงจันทร์ผลิตชีสอวกาศล้ำค่าในคาบเรียน ครีมาโทเรียม ได้เกรดสูงขึ้นในคาบ ครีมาโทเรียม เพื่อผลิตชีสที่ดีขึ้นและรับเงินมากขึ้น",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Pastoral_Care::segment-451",
+      "before": "สร้างห้องสนับสนุนด้านจิตใจและฝึกหรือว่าจ้างผู้ช่วยที่มีคุณวุฒิด้านการดูแลด้านจิตใจ <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"PASTORAL\"> เพื่อให้การดูแลด้านจิตใจแก่นักศึกษา",
+      "after": "สร้างศูนย์สนับสนุนด้านจิตใจและฝึกหรือว่าจ้างผู้ช่วยที่มีคุณวุฒิด้านการดูแลด้านจิตใจ <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"PASTORAL\"> เพื่อให้การดูแลด้านจิตใจแก่นักศึกษา",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Research::segment-460",
+      "before": "สร้างห้องแล็บวิจัย เลือกศูนย์วิจัยแล้วเลือก 'เริ่มโครงการใหม่' เพื่อเริ่มวิจัย ต้องมีครูประจำห้องเพื่อดำเนินโครงการ และบางโครงการต้องใช้บุคลากรที่มีคุณวุฒิเฉพาะ",
+      "after": "สร้างห้องปฏิบัติการวิจัย เลือกศูนย์วิจัยแล้วเลือก 'เริ่มโครงการใหม่' เพื่อเริ่มวิจัย ต้องมีครูประจำห้องเพื่อดำเนินโครงการ และบางโครงการต้องใช้บุคลากรที่มีคุณวุฒิเฉพาะ",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Upgrading_Items::segment-479",
+      "before": "อุปกรณ์สำคัญบางชิ้นอัปเกรดได้ เลือกไอเท็มแล้วมองหาปุ่มอัปเกรด คุณต้องมีคนทำความสะอาดที่มีคุณวุฒิด้านช่างกล และอาจต้องวิจัยอัปเกรดในห้องแล็บวิจัย",
+      "after": "อุปกรณ์สำคัญบางชิ้นอัปเกรดได้ เลือกไอเท็มแล้วมองหาปุ่มอัปเกรด คุณต้องมีคนทำความสะอาดที่มีคุณวุฒิด้านช่างกล และอาจต้องวิจัยอัปเกรดในห้องปฏิบัติการวิจัย",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Win_Events_Cooking::segment-481",
+      "before": "เลือกครัวอาหารคาวแล้วใช้ปุ่มตั้งค่ากิจกรรม <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"EVENT\"> เพื่อจัดการแข่งขัน สนับสนุนหลักสูตรศาสตร์แห่งอาหารเพื่อผลลัพธ์ที่ดีขึ้น เฉพาะนักศึกษาที่ดีที่สุดเท่านั้นที่จะได้รับเลือกให้แข่ง",
+      "after": "เลือกห้องครัวของคาวแล้วใช้ปุ่มตั้งค่ากิจกรรม <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"EVENT\"> เพื่อจัดการแข่งขัน สนับสนุนหลักสูตรศาสตร์แห่งอาหารเพื่อผลลัพธ์ที่ดีขึ้น เฉพาะนักศึกษาที่ดีที่สุดเท่านั้นที่จะได้รับเลือกให้แข่ง",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_SubGoals::SubGoals/Tooltips/Win_Events_KnightDuelling::segment-483",
+      "before": "เลือกลานต่อสู้อวกาศแล้วใช้ปุ่มตั้งค่ากิจกรรม <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"EVENT\"> เพื่อจัดการประลอง สนับสนุนหลักสูตรโรงเรียนอัศวินอวกาศเพื่อผลลัพธ์ที่ดีขึ้น เฉพาะนักศึกษาที่ดีที่สุดเท่านั้นที่จะได้รับเลือกให้แข่ง",
+      "after": "เลือกพื้นที่ต่อสู้แล้วใช้ปุ่มตั้งค่ากิจกรรม <sprite=\"UI_General_All_T_TMP_Objectives\" name=\"EVENT\"> เพื่อจัดการประลอง สนับสนุนหลักสูตรโรงเรียนอัศวินอวกาศเพื่อผลลัพธ์ที่ดีขึ้น เฉพาะนักศึกษาที่ดีที่สุดเท่านั้นที่จะได้รับเลือกให้แข่ง",
+      "batch": "FRESH-160",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Calling_Assistant_Pastoral_1::segment-71",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการผู้ช่วยที่ฝ่ายดูแลด้านจิตใจ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการผู้ช่วยที่ศูนย์สนับสนุนด้านจิตใจ</style>",
+      "batch": "FRESH-166",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Calling_Assistant_Pastoral_2::segment-72",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอผู้ช่วยที่ฝ่ายดูแลด้านจิตใจ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอผู้ช่วยที่ศูนย์สนับสนุนด้านจิตใจ</style>",
+      "batch": "FRESH-166",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Calling_Assistant_Pastoral_3::segment-73",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ฝ่ายดูแลด้านจิตใจขอผู้ช่วย</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ศูนย์สนับสนุนด้านจิตใจขอผู้ช่วย</style>",
+      "batch": "FRESH-166",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_CourseColour_SpaceBillionaire_1::segment-245",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอเตือนนักศึกษาการขยายจักรวาลว่าไม่อนุญาตให้ปักธงในอวกาศ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอเตือนนักศึกษาหลักสูตรการขยายจักรวาลว่าไม่อนุญาตให้ปักธงในอวกาศ</style>",
+      "batch": "FRESH-168",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_CourseColour_SpaceBillionaire_2::segment-246",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาการขยายจักรวาลโปรดหยุดอ้างสิทธิ์สิ่งอำนวยความสะดวกของวิทยาเขตเป็นของตัวเอง</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาหลักสูตรการขยายจักรวาลโปรดหยุดอ้างสิทธิ์สิ่งอำนวยความสะดวกของวิทยาเขตเป็นของตัวเอง</style>",
+      "batch": "FRESH-168",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_FaceStamp_BlankLook_1::segment-296",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการสีหน้าว่างเปล่า</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการสีหน้าเลื่อนลอย</style>",
+      "batch": "FRESH-168",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_FaceStamp_BlockHead_1::segment-297",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวเหลี่ยม</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวบล็อก</style>",
+      "batch": "FRESH-168",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_FaceStamp_Woodworms_1::segment-298",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหนอนไม้</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหนอนเจาะไม้</style>",
+      "batch": "FRESH-168",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Lightheadedness_1::segment-299",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวเบาโหวง</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวเบา</style>",
+      "batch": "FRESH-168",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Metalheadedness_1::segment-300",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวโลหะ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยภาวะหัวเมทัล</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_HeadClinic_Rootheadedness_1::segment-301",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวราก</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยภาวะหัวรากผัก</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Injection_Greenvious_1::segment-304",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการอิจฉาตาเขียว</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการเขียวอิจฉา</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Injection_LeopardSkin_1::segment-305",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการผิวลายเสือดาว</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการลายเสือดาว</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Psychiatry_MockStar_1::segment-307",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการร็อกสตาร์ปลอม</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการร็อกสตาร์เก๊</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Psychiatry_ReptileDysfunction_1::segment-309",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการภาวะเสื่อมสมรรถภาพสัตว์เลื้อยคลาน</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยภาวะสัตว์เลื้อยคลานเสื่อมสมรรถภาพ</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Surgery_BrainFarts_1::segment-312",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการสมองปล่อยลม</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการสมองตด</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Surgery_HeartThrob_1::segment-313",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวใจเต้นตึกตัก</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวใจเต้นตุบ</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_FlappyHamper_1::segment-316",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการตะกร้าผ้าพึบพับ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการตะกร้าผ้าพะเยิบ</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_Limpette_1::segment-317",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการลิมเพ็ตต์</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการลิมเพตต์</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_PineDented_1::segment-318",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการไม้สนบุบ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการสนบุบ</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Emergency_Ward_PisteOff_1::segment-319",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการหัวเสียบนลานสกี</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศทางการแพทย์: ผู้ป่วยที่มาถึงด้วยอาการสกีหัวร้อน</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_Alien_1::segment-380",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลเครื่องจำลองสังคม</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลตัวจำลองสังคม</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_DeLux_1::segment-382",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมเครื่องจับหัว</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมNoggin Nabber</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_GhostBusting_1::segment-384",
+      "before": "<style=\"Tannoy\">ต้องการคนทำความสะอาดซ่อมถังเอกโตแปดแขน</style>",
+      "after": "<style=\"Tannoy\">ต้องการคนทำความสะอาดซ่อมออกโต-เอ็กโทแวต</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_GhostDetection_1::segment-385",
+      "before": "<style=\"Tannoy\">ต้องการคนทำความสะอาดซ่อมเครื่องสื่อวิญญาณอัตโนมัติ</style>",
+      "after": "<style=\"Tannoy\">ต้องการคนทำความสะอาดซ่อมMediumatic</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_Gravity_1::segment-386",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมเครื่องจำลองต้านแรงโน้มถ่วง</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมตัวจำลองต้านแรงโน้มถ่วง</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_Injections_1::segment-387",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมเครื่องปรมาจารย์ฉีดยา</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมเจ้าแห่งการฉีด</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_LectureTheatre_1::segment-389",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลแท่นบรรยาย ขอบคุณ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลแท่นปาฐกถา ขอบคุณ</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_MedicalOffice_1::segment-390",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมเครื่องรักษาครบวงจร</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมเครื่องรักษาสารพัด</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_RoboConstruction_1::segment-394",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลโปรเจกต์หุ่นยนต์</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลโปรเจกต์วิทยาการหุ่นยนต์</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_RoboDesign_1::segment-395",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมมือยักษ์</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมเมกะแฮนด์</style>",
+      "batch": "FRESH-169",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_SpaceKnight_1::segment-400",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมวงแหวนดาวเคราะห์</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมสังเวียนดาวเคราะห์</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_SpellsRoom_1::segment-401",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลเวทีดวล ขอบคุณ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปดูแลสังเวียนดวล ขอบคุณ</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_SweetKitchen_1::segment-402",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมเครื่องทำขนมอบ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: คนทำความสะอาดไปซ่อมPatisseriser</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_TrainingRoom_1::segment-403",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมแคปซูลฝึก</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมแคปซูลฝึกอบรม</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Machine_Ward_1::segment-405",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมเครื่องหล่อเฝือก ขอบคุณ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดซ่อมเครื่องเข้าเฝือก ขอบคุณ</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Room_PastoralSupport_1::segment-429",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอคนทำความสะอาดที่ฝ่ายดูแลด้านจิตใจ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอคนทำความสะอาดที่ศูนย์สนับสนุนด้านจิตใจ</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Room_RoboConstruction_1::segment-434",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอคนทำความสะอาดที่ห้องสร้างหุ่นยนต์</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอคนทำความสะอาดที่ห้องก่อสร้างหุ่นยนต์</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Room_SpaceKnight_1::segment-441",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดที่พื้นที่ศึกอวกาศ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดที่พื้นที่ต่อสู้</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Room_StudentLounge_1::segment-444",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอคนทำความสะอาดที่ห้องพักผ่อนนักศึกษา</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอคนทำความสะอาดที่เลานจ์นักศึกษา</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_Janitor_Room_VRLab_1::segment-449",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดที่ห้องปฏิบัติการ VR</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ต้องการคนทำความสะอาดที่แล็บ VR</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_Pastoral_1::segment-484",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศ: ฝ่ายดูแลด้านจิตใจอยู่เพื่อคุณ เกือบตลอดเวลา</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศ: ศูนย์สนับสนุนด้านจิตใจอยู่เพื่อคุณ เกือบตลอดเวลา</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_Pastoral_2::segment-485",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาควรไปที่ฝ่ายดูแลด้านจิตใจเพื่อ… ก็ทุกเรื่อง</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาควรไปที่ศูนย์สนับสนุนด้านจิตใจเพื่อ… ก็ทุกเรื่อง</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_Pastoral_3::segment-486",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาควรคุยกับฝ่ายดูแลด้านจิตใจ ไม่ใช่ผู้ประกาศ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาควรคุยกับศูนย์สนับสนุนด้านจิตใจ ไม่ใช่ผู้ประกาศ</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_StudentLounge_1::segment-499",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ห้ามนำปศุสัตว์เข้าห้องพักผ่อนนักศึกษา ขอบคุณ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ห้ามนำปศุสัตว์เข้าเลานจ์นักศึกษา ขอบคุณ</style>",
+      "batch": "FRESH-170",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_StudentLounge_2::segment-500",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอเตือนนักศึกษาว่าห้องพักผ่อนนักศึกษาไม่จำเป็นต้องดูเป็นแบบนั้น</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ขอเตือนนักศึกษาว่าเลานจ์นักศึกษาไม่จำเป็นต้องดูเป็นแบบนั้น</style>",
+      "batch": "FRESH-171",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_StudentLounge_3::segment-501",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศ: ทำงานในห้องพักผ่อนนักศึกษาไม่ได้ ไม่มีทางเป็นไปได้</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: ประกาศ: ทำงานในเลานจ์นักศึกษาไม่ได้ ไม่มีทางเป็นไปได้</style>",
+      "batch": "FRESH-171",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    },
+    {
+      "id": "I2LS_VO_Tannoy::VO/Tannoy_RoomColour_VRLab_2::segment-506",
+      "before": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาที่ใช้ห้องปฏิบัติการ VR ควรพักเป็นระยะ</style>",
+      "after": "<style=\"Tannoy\">ระบบเสียงประกาศ: นักศึกษาที่ใช้แล็บ VR ควรพักเป็นระยะ</style>",
+      "batch": "FRESH-171",
+      "status_before": "TRANSLATED_PENDING_REVIEW",
+      "status_after": "TRANSLATED_PENDING_REVIEW"
+    }
+  ]
+}
