@@ -1,7 +1,21 @@
 # Project status
 
-Updated: 2026-10-17 (Asia/Bangkok)
+Updated: 2026-10-21 (Asia/Bangkok)
 Owner: ChatGPT — Project Controller
+
+## Current checkpoint
+
+Probe-013 naturally reachable actual Settings tooltip milestone is COMPLETE WITH EXPLICIT GAPS: 18/20 keys at Small/Medium/Large (54 cells), accepted through WO-013/014/015. Two hidden rows remain NOT_RUN/control not exposed. No release/global layout/full shaping approval. All THREE installed originals, staged candidates and retained backups independently verified; tooltip-r2 and pilot-r3 structural rechecks pass with zero errors.
+
+Current authority: [PROBE_013_MILESTONE.md](PROBE_013_MILESTONE.md), [coverage tracker](qa/TOOLTIPS_001_COVERAGE.md), and [machine-readable checkpoint](../reports/probe-013-milestone.json). The dated entries below are preserved history and may describe superseded blockers/assignments.
+
+| Owner | Current next work | State |
+|---|---|---|
+| Controller | Investigate Thai-specific processing and caption generation | CHECK Error visible; active lookup confirmed for Error; Thai fix unresolved |
+| Claude | No bulk retranslation assigned | Reuse community corpus; targeted issue correction later |
+| Antigravity / desktop QA | WO-DROPDOWN-002 complete | CHECK_VISIBLE accepted; no new runtime assignment |
+
+## Historical project log
 
 ## Completed
 
@@ -14,7 +28,7 @@ Owner: ChatGPT — Project Controller
 - Received and reviewed Claude's pilot through local r3; independent structural checks passed with zero errors. Selected linguistic QA edits integrated; 21 contextual ambiguities and 3 humor flags remain. On 2026-10-16 the r3 file hash still matches its validation report.
 - Audited 23 serialized Campus TMP font character tables; no Thai-range entries in those tables, zero read errors. Dynamic/runtime coverage remains unknown.
 
-## Current assignments
+## Historical assignments — superseded by current checkpoint
 
 **BUG-THAI-001: MITIGATED / TARGET-WORD VERIFIED ใน probe-003** — คำว่า “ความถี่” แยกสระอี/ไม้เอกสอดคล้อง reference ตาม WO-VISUAL-003 พร้อมผล Small/Large/restart/dropdown ตามขอบเขตที่ตรวจ ยังเปิดเพื่อ regression ของอักษรซ้อนอื่น ไม่ใช่ full shaping PASS.
 
@@ -27,7 +41,7 @@ Owner: ChatGPT — Project Controller
 | Antigravity | Independent pilot language/token review; diagnostic QA planning | Linguistic review integrated; synthetic shaping/wrapping matrix remains unexecuted |
 | Desktop visual agent | Original multiline baseline | WO-VISUAL-006 complete: 3 explicit-LF multiline tooltips; automatic wrapping NOT_ESTABLISHED; no probe installed; originals verified |
 
-## Limits and handoff
+## Historical limits and handoff
 
 Probe-003 remains the translation engineering baseline after target-word PASS. Probe-004 gave five scoped passes; WO-VISUAL-005 additionally closes STACK-02's reference gap, while VOWEL-02 needs higher-detail game evidence. The width-tag English control failed with a blank oversized tooltip, so Thai wrapping A/B remains BLOCKED/NOT_RUN and uninstalled. Originals independently hash-checked after restoration. Next inspect actual tooltip TMP/layout settings or select an existing readable bounded English multiline component before rebuilding. Do not rerun unchanged probe-005 A/B. Full shaping, atlas stress, token/plural semantics and gameplay coverage remain pending. Agent messages are relayed by the user. Remote GitHub synchronization has not been freshly verified; local commits alone do not establish upload success.
 
@@ -120,3 +134,107 @@ Unchanged staged probe-013 and tooltip-map hashes independently verified; three 
 ## Latest blocker — WO-VISUAL-014 desktop capability
 
 Attempt BLOCKED before install: wrong-target capture and no supported hover/pointer operation established in tester session. New coverage stays NOT_RUN; no new defect or control-absence evidence. Originals independently verified; no rebuild required. Resume via docs/qa/WO_VISUAL_014_RESUME.md after correct Windows target capture and documented pointer-placement capability. Current Medium/build/resolution not newly observed; prior WO-013 values historical only. No new visual acceptance.
+
+
+## Latest acceptance — WO-VISUAL-014 completed (2026-10-18)
+
+Completed desktop run supersedes capability blockers. Controller accepted 27 new Video cells plus CharacterLimits at all scales; combined scoped coverage is 17/20 keys across Small/Medium/Large. CharacterLimits displayed variables/colour verified, functional limits untested. QualityPresets NOT_OBSERVED at Medium; AnimationSkinningQuality/RenderScale NOT_RUN/control not exposed. Three originals independently checked; final Medium attributed to tester evidence. No release/global layout/ZWSP approval. See WO_VISUAL_014_ACCEPTANCE.md and updated qa/TOOLTIPS_001_COVERAGE.md.
+
+Next engineering milestone started: read-only serialized context scan finds references for all three remaining keys (six objects, one decode failure). Continue owner/provider/visibility tracing per WO_TOOLTIP_CONTEXT_001.md before another runtime assignment. No rebuild or repeated passed matrix.
+
+Static hierarchy finding: RenderScale and Animation Quality rows are serialized inactive; QualityPresets/title active. These defaults do not prove runtime visibility. External script/provider activation conditions remain unresolved; do not force-enable hidden controls or assign identical hover repeats. Initial context disposition is recorded in WO_TOOLTIP_CONTEXT_001.md.
+
+
+## Binding trace completed — 2026-10-18
+
+See TOOLTIP_GAP_BINDING_FINDINGS.md and reports/tooltip-gap-binding-trace.json. All three providers positively resolved to TPC.TooltipSpawner. QualityPresets provider is on OptionsQuality with an enabled raycast graphic; event dispatch/runtime gating remains unresolved. Both hidden rows retain PreferencesPanelVideo references. Exact visibility predicates require native method bodies, beyond serialized/metadata evidence. No new supported activation established, so no new visual WO/rebuild is issued; 17/20 acceptance unchanged.
+
+
+## Native investigation completed — next WO-VISUAL-015 (2026-10-18)
+
+Existing LibCpp2IL successfully mapped native methods; 65 target-class pointers independently checked against codegen table. Chained PE unwind bounds and complete disassembly validated. TooltipManager searches raycast objects and stops on a raycast-target Image without walking to parent providers; QualityPresets parent OptionsQuality has the provider, title/button Images can intercept it. This supports a new bounded empty-parent-gap diagnostic, not a confirmed runtime root cause. WO-VISUAL-015 prepared for desktop QA, NOT_RUN, unchanged probe-013. Hidden rows remain default-inactive with no supported activation route established in reviewed lifecycle code. See TOOLTIP_NATIVE_FINDINGS.md. Current acceptance stays 17/20; no rebuild or release approval.
+
+
+## Accepted WO-VISUAL-015 — 2026-10-18
+
+QualityPresets parent-gap activation and scoped visual PASS accepted at Medium/Small/Large after Controller image inspection and text comparison. Combined accepted coverage 18/20 keys (54 scale cells). WO-015 complete; prior prepared/NOT_RUN status is historical. Two hidden rows remain NOT_RUN/control not exposed. All three originals independently checked, final Medium attributed to tester evidence. No new build/repeat WO or release approval. See docs/WO_VISUAL_015_ACCEPTANCE.md (repository-relative path) and current coverage tracker. Next consolidate candidate scope and known limits before expanding work.
+
+
+## VOWEL-02 preflight completed — 2026-10-18
+
+Eight injected pairs exactly match map, reloaded bundle, corpus target elements and exact reference. Embedded TTF hash matches actual staged game font. Existing Medium/Large originals inspected; detailed shaping remains PARTIAL. Documented sky capture route verified on Steam after wrong-target recovery, but higher-detail/lossless game acquisition not established; no new desktop WO/install. See VOWEL_02_EVIDENCE_PREFLIGHT.md and reports/vowel-02-evidence-audit.json. Continue independent source-backed boundary planning; no new translation batch or release approval.
+
+
+## Next boundary handoff — WO-VISUAL-016 (2026-10-18)
+
+Existing actual-tooltip transcriptions contain nine unique extra cut positions; WO-012 five cuts reduce to two contexts. CRP-WRAP-03 previously had no wrapping in WO-004. New probe-016 stages its unchanged 79-codepoint paragraph three times in bounded Resolution: exactly one localisation segment changed, identical probe-013 font/UI, no LF/ZWSP/tags. Build/reload checks and guarded all-three original check passed. WO-VISUAL-016 ready for Antigravity via user relay, runtime NOT_RUN, Medium only. No VOWEL-02 detail closure, forced all-cluster coverage, production change or release approval. See LINE_BOUNDARY_FOLLOWUP.md.
+
+
+## WO-VISUAL-016 reviewed — segmentation defect (2026-10-18)
+
+Five readable contained rows preserve all 237 codepoints exactly. Four runtime cuts observed; three cut inside เรียน/ทุก. BUG-THAI-002 OPEN. Content/containment scoped PASS; word segmentation OBSERVED FAIL; direct leading-vowel/base or base/mark edge challenges NOT_EXERCISED, fine shaping unresolved. Originals/retained backups/staged hashes independently checked. See PROBE_016_DISPOSITION.md and qa/BUG_THAI_002.md. Next Controller investigates actual text line-breaking configuration before choosing a targeted control; no new candidate or repeat WO yet. Original probe-013 18/20 coverage remains unchanged, no broad wrapping/release approval.
+
+
+## Targeted segmentation control — WO-VISUAL-017 ready (2026-10-18)
+
+Normal wrapping retained; two resource linebreaking tables contain no Thai codepoints, without establishing dictionary absence/root cause. Native U+200B branches support a targeted intervention test. New probe-017 adds 47 explicitly mapped proposed break opportunities to the exact WO-016 text; removing U+200B matches A literally, font/UI unchanged, one segment reload-verified. Guarded check all-three original passes. WO-017 prepared for Antigravity/user relay, runtime NOT_RUN, B-only Medium. BUG-THAI-002 stays OPEN; no production ZWSP/global rewrite/release policy change. See THAI_LINEBREAKING_FINDINGS.md.
+
+
+## WO-VISUAL-017 accepted — scoped experimental benefit (2026-10-18)
+
+B preserves all 237 underlying codepoints, cuts at 49/100/154/207 (three distinct contexts), no cut inside any เรียน/ทุก occurrence and no new bad edge observed. Controller inspected B and independently verified literal equality/offsets/evidence/hashes. BUG-THAI-002 stays OPEN with experimental mitigation only. All three originals/backups/candidates verified; final Medium attributed to tester. No production ZWSP/default policy change, full wrapping or release approval. See PROBE_017_ACCEPTANCE.md. Next Controller defines broader evidence/implementation constraints before choosing further contexts; no new WO/build yet.
+
+
+## Next independent review — SEGMENTATION-001 (2026-10-18)
+
+Defined source-preserving, opt-in experimental-map gate and prospective 2-text x 2-width x A/B matrix (not executed or automatically approved). Prepared MSAASamples/WorldDetail proposals separate from translations: 10/24 cuts, exact source hashes and underlying equality; 8 negative controls reject unsafe changes, CharacterLimits identity preservation passes. WO-QA-SEGMENTATION-001 ready for Antigravity/user relay, NO GAME. No new candidate/runtime WO, production ZWSP or release approval. See SEGMENTATION_EVIDENCE_GATE.md. BUG-THAI-002 stays OPEN.
+
+
+## SEGMENTATION-001 review accepted — 2026-10-18
+
+Controller verified both input hashes, all 34 per-cut reviewed offsets, source equality and structural guards. Accept both maps unchanged for experimental-build preparation; optional cuts 50/63 retained. Original/marked whitespace coordinates clarified in SEGMENTATION_001_ACCEPTANCE.md. No runtime or production approval. Controller next prepares four width/A/B variants and checks reload/hash isolation before any desktop assignment. All three originals checked; BUG-THAI-002 OPEN, probe-013 coverage 18/20 unchanged.
+
+
+## WO-VISUAL-018 ready — 2026-10-18
+
+Built four frozen width/input variants from probe-013 and accepted SEGMENTATION-001 maps. A800 retains baseline localisation/UI; B changes only two reviewed tooltip segments; 600 changes only text-child width 800 to600. Per-width A/B font/UI and cross-width input hashes equal as controlled. Reload checks isolate exactly two B source segments and one narrow UI object; all four guarded checks return original/original/original. No installation. Eight-cell Medium matrix ready for Antigravity/user relay, actual effective widths/runtime NOT_RUN. See PROBE_018_HANDOFF.md and qa/WO_VISUAL_018.md. No production ZWSP/global width/release approval.
+
+
+## Token-conscious screening revision — 2026-10-21
+
+User approved trying a reduced workflow. WO-VISUAL-018 now starts with two texts x A/B at width 800 only (four cells). Width 600 is deferred. Reuse static validation and prior acceptance; capture once per cell with one recovery maximum, inspect changed/problem edges, and use a compact report. Target 45 minutes active work, then stop collection and restore. Full matrix/codepoint transcription and additional review are deferred; unresolved evidence stays unresolved. This reduces initial experimental scope and cannot establish multi-width behavior. No game run/install or production approval in this revision.
+
+
+## WO-018 screening accepted — 2026-10-21
+
+Controller inspected the four primary images: MSAASamples B uses a later clean break; WorldDetail matches A. Accepted as scoped screening benefit at requested 800/Medium. Fresh manager check confirms three originals. Downsampled captures do not resolve fine shaping; BUG-THAI-002 stays OPEN. 600 cells deferred; no additional desktop run assigned. Capture/time/token budget compliance is not established because additional exploratory captures exist. See PROBE_018_ACCEPTANCE.md.
+
+
+## Community translation reuse — 2026-10-21
+
+User supplied existing Thai mod. community-merge-001 built locally with project font/UI and 70 project translations preserved; all 15,677 records reload-match. 15,602 imported, five English fallbacks. Candidate NOT_RUN/not installed. Current direction is reuse plus targeted correction instead of bulk retranslation. Next: resolve five fallbacks and prepare bounded smoke test. See COMMUNITY_MERGE_001.md.
+
+
+## Merged mod smoke test blocked — 2026-10-21
+
+Blank Thai dropdown selected values confirmed from report and Controller image inspection; labels/buttons render. Main menu passed per tester, tooltip inconclusive. Static caption font audit is an investigation lead only. Three originals freshly verified. Next Controller investigates font/material/fallback path; no new runtime assignment. See SMOKE_MERGE_001_DISPOSITION.md.
+
+
+## Dropdown diagnostic prepared — 2026-10-21
+
+Font localisation maps in merge-002 and probe-013 are identical, so no imported font-name remap was found. Existing fallback references include the Thai dynamic slot; static absence of Thai in primary character table alone does not explain blank captions. community-merge-003 changes only LogLevel selected-caption font/material to that existing Thai slot; all other UI objects and localisation/font bytes preserved. Read-only check confirms three originals. WO-DROPDOWN-001 prepared; no installation or runtime result.
+
+
+## WO-DROPDOWN-001 negative result accepted — 2026-10-21
+
+LogLevel stays blank after direct Thai font/material assignment. One primary image inspected; three originals freshly checked. Font-only patch is not adopted. Option text exists and font localisation mapping matches baseline; runtime population/processing/overrides need investigation. No new desktop run assigned. See DROPDOWN_001_DISPOSITION.md.
+
+
+## Native dropdown trace and ASCII control — 2026-10-21
+
+Option getter delegates to numeric LocalisedString lookup; TMP caption refresh supplies option text or empty fallback through virtual setter. Runtime branch/text/font state not established. merge-004 changes only six LogLevel strings to CHECK + original English, fonts/UI identical to merge-002; reload-isolation check passed and three originals verified. WO-DROPDOWN-002 ready, NOT_RUN. See DROPDOWN_NATIVE_TRACE.md.
+
+
+## ASCII control accepted — 2026-10-21
+
+CHECK Error directly verified in submitted image; adjacent captions still blank. Marked Error option is loaded and reaches visible caption with unchanged merge-002 UI/font. Thai-specific processing/rendering remains unresolved; no automatic font-cause claim or new test. Three originals freshly checked. See DROPDOWN_002_DISPOSITION.md.

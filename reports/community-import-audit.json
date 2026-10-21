@@ -1,0 +1,17 @@
+{
+  "archive_sha256": "77c523a0682094b654547e3b925a886ba9a9a20afab10f5909b68ca1af12b601",
+  "localisation_sha256": "83db70adbf17678bfec63472054abfcb495318ebcc30e44e77293206131a6551",
+  "source_records": 15677,
+  "imported_records": 15677,
+  "extra_asset_keys": 0,
+  "counts": {
+    "project_preserved": 70,
+    "imported": 15602,
+    "imported_with_thai": 15314,
+    "imported_unchanged_english": 286,
+    "quarantined": 1,
+    "missing_or_ambiguous": 4
+  },
+  "installed": false,
+  "limits": "Draft only. Token/tag comparison is heuristic. No language/runtime approval. Imported font not used. Redistribution permission not established; keep imported text local."
+}

@@ -1,0 +1,32 @@
+{
+  "probe": "probe-016",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "280fc29c6df482cf0cf32f4331317b94f901b56958866a68f9e56de84978f065"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+    }
+  ],
+  "base_probe": "probe-013",
+  "diagnostic_map_sha256": "e07ead50715dd447e24f69ecfce2209c8e26f479b217f0a8f07bac9055a9d7e3",
+  "changed_text_assets": [
+    "I2LS_UI_Settings"
+  ],
+  "changed_segments": [
+    122
+  ],
+  "strategy": "Only Resolution tooltip replaced with three exact CRP-WRAP-03 copies; font/UI bytes identical to probe-013.",
+  "limits": "Synthetic boundary diagnostic, not production translation. Runtime wrapping/containment and actual boundary coverage unverified. No new rendering or release approval."
+}

@@ -1,0 +1,56 @@
+{
+  "probe": "community-merge-004",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "c9f2b5c5895e8c52ba9dc0f34bfb977ecf57283cb742e1c6c3524ad99cf94309"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+    }
+  ],
+  "changes": [
+    {
+      "key": "UI/Settings/Game/LogLevel_AlwaysLog",
+      "segment_index": 65,
+      "replacement": "CHECK Always Log"
+    },
+    {
+      "key": "UI/Settings/Game/LogLevel_Debug",
+      "segment_index": 66,
+      "replacement": "CHECK Debug"
+    },
+    {
+      "key": "UI/Settings/Game/LogLevel_Error",
+      "segment_index": 67,
+      "replacement": "CHECK Error"
+    },
+    {
+      "key": "UI/Settings/Game/LogLevel_Information",
+      "segment_index": 68,
+      "replacement": "CHECK Information"
+    },
+    {
+      "key": "UI/Settings/Game/LogLevel_Verbose",
+      "segment_index": 69,
+      "replacement": "CHECK Verbose"
+    },
+    {
+      "key": "UI/Settings/Game/LogLevel_Warning",
+      "segment_index": 70,
+      "replacement": "CHECK Warning"
+    }
+  ],
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "strategy": "ASCII CHECK marker on six LogLevel option strings only, original merge-002 UI/font unchanged",
+  "limits": "Diagnostic only; not a Thai fix or release candidate"
+}

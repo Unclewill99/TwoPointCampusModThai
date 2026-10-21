@@ -1,0 +1,5080 @@
+{
+  "targets": [
+    {
+      "key": "QualityPresets",
+      "go_id": -2354921750532096295,
+      "serialized_active": true,
+      "subtree_gameobjects": 41,
+      "components": [
+        {
+          "id": -9123688289906098471,
+          "class": "TPS.Game.PlatformActionImage",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": -7832899213058408743,
+          "class": "TPC.TooltipSpawner",
+          "owner": "OptionsQuality",
+          "raycast_target": null
+        },
+        {
+          "id": -7604853603897999655,
+          "class": "TPS.Core.UI.UITouchable",
+          "owner": "OptionsQuality",
+          "raycast_target": 1
+        },
+        {
+          "id": -7444553402924368167,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": -7027425615717105959,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text (TMP)",
+          "raycast_target": 1
+        },
+        {
+          "id": -6597677697369407783,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "Button_VeryHigh",
+          "raycast_target": null
+        },
+        {
+          "id": -6556107479172219175,
+          "class": "TPS.Game.PlatformActionImage",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": -6469623174583779623,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "Button_High",
+          "raycast_target": null
+        },
+        {
+          "id": -6377864328134426919,
+          "class": "UnityEngine.UI.LayoutElement",
+          "owner": "QualityPresetsTitle",
+          "raycast_target": null
+        },
+        {
+          "id": -6347933657257771303,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": -6019042307921314087,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "textTitle",
+          "raycast_target": 1
+        },
+        {
+          "id": -5932408925455548711,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": -5649247726048739623,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": -5636418144530563367,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": -5474761821842800935,
+          "class": "I2.Loc.Localize",
+          "owner": "textTitle",
+          "raycast_target": null
+        },
+        {
+          "id": -5028674563974070567,
+          "class": "TPS.Game.InputDeviceFilterComponent",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": -4830373149341876519,
+          "class": "UnityEngine.UI.LayoutElement",
+          "owner": "TooltipAnchor",
+          "raycast_target": null
+        },
+        {
+          "id": -4311582915556770087,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Background",
+          "raycast_target": 1
+        },
+        {
+          "id": -3943640675596534055,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": -3828993211017494823,
+          "class": "TPS.Core.UI.UIOptionCollection",
+          "owner": "OptionsQuality",
+          "raycast_target": null
+        },
+        {
+          "id": -3557645450838704423,
+          "class": "UnityEngine.UI.Image",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": 1
+        },
+        {
+          "id": -3318175525169889575,
+          "class": "UnityEngine.UI.Image",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": 1
+        },
+        {
+          "id": -3251345186539733287,
+          "class": "TPS.Game.PlatformActionImage",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": -3186056080319086887,
+          "class": "UnityEngine.UI.LayoutElement",
+          "owner": "OptionsQuality",
+          "raycast_target": null
+        },
+        {
+          "id": -3146982057173156135,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text (TMP)",
+          "raycast_target": 1
+        },
+        {
+          "id": -3084224303865102631,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text (TMP)",
+          "raycast_target": 1
+        },
+        {
+          "id": -2894709743447146791,
+          "class": "UnityEngine.UI.Image",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": 1
+        },
+        {
+          "id": -2860826148692656423,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Background",
+          "raycast_target": 1
+        },
+        {
+          "id": -2804338657028964647,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": -2786382334552473895,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "Button_Medium",
+          "raycast_target": null
+        },
+        {
+          "id": -1432881486059372839,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": -1421478646104097063,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Background",
+          "raycast_target": 1
+        },
+        {
+          "id": -1178267735897112871,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": -960780186638254375,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": -130172954848887079,
+          "class": "UnityEngine.UI.Image",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": 1
+        },
+        {
+          "id": -84908382553997607,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "Button_VeryLow",
+          "raycast_target": null
+        },
+        {
+          "id": 374297145070223065,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": 511203455960121049,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text (TMP)",
+          "raycast_target": 1
+        },
+        {
+          "id": 680924818135285465,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "Button_Low",
+          "raycast_target": null
+        },
+        {
+          "id": 1033366005744238297,
+          "class": "UnityEngine.UI.Image",
+          "owner": "QualityPresetsTitle",
+          "raycast_target": 1
+        },
+        {
+          "id": 1210790133412495065,
+          "class": "UnityEngine.UI.Image",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": 1
+        },
+        {
+          "id": 2743272927280987865,
+          "class": "TPC.WidgetSectionHeader",
+          "owner": "QualityPresetsTitle",
+          "raycast_target": null
+        },
+        {
+          "id": 2918121424796352217,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Background",
+          "raycast_target": 1
+        },
+        {
+          "id": 3066891863006478041,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": 3116209046114369241,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": 3378567225928023769,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": 3401116249076694745,
+          "class": "TPS.Game.InputDeviceFilterComponent",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": 3810907271117962969,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": 4621530542547238617,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Background",
+          "raycast_target": 1
+        },
+        {
+          "id": 5069919124953726681,
+          "class": "TPS.Core.UI.LayoutGroup.DynamicLayoutGroup",
+          "owner": "QualityPresets",
+          "raycast_target": null
+        },
+        {
+          "id": 5315412362983997145,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": 5443699469685653209,
+          "class": "TPS.Game.PlatformActionImage",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": 6171170088995749593,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": 6254004812665945817,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text (TMP)",
+          "raycast_target": 1
+        },
+        {
+          "id": 6463000246216392409,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": 6502843898968506073,
+          "class": "TPS.Game.InputDeviceFilterComponent",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": 7048078218422615769,
+          "class": "I2.Loc.Localize",
+          "owner": "Text",
+          "raycast_target": null
+        },
+        {
+          "id": 7267021023739870937,
+          "class": "TPS.Game.InputDeviceFilterComponent",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": 8441385109186313945,
+          "class": "TPS.Game.InputDeviceFilterComponent",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        },
+        {
+          "id": 8609558621642587865,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Text",
+          "raycast_target": 1
+        },
+        {
+          "id": 9135968951770054361,
+          "class": "TPS.Game.PlatformActionImage",
+          "owner": "P_General_PlatformActionImage",
+          "raycast_target": null
+        }
+      ],
+      "providers": [
+        {
+          "id": -7832899213058408743,
+          "class": "TPC.TooltipSpawner",
+          "enabled": 1,
+          "owner_id": -5932648878914634023,
+          "owner_name": "OptionsQuality",
+          "owner_raycast_graphics": [
+            {
+              "class": "TPS.Core.UI.UITouchable",
+              "enabled": 1,
+              "raycast_target": 1
+            }
+          ],
+          "owner_rect": {
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_SizeDelta": {
+              "x": 1801.8973388671875,
+              "y": 93.9000015258789
+            },
+            "m_AnchoredPosition": {
+              "x": 900.9486694335938,
+              "y": -96.94999694824219
+            }
+          },
+          "tooltip": {
+            "_dev": "",
+            "_termID": -1661906351
+          },
+          "hover_time": 0.5,
+          "prefab": {
+            "m_FileID": 0,
+            "m_PathID": 5202969347434510902
+          },
+          "anchor": {
+            "m_FileID": 0,
+            "m_PathID": 8388474999423794905
+          }
+        }
+      ],
+      "incoming_component_references": [
+        {
+          "id": -5785986650210468135,
+          "class": "TPC.NavigableDropdown",
+          "references": [
+            {
+              "field": "/_navigation/OnUp",
+              "target": -2786382334552473895
+            }
+          ]
+        },
+        {
+          "id": 7433931642048839385,
+          "class": "TPC.PreferencesPanelVideo",
+          "references": [
+            {
+              "field": "/_qualityLevelOverridden/0/Button",
+              "target": -84908382553997607
+            },
+            {
+              "field": "/_qualityLevelOverridden/0/Text",
+              "target": -7027425615717105959
+            },
+            {
+              "field": "/_qualityLevelOverridden/1/Button",
+              "target": 680924818135285465
+            },
+            {
+              "field": "/_qualityLevelOverridden/1/Text",
+              "target": 6254004812665945817
+            },
+            {
+              "field": "/_qualityLevelOverridden/2/Button",
+              "target": -2786382334552473895
+            },
+            {
+              "field": "/_qualityLevelOverridden/2/Text",
+              "target": -3084224303865102631
+            },
+            {
+              "field": "/_qualityLevelOverridden/3/Button",
+              "target": -6469623174583779623
+            },
+            {
+              "field": "/_qualityLevelOverridden/3/Text",
+              "target": -3146982057173156135
+            },
+            {
+              "field": "/_qualityLevelOverridden/4/Button",
+              "target": -6597677697369407783
+            },
+            {
+              "field": "/_qualityLevelOverridden/4/Text",
+              "target": 511203455960121049
+            },
+            {
+              "field": "/_overallQualityCollection",
+              "target": -3828993211017494823
+            }
+          ]
+        },
+        {
+          "id": 8816769457207148249,
+          "class": "TPS.Core.UI.UIButton",
+          "references": [
+            {
+              "field": "/_navigation/OnDown",
+              "target": -2786382334552473895
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "RenderScale",
+      "go_id": -5379194925153222951,
+      "serialized_active": false,
+      "subtree_gameobjects": 16,
+      "components": [
+        {
+          "id": -8609264033478443303,
+          "class": "TPC.TooltipSpawner",
+          "owner": "RenderScale",
+          "raycast_target": null
+        },
+        {
+          "id": -6828955610604273959,
+          "class": "TPC.WidgetSlider",
+          "owner": "UI_General_Component_P_Slider",
+          "raycast_target": null
+        },
+        {
+          "id": -6348200677257281831,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "RightArrow",
+          "raycast_target": null
+        },
+        {
+          "id": -5388204712286978343,
+          "class": "UnityEngine.UI.Slider",
+          "owner": "UI_General_Component_P_Slider",
+          "raycast_target": null
+        },
+        {
+          "id": -4150263272136212775,
+          "class": "UnityEngine.UI.Image",
+          "owner": "RightArrow",
+          "raycast_target": 1
+        },
+        {
+          "id": -3873296340618215719,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Fill",
+          "raycast_target": 1
+        },
+        {
+          "id": -3040034682067976487,
+          "class": "UnityEngine.UI.LayoutElement",
+          "owner": "RenderScale",
+          "raycast_target": null
+        },
+        {
+          "id": -2551706257689903399,
+          "class": "UnityEngine.UI.Image",
+          "owner": "ContainerBG",
+          "raycast_target": 0
+        },
+        {
+          "id": -1420185857672577319,
+          "class": "UnityEngine.UI.Image",
+          "owner": "RenderScale",
+          "raycast_target": 1
+        },
+        {
+          "id": -1030755862089138471,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "ValuePreview",
+          "raycast_target": 1
+        },
+        {
+          "id": -792355628131057959,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "TextOptionName",
+          "raycast_target": 1
+        },
+        {
+          "id": -333047091400704295,
+          "class": "UnityEngine.UI.Image",
+          "owner": "LeftArrow",
+          "raycast_target": 1
+        },
+        {
+          "id": 34601034131799769,
+          "class": "TPS.Core.UI.UIButton",
+          "owner": "LeftArrow",
+          "raycast_target": null
+        },
+        {
+          "id": 296455996479667929,
+          "class": "TPC.OverridenValueVisual",
+          "owner": "UI_General_Component_P_Slider",
+          "raycast_target": null
+        },
+        {
+          "id": 1525725106325847769,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Modified",
+          "raycast_target": 1
+        },
+        {
+          "id": 3710130281329819353,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Handle",
+          "raycast_target": 1
+        },
+        {
+          "id": 4027223070286249689,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Background",
+          "raycast_target": 1
+        },
+        {
+          "id": 4992759647687966425,
+          "class": "I2.Loc.Localize",
+          "owner": "TextOptionName",
+          "raycast_target": null
+        },
+        {
+          "id": 6243971207175831257,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Container_SliderArrows",
+          "raycast_target": 1
+        },
+        {
+          "id": 8561205734287179481,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Slider",
+          "raycast_target": 1
+        }
+      ],
+      "providers": [
+        {
+          "id": -8609264033478443303,
+          "class": "TPC.TooltipSpawner",
+          "enabled": 1,
+          "owner_id": -5379194925153222951,
+          "owner_name": "RenderScale",
+          "owner_raycast_graphics": [
+            {
+              "class": "UnityEngine.UI.Image",
+              "enabled": 1,
+              "raycast_target": 1
+            }
+          ],
+          "owner_rect": {
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_SizeDelta": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "m_AnchoredPosition": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          "tooltip": {
+            "_dev": "",
+            "_termID": -1643057496
+          },
+          "hover_time": 0.5,
+          "prefab": {
+            "m_FileID": 0,
+            "m_PathID": 5202969347434510902
+          },
+          "anchor": {
+            "m_FileID": 0,
+            "m_PathID": -5914912316183839015
+          }
+        }
+      ],
+      "incoming_component_references": [
+        {
+          "id": -5482422338656239911,
+          "class": "TPC.WidgetSlider",
+          "references": [
+            {
+              "field": "/_navigation/OnDown",
+              "target": -6828955610604273959
+            }
+          ]
+        },
+        {
+          "id": -3765937222821576999,
+          "class": "TPC.NavigableDropdown",
+          "references": [
+            {
+              "field": "/_navigation/OnUp",
+              "target": -6828955610604273959
+            }
+          ]
+        },
+        {
+          "id": 7433931642048839385,
+          "class": "TPC.PreferencesPanelVideo",
+          "references": [
+            {
+              "field": "/_renderScale",
+              "target": -5388204712286978343
+            },
+            {
+              "field": "/_renderScaleDisplay",
+              "target": -1030755862089138471
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "AnimationSkinningQuality",
+      "go_id": -2261707471542190375,
+      "serialized_active": false,
+      "subtree_gameobjects": 18,
+      "components": [
+        {
+          "id": -8773931315009388839,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Dropdown Button",
+          "raycast_target": 1
+        },
+        {
+          "id": -8238320247617257767,
+          "class": "UnityEngine.UI.Toggle",
+          "owner": "Item",
+          "raycast_target": null
+        },
+        {
+          "id": -7406596682214900007,
+          "class": "UnityEngine.UI.Mask",
+          "owner": "Viewport",
+          "raycast_target": null
+        },
+        {
+          "id": -7073879785202090279,
+          "class": "TPC.UILinuxScrollingBugWorkaround",
+          "owner": "Template",
+          "raycast_target": null
+        },
+        {
+          "id": -6358289406517936423,
+          "class": "UnityEngine.UI.LayoutElement",
+          "owner": "Animation Quality",
+          "raycast_target": null
+        },
+        {
+          "id": -5381323395061612839,
+          "class": "TPC.OverridenValueVisual",
+          "owner": "Dropdown",
+          "raycast_target": null
+        },
+        {
+          "id": -4622089050451640615,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Viewport",
+          "raycast_target": 1
+        },
+        {
+          "id": -4602304105333686567,
+          "class": "UnityEngine.UI.Scrollbar",
+          "owner": "Scrollbar",
+          "raycast_target": null
+        },
+        {
+          "id": -4213919739245658407,
+          "class": "UnityEngine.UI.ScrollRect",
+          "owner": "Template",
+          "raycast_target": null
+        },
+        {
+          "id": -3765937222821576999,
+          "class": "TPC.NavigableDropdown",
+          "owner": "Dropdown",
+          "raycast_target": null
+        },
+        {
+          "id": -3414016602671186215,
+          "class": "UnityEngine.UI.LayoutElement",
+          "owner": "Item",
+          "raycast_target": null
+        },
+        {
+          "id": -1607643132184920359,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Template",
+          "raycast_target": 1
+        },
+        {
+          "id": -485928925739843879,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Handle",
+          "raycast_target": 1
+        },
+        {
+          "id": -30038423797137703,
+          "class": "TMPro.TMP_Dropdown",
+          "owner": "Dropdown",
+          "raycast_target": null
+        },
+        {
+          "id": 1001793209449283289,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Item Label",
+          "raycast_target": 1
+        },
+        {
+          "id": 1102729139363479257,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Modified",
+          "raycast_target": 1
+        },
+        {
+          "id": 1142885109771960025,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Animation Quality",
+          "raycast_target": 1
+        },
+        {
+          "id": 1423391467332009689,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Item Background",
+          "raycast_target": 1
+        },
+        {
+          "id": 1685539532562595545,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "Label",
+          "raycast_target": 1
+        },
+        {
+          "id": 1814193785488178905,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Arrow",
+          "raycast_target": 1
+        },
+        {
+          "id": 2925825236740177625,
+          "class": "UnityEngine.UI.Image",
+          "owner": "ContainerBG",
+          "raycast_target": 0
+        },
+        {
+          "id": 4133313936509075161,
+          "class": "I2.Loc.Localize",
+          "owner": "Label",
+          "raycast_target": null
+        },
+        {
+          "id": 4219367355955511001,
+          "class": "TPC.TooltipSpawner",
+          "owner": "Animation Quality",
+          "raycast_target": null
+        },
+        {
+          "id": 4421947355195408089,
+          "class": "I2.Loc.Localize",
+          "owner": "Item Label",
+          "raycast_target": null
+        },
+        {
+          "id": 4442804691784924889,
+          "class": "TPS.Core.UI.LayoutGroup.DynamicLayoutGroup",
+          "owner": "Content",
+          "raycast_target": null
+        },
+        {
+          "id": 6358572593659805401,
+          "class": "TMPro.TextMeshProUGUI",
+          "owner": "TextOptionName",
+          "raycast_target": 1
+        },
+        {
+          "id": 6715834781425696473,
+          "class": "TPC.NavigableDropdownElement",
+          "owner": "Item",
+          "raycast_target": null
+        },
+        {
+          "id": 7329363568739450585,
+          "class": "UnityEngine.UI.Image",
+          "owner": "Dropdown",
+          "raycast_target": 1
+        },
+        {
+          "id": 8130776820718468825,
+          "class": "I2.Loc.Localize",
+          "owner": "TextOptionName",
+          "raycast_target": null
+        }
+      ],
+      "providers": [
+        {
+          "id": 4219367355955511001,
+          "class": "TPC.TooltipSpawner",
+          "enabled": 1,
+          "owner_id": -2261707471542190375,
+          "owner_name": "Animation Quality",
+          "owner_raycast_graphics": [
+            {
+              "class": "UnityEngine.UI.Image",
+              "enabled": 1,
+              "raycast_target": 1
+            }
+          ],
+          "owner_rect": {
+            "m_AnchorMin": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_AnchorMax": {
+              "x": 0.0,
+              "y": 1.0
+            },
+            "m_SizeDelta": {
+              "x": 1783.91455078125,
+              "y": 128.0
+            },
+            "m_AnchoredPosition": {
+              "x": 891.957275390625,
+              "y": -1650.0
+            }
+          },
+          "tooltip": {
+            "_dev": "",
+            "_termID": -1170698466
+          },
+          "hover_time": 0.5,
+          "prefab": {
+            "m_FileID": 0,
+            "m_PathID": 5202969347434510902
+          },
+          "anchor": {
+            "m_FileID": 0,
+            "m_PathID": -7480385743076819239
+          }
+        }
+      ],
+      "incoming_component_references": [
+        {
+          "id": -6828955610604273959,
+          "class": "TPC.WidgetSlider",
+          "references": [
+            {
+              "field": "/_navigation/OnDown",
+              "target": -3765937222821576999
+            }
+          ]
+        },
+        {
+          "id": -4046911760616489255,
+          "class": "TPC.PreferencesMenu",
+          "references": [
+            {
+              "field": "/_childDropdowns/18",
+              "target": -30038423797137703
+            }
+          ]
+        },
+        {
+          "id": 7433931642048839385,
+          "class": "TPC.PreferencesPanelVideo",
+          "references": [
+            {
+              "field": "/_animationSkinningQuality",
+              "target": -30038423797137703
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_types": [
+    {
+      "name": "UnityEngine.UI.Image",
+      "type_index": 5101,
+      "fields": [
+        "s_ETC1DefaultUI",
+        "m_Sprite",
+        "m_OverrideSprite",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_FillCenter",
+        "m_FillMethod",
+        "m_FillAmount",
+        "m_FillClockwise",
+        "m_FillOrigin",
+        "m_AlphaHitTestMinimumThreshold",
+        "m_Tracked",
+        "m_UseSpriteMesh",
+        "m_PixelsPerUnitMultiplier",
+        "m_CachedReferencePixelsPerUnit",
+        "s_VertScratch",
+        "s_UVScratch",
+        "s_Xy",
+        "s_Uv",
+        "m_TrackedTexturelessImages",
+        "s_Initialized"
+      ],
+      "methods": [
+        {
+          "name": "get_sprite",
+          "token": "0x6000117"
+        },
+        {
+          "name": "set_sprite",
+          "token": "0x6000118"
+        },
+        {
+          "name": "DisableSpriteOptimizations",
+          "token": "0x6000119"
+        },
+        {
+          "name": "get_overrideSprite",
+          "token": "0x600011a"
+        },
+        {
+          "name": "set_overrideSprite",
+          "token": "0x600011b"
+        },
+        {
+          "name": "get_activeSprite",
+          "token": "0x600011c"
+        },
+        {
+          "name": "get_type",
+          "token": "0x600011d"
+        },
+        {
+          "name": "set_type",
+          "token": "0x600011e"
+        },
+        {
+          "name": "get_preserveAspect",
+          "token": "0x600011f"
+        },
+        {
+          "name": "set_preserveAspect",
+          "token": "0x6000120"
+        },
+        {
+          "name": "get_fillCenter",
+          "token": "0x6000121"
+        },
+        {
+          "name": "set_fillCenter",
+          "token": "0x6000122"
+        },
+        {
+          "name": "get_fillMethod",
+          "token": "0x6000123"
+        },
+        {
+          "name": "set_fillMethod",
+          "token": "0x6000124"
+        },
+        {
+          "name": "get_fillAmount",
+          "token": "0x6000125"
+        },
+        {
+          "name": "set_fillAmount",
+          "token": "0x6000126"
+        },
+        {
+          "name": "get_fillClockwise",
+          "token": "0x6000127"
+        },
+        {
+          "name": "set_fillClockwise",
+          "token": "0x6000128"
+        },
+        {
+          "name": "get_fillOrigin",
+          "token": "0x6000129"
+        },
+        {
+          "name": "set_fillOrigin",
+          "token": "0x600012a"
+        },
+        {
+          "name": "get_eventAlphaThreshold",
+          "token": "0x600012b"
+        },
+        {
+          "name": "set_eventAlphaThreshold",
+          "token": "0x600012c"
+        },
+        {
+          "name": "get_alphaHitTestMinimumThreshold",
+          "token": "0x600012d"
+        },
+        {
+          "name": "set_alphaHitTestMinimumThreshold",
+          "token": "0x600012e"
+        },
+        {
+          "name": "get_useSpriteMesh",
+          "token": "0x600012f"
+        },
+        {
+          "name": "set_useSpriteMesh",
+          "token": "0x6000130"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6000131"
+        },
+        {
+          "name": "get_defaultETC1GraphicMaterial",
+          "token": "0x6000132"
+        },
+        {
+          "name": "get_mainTexture",
+          "token": "0x6000133"
+        },
+        {
+          "name": "get_hasBorder",
+          "token": "0x6000134"
+        },
+        {
+          "name": "get_pixelsPerUnitMultiplier",
+          "token": "0x6000135"
+        },
+        {
+          "name": "set_pixelsPerUnitMultiplier",
+          "token": "0x6000136"
+        },
+        {
+          "name": "get_pixelsPerUnit",
+          "token": "0x6000137"
+        },
+        {
+          "name": "get_multipliedPixelsPerUnit",
+          "token": "0x6000138"
+        },
+        {
+          "name": "get_material",
+          "token": "0x6000139"
+        },
+        {
+          "name": "set_material",
+          "token": "0x600013a"
+        },
+        {
+          "name": "OnBeforeSerialize",
+          "token": "0x600013b"
+        },
+        {
+          "name": "OnAfterDeserialize",
+          "token": "0x600013c"
+        },
+        {
+          "name": "PreserveSpriteAspectRatio",
+          "token": "0x600013d"
+        },
+        {
+          "name": "GetDrawingDimensions",
+          "token": "0x600013e"
+        },
+        {
+          "name": "SetNativeSize",
+          "token": "0x600013f"
+        },
+        {
+          "name": "OnPopulateMesh",
+          "token": "0x6000140"
+        },
+        {
+          "name": "TrackSprite",
+          "token": "0x6000141"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x6000142"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6000143"
+        },
+        {
+          "name": "UpdateMaterial",
+          "token": "0x6000144"
+        },
+        {
+          "name": "OnCanvasHierarchyChanged",
+          "token": "0x6000145"
+        },
+        {
+          "name": "GenerateSimpleSprite",
+          "token": "0x6000146"
+        },
+        {
+          "name": "GenerateSprite",
+          "token": "0x6000147"
+        },
+        {
+          "name": "GenerateSlicedSprite",
+          "token": "0x6000148"
+        },
+        {
+          "name": "GenerateTiledSprite",
+          "token": "0x6000149"
+        },
+        {
+          "name": "AddQuad",
+          "token": "0x600014a"
+        },
+        {
+          "name": "AddQuad",
+          "token": "0x600014b"
+        },
+        {
+          "name": "GetAdjustedBorders",
+          "token": "0x600014c"
+        },
+        {
+          "name": "GenerateFilledSprite",
+          "token": "0x600014d"
+        },
+        {
+          "name": "RadialCut",
+          "token": "0x600014e"
+        },
+        {
+          "name": "RadialCut",
+          "token": "0x600014f"
+        },
+        {
+          "name": "CalculateLayoutInputHorizontal",
+          "token": "0x6000150"
+        },
+        {
+          "name": "CalculateLayoutInputVertical",
+          "token": "0x6000151"
+        },
+        {
+          "name": "get_minWidth",
+          "token": "0x6000152"
+        },
+        {
+          "name": "get_preferredWidth",
+          "token": "0x6000153"
+        },
+        {
+          "name": "get_flexibleWidth",
+          "token": "0x6000154"
+        },
+        {
+          "name": "get_minHeight",
+          "token": "0x6000155"
+        },
+        {
+          "name": "get_preferredHeight",
+          "token": "0x6000156"
+        },
+        {
+          "name": "get_flexibleHeight",
+          "token": "0x6000157"
+        },
+        {
+          "name": "get_layoutPriority",
+          "token": "0x6000158"
+        },
+        {
+          "name": "IsRaycastLocationValid",
+          "token": "0x6000159"
+        },
+        {
+          "name": "MapCoordinate",
+          "token": "0x600015a"
+        },
+        {
+          "name": "RebuildImage",
+          "token": "0x600015b"
+        },
+        {
+          "name": "TrackImage",
+          "token": "0x600015c"
+        },
+        {
+          "name": "UnTrackImage",
+          "token": "0x600015d"
+        },
+        {
+          "name": "OnDidApplyAnimationProperties",
+          "token": "0x600015e"
+        },
+        {
+          "name": ".cctor",
+          "token": "0x600015f"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.UI.LayoutElement",
+      "type_index": 5132,
+      "fields": [
+        "m_IgnoreLayout",
+        "m_MinWidth",
+        "m_MinHeight",
+        "m_PreferredWidth",
+        "m_PreferredHeight",
+        "m_FlexibleWidth",
+        "m_FlexibleHeight",
+        "m_LayoutPriority"
+      ],
+      "methods": [
+        {
+          "name": "get_ignoreLayout",
+          "token": "0x600028a"
+        },
+        {
+          "name": "set_ignoreLayout",
+          "token": "0x600028b"
+        },
+        {
+          "name": "CalculateLayoutInputHorizontal",
+          "token": "0x600028c"
+        },
+        {
+          "name": "CalculateLayoutInputVertical",
+          "token": "0x600028d"
+        },
+        {
+          "name": "get_minWidth",
+          "token": "0x600028e"
+        },
+        {
+          "name": "set_minWidth",
+          "token": "0x600028f"
+        },
+        {
+          "name": "get_minHeight",
+          "token": "0x6000290"
+        },
+        {
+          "name": "set_minHeight",
+          "token": "0x6000291"
+        },
+        {
+          "name": "get_preferredWidth",
+          "token": "0x6000292"
+        },
+        {
+          "name": "set_preferredWidth",
+          "token": "0x6000293"
+        },
+        {
+          "name": "get_preferredHeight",
+          "token": "0x6000294"
+        },
+        {
+          "name": "set_preferredHeight",
+          "token": "0x6000295"
+        },
+        {
+          "name": "get_flexibleWidth",
+          "token": "0x6000296"
+        },
+        {
+          "name": "set_flexibleWidth",
+          "token": "0x6000297"
+        },
+        {
+          "name": "get_flexibleHeight",
+          "token": "0x6000298"
+        },
+        {
+          "name": "set_flexibleHeight",
+          "token": "0x6000299"
+        },
+        {
+          "name": "get_layoutPriority",
+          "token": "0x600029a"
+        },
+        {
+          "name": "set_layoutPriority",
+          "token": "0x600029b"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x600029c"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x600029d"
+        },
+        {
+          "name": "OnTransformParentChanged",
+          "token": "0x600029e"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x600029f"
+        },
+        {
+          "name": "OnDidApplyAnimationProperties",
+          "token": "0x60002a0"
+        },
+        {
+          "name": "OnBeforeTransformParentChanged",
+          "token": "0x60002a1"
+        },
+        {
+          "name": "SetDirty",
+          "token": "0x60002a2"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.UI.Mask",
+      "type_index": 5140,
+      "fields": [
+        "m_RectTransform",
+        "m_ShowMaskGraphic",
+        "m_Graphic",
+        "m_MaskMaterial",
+        "m_UnmaskMaterial"
+      ],
+      "methods": [
+        {
+          "name": "get_rectTransform",
+          "token": "0x6000304"
+        },
+        {
+          "name": "get_showMaskGraphic",
+          "token": "0x6000305"
+        },
+        {
+          "name": "set_showMaskGraphic",
+          "token": "0x6000306"
+        },
+        {
+          "name": "get_graphic",
+          "token": "0x6000307"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6000308"
+        },
+        {
+          "name": "MaskEnabled",
+          "token": "0x6000309"
+        },
+        {
+          "name": "OnSiblingGraphicEnabledDisabled",
+          "token": "0x600030a"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x600030b"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x600030c"
+        },
+        {
+          "name": "IsRaycastLocationValid",
+          "token": "0x600030d"
+        },
+        {
+          "name": "GetModifiedMaterial",
+          "token": "0x600030e"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.UI.ScrollRect",
+      "type_index": 5154,
+      "fields": [
+        "m_Content",
+        "m_Horizontal",
+        "m_Vertical",
+        "m_MovementType",
+        "m_Elasticity",
+        "m_Inertia",
+        "m_DecelerationRate",
+        "m_ScrollSensitivity",
+        "m_Viewport",
+        "m_HorizontalScrollbar",
+        "m_VerticalScrollbar",
+        "m_HorizontalScrollbarVisibility",
+        "m_VerticalScrollbarVisibility",
+        "m_HorizontalScrollbarSpacing",
+        "m_VerticalScrollbarSpacing",
+        "m_OnValueChanged",
+        "m_PointerStartLocalCursor",
+        "m_ContentStartPosition",
+        "m_ViewRect",
+        "m_ContentBounds",
+        "m_ViewBounds",
+        "m_Velocity",
+        "m_Dragging",
+        "m_Scrolling",
+        "m_PrevPosition",
+        "m_PrevContentBounds",
+        "m_PrevViewBounds",
+        "m_HasRebuiltLayout",
+        "m_HSliderExpand",
+        "m_VSliderExpand",
+        "m_HSliderHeight",
+        "m_VSliderWidth",
+        "m_Rect",
+        "m_HorizontalScrollbarRect",
+        "m_VerticalScrollbarRect",
+        "m_Tracker",
+        "m_Corners"
+      ],
+      "methods": [
+        {
+          "name": "get_content",
+          "token": "0x6000359"
+        },
+        {
+          "name": "set_content",
+          "token": "0x600035a"
+        },
+        {
+          "name": "get_horizontal",
+          "token": "0x600035b"
+        },
+        {
+          "name": "set_horizontal",
+          "token": "0x600035c"
+        },
+        {
+          "name": "get_vertical",
+          "token": "0x600035d"
+        },
+        {
+          "name": "set_vertical",
+          "token": "0x600035e"
+        },
+        {
+          "name": "get_movementType",
+          "token": "0x600035f"
+        },
+        {
+          "name": "set_movementType",
+          "token": "0x6000360"
+        },
+        {
+          "name": "get_elasticity",
+          "token": "0x6000361"
+        },
+        {
+          "name": "set_elasticity",
+          "token": "0x6000362"
+        },
+        {
+          "name": "get_inertia",
+          "token": "0x6000363"
+        },
+        {
+          "name": "set_inertia",
+          "token": "0x6000364"
+        },
+        {
+          "name": "get_decelerationRate",
+          "token": "0x6000365"
+        },
+        {
+          "name": "set_decelerationRate",
+          "token": "0x6000366"
+        },
+        {
+          "name": "get_scrollSensitivity",
+          "token": "0x6000367"
+        },
+        {
+          "name": "set_scrollSensitivity",
+          "token": "0x6000368"
+        },
+        {
+          "name": "get_viewport",
+          "token": "0x6000369"
+        },
+        {
+          "name": "set_viewport",
+          "token": "0x600036a"
+        },
+        {
+          "name": "get_horizontalScrollbar",
+          "token": "0x600036b"
+        },
+        {
+          "name": "set_horizontalScrollbar",
+          "token": "0x600036c"
+        },
+        {
+          "name": "get_verticalScrollbar",
+          "token": "0x600036d"
+        },
+        {
+          "name": "set_verticalScrollbar",
+          "token": "0x600036e"
+        },
+        {
+          "name": "get_horizontalScrollbarVisibility",
+          "token": "0x600036f"
+        },
+        {
+          "name": "set_horizontalScrollbarVisibility",
+          "token": "0x6000370"
+        },
+        {
+          "name": "get_verticalScrollbarVisibility",
+          "token": "0x6000371"
+        },
+        {
+          "name": "set_verticalScrollbarVisibility",
+          "token": "0x6000372"
+        },
+        {
+          "name": "get_horizontalScrollbarSpacing",
+          "token": "0x6000373"
+        },
+        {
+          "name": "set_horizontalScrollbarSpacing",
+          "token": "0x6000374"
+        },
+        {
+          "name": "get_verticalScrollbarSpacing",
+          "token": "0x6000375"
+        },
+        {
+          "name": "set_verticalScrollbarSpacing",
+          "token": "0x6000376"
+        },
+        {
+          "name": "get_onValueChanged",
+          "token": "0x6000377"
+        },
+        {
+          "name": "set_onValueChanged",
+          "token": "0x6000378"
+        },
+        {
+          "name": "get_viewRect",
+          "token": "0x6000379"
+        },
+        {
+          "name": "get_velocity",
+          "token": "0x600037a"
+        },
+        {
+          "name": "set_velocity",
+          "token": "0x600037b"
+        },
+        {
+          "name": "get_rectTransform",
+          "token": "0x600037c"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x600037d"
+        },
+        {
+          "name": "Rebuild",
+          "token": "0x600037e"
+        },
+        {
+          "name": "LayoutComplete",
+          "token": "0x600037f"
+        },
+        {
+          "name": "GraphicUpdateComplete",
+          "token": "0x6000380"
+        },
+        {
+          "name": "UpdateCachedData",
+          "token": "0x6000381"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x6000382"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6000383"
+        },
+        {
+          "name": "IsActive",
+          "token": "0x6000384"
+        },
+        {
+          "name": "EnsureLayoutHasRebuilt",
+          "token": "0x6000385"
+        },
+        {
+          "name": "StopMovement",
+          "token": "0x6000386"
+        },
+        {
+          "name": "OnScroll",
+          "token": "0x6000387"
+        },
+        {
+          "name": "OnInitializePotentialDrag",
+          "token": "0x6000388"
+        },
+        {
+          "name": "OnBeginDrag",
+          "token": "0x6000389"
+        },
+        {
+          "name": "OnEndDrag",
+          "token": "0x600038a"
+        },
+        {
+          "name": "OnDrag",
+          "token": "0x600038b"
+        },
+        {
+          "name": "SetContentAnchoredPosition",
+          "token": "0x600038c"
+        },
+        {
+          "name": "LateUpdate",
+          "token": "0x600038d"
+        },
+        {
+          "name": "UpdatePrevData",
+          "token": "0x600038e"
+        },
+        {
+          "name": "UpdateScrollbars",
+          "token": "0x600038f"
+        },
+        {
+          "name": "get_normalizedPosition",
+          "token": "0x6000390"
+        },
+        {
+          "name": "set_normalizedPosition",
+          "token": "0x6000391"
+        },
+        {
+          "name": "get_horizontalNormalizedPosition",
+          "token": "0x6000392"
+        },
+        {
+          "name": "set_horizontalNormalizedPosition",
+          "token": "0x6000393"
+        },
+        {
+          "name": "get_verticalNormalizedPosition",
+          "token": "0x6000394"
+        },
+        {
+          "name": "set_verticalNormalizedPosition",
+          "token": "0x6000395"
+        },
+        {
+          "name": "SetHorizontalNormalizedPosition",
+          "token": "0x6000396"
+        },
+        {
+          "name": "SetVerticalNormalizedPosition",
+          "token": "0x6000397"
+        },
+        {
+          "name": "SetNormalizedPosition",
+          "token": "0x6000398"
+        },
+        {
+          "name": "RubberDelta",
+          "token": "0x6000399"
+        },
+        {
+          "name": "OnRectTransformDimensionsChange",
+          "token": "0x600039a"
+        },
+        {
+          "name": "get_hScrollingNeeded",
+          "token": "0x600039b"
+        },
+        {
+          "name": "get_vScrollingNeeded",
+          "token": "0x600039c"
+        },
+        {
+          "name": "CalculateLayoutInputHorizontal",
+          "token": "0x600039d"
+        },
+        {
+          "name": "CalculateLayoutInputVertical",
+          "token": "0x600039e"
+        },
+        {
+          "name": "get_minWidth",
+          "token": "0x600039f"
+        },
+        {
+          "name": "get_preferredWidth",
+          "token": "0x60003a0"
+        },
+        {
+          "name": "get_flexibleWidth",
+          "token": "0x60003a1"
+        },
+        {
+          "name": "get_minHeight",
+          "token": "0x60003a2"
+        },
+        {
+          "name": "get_preferredHeight",
+          "token": "0x60003a3"
+        },
+        {
+          "name": "get_flexibleHeight",
+          "token": "0x60003a4"
+        },
+        {
+          "name": "get_layoutPriority",
+          "token": "0x60003a5"
+        },
+        {
+          "name": "SetLayoutHorizontal",
+          "token": "0x60003a6"
+        },
+        {
+          "name": "SetLayoutVertical",
+          "token": "0x60003a7"
+        },
+        {
+          "name": "UpdateScrollbarVisibility",
+          "token": "0x60003a8"
+        },
+        {
+          "name": "UpdateOneScrollbarVisibility",
+          "token": "0x60003a9"
+        },
+        {
+          "name": "UpdateScrollbarLayout",
+          "token": "0x60003aa"
+        },
+        {
+          "name": "UpdateBounds",
+          "token": "0x60003ab"
+        },
+        {
+          "name": "AdjustBounds",
+          "token": "0x60003ac"
+        },
+        {
+          "name": "GetBounds",
+          "token": "0x60003ad"
+        },
+        {
+          "name": "InternalGetBounds",
+          "token": "0x60003ae"
+        },
+        {
+          "name": "CalculateOffset",
+          "token": "0x60003af"
+        },
+        {
+          "name": "InternalCalculateOffset",
+          "token": "0x60003b0"
+        },
+        {
+          "name": "SetDirty",
+          "token": "0x60003b1"
+        },
+        {
+          "name": "SetDirtyCaching",
+          "token": "0x60003b2"
+        },
+        {
+          "name": "UnityEngine.UI.ICanvasElement.get_transform",
+          "token": "0x60003b3"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.UI.Scrollbar",
+      "type_index": 5159,
+      "fields": [
+        "m_HandleRect",
+        "m_Direction",
+        "m_Value",
+        "m_Size",
+        "m_NumberOfSteps",
+        "m_OnValueChanged",
+        "m_ContainerRect",
+        "m_Offset",
+        "m_Tracker",
+        "m_PointerDownRepeat",
+        "isPointerDownAndNotDragging",
+        "m_DelayedUpdateVisuals"
+      ],
+      "methods": [
+        {
+          "name": "get_handleRect",
+          "token": "0x60003b5"
+        },
+        {
+          "name": "set_handleRect",
+          "token": "0x60003b6"
+        },
+        {
+          "name": "get_direction",
+          "token": "0x60003b7"
+        },
+        {
+          "name": "set_direction",
+          "token": "0x60003b8"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60003b9"
+        },
+        {
+          "name": "get_value",
+          "token": "0x60003ba"
+        },
+        {
+          "name": "set_value",
+          "token": "0x60003bb"
+        },
+        {
+          "name": "SetValueWithoutNotify",
+          "token": "0x60003bc"
+        },
+        {
+          "name": "get_size",
+          "token": "0x60003bd"
+        },
+        {
+          "name": "set_size",
+          "token": "0x60003be"
+        },
+        {
+          "name": "get_numberOfSteps",
+          "token": "0x60003bf"
+        },
+        {
+          "name": "set_numberOfSteps",
+          "token": "0x60003c0"
+        },
+        {
+          "name": "get_onValueChanged",
+          "token": "0x60003c1"
+        },
+        {
+          "name": "set_onValueChanged",
+          "token": "0x60003c2"
+        },
+        {
+          "name": "get_stepSize",
+          "token": "0x60003c3"
+        },
+        {
+          "name": "Rebuild",
+          "token": "0x60003c4"
+        },
+        {
+          "name": "LayoutComplete",
+          "token": "0x60003c5"
+        },
+        {
+          "name": "GraphicUpdateComplete",
+          "token": "0x60003c6"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x60003c7"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x60003c8"
+        },
+        {
+          "name": "Update",
+          "token": "0x60003c9"
+        },
+        {
+          "name": "UpdateCachedReferences",
+          "token": "0x60003ca"
+        },
+        {
+          "name": "Set",
+          "token": "0x60003cb"
+        },
+        {
+          "name": "OnRectTransformDimensionsChange",
+          "token": "0x60003cc"
+        },
+        {
+          "name": "get_axis",
+          "token": "0x60003cd"
+        },
+        {
+          "name": "get_reverseValue",
+          "token": "0x60003ce"
+        },
+        {
+          "name": "UpdateVisuals",
+          "token": "0x60003cf"
+        },
+        {
+          "name": "UpdateDrag",
+          "token": "0x60003d0"
+        },
+        {
+          "name": "DoUpdateDrag",
+          "token": "0x60003d1"
+        },
+        {
+          "name": "MayDrag",
+          "token": "0x60003d2"
+        },
+        {
+          "name": "OnBeginDrag",
+          "token": "0x60003d3"
+        },
+        {
+          "name": "OnDrag",
+          "token": "0x60003d4"
+        },
+        {
+          "name": "OnPointerDown",
+          "token": "0x60003d5"
+        },
+        {
+          "name": "ClickRepeat",
+          "token": "0x60003d6"
+        },
+        {
+          "name": "ClickRepeat",
+          "token": "0x60003d7"
+        },
+        {
+          "name": "OnPointerUp",
+          "token": "0x60003d8"
+        },
+        {
+          "name": "OnMove",
+          "token": "0x60003d9"
+        },
+        {
+          "name": "FindSelectableOnLeft",
+          "token": "0x60003da"
+        },
+        {
+          "name": "FindSelectableOnRight",
+          "token": "0x60003db"
+        },
+        {
+          "name": "FindSelectableOnUp",
+          "token": "0x60003dc"
+        },
+        {
+          "name": "FindSelectableOnDown",
+          "token": "0x60003dd"
+        },
+        {
+          "name": "OnInitializePotentialDrag",
+          "token": "0x60003de"
+        },
+        {
+          "name": "SetDirection",
+          "token": "0x60003df"
+        },
+        {
+          "name": "UnityEngine.UI.ICanvasElement.get_transform",
+          "token": "0x60003e0"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.UI.Slider",
+      "type_index": 5167,
+      "fields": [
+        "m_FillRect",
+        "m_HandleRect",
+        "m_Direction",
+        "m_MinValue",
+        "m_MaxValue",
+        "m_WholeNumbers",
+        "m_Value",
+        "m_OnValueChanged",
+        "m_FillImage",
+        "m_FillTransform",
+        "m_FillContainerRect",
+        "m_HandleTransform",
+        "m_HandleContainerRect",
+        "m_Offset",
+        "m_Tracker",
+        "m_DelayedUpdateVisuals"
+      ],
+      "methods": [
+        {
+          "name": "get_fillRect",
+          "token": "0x6000429"
+        },
+        {
+          "name": "set_fillRect",
+          "token": "0x600042a"
+        },
+        {
+          "name": "get_handleRect",
+          "token": "0x600042b"
+        },
+        {
+          "name": "set_handleRect",
+          "token": "0x600042c"
+        },
+        {
+          "name": "get_direction",
+          "token": "0x600042d"
+        },
+        {
+          "name": "set_direction",
+          "token": "0x600042e"
+        },
+        {
+          "name": "get_minValue",
+          "token": "0x600042f"
+        },
+        {
+          "name": "set_minValue",
+          "token": "0x6000430"
+        },
+        {
+          "name": "get_maxValue",
+          "token": "0x6000431"
+        },
+        {
+          "name": "set_maxValue",
+          "token": "0x6000432"
+        },
+        {
+          "name": "get_wholeNumbers",
+          "token": "0x6000433"
+        },
+        {
+          "name": "set_wholeNumbers",
+          "token": "0x6000434"
+        },
+        {
+          "name": "get_value",
+          "token": "0x6000435"
+        },
+        {
+          "name": "set_value",
+          "token": "0x6000436"
+        },
+        {
+          "name": "SetValueWithoutNotify",
+          "token": "0x6000437"
+        },
+        {
+          "name": "get_normalizedValue",
+          "token": "0x6000438"
+        },
+        {
+          "name": "set_normalizedValue",
+          "token": "0x6000439"
+        },
+        {
+          "name": "get_onValueChanged",
+          "token": "0x600043a"
+        },
+        {
+          "name": "set_onValueChanged",
+          "token": "0x600043b"
+        },
+        {
+          "name": "get_stepSize",
+          "token": "0x600043c"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x600043d"
+        },
+        {
+          "name": "Rebuild",
+          "token": "0x600043e"
+        },
+        {
+          "name": "LayoutComplete",
+          "token": "0x600043f"
+        },
+        {
+          "name": "GraphicUpdateComplete",
+          "token": "0x6000440"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x6000441"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6000442"
+        },
+        {
+          "name": "Update",
+          "token": "0x6000443"
+        },
+        {
+          "name": "OnDidApplyAnimationProperties",
+          "token": "0x6000444"
+        },
+        {
+          "name": "UpdateCachedReferences",
+          "token": "0x6000445"
+        },
+        {
+          "name": "ClampValue",
+          "token": "0x6000446"
+        },
+        {
+          "name": "Set",
+          "token": "0x6000447"
+        },
+        {
+          "name": "OnRectTransformDimensionsChange",
+          "token": "0x6000448"
+        },
+        {
+          "name": "get_axis",
+          "token": "0x6000449"
+        },
+        {
+          "name": "get_reverseValue",
+          "token": "0x600044a"
+        },
+        {
+          "name": "UpdateVisuals",
+          "token": "0x600044b"
+        },
+        {
+          "name": "UpdateDrag",
+          "token": "0x600044c"
+        },
+        {
+          "name": "MayDrag",
+          "token": "0x600044d"
+        },
+        {
+          "name": "OnPointerDown",
+          "token": "0x600044e"
+        },
+        {
+          "name": "OnDrag",
+          "token": "0x600044f"
+        },
+        {
+          "name": "OnMove",
+          "token": "0x6000450"
+        },
+        {
+          "name": "FindSelectableOnLeft",
+          "token": "0x6000451"
+        },
+        {
+          "name": "FindSelectableOnRight",
+          "token": "0x6000452"
+        },
+        {
+          "name": "FindSelectableOnUp",
+          "token": "0x6000453"
+        },
+        {
+          "name": "FindSelectableOnDown",
+          "token": "0x6000454"
+        },
+        {
+          "name": "OnInitializePotentialDrag",
+          "token": "0x6000455"
+        },
+        {
+          "name": "SetDirection",
+          "token": "0x6000456"
+        },
+        {
+          "name": "UnityEngine.UI.ICanvasElement.get_transform",
+          "token": "0x6000457"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.UI.Toggle",
+      "type_index": 5174,
+      "fields": [
+        "toggleTransition",
+        "graphic",
+        "m_Group",
+        "onValueChanged",
+        "m_IsOn"
+      ],
+      "methods": [
+        {
+          "name": "get_group",
+          "token": "0x6000495"
+        },
+        {
+          "name": "set_group",
+          "token": "0x6000496"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6000497"
+        },
+        {
+          "name": "Rebuild",
+          "token": "0x6000498"
+        },
+        {
+          "name": "LayoutComplete",
+          "token": "0x6000499"
+        },
+        {
+          "name": "GraphicUpdateComplete",
+          "token": "0x600049a"
+        },
+        {
+          "name": "OnDestroy",
+          "token": "0x600049b"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x600049c"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x600049d"
+        },
+        {
+          "name": "OnDidApplyAnimationProperties",
+          "token": "0x600049e"
+        },
+        {
+          "name": "SetToggleGroup",
+          "token": "0x600049f"
+        },
+        {
+          "name": "get_isOn",
+          "token": "0x60004a0"
+        },
+        {
+          "name": "set_isOn",
+          "token": "0x60004a1"
+        },
+        {
+          "name": "SetIsOnWithoutNotify",
+          "token": "0x60004a2"
+        },
+        {
+          "name": "Set",
+          "token": "0x60004a3"
+        },
+        {
+          "name": "PlayEffect",
+          "token": "0x60004a4"
+        },
+        {
+          "name": "Start",
+          "token": "0x60004a5"
+        },
+        {
+          "name": "InternalToggle",
+          "token": "0x60004a6"
+        },
+        {
+          "name": "OnPointerClick",
+          "token": "0x60004a7"
+        },
+        {
+          "name": "OnSubmit",
+          "token": "0x60004a8"
+        },
+        {
+          "name": "UnityEngine.UI.ICanvasElement.get_transform",
+          "token": "0x60004a9"
+        }
+      ]
+    },
+    {
+      "name": "TMPro.TMP_Dropdown",
+      "type_index": 6042,
+      "fields": [
+        "k_NothingOption",
+        "k_EverythingOption",
+        "k_MixedOption",
+        "m_Template",
+        "m_CaptionText",
+        "m_CaptionImage",
+        "m_Placeholder",
+        "m_ItemText",
+        "m_ItemImage",
+        "m_Value",
+        "m_MultiSelect",
+        "m_Options",
+        "m_OnValueChanged",
+        "m_AlphaFadeSpeed",
+        "m_Dropdown",
+        "m_Blocker",
+        "m_Items",
+        "m_AlphaTweenRunner",
+        "validTemplate",
+        "m_Coroutine",
+        "s_NoOptionData"
+      ],
+      "methods": [
+        {
+          "name": "get_template",
+          "token": "0x6000074"
+        },
+        {
+          "name": "set_template",
+          "token": "0x6000075"
+        },
+        {
+          "name": "get_captionText",
+          "token": "0x6000076"
+        },
+        {
+          "name": "set_captionText",
+          "token": "0x6000077"
+        },
+        {
+          "name": "get_captionImage",
+          "token": "0x6000078"
+        },
+        {
+          "name": "set_captionImage",
+          "token": "0x6000079"
+        },
+        {
+          "name": "get_placeholder",
+          "token": "0x600007a"
+        },
+        {
+          "name": "set_placeholder",
+          "token": "0x600007b"
+        },
+        {
+          "name": "get_itemText",
+          "token": "0x600007c"
+        },
+        {
+          "name": "set_itemText",
+          "token": "0x600007d"
+        },
+        {
+          "name": "get_itemImage",
+          "token": "0x600007e"
+        },
+        {
+          "name": "set_itemImage",
+          "token": "0x600007f"
+        },
+        {
+          "name": "get_options",
+          "token": "0x6000080"
+        },
+        {
+          "name": "set_options",
+          "token": "0x6000081"
+        },
+        {
+          "name": "get_onValueChanged",
+          "token": "0x6000082"
+        },
+        {
+          "name": "set_onValueChanged",
+          "token": "0x6000083"
+        },
+        {
+          "name": "get_alphaFadeSpeed",
+          "token": "0x6000084"
+        },
+        {
+          "name": "set_alphaFadeSpeed",
+          "token": "0x6000085"
+        },
+        {
+          "name": "get_value",
+          "token": "0x6000086"
+        },
+        {
+          "name": "set_value",
+          "token": "0x6000087"
+        },
+        {
+          "name": "SetValueWithoutNotify",
+          "token": "0x6000088"
+        },
+        {
+          "name": "SetValue",
+          "token": "0x6000089"
+        },
+        {
+          "name": "get_IsExpanded",
+          "token": "0x600008a"
+        },
+        {
+          "name": "get_MultiSelect",
+          "token": "0x600008b"
+        },
+        {
+          "name": "set_MultiSelect",
+          "token": "0x600008c"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x600008d"
+        },
+        {
+          "name": "Awake",
+          "token": "0x600008e"
+        },
+        {
+          "name": "Start",
+          "token": "0x600008f"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6000090"
+        },
+        {
+          "name": "RefreshShownValue",
+          "token": "0x6000091"
+        },
+        {
+          "name": "AddOptions",
+          "token": "0x6000092"
+        },
+        {
+          "name": "AddOptions",
+          "token": "0x6000093"
+        },
+        {
+          "name": "AddOptions",
+          "token": "0x6000094"
+        },
+        {
+          "name": "ClearOptions",
+          "token": "0x6000095"
+        },
+        {
+          "name": "SetupTemplate",
+          "token": "0x6000096"
+        },
+        {
+          "name": "GetOrAddComponent",
+          "token": "0x6000097"
+        },
+        {
+          "name": "OnPointerClick",
+          "token": "0x6000098"
+        },
+        {
+          "name": "OnSubmit",
+          "token": "0x6000099"
+        },
+        {
+          "name": "OnCancel",
+          "token": "0x600009a"
+        },
+        {
+          "name": "Show",
+          "token": "0x600009b"
+        },
+        {
+          "name": "IsEverythingValue",
+          "token": "0x600009c"
+        },
+        {
+          "name": "EverythingValue",
+          "token": "0x600009d"
+        },
+        {
+          "name": "CreateBlocker",
+          "token": "0x600009e"
+        },
+        {
+          "name": "DestroyBlocker",
+          "token": "0x600009f"
+        },
+        {
+          "name": "CreateDropdownList",
+          "token": "0x60000a0"
+        },
+        {
+          "name": "DestroyDropdownList",
+          "token": "0x60000a1"
+        },
+        {
+          "name": "CreateItem",
+          "token": "0x60000a2"
+        },
+        {
+          "name": "DestroyItem",
+          "token": "0x60000a3"
+        },
+        {
+          "name": "AddItem",
+          "token": "0x60000a4"
+        },
+        {
+          "name": "AlphaFadeList",
+          "token": "0x60000a5"
+        },
+        {
+          "name": "AlphaFadeList",
+          "token": "0x60000a6"
+        },
+        {
+          "name": "SetAlpha",
+          "token": "0x60000a7"
+        },
+        {
+          "name": "Hide",
+          "token": "0x60000a8"
+        },
+        {
+          "name": "DelayedDestroyDropdownList",
+          "token": "0x60000a9"
+        },
+        {
+          "name": "ImmediateDestroyDropdownList",
+          "token": "0x60000aa"
+        },
+        {
+          "name": "OnSelectItem",
+          "token": "0x60000ab"
+        },
+        {
+          "name": "FirstActiveFlagIndex",
+          "token": "0x60000ac"
+        },
+        {
+          "name": ".cctor",
+          "token": "0x60000ad"
+        }
+      ]
+    },
+    {
+      "name": "TMPro.TextMeshProUGUI",
+      "type_index": 6146,
+      "fields": [
+        "m_hasFontAssetChanged",
+        "m_subTextObjects",
+        "m_previousLossyScaleY",
+        "m_RectTransformCorners",
+        "m_canvasRenderer",
+        "m_canvas",
+        "m_CanvasScaleFactor",
+        "m_isFirstAllocation",
+        "m_max_characters",
+        "m_baseMaterial",
+        "m_isScrollRegionSet",
+        "m_maskOffset",
+        "m_EnvMapMatrix",
+        "m_isRegisteredForEvents",
+        "k_GenerateTextMarker",
+        "k_SetArraySizesMarker",
+        "k_GenerateTextPhaseIMarker",
+        "k_ParseMarkupTextMarker",
+        "k_CharacterLookupMarker",
+        "k_HandleGPOSFeaturesMarker",
+        "k_CalculateVerticesPositionMarker",
+        "k_ComputeTextMetricsMarker",
+        "k_HandleVisibleCharacterMarker",
+        "k_HandleWhiteSpacesMarker",
+        "k_HandleHorizontalLineBreakingMarker",
+        "k_HandleVerticalLineBreakingMarker",
+        "k_SaveGlyphVertexDataMarker",
+        "k_ComputeCharacterAdvanceMarker",
+        "k_HandleCarriageReturnMarker",
+        "k_HandleLineTerminationMarker",
+        "k_SavePageInfoMarker",
+        "k_SaveTextExtentMarker",
+        "k_SaveProcessingStatesMarker",
+        "k_GenerateTextPhaseIIMarker",
+        "k_GenerateTextPhaseIIIMarker",
+        "m_isRebuildingLayout",
+        "m_DelayedGraphicRebuild",
+        "m_DelayedMaterialRebuild",
+        "m_ShouldUpdateCulling",
+        "m_ClipRect",
+        "m_ValidRect",
+        "OnPreRenderText"
+      ],
+      "methods": [
+        {
+          "name": "Awake",
+          "token": "0x6000547"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x6000548"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6000549"
+        },
+        {
+          "name": "OnDestroy",
+          "token": "0x600054a"
+        },
+        {
+          "name": "SetAllDirtyAfterDynamicFontLoad",
+          "token": "0x600054b"
+        },
+        {
+          "name": "LoadFontAsset",
+          "token": "0x600054c"
+        },
+        {
+          "name": "GetCanvas",
+          "token": "0x600054d"
+        },
+        {
+          "name": "UpdateEnvMapMatrix",
+          "token": "0x600054e"
+        },
+        {
+          "name": "EnableMasking",
+          "token": "0x600054f"
+        },
+        {
+          "name": "DisableMasking",
+          "token": "0x6000550"
+        },
+        {
+          "name": "UpdateMask",
+          "token": "0x6000551"
+        },
+        {
+          "name": "GetMaterial",
+          "token": "0x6000552"
+        },
+        {
+          "name": "GetMaterials",
+          "token": "0x6000553"
+        },
+        {
+          "name": "SetSharedMaterial",
+          "token": "0x6000554"
+        },
+        {
+          "name": "GetSharedMaterials",
+          "token": "0x6000555"
+        },
+        {
+          "name": "SetSharedMaterials",
+          "token": "0x6000556"
+        },
+        {
+          "name": "SetOutlineThickness",
+          "token": "0x6000557"
+        },
+        {
+          "name": "SetFaceColor",
+          "token": "0x6000558"
+        },
+        {
+          "name": "SetOutlineColor",
+          "token": "0x6000559"
+        },
+        {
+          "name": "SetShaderDepth",
+          "token": "0x600055a"
+        },
+        {
+          "name": "SetCulling",
+          "token": "0x600055b"
+        },
+        {
+          "name": "SetPerspectiveCorrection",
+          "token": "0x600055c"
+        },
+        {
+          "name": "SetMeshArrays",
+          "token": "0x600055d"
+        },
+        {
+          "name": "SetArraySizes",
+          "token": "0x600055e"
+        },
+        {
+          "name": "ComputeMarginSize",
+          "token": "0x600055f"
+        },
+        {
+          "name": "OnDidApplyAnimationProperties",
+          "token": "0x6000560"
+        },
+        {
+          "name": "OnCanvasHierarchyChanged",
+          "token": "0x6000561"
+        },
+        {
+          "name": "OnTransformParentChanged",
+          "token": "0x6000562"
+        },
+        {
+          "name": "OnRectTransformDimensionsChange",
+          "token": "0x6000563"
+        },
+        {
+          "name": "InternalUpdate",
+          "token": "0x6000564"
+        },
+        {
+          "name": "OnPreRenderCanvas",
+          "token": "0x6000565"
+        },
+        {
+          "name": "GenerateTextMesh",
+          "token": "0x6000566"
+        },
+        {
+          "name": "GetTextContainerLocalCorners",
+          "token": "0x6000567"
+        },
+        {
+          "name": "SetActiveSubMeshes",
+          "token": "0x6000568"
+        },
+        {
+          "name": "DestroySubMeshObjects",
+          "token": "0x6000569"
+        },
+        {
+          "name": "GetCompoundBounds",
+          "token": "0x600056a"
+        },
+        {
+          "name": "GetCanvasSpaceClippingRect",
+          "token": "0x600056b"
+        },
+        {
+          "name": "UpdateSDFScale",
+          "token": "0x600056c"
+        },
+        {
+          "name": "get_materialForRendering",
+          "token": "0x600056d"
+        },
+        {
+          "name": "get_autoSizeTextContainer",
+          "token": "0x600056e"
+        },
+        {
+          "name": "set_autoSizeTextContainer",
+          "token": "0x600056f"
+        },
+        {
+          "name": "get_mesh",
+          "token": "0x6000570"
+        },
+        {
+          "name": "get_canvasRenderer",
+          "token": "0x6000571"
+        },
+        {
+          "name": "CalculateLayoutInputHorizontal",
+          "token": "0x6000572"
+        },
+        {
+          "name": "CalculateLayoutInputVertical",
+          "token": "0x6000573"
+        },
+        {
+          "name": "SetVerticesDirty",
+          "token": "0x6000574"
+        },
+        {
+          "name": "SetLayoutDirty",
+          "token": "0x6000575"
+        },
+        {
+          "name": "SetMaterialDirty",
+          "token": "0x6000576"
+        },
+        {
+          "name": "SetAllDirty",
+          "token": "0x6000577"
+        },
+        {
+          "name": "DelayedGraphicRebuild",
+          "token": "0x6000578"
+        },
+        {
+          "name": "DelayedMaterialRebuild",
+          "token": "0x6000579"
+        },
+        {
+          "name": "Rebuild",
+          "token": "0x600057a"
+        },
+        {
+          "name": "UpdateSubObjectPivot",
+          "token": "0x600057b"
+        },
+        {
+          "name": "GetModifiedMaterial",
+          "token": "0x600057c"
+        },
+        {
+          "name": "UpdateMaterial",
+          "token": "0x600057d"
+        },
+        {
+          "name": "get_maskOffset",
+          "token": "0x600057e"
+        },
+        {
+          "name": "set_maskOffset",
+          "token": "0x600057f"
+        },
+        {
+          "name": "RecalculateClipping",
+          "token": "0x6000580"
+        },
+        {
+          "name": "Cull",
+          "token": "0x6000581"
+        },
+        {
+          "name": "UpdateCulling",
+          "token": "0x6000582"
+        },
+        {
+          "name": "UpdateMeshPadding",
+          "token": "0x6000583"
+        },
+        {
+          "name": "InternalCrossFadeColor",
+          "token": "0x6000584"
+        },
+        {
+          "name": "InternalCrossFadeAlpha",
+          "token": "0x6000585"
+        },
+        {
+          "name": "ForceMeshUpdate",
+          "token": "0x6000586"
+        },
+        {
+          "name": "GetTextInfo",
+          "token": "0x6000587"
+        },
+        {
+          "name": "ClearMesh",
+          "token": "0x6000588"
+        },
+        {
+          "name": "add_OnPreRenderText",
+          "token": "0x6000589"
+        },
+        {
+          "name": "remove_OnPreRenderText",
+          "token": "0x600058a"
+        },
+        {
+          "name": "UpdateGeometry",
+          "token": "0x600058b"
+        },
+        {
+          "name": "UpdateVertexData",
+          "token": "0x600058c"
+        },
+        {
+          "name": "UpdateVertexData",
+          "token": "0x600058d"
+        },
+        {
+          "name": "UpdateFontAsset",
+          "token": "0x600058e"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x600058f"
+        },
+        {
+          "name": ".cctor",
+          "token": "0x6000590"
+        }
+      ]
+    },
+    {
+      "name": "I2.Loc.Localize",
+      "type_index": 7009,
+      "fields": [
+        "mTerm",
+        "mTermSecondary",
+        "FinalTerm",
+        "FinalSecondaryTerm",
+        "PrimaryTermModifier",
+        "SecondaryTermModifier",
+        "TermPrefix",
+        "TermSuffix",
+        "LocalizeOnAwake",
+        "LastLocalizedLanguage",
+        "IgnoreRTL",
+        "MaxCharactersInRTL",
+        "IgnoreNumbersInRTL",
+        "CorrectAlignmentForRTL",
+        "AddSpacesToJoinedLanguages",
+        "AllowLocalizedParameters",
+        "TranslatedObjects",
+        "mAssetDictionary",
+        "LocalizeEvent",
+        "MainTranslation",
+        "SecondaryTranslation",
+        "CallBackTerm",
+        "CallBackSecondaryTerm",
+        "CurrentLocalizeComponent",
+        "AlwaysForceLocalize",
+        "LocalizeCallBack",
+        "mGUI_ShowReferences",
+        "mGUI_ShowTems",
+        "mGUI_ShowCallback",
+        "mLocalizeTarget",
+        "mLocalizeTargetName",
+        "s_fontAssets"
+      ],
+      "methods": [
+        {
+          "name": "get_Term",
+          "token": "0x6000085"
+        },
+        {
+          "name": "set_Term",
+          "token": "0x6000086"
+        },
+        {
+          "name": "get_SecondaryTerm",
+          "token": "0x6000087"
+        },
+        {
+          "name": "set_SecondaryTerm",
+          "token": "0x6000088"
+        },
+        {
+          "name": "GetFontAssetForKey",
+          "token": "0x6000089"
+        },
+        {
+          "name": "LoadFont",
+          "token": "0x600008a"
+        },
+        {
+          "name": "UnloadFontAssetForKey",
+          "token": "0x600008b"
+        },
+        {
+          "name": "Awake",
+          "token": "0x600008c"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x600008d"
+        },
+        {
+          "name": "HasCallback",
+          "token": "0x600008e"
+        },
+        {
+          "name": "OnLocalize",
+          "token": "0x600008f"
+        },
+        {
+          "name": "PlotRouteToRoot",
+          "token": "0x6000090"
+        },
+        {
+          "name": "FindTarget",
+          "token": "0x6000091"
+        },
+        {
+          "name": "GetFinalTerms",
+          "token": "0x6000092"
+        },
+        {
+          "name": "GetMainTargetsText",
+          "token": "0x6000093"
+        },
+        {
+          "name": "SetFinalTerms",
+          "token": "0x6000094"
+        },
+        {
+          "name": "SetTerm",
+          "token": "0x6000095"
+        },
+        {
+          "name": "SetTerm",
+          "token": "0x6000096"
+        },
+        {
+          "name": "GetSecondaryTranslatedObj",
+          "token": "0x6000097"
+        },
+        {
+          "name": "UpdateAssetDictionary",
+          "token": "0x6000098"
+        },
+        {
+          "name": "GetObject",
+          "token": "0x6000099"
+        },
+        {
+          "name": "GetTranslatedObject",
+          "token": "0x600009a"
+        },
+        {
+          "name": "DeserializeTranslation",
+          "token": "0x600009b"
+        },
+        {
+          "name": "FindTranslatedObject",
+          "token": "0x600009c"
+        },
+        {
+          "name": "HasTranslatedObject",
+          "token": "0x600009d"
+        },
+        {
+          "name": "AddTranslatedObject",
+          "token": "0x600009e"
+        },
+        {
+          "name": "SetGlobalLanguage",
+          "token": "0x600009f"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60000a0"
+        },
+        {
+          "name": ".cctor",
+          "token": "0x60000a1"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+      "type_index": 8315,
+      "fields": [
+        "m_DefaultShader",
+        "m_Renderers",
+        "k_AssetVersion",
+        "k_AssetPreviousVersion",
+        "m_RendererType",
+        "m_RendererData",
+        "m_RendererDataList",
+        "m_DefaultRendererIndex",
+        "m_RequireDepthTexture",
+        "m_RequireOpaqueTexture",
+        "m_OpaqueDownsampling",
+        "m_SupportsTerrainHoles",
+        "m_StoreActionsOptimization",
+        "m_SupportsHDR",
+        "m_MSAA",
+        "m_RenderScale",
+        "m_MainLightRenderingMode",
+        "m_MainLightShadowsSupported",
+        "m_MainLightShadowmapResolution",
+        "m_AdditionalLightsRenderingMode",
+        "m_AdditionalLightsPerObjectLimit",
+        "m_AdditionalLightShadowsSupported",
+        "m_AdditionalLightsShadowmapResolution",
+        "m_ShadowDistance",
+        "m_ShadowCascadeCount",
+        "m_Cascade2Split",
+        "m_Cascade3Split",
+        "m_Cascade4Split",
+        "m_ShadowDepthBias",
+        "m_ShadowNormalBias",
+        "m_SoftShadowsSupported",
+        "m_UseSRPBatcher",
+        "m_SupportsDynamicBatching",
+        "m_MixedLightingSupported",
+        "m_DebugLevel",
+        "m_UseAdaptivePerformance",
+        "m_ColorGradingMode",
+        "m_ColorGradingLutSize",
+        "m_ShadowType",
+        "m_LocalShadowsSupported",
+        "m_LocalShadowsAtlasResolution",
+        "m_MaxPixelLights",
+        "m_ShadowAtlasResolution",
+        "m_ShaderVariantLogLevel",
+        "m_VolumeFrameworkUpdateMode",
+        "k_MinLutSize",
+        "k_MaxLutSize",
+        "k_ShadowCascadeMinCount",
+        "k_ShadowCascadeMaxCount",
+        "m_renderingLayerMaskNames",
+        "m_ShadowCascades"
+      ],
+      "methods": [
+        {
+          "name": "get_renderingLayerMaskNames",
+          "token": "0x6000005"
+        },
+        {
+          "name": "LoadBuiltinRendererData",
+          "token": "0x6000006"
+        },
+        {
+          "name": "CreatePipeline",
+          "token": "0x6000007"
+        },
+        {
+          "name": "DestroyRenderers",
+          "token": "0x6000008"
+        },
+        {
+          "name": "DestroyRenderer",
+          "token": "0x6000009"
+        },
+        {
+          "name": "OnValidate",
+          "token": "0x600000a"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x600000b"
+        },
+        {
+          "name": "CreateRenderers",
+          "token": "0x600000c"
+        },
+        {
+          "name": "GetMaterial",
+          "token": "0x600000d"
+        },
+        {
+          "name": "get_scriptableRenderer",
+          "token": "0x600000e"
+        },
+        {
+          "name": "GetRenderer",
+          "token": "0x600000f"
+        },
+        {
+          "name": "get_scriptableRendererData",
+          "token": "0x6000010"
+        },
+        {
+          "name": "get_rendererIndexList",
+          "token": "0x6000011"
+        },
+        {
+          "name": "get_supportsCameraDepthTexture",
+          "token": "0x6000012"
+        },
+        {
+          "name": "set_supportsCameraDepthTexture",
+          "token": "0x6000013"
+        },
+        {
+          "name": "get_supportsCameraOpaqueTexture",
+          "token": "0x6000014"
+        },
+        {
+          "name": "set_supportsCameraOpaqueTexture",
+          "token": "0x6000015"
+        },
+        {
+          "name": "get_opaqueDownsampling",
+          "token": "0x6000016"
+        },
+        {
+          "name": "get_supportsTerrainHoles",
+          "token": "0x6000017"
+        },
+        {
+          "name": "get_storeActionsOptimization",
+          "token": "0x6000018"
+        },
+        {
+          "name": "set_storeActionsOptimization",
+          "token": "0x6000019"
+        },
+        {
+          "name": "get_supportsHDR",
+          "token": "0x600001a"
+        },
+        {
+          "name": "set_supportsHDR",
+          "token": "0x600001b"
+        },
+        {
+          "name": "get_msaaSampleCount",
+          "token": "0x600001c"
+        },
+        {
+          "name": "set_msaaSampleCount",
+          "token": "0x600001d"
+        },
+        {
+          "name": "get_renderScale",
+          "token": "0x600001e"
+        },
+        {
+          "name": "set_renderScale",
+          "token": "0x600001f"
+        },
+        {
+          "name": "get_mainLightRenderingMode",
+          "token": "0x6000020"
+        },
+        {
+          "name": "get_supportsMainLightShadows",
+          "token": "0x6000021"
+        },
+        {
+          "name": "set_supportsMainLightShadows",
+          "token": "0x6000022"
+        },
+        {
+          "name": "get_mainLightShadowmapResolution",
+          "token": "0x6000023"
+        },
+        {
+          "name": "get_additionalLightsRenderingMode",
+          "token": "0x6000024"
+        },
+        {
+          "name": "get_maxAdditionalLightsCount",
+          "token": "0x6000025"
+        },
+        {
+          "name": "set_maxAdditionalLightsCount",
+          "token": "0x6000026"
+        },
+        {
+          "name": "get_supportsAdditionalLightShadows",
+          "token": "0x6000027"
+        },
+        {
+          "name": "get_additionalLightsShadowmapResolution",
+          "token": "0x6000028"
+        },
+        {
+          "name": "get_shadowDistance",
+          "token": "0x6000029"
+        },
+        {
+          "name": "set_shadowDistance",
+          "token": "0x600002a"
+        },
+        {
+          "name": "get_shadowCascadeCount",
+          "token": "0x600002b"
+        },
+        {
+          "name": "set_shadowCascadeCount",
+          "token": "0x600002c"
+        },
+        {
+          "name": "get_cascade2Split",
+          "token": "0x600002d"
+        },
+        {
+          "name": "get_cascade3Split",
+          "token": "0x600002e"
+        },
+        {
+          "name": "get_cascade4Split",
+          "token": "0x600002f"
+        },
+        {
+          "name": "get_shadowDepthBias",
+          "token": "0x6000030"
+        },
+        {
+          "name": "set_shadowDepthBias",
+          "token": "0x6000031"
+        },
+        {
+          "name": "get_shadowNormalBias",
+          "token": "0x6000032"
+        },
+        {
+          "name": "set_shadowNormalBias",
+          "token": "0x6000033"
+        },
+        {
+          "name": "get_supportsSoftShadows",
+          "token": "0x6000034"
+        },
+        {
+          "name": "get_supportsDynamicBatching",
+          "token": "0x6000035"
+        },
+        {
+          "name": "set_supportsDynamicBatching",
+          "token": "0x6000036"
+        },
+        {
+          "name": "get_supportsMixedLighting",
+          "token": "0x6000037"
+        },
+        {
+          "name": "get_shaderVariantLogLevel",
+          "token": "0x6000038"
+        },
+        {
+          "name": "set_shaderVariantLogLevel",
+          "token": "0x6000039"
+        },
+        {
+          "name": "get_volumeFrameworkUpdateMode",
+          "token": "0x600003a"
+        },
+        {
+          "name": "get_debugLevel",
+          "token": "0x600003b"
+        },
+        {
+          "name": "get_useSRPBatcher",
+          "token": "0x600003c"
+        },
+        {
+          "name": "set_useSRPBatcher",
+          "token": "0x600003d"
+        },
+        {
+          "name": "get_colorGradingMode",
+          "token": "0x600003e"
+        },
+        {
+          "name": "set_colorGradingMode",
+          "token": "0x600003f"
+        },
+        {
+          "name": "get_colorGradingLutSize",
+          "token": "0x6000040"
+        },
+        {
+          "name": "set_colorGradingLutSize",
+          "token": "0x6000041"
+        },
+        {
+          "name": "get_useAdaptivePerformance",
+          "token": "0x6000042"
+        },
+        {
+          "name": "set_useAdaptivePerformance",
+          "token": "0x6000043"
+        },
+        {
+          "name": "get_defaultMaterial",
+          "token": "0x6000044"
+        },
+        {
+          "name": "get_defaultParticleMaterial",
+          "token": "0x6000045"
+        },
+        {
+          "name": "get_defaultLineMaterial",
+          "token": "0x6000046"
+        },
+        {
+          "name": "get_defaultTerrainMaterial",
+          "token": "0x6000047"
+        },
+        {
+          "name": "get_defaultUIMaterial",
+          "token": "0x6000048"
+        },
+        {
+          "name": "get_defaultUIOverdrawMaterial",
+          "token": "0x6000049"
+        },
+        {
+          "name": "get_defaultUIETC1SupportedMaterial",
+          "token": "0x600004a"
+        },
+        {
+          "name": "get_default2DMaterial",
+          "token": "0x600004b"
+        },
+        {
+          "name": "get_defaultShader",
+          "token": "0x600004c"
+        },
+        {
+          "name": "OnBeforeSerialize",
+          "token": "0x600004d"
+        },
+        {
+          "name": "OnAfterDeserialize",
+          "token": "0x600004e"
+        },
+        {
+          "name": "ValidateShadowBias",
+          "token": "0x600004f"
+        },
+        {
+          "name": "ValidatePerObjectLights",
+          "token": "0x6000050"
+        },
+        {
+          "name": "ValidateRenderScale",
+          "token": "0x6000051"
+        },
+        {
+          "name": "ValidateRendererDataList",
+          "token": "0x6000052"
+        },
+        {
+          "name": "ValidateRendererData",
+          "token": "0x6000053"
+        },
+        {
+          "name": "get_shadowCascadeOption",
+          "token": "0x6000054"
+        },
+        {
+          "name": "set_shadowCascadeOption",
+          "token": "0x6000055"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6000056"
+        }
+      ]
+    },
+    {
+      "name": "UnityEngine.Rendering.Universal.CameraData",
+      "type_index": 8404,
+      "fields": [
+        "m_ViewMatrix",
+        "m_ProjectionMatrix",
+        "camera",
+        "renderType",
+        "targetTexture",
+        "cameraTargetDescriptor",
+        "pixelRect",
+        "pixelWidth",
+        "pixelHeight",
+        "aspectRatio",
+        "renderScale",
+        "clearDepth",
+        "cameraType",
+        "isDefaultViewport",
+        "isHdrEnabled",
+        "requiresDepthTexture",
+        "requiresOpaqueTexture",
+        "defaultOpaqueSortFlags",
+        "xr",
+        "isStereoEnabled",
+        "maxShadowDistance",
+        "postProcessEnabled",
+        "captureActions",
+        "volumeLayerMask",
+        "volumeTrigger",
+        "isStopNaNEnabled",
+        "isDitheringEnabled",
+        "antialiasing",
+        "antialiasingQuality",
+        "renderer",
+        "resolveFinalTarget"
+      ],
+      "methods": [
+        {
+          "name": "SetViewAndProjectionMatrix",
+          "token": "0x60001df"
+        },
+        {
+          "name": "GetViewMatrix",
+          "token": "0x60001e0"
+        },
+        {
+          "name": "GetProjectionMatrix",
+          "token": "0x60001e1"
+        },
+        {
+          "name": "GetGPUProjectionMatrix",
+          "token": "0x60001e2"
+        },
+        {
+          "name": "get_requireSrgbConversion",
+          "token": "0x60001e3"
+        },
+        {
+          "name": "get_isSceneViewCamera",
+          "token": "0x60001e4"
+        },
+        {
+          "name": "get_isPreviewCamera",
+          "token": "0x60001e5"
+        },
+        {
+          "name": "IsCameraProjectionMatrixFlipped",
+          "token": "0x60001e6"
+        }
+      ]
+    },
+    {
+      "name": "TPS.Core.UI.UIButton",
+      "type_index": 8832,
+      "fields": [
+        "_childGraphic",
+        "_setDefaultStateOnAwake",
+        "_defaultState",
+        "_stateData",
+        "_animation",
+        "_animationRoot",
+        "_repeatInSeconds",
+        "_animateWhenNotInteractable",
+        "_active",
+        "_hoverActive",
+        "_mouseDownLeft",
+        "_mouseDownRight",
+        "_mouseDownTime",
+        "_animationInstance",
+        "<onTriggerSound>k__BackingField"
+      ],
+      "methods": [
+        {
+          "name": "get_onTriggerSound",
+          "token": "0x60003d0"
+        },
+        {
+          "name": "set_onTriggerSound",
+          "token": "0x60003d1"
+        },
+        {
+          "name": "get_ChildGraphic",
+          "token": "0x60003d2"
+        },
+        {
+          "name": "Awake",
+          "token": "0x60003d3"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x60003d4"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x60003d5"
+        },
+        {
+          "name": "Update",
+          "token": "0x60003d6"
+        },
+        {
+          "name": "Highlight",
+          "token": "0x60003d7"
+        },
+        {
+          "name": "Unhighlight",
+          "token": "0x60003d8"
+        },
+        {
+          "name": "ResetState",
+          "token": "0x60003d9"
+        },
+        {
+          "name": "SetSelected",
+          "token": "0x60003da"
+        },
+        {
+          "name": "SetLocked",
+          "token": "0x60003db"
+        },
+        {
+          "name": "SetNegative",
+          "token": "0x60003dc"
+        },
+        {
+          "name": "SetNegativeSelected",
+          "token": "0x60003dd"
+        },
+        {
+          "name": "SetButtonStatus",
+          "token": "0x60003de"
+        },
+        {
+          "name": "SetButtonStatus",
+          "token": "0x60003df"
+        },
+        {
+          "name": "SetToDefaultStatus",
+          "token": "0x60003e0"
+        },
+        {
+          "name": "OnPointerUp",
+          "token": "0x60003e1"
+        },
+        {
+          "name": "OnPointerDown",
+          "token": "0x60003e2"
+        },
+        {
+          "name": "OnPointerEnter",
+          "token": "0x60003e3"
+        },
+        {
+          "name": "OnPointerExit",
+          "token": "0x60003e4"
+        },
+        {
+          "name": "PrimaryPress",
+          "token": "0x60003e5"
+        },
+        {
+          "name": "SecondaryPress",
+          "token": "0x60003e6"
+        },
+        {
+          "name": "RefreshButton",
+          "token": "0x60003e7"
+        },
+        {
+          "name": "SetTintColor",
+          "token": "0x60003e8"
+        },
+        {
+          "name": "SetStateTint",
+          "token": "0x60003e9"
+        },
+        {
+          "name": "SetStateImage",
+          "token": "0x60003ea"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60003eb"
+        }
+      ]
+    },
+    {
+      "name": "TPS.Core.UI.UIOptionCollection",
+      "type_index": 8853,
+      "fields": [
+        "_buttonList",
+        "_controlledByCode",
+        "_allowNoSelection",
+        "_selectedButtonOnAwake",
+        "OnOptionSelected",
+        "_currentSelected"
+      ],
+      "methods": [
+        {
+          "name": "get_CurrentSelected",
+          "token": "0x6000467"
+        },
+        {
+          "name": "Start",
+          "token": "0x6000468"
+        },
+        {
+          "name": "AddButton",
+          "token": "0x6000469"
+        },
+        {
+          "name": "SelectOption",
+          "token": "0x600046a"
+        },
+        {
+          "name": "SelectOptionSilently",
+          "token": "0x600046b"
+        },
+        {
+          "name": "SelectOption",
+          "token": "0x600046c"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x600046d"
+        }
+      ]
+    },
+    {
+      "name": "TPS.Core.UI.UITouchable",
+      "type_index": 8862,
+      "fields": [],
+      "methods": [
+        {
+          "name": "OnPopulateMesh",
+          "token": "0x60004ad"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60004ae"
+        }
+      ]
+    },
+    {
+      "name": "TPS.Core.UI.LayoutGroup.DynamicLayoutGroup",
+      "type_index": 8915,
+      "fields": [
+        "_DynamicLayoutGroup_CollectLayoutValues_Marker",
+        "_axis",
+        "_horizontalAlignment",
+        "_verticalAlignment",
+        "_elementsCount",
+        "_elements",
+        "_verticalResizeMode",
+        "_horizontalResizeMode",
+        "_minimumSpacing",
+        "_justifiedSpacing",
+        "_padding",
+        "_defaultMinHeight",
+        "_defaultMinWidth",
+        "_defaultPreferredHeight",
+        "_defaultPreferredWidth",
+        "_defaultMaxHeight",
+        "_defaultMaxWidth",
+        "_drivenRectTracker",
+        "_isLayoutElementDirty",
+        "_layoutElementsCache",
+        "_maxSizeLayoutElementsCache",
+        "_layoutIgnorersCache",
+        "_numOfElementsToLayout",
+        "_totalElementMinSize",
+        "_totalElementPreferredSize",
+        "_maxElementPreferredSize",
+        "_totalElementMaxSize",
+        "_minElementSize",
+        "_maxElementSize",
+        "_layoutMinSize",
+        "_layoutPreferredSize",
+        "_layoutMaxSize"
+      ],
+      "methods": [
+        {
+          "name": "get_isRootLayoutGroup",
+          "token": "0x60005ee"
+        },
+        {
+          "name": "get_axis",
+          "token": "0x60005ef"
+        },
+        {
+          "name": "set_axis",
+          "token": "0x60005f0"
+        },
+        {
+          "name": "get_minimumSpacing",
+          "token": "0x60005f1"
+        },
+        {
+          "name": "set_minimumSpacing",
+          "token": "0x60005f2"
+        },
+        {
+          "name": "get_justifiedSpacing",
+          "token": "0x60005f3"
+        },
+        {
+          "name": "set_justifiedSpacing",
+          "token": "0x60005f4"
+        },
+        {
+          "name": "get_padding",
+          "token": "0x60005f5"
+        },
+        {
+          "name": "set_padding",
+          "token": "0x60005f6"
+        },
+        {
+          "name": "get_horizontalAlignment",
+          "token": "0x60005f7"
+        },
+        {
+          "name": "set_horizontalAlignment",
+          "token": "0x60005f8"
+        },
+        {
+          "name": "get_verticalAlignment",
+          "token": "0x60005f9"
+        },
+        {
+          "name": "set_verticalAlignment",
+          "token": "0x60005fa"
+        },
+        {
+          "name": "get_horizontalResizeMode",
+          "token": "0x60005fb"
+        },
+        {
+          "name": "set_horizontalResizeMode",
+          "token": "0x60005fc"
+        },
+        {
+          "name": "get_verticalResizeMode",
+          "token": "0x60005fd"
+        },
+        {
+          "name": "set_verticalResizeMode",
+          "token": "0x60005fe"
+        },
+        {
+          "name": "get_defaultMinHeight",
+          "token": "0x60005ff"
+        },
+        {
+          "name": "set_defaultMinHeight",
+          "token": "0x6000600"
+        },
+        {
+          "name": "get_defaultMinWidth",
+          "token": "0x6000601"
+        },
+        {
+          "name": "set_defaultMinWidth",
+          "token": "0x6000602"
+        },
+        {
+          "name": "get_defaultPreferredHeight",
+          "token": "0x6000603"
+        },
+        {
+          "name": "set_defaultPreferredHeight",
+          "token": "0x6000604"
+        },
+        {
+          "name": "get_defaultPreferredWidth",
+          "token": "0x6000605"
+        },
+        {
+          "name": "set_defaultPreferredWidth",
+          "token": "0x6000606"
+        },
+        {
+          "name": "get_defaultMaxHeight",
+          "token": "0x6000607"
+        },
+        {
+          "name": "set_defaultMaxHeight",
+          "token": "0x6000608"
+        },
+        {
+          "name": "get_defaultMaxWidth",
+          "token": "0x6000609"
+        },
+        {
+          "name": "set_defaultMaxWidth",
+          "token": "0x600060a"
+        },
+        {
+          "name": "get_layoutPriority",
+          "token": "0x600060b"
+        },
+        {
+          "name": "get_minWidth",
+          "token": "0x600060c"
+        },
+        {
+          "name": "get_preferredWidth",
+          "token": "0x600060d"
+        },
+        {
+          "name": "get_maxWidth",
+          "token": "0x600060e"
+        },
+        {
+          "name": "get_flexibleWidth",
+          "token": "0x600060f"
+        },
+        {
+          "name": "get_minHeight",
+          "token": "0x6000610"
+        },
+        {
+          "name": "get_preferredHeight",
+          "token": "0x6000611"
+        },
+        {
+          "name": "get_maxHeight",
+          "token": "0x6000612"
+        },
+        {
+          "name": "get_flexibleHeight",
+          "token": "0x6000613"
+        },
+        {
+          "name": "CalculateLayoutInputHorizontal",
+          "token": "0x6000614"
+        },
+        {
+          "name": "CalculateLayoutInputVertical",
+          "token": "0x6000615"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x6000616"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6000617"
+        },
+        {
+          "name": "OnTransformChildrenChanged",
+          "token": "0x6000618"
+        },
+        {
+          "name": "OnRectTransformDimensionsChange",
+          "token": "0x6000619"
+        },
+        {
+          "name": "MarkDirty",
+          "token": "0x600061a"
+        },
+        {
+          "name": "UnityEngine.UI.ILayoutController.SetLayoutHorizontal",
+          "token": "0x600061b"
+        },
+        {
+          "name": "UnityEngine.UI.ILayoutController.SetLayoutVertical",
+          "token": "0x600061c"
+        },
+        {
+          "name": "SetLayoutOnChildren",
+          "token": "0x600061d"
+        },
+        {
+          "name": "CheckElementsArray",
+          "token": "0x600061e"
+        },
+        {
+          "name": "CollectLayoutValues",
+          "token": "0x600061f"
+        },
+        {
+          "name": "SetupDefaultLayoutSizes",
+          "token": "0x6000620"
+        },
+        {
+          "name": "CalculateLayoutGroupValues",
+          "token": "0x6000621"
+        },
+        {
+          "name": "CalculateLayoutElementValuesIfDirty",
+          "token": "0x6000622"
+        },
+        {
+          "name": "SetLayout",
+          "token": "0x6000623"
+        },
+        {
+          "name": "ResizeContent",
+          "token": "0x6000624"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6000625"
+        },
+        {
+          "name": ".cctor",
+          "token": "0x6000626"
+        }
+      ]
+    },
+    {
+      "name": "TPS.Game.PlatformActionImage",
+      "type_index": 11523,
+      "fields": [
+        "RefreshAllImages",
+        "_filterComponent",
+        "_action",
+        "_icon",
+        "_text",
+        "_currentControllerType"
+      ],
+      "methods": [
+        {
+          "name": "get_FilterComponent",
+          "token": "0x60000b7"
+        },
+        {
+          "name": "Awake",
+          "token": "0x60000b8"
+        },
+        {
+          "name": "OnDestroy",
+          "token": "0x60000b9"
+        },
+        {
+          "name": "SetData",
+          "token": "0x60000ba"
+        },
+        {
+          "name": "IsBindingSet",
+          "token": "0x60000bb"
+        },
+        {
+          "name": "IsBindingMissing",
+          "token": "0x60000bc"
+        },
+        {
+          "name": "SetEnabled",
+          "token": "0x60000bd"
+        },
+        {
+          "name": "SetOverride",
+          "token": "0x60000be"
+        },
+        {
+          "name": "ResetCurrentImage",
+          "token": "0x60000bf"
+        },
+        {
+          "name": "OnControllerTypeChanged",
+          "token": "0x60000c0"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60000c1"
+        }
+      ]
+    },
+    {
+      "name": "TPS.Game.InputDeviceFilterComponent",
+      "type_index": 11529,
+      "fields": [
+        "_controllerType",
+        "_activeOverride",
+        "_forceHidden",
+        "_refreshOnEnable",
+        "_isDestroyed"
+      ],
+      "methods": [
+        {
+          "name": "get_ActiveOverride",
+          "token": "0x60000ce"
+        },
+        {
+          "name": "set_ActiveOverride",
+          "token": "0x60000cf"
+        },
+        {
+          "name": "get_ForceHidden",
+          "token": "0x60000d0"
+        },
+        {
+          "name": "set_ForceHidden",
+          "token": "0x60000d1"
+        },
+        {
+          "name": "Awake",
+          "token": "0x60000d2"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x60000d3"
+        },
+        {
+          "name": "OnDestroy",
+          "token": "0x60000d4"
+        },
+        {
+          "name": "OnDeviceChanged",
+          "token": "0x60000d5"
+        },
+        {
+          "name": "Refresh",
+          "token": "0x60000d6"
+        },
+        {
+          "name": "CanBeActive",
+          "token": "0x60000d7"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60000d8"
+        }
+      ]
+    },
+    {
+      "name": "TPC.MetaMapCameraLogicConfig",
+      "type_index": 13563,
+      "fields": [
+        "InitialPitch",
+        "InitialRotation",
+        "InitialFocalPoint",
+        "PanMouseButton",
+        "RotateMouseButton",
+        "PanSpeed",
+        "FocusInterpRate",
+        "ZoomedFocusInterpRate",
+        "ZoomSpeed",
+        "ZoomSmoothTime",
+        "MinZoomLevel",
+        "MaxZoomLevel",
+        "InitialZoomLevel",
+        "PitchSpeedUsingMouseDrag",
+        "PitchMinAngle",
+        "PitchMaxAngle",
+        "PitchResetRate",
+        "MouseRotatePitchYawAngle",
+        "MouseRotateAxisTime",
+        "RotateSpeedUsingMouseDrag",
+        "AllowCursorKeyRotation",
+        "CursorKeyRotateYawSpeed",
+        "CursorKeyRotatePitchSpeed",
+        "InvertPitch",
+        "InvertRotation",
+        "PitchSensitivity",
+        "RotateSensitivity",
+        "RotationSmoothTime",
+        "RotationSmoothTimeWhileUsingMouseRotation",
+        "ScrollRegionSizePixels",
+        "PitchOffsetAtZoomLevel",
+        "FOV",
+        "NearPlace",
+        "FarPlace",
+        "CullingMask",
+        "MaxDynamicShadowDistance",
+        "DynamicShadowDistanceBias",
+        "AmbientOcclusionHeightThreshold",
+        "ReflectionCullingMask",
+        "ReflectionPlaneOffset",
+        "ReflectionReflectSkybox",
+        "ReflectionRenderScale"
+      ],
+      "methods": [
+        {
+          "name": ".ctor",
+          "token": "0x6001bfb"
+        }
+      ]
+    },
+    {
+      "name": "VideoQualityPreferencesValues",
+      "type_index": 17363,
+      "fields": [
+        "ShadowQuality",
+        "TextureQuality",
+        "PostProcessingQuality",
+        "AmbientOcclusionMode",
+        "AmbientOcclusionQualityMode",
+        "AntiAliasing",
+        "AntiAliasingQuality",
+        "AnimationSkinningQualityMode",
+        "RenderScale",
+        "MSAACount",
+        "Bloom",
+        "AnisoFiltering",
+        "DepthOfField",
+        "CharacterCullBias",
+        "CharacterCullMin",
+        "CharacterCullMax",
+        "GlobalLODBias",
+        "MaxCameraZoomScalar"
+      ],
+      "methods": [
+        {
+          "name": ".ctor",
+          "token": "0x6006960"
+        }
+      ]
+    },
+    {
+      "name": "TPC.NavigableDropdown",
+      "type_index": 17661,
+      "fields": [
+        "_menu",
+        "_dropdown",
+        "_elements"
+      ],
+      "methods": [
+        {
+          "name": "Awake",
+          "token": "0x6006d37"
+        },
+        {
+          "name": "Register",
+          "token": "0x6006d38"
+        },
+        {
+          "name": "DelayedElementFocus",
+          "token": "0x6006d39"
+        },
+        {
+          "name": "Deregister",
+          "token": "0x6006d3a"
+        },
+        {
+          "name": "RebuildElementNavigation",
+          "token": "0x6006d3b"
+        },
+        {
+          "name": "Highlight",
+          "token": "0x6006d3c"
+        },
+        {
+          "name": "Unhighlight",
+          "token": "0x6006d3d"
+        },
+        {
+          "name": "OnPointerEnter",
+          "token": "0x6006d3e"
+        },
+        {
+          "name": "OnPointerExit",
+          "token": "0x6006d3f"
+        },
+        {
+          "name": "OnClick",
+          "token": "0x6006d40"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6006d41"
+        }
+      ]
+    },
+    {
+      "name": "TPC.NavigableDropdownElement",
+      "type_index": 17662,
+      "fields": [
+        "_templateName",
+        "_parent",
+        "_toggle",
+        "_scrollRect"
+      ],
+      "methods": [
+        {
+          "name": "get_ScrollRect",
+          "token": "0x6006d48"
+        },
+        {
+          "name": "OnEnable",
+          "token": "0x6006d49"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6006d4a"
+        },
+        {
+          "name": "OnClick",
+          "token": "0x6006d4b"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6006d4c"
+        }
+      ]
+    },
+    {
+      "name": "TPC.WidgetSectionHeader",
+      "type_index": 17752,
+      "fields": [
+        "_textHeader"
+      ],
+      "methods": [
+        {
+          "name": "Set",
+          "token": "0x6006f51"
+        },
+        {
+          "name": "Destroy",
+          "token": "0x6006f52"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6006f53"
+        }
+      ]
+    },
+    {
+      "name": "TPC.WidgetSlider",
+      "type_index": 17754,
+      "fields": [
+        "_menu",
+        "_slider",
+        "_textValue",
+        "_imageBackground",
+        "_imageHandle",
+        "_incrementButton",
+        "_decrementButton",
+        "_colorBackgroundDefault",
+        "_colorBackgroundLocked",
+        "_colorHandleDefault",
+        "_colorHandleLocked",
+        "_lockNavigationOnSelect",
+        "_autoSelectOnNavigateTo",
+        "_incrementValueCooldown",
+        "_decrementValueCooldown",
+        "_totalDecrementDuration",
+        "_totalIncrementDuration",
+        "_normalisedDeltaValue",
+        "_sliderSelected",
+        "_justHighlighted",
+        "<formatter>k__BackingField"
+      ],
+      "methods": [
+        {
+          "name": "get_formatter",
+          "token": "0x6006f55"
+        },
+        {
+          "name": "set_formatter",
+          "token": "0x6006f56"
+        },
+        {
+          "name": "SetParentMenu",
+          "token": "0x6006f57"
+        },
+        {
+          "name": "get_Slider",
+          "token": "0x6006f58"
+        },
+        {
+          "name": "get_Selected",
+          "token": "0x6006f59"
+        },
+        {
+          "name": "get_value",
+          "token": "0x6006f5a"
+        },
+        {
+          "name": "set_value",
+          "token": "0x6006f5b"
+        },
+        {
+          "name": "get_minValue",
+          "token": "0x6006f5c"
+        },
+        {
+          "name": "set_minValue",
+          "token": "0x6006f5d"
+        },
+        {
+          "name": "get_maxValue",
+          "token": "0x6006f5e"
+        },
+        {
+          "name": "set_maxValue",
+          "token": "0x6006f5f"
+        },
+        {
+          "name": "get_normalizedValue",
+          "token": "0x6006f60"
+        },
+        {
+          "name": "set_normalizedValue",
+          "token": "0x6006f61"
+        },
+        {
+          "name": "get_interactable",
+          "token": "0x6006f62"
+        },
+        {
+          "name": "set_interactable",
+          "token": "0x6006f63"
+        },
+        {
+          "name": "get_onChanged",
+          "token": "0x6006f64"
+        },
+        {
+          "name": "Awake",
+          "token": "0x6006f65"
+        },
+        {
+          "name": "OnHighlight",
+          "token": "0x6006f66"
+        },
+        {
+          "name": "FindNavigationOnLeft",
+          "token": "0x6006f67"
+        },
+        {
+          "name": "FindNavigationOnRight",
+          "token": "0x6006f68"
+        },
+        {
+          "name": "SetLocked",
+          "token": "0x6006f69"
+        },
+        {
+          "name": "Update",
+          "token": "0x6006f6a"
+        },
+        {
+          "name": "PrimaryPress",
+          "token": "0x6006f6b"
+        },
+        {
+          "name": "Select",
+          "token": "0x6006f6c"
+        },
+        {
+          "name": "OnDeselect",
+          "token": "0x6006f6d"
+        },
+        {
+          "name": "OnDisable",
+          "token": "0x6006f6e"
+        },
+        {
+          "name": "Unhighlight",
+          "token": "0x6006f6f"
+        },
+        {
+          "name": "Destroy",
+          "token": "0x6006f70"
+        },
+        {
+          "name": "DecrementValue",
+          "token": "0x6006f71"
+        },
+        {
+          "name": "IncrementValue",
+          "token": "0x6006f72"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6006f73"
+        }
+      ]
+    },
+    {
+      "name": "TPC.OverridenValueVisual",
+      "type_index": 18600,
+      "fields": [
+        "_marker"
+      ],
+      "methods": [
+        {
+          "name": "Awake",
+          "token": "0x6008835"
+        },
+        {
+          "name": "SetState",
+          "token": "0x6008836"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6008837"
+        }
+      ]
+    },
+    {
+      "name": "TPC.PreferencesMenu",
+      "type_index": 18611,
+      "fields": [
+        "_PreferencesMenu_CheckExpandedDropdowns_Marker",
+        "_childDropdowns",
+        "_pauseMenu",
+        "_titleLocalize",
+        "_buttonCredits",
+        "_creditsLocalize",
+        "_creditsUIPrefabReference",
+        "_buttonGame",
+        "_buttonVideo",
+        "_buttonAudio",
+        "_buttonControls",
+        "_buttonRevert",
+        "_panelGame",
+        "_panelVideo",
+        "_panelAudio",
+        "_panelControls",
+        "_consolePanelControls",
+        "_changeResolutionPrompt",
+        "_rebindInputPrompt",
+        "_safeAreaPrompt",
+        "_blackScreen",
+        "_creditsString",
+        "_gameHeaderString",
+        "_videoHeaderString",
+        "_audioHeaderString",
+        "_controlsHeaderString",
+        "_mode",
+        "_currentPanel",
+        "_pauseMenuStateWhenOpened",
+        "_currentlyOpenDropdown",
+        "_availableModes",
+        "_currentRebind",
+        "_isShowingCredits",
+        "_isInSaveTransfer",
+        "_creditsUIInstance"
+      ],
+      "methods": [
+        {
+          "name": "get_AnyPromptVisible",
+          "token": "0x6008847"
+        },
+        {
+          "name": "get_ShouldCloseOnCloseInput",
+          "token": "0x6008848"
+        },
+        {
+          "name": "Awake",
+          "token": "0x6008849"
+        },
+        {
+          "name": "FocusChanged",
+          "token": "0x600884a"
+        },
+        {
+          "name": "SetTabsInteractable",
+          "token": "0x600884b"
+        },
+        {
+          "name": "OpenMenu",
+          "token": "0x600884c"
+        },
+        {
+          "name": "CloseMenu",
+          "token": "0x600884d"
+        },
+        {
+          "name": "get_CloseOnBackPressed",
+          "token": "0x600884e"
+        },
+        {
+          "name": "UpdateInput",
+          "token": "0x600884f"
+        },
+        {
+          "name": "UpdateScrollInput",
+          "token": "0x6008850"
+        },
+        {
+          "name": "Initialise",
+          "token": "0x6008851"
+        },
+        {
+          "name": "SetSaveTransfer",
+          "token": "0x6008852"
+        },
+        {
+          "name": "ShowCredits",
+          "token": "0x6008853"
+        },
+        {
+          "name": "ShowCreditsCoroutine",
+          "token": "0x6008854"
+        },
+        {
+          "name": "SelectMode",
+          "token": "0x6008855"
+        },
+        {
+          "name": "SetMode",
+          "token": "0x6008856"
+        },
+        {
+          "name": "ResetPreferences",
+          "token": "0x6008857"
+        },
+        {
+          "name": "ShowSafeAreaPrompt",
+          "token": "0x6008858"
+        },
+        {
+          "name": "ShowRevertButton",
+          "token": "0x6008859"
+        },
+        {
+          "name": "ShowSafeAreaPromptCoroutine",
+          "token": "0x600885a"
+        },
+        {
+          "name": "GetInputPanelForCurrentPlatform",
+          "token": "0x600885b"
+        },
+        {
+          "name": "ShowInputBindingPrompt",
+          "token": "0x600885c"
+        },
+        {
+          "name": "OnInputEvent",
+          "token": "0x600885d"
+        },
+        {
+          "name": "CheckGamepadPauseFromEvent",
+          "token": "0x600885e"
+        },
+        {
+          "name": "CheckKeyboardEscapeFromEvent",
+          "token": "0x600885f"
+        },
+        {
+          "name": "ShowInputBindingPromptCoroutine",
+          "token": "0x6008860"
+        },
+        {
+          "name": "ShowResolutionChangePrompt",
+          "token": "0x6008861"
+        },
+        {
+          "name": "ShowResolutionChangePromptCoroutine",
+          "token": "0x6008862"
+        },
+        {
+          "name": "AnimateRevertButtonCoroutine",
+          "token": "0x6008863"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6008864"
+        },
+        {
+          "name": ".cctor",
+          "token": "0x6008865"
+        },
+        {
+          "name": "<Awake>b__41_0",
+          "token": "0x6008866"
+        },
+        {
+          "name": "<Awake>b__41_1",
+          "token": "0x6008867"
+        },
+        {
+          "name": "<Awake>b__41_2",
+          "token": "0x6008868"
+        },
+        {
+          "name": "<Awake>b__41_3",
+          "token": "0x6008869"
+        }
+      ]
+    },
+    {
+      "name": "LocalisedStrings",
+      "type_index": 18624,
+      "fields": [
+        "_framerateUnlimited",
+        "_msaaSamples_None",
+        "_msaaSamples_x2",
+        "_msaaSamples_x4",
+        "_msaaSamples_x8",
+        "_fullScreenMode_ExclusiveFullScreen",
+        "_fullScreenMode_FullScreenWindow",
+        "_fullScreenMode_MaximizedWindow",
+        "_fullScreenMode_Windowed",
+        "_vsyncMode_On",
+        "_vsyncMode_Off",
+        "_shadowQuality_Off",
+        "_shadowQuality_Low",
+        "_shadowQuality_Medium",
+        "_shadowQuality_High",
+        "_textureDetail_Low",
+        "_textureDetail_Medium",
+        "_textureDetail_High",
+        "_textureDetail_VeryHigh",
+        "_antiAliasing_Off",
+        "_antiAliasing_FXAA",
+        "_antiAliasing_SMAA",
+        "_aoMode_None",
+        "_aoMode_SSAO",
+        "_aoMode_HBAO",
+        "_aoQuality_Normal",
+        "_aoQuality_High",
+        "_aoQuality_VeryHigh",
+        "_animationSkinningQuality_Low",
+        "_animationSkinningQuality_High"
+      ],
+      "methods": []
+    },
+    {
+      "name": "TPC.PreferencesPanelVideo",
+      "type_index": 18626,
+      "fields": [
+        "_initalFocus",
+        "_scrollViewGraphicRaycaster",
+        "_preferencesMenu",
+        "_qualityLevelOverridden",
+        "_overallQualityCollection",
+        "_acceptResolutionButton",
+        "_adjustSafeAreaButton",
+        "_resolution",
+        "_fullscreenMode",
+        "_vsyncMode",
+        "_shadowQuality",
+        "_textureDetail",
+        "_aoMode",
+        "_aoQuality",
+        "_antiAliasing",
+        "_antiAliasingQuality",
+        "_msaaSamples",
+        "_animationSkinningQuality",
+        "_bloom",
+        "_depthOfField",
+        "_anisoFiltering",
+        "_renderScale",
+        "_characterFadeSlider",
+        "_modelDetailSlider",
+        "_framerateLimit",
+        "_vSyncSection",
+        "_frameRateLimiterSection",
+        "_framerateLimitDisplay",
+        "_renderScaleDisplay",
+        "_characterFadeDisplay",
+        "_globalLodBiasDisplay",
+        "_localisedStrings",
+        "_selectableResolutions"
+      ],
+      "methods": [
+        {
+          "name": "Awake",
+          "token": "0x60088d5"
+        },
+        {
+          "name": "Show",
+          "token": "0x60088d6"
+        },
+        {
+          "name": "OnDestroy",
+          "token": "0x60088d7"
+        },
+        {
+          "name": "Hide",
+          "token": "0x60088d8"
+        },
+        {
+          "name": "FlagDeviatedProperties",
+          "token": "0x60088d9"
+        },
+        {
+          "name": "ResetToDefaults",
+          "token": "0x60088da"
+        },
+        {
+          "name": "GetResolutionString",
+          "token": "0x60088db"
+        },
+        {
+          "name": "FindClosestSelectableResolutionIndex",
+          "token": "0x60088dc"
+        },
+        {
+          "name": "SyncResolutionGUIToCurrentSettings",
+          "token": "0x60088dd"
+        },
+        {
+          "name": "SyncGUIToCurrentSettings",
+          "token": "0x60088de"
+        },
+        {
+          "name": "OptionIndexToQualitySettingIndex",
+          "token": "0x60088df"
+        },
+        {
+          "name": "QualitySettingIndexToOptionIndex",
+          "token": "0x60088e0"
+        },
+        {
+          "name": "MatchDropDownIDToValue",
+          "token": "0x60088e1"
+        },
+        {
+          "name": "MatchDropDownValueToID",
+          "token": "0x60088e2"
+        },
+        {
+          "name": "RefreshDropDowns",
+          "token": "0x60088e3"
+        },
+        {
+          "name": "ChangeAniso",
+          "token": "0x60088e4"
+        },
+        {
+          "name": "ChangeOverallQuality",
+          "token": "0x60088e5"
+        },
+        {
+          "name": "AcceptResolution",
+          "token": "0x60088e6"
+        },
+        {
+          "name": "AdjustSafeArea",
+          "token": "0x60088e7"
+        },
+        {
+          "name": "ChangeBloom",
+          "token": "0x60088e8"
+        },
+        {
+          "name": "ChangeDepthOfField",
+          "token": "0x60088e9"
+        },
+        {
+          "name": "ChangeResolution",
+          "token": "0x60088ea"
+        },
+        {
+          "name": "ChangeFramerateLimit",
+          "token": "0x60088eb"
+        },
+        {
+          "name": "ChangeVSyncMode",
+          "token": "0x60088ec"
+        },
+        {
+          "name": "ChangeFullscreenMode",
+          "token": "0x60088ed"
+        },
+        {
+          "name": "ChangeShadowQuality",
+          "token": "0x60088ee"
+        },
+        {
+          "name": "ChangeTextureQuality",
+          "token": "0x60088ef"
+        },
+        {
+          "name": "ChangePostProcessingQuality",
+          "token": "0x60088f0"
+        },
+        {
+          "name": "ChangeAntiAliasing",
+          "token": "0x60088f1"
+        },
+        {
+          "name": "ChangeMSAACount",
+          "token": "0x60088f2"
+        },
+        {
+          "name": "ChangeAntiAliasingQuality",
+          "token": "0x60088f3"
+        },
+        {
+          "name": "ChangeRenderScale",
+          "token": "0x60088f4"
+        },
+        {
+          "name": "ChangeCharacterFade",
+          "token": "0x60088f5"
+        },
+        {
+          "name": "ChangeModelDetail",
+          "token": "0x60088f6"
+        },
+        {
+          "name": "ChangeAOMode",
+          "token": "0x60088f7"
+        },
+        {
+          "name": "ChangeAOQuality",
+          "token": "0x60088f8"
+        },
+        {
+          "name": "ChangeAnimationSkinningQuality",
+          "token": "0x60088f9"
+        },
+        {
+          "name": "UpdateFramerateLimitDisplay",
+          "token": "0x60088fa"
+        },
+        {
+          "name": "UpdateRenderScaleDisplay",
+          "token": "0x60088fb"
+        },
+        {
+          "name": "UpdateCharacterFadeDisplay",
+          "token": "0x60088fc"
+        },
+        {
+          "name": "UpdateGlobalLodBiasDisplay",
+          "token": "0x60088fd"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x60088fe"
+        }
+      ]
+    },
+    {
+      "name": "TPC.TooltipSpawner",
+      "type_index": 18729,
+      "fields": [
+        "_hoverTime",
+        "_prefab",
+        "_prefabConsole",
+        "_tooltip",
+        "_anchorToMouse",
+        "_anchorOffset",
+        "_anchorTransform",
+        "_cursorTime",
+        "_tooltipInstance",
+        "_dataProvider",
+        "_shouldShowFunc",
+        "_lastControllerType",
+        "<PrefabOverride>k__BackingField"
+      ],
+      "methods": [
+        {
+          "name": "get_DisplayName",
+          "token": "0x6008b2f"
+        },
+        {
+          "name": "get_PrefabOverride",
+          "token": "0x6008b30"
+        },
+        {
+          "name": "set_PrefabOverride",
+          "token": "0x6008b31"
+        },
+        {
+          "name": "SetDataProvider",
+          "token": "0x6008b32"
+        },
+        {
+          "name": "RemoveDataProvider",
+          "token": "0x6008b33"
+        },
+        {
+          "name": "SetShouldShowFunc",
+          "token": "0x6008b34"
+        },
+        {
+          "name": "OnDestroy",
+          "token": "0x6008b35"
+        },
+        {
+          "name": "CursorOver",
+          "token": "0x6008b36"
+        },
+        {
+          "name": "GetPrefab",
+          "token": "0x6008b37"
+        },
+        {
+          "name": "ValidatePositionForScreenDimensions",
+          "token": "0x6008b38"
+        },
+        {
+          "name": "CursorOut",
+          "token": "0x6008b39"
+        },
+        {
+          "name": "Hide",
+          "token": "0x6008b3a"
+        },
+        {
+          "name": "SoftHide",
+          "token": "0x6008b3b"
+        },
+        {
+          "name": "GetPrefabPool",
+          "token": "0x6008b3c"
+        },
+        {
+          "name": "Reset",
+          "token": "0x6008b3d"
+        },
+        {
+          "name": ".ctor",
+          "token": "0x6008b3e"
+        }
+      ]
+    },
+    {
+      "name": "TPC.UILinuxScrollingBugWorkaround",
+      "type_index": 18738,
+      "fields": [
+        "_scrollRect"
+      ],
+      "methods": [
+        {
+          "name": ".ctor",
+          "token": "0x6008b61"
+        }
+      ]
+    }
+  ],
+  "read_errors": [
+    {
+      "path_id": 820722457322749657,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    }
+  ],
+  "hashes": {
+    "ui-prefabs-general_assets_all.bundle": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+    "041ed57f62d7d6540bf750de21a4130d_monoscripts.bundle": "738e52f56969159dd91842a7ab276ab5ad9fac6e9444c0c51871bfa8fd39b88f",
+    "global-metadata.dat": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb"
+  },
+  "limits": "Serialized graph plus metadata names/tokens only; no native method bodies or runtime activation examined. Provider absence applies only to decoded subtree components. No asset writes."
+}

@@ -1,0 +1,129 @@
+{
+  "case": "CRP-VOWEL-02",
+  "date": "2026-10-18",
+  "key": "UI/Settings/CameraPanSensitivity",
+  "input_text": "ปิ ปี ปึ ปื ฝี ฟิ ปั ฟั",
+  "groups": [
+    {
+      "text": "ปิ",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E34"
+      ]
+    },
+    {
+      "text": "ปี",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E35"
+      ]
+    },
+    {
+      "text": "ปึ",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E36"
+      ]
+    },
+    {
+      "text": "ปื",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E37"
+      ]
+    },
+    {
+      "text": "ฝี",
+      "codepoints": [
+        "U+0E1D",
+        "U+0E35"
+      ]
+    },
+    {
+      "text": "ฟิ",
+      "codepoints": [
+        "U+0E1F",
+        "U+0E34"
+      ]
+    },
+    {
+      "text": "ปั",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E31"
+      ]
+    },
+    {
+      "text": "ฟั",
+      "codepoints": [
+        "U+0E1F",
+        "U+0E31"
+      ]
+    }
+  ],
+  "scope": "Exact injected target-pair subset, not full lexical corpus sentences",
+  "diagnostic_map_sha256": "bc9811ce02e749a9eafa3a469149f79d7984e2d1037855da6a6abfe1f037535f",
+  "reference_html_sha256": "71ed71cec0f2f24d159335773002c0f873287c72b4f53e939757e307a1b835ea",
+  "embedded_font_sha256": "f9855a702e9899b9cfa1e8cb7cbf36c2c7bb6fe31ee0cd6860ae61ae012155d0",
+  "matching_game_font_objects": [
+    {
+      "path_id": 7716434233879021909,
+      "name": "NotoSansArabic-Regular"
+    }
+  ],
+  "source_reference_font_checks": "PASS",
+  "existing_images": [
+    {
+      "path": "local/qa/WO-VISUAL-004/06-game-medium.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "sha256": "84993d7fc3ba89ac01541aa6863b3a3969acb45e1c5f9fa3bc4241c9663ffbd0"
+    },
+    {
+      "path": "local/qa/WO-VISUAL-004/07-controls-medium.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "sha256": "5dcbf1578b1bd859b0baa2dc2e31b67d9574b660e647a1b10320da13d7601e1e"
+    },
+    {
+      "path": "local/qa/WO-VISUAL-004/08-controls-unclipped.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "sha256": "37afa91d03c623b21754c0ac2e37ec6ec4f8b543bf81a88bffd20b1317dbe50d"
+    },
+    {
+      "path": "local/qa/WO-VISUAL-004/16-controls-small.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "sha256": "c974b5e496a81e60dbe824b3e16f733e568e7baef8f3f365fda4d2618bd3674d"
+    },
+    {
+      "path": "local/qa/WO-VISUAL-004/18-controls-large.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "sha256": "8e271c2c531e393a85f9304ebaa397d64f8087fe68629b16c8e1284b437b7249"
+    },
+    {
+      "path": "local/qa/WO-VISUAL-004/31-restart-controls.jpg",
+      "width": 1920,
+      "height": 1080,
+      "format": "JPEG",
+      "sha256": "0417e2d65f084724e98d39944f7ba579e0c34e03588f457e6304e1bcfcde4d6b"
+    },
+    {
+      "path": "local/qa/WO-VISUAL-005/03-exact-both.jpg",
+      "width": 1073,
+      "height": 771,
+      "format": "JPEG",
+      "sha256": "23616e6c86b6cfcd8d56719be3ce682d64813805c2088cb76b49ee12e8e66120"
+    }
+  ],
+  "runtime_shaping_status": "PARTIAL; detailed ascender/upper-vowel evidence unresolved",
+  "capture_feasibility": "Current documented sky API has no raw/native-size, lossless, crop or quality option. Steam capture verified after activation, JPEG 1137x675; not evidence of current game capture resolution. Earlier game originals are JPEG 1920x1080.",
+  "limits": "No new game session, installation, image enlargement or shaping inference from font identity. Browser font bytes matching does not prove runtime font loading or identical shaping."
+}

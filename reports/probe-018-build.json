@@ -1,0 +1,144 @@
+{
+  "batch": "probe-018",
+  "variants": [
+    {
+      "probe": "probe-018-800a",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "base_probe": "probe-013",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "78f4ef1f44bef0425934522c27542e4df767a4f5bad344528dfbe0b0f4ae6624"
+        },
+        {
+          "name": "ui-prefabs-general_assets_all.bundle",
+          "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+          "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+        }
+      ],
+      "diagnostic_map_sha256": "895ddf7a90dbedecc171e1f0b98ff0b58313bc251171bb60043c1ebb4ec12bb7",
+      "width_units": 800,
+      "variant": "A",
+      "proposal_sha256": "883a24a3ff425e8ec16431b031adf9c9943b5750d20d9959a6b783008c7ceddd",
+      "changed_localisation_segments": [],
+      "changed_UI_objects_from_probe_013": [],
+      "limits": "Experimental matrix only. Actual effective widths, boundaries and benefit NOT_RUN; no production ZWSP or release approval."
+    },
+    {
+      "probe": "probe-018-800b",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "base_probe": "probe-013",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "862ea34b40771381b06c72664848eaed6c57e21d6d396033b190302f838d0235"
+        },
+        {
+          "name": "ui-prefabs-general_assets_all.bundle",
+          "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+          "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+        }
+      ],
+      "diagnostic_map_sha256": "f2af895dd8a32aacafbf37fe68020235652c6073469763b9f54dc030d5f7b458",
+      "width_units": 800,
+      "variant": "B",
+      "proposal_sha256": "883a24a3ff425e8ec16431b031adf9c9943b5750d20d9959a6b783008c7ceddd",
+      "changed_localisation_segments": [
+        118,
+        126
+      ],
+      "changed_UI_objects_from_probe_013": [],
+      "limits": "Experimental matrix only. Actual effective widths, boundaries and benefit NOT_RUN; no production ZWSP or release approval."
+    },
+    {
+      "probe": "probe-018-600a",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "base_probe": "probe-013",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "78f4ef1f44bef0425934522c27542e4df767a4f5bad344528dfbe0b0f4ae6624"
+        },
+        {
+          "name": "ui-prefabs-general_assets_all.bundle",
+          "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+          "probe_sha256": "e140fac53b4b26ffb9e59c9cc3c6c607d93a0f57f041421230714f8c646365fd"
+        }
+      ],
+      "diagnostic_map_sha256": "93fff30c97b85401bc61c274cd0a37800686f7f15709f8b338c0007a27e427d2",
+      "width_units": 600,
+      "variant": "A",
+      "proposal_sha256": "883a24a3ff425e8ec16431b031adf9c9943b5750d20d9959a6b783008c7ceddd",
+      "changed_localisation_segments": [],
+      "changed_UI_objects_from_probe_013": [
+        3218277146759428662
+      ],
+      "limits": "Experimental matrix only. Actual effective widths, boundaries and benefit NOT_RUN; no production ZWSP or release approval."
+    },
+    {
+      "probe": "probe-018-600b",
+      "installed": false,
+      "runtime_status": "NOT_RUN",
+      "base_probe": "probe-013",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+          "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+          "probe_sha256": "862ea34b40771381b06c72664848eaed6c57e21d6d396033b190302f838d0235"
+        },
+        {
+          "name": "ui-prefabs-general_assets_all.bundle",
+          "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+          "probe_sha256": "e140fac53b4b26ffb9e59c9cc3c6c607d93a0f57f041421230714f8c646365fd"
+        }
+      ],
+      "diagnostic_map_sha256": "0b0c387320a3e48f36cc08265d51ef111f71a20b3c0c41af40e0b85b46af617d",
+      "width_units": 600,
+      "variant": "B",
+      "proposal_sha256": "883a24a3ff425e8ec16431b031adf9c9943b5750d20d9959a6b783008c7ceddd",
+      "changed_localisation_segments": [
+        118,
+        126
+      ],
+      "changed_UI_objects_from_probe_013": [
+        3218277146759428662
+      ],
+      "limits": "Experimental matrix only. Actual effective widths, boundaries and benefit NOT_RUN; no production ZWSP or release approval."
+    }
+  ],
+  "matrix_cells_planned": 8,
+  "selected_keys": [
+    "UI/Settings/Tooltips/MSAASamples",
+    "UI/Settings/Tooltips/WorldDetail"
+  ],
+  "same_width_AB_font_UI_equal": true,
+  "same_variant_cross_width_localisation_equal": true,
+  "runtime_status": "NOT_RUN",
+  "installed": false
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-18",
+  "probe": "probe-016",
+  "literal_row_accounting": true,
+  "normalization": "NONE",
+  "row_lengths": [
+    55,
+    58,
+    59,
+    55,
+    10
+  ],
+  "cut_offsets": [
+    55,
+    113,
+    172,
+    227
+  ],
+  "codepoints": 237,
+  "manifest_sha256": "7f83ea9073b7088bc3a22872efe87214eb9f29982a1f67c20d0ac85215fcc5a5",
+  "map_sha256": "e07ead50715dd447e24f69ecfce2209c8e26f479b217f0a8f07bac9055a9d7e3",
+  "installed_originals_verified": true,
+  "retained_backups_verified": true,
+  "staged_verified": true,
+  "disposition": {
+    "content_and_containment": "SCOPED_PASS",
+    "word_segmentation": "OBSERVED_FAIL: internal splits in เรียน and ทุก",
+    "direct_leading_vowel_or_combining_detachment": "Not observed at four edges; direct risky edges NOT_EXERCISED",
+    "fine_native_shaping": "UNRESOLVED"
+  },
+  "limits": "Controller image inspection plus literal map comparison; not a new game session or runtime event measurement."
+}

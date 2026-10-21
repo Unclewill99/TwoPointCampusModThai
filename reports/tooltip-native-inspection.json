@@ -1,0 +1,89 @@
+{
+  "game_assembly_sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957",
+  "metadata_sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb",
+  "capstone_version": [
+    4,
+    0
+  ],
+  "independently_validated_method_pointers": 65,
+  "methods": [
+    {
+      "name": "TPC.PreferencesPanelVideo::Awake",
+      "token": "60088D5",
+      "address": "0x1809e9020",
+      "end": "0x1809e9311",
+      "decoded_bytes": 753,
+      "unwind_ranges": 1,
+      "partial_decode": false,
+      "instructions": 165,
+      "local_listing": "TPC.PreferencesPanelVideo.Awake.asm.txt"
+    },
+    {
+      "name": "TPC.PreferencesPanelVideo::Show",
+      "token": "60088D6",
+      "address": "0x1809e9320",
+      "end": "0x1809ea434",
+      "decoded_bytes": 4372,
+      "unwind_ranges": 2,
+      "partial_decode": false,
+      "instructions": 909,
+      "local_listing": "TPC.PreferencesPanelVideo.Show.asm.txt"
+    },
+    {
+      "name": "TPC.PreferencesPanelVideo::SyncGUIToCurrentSettings",
+      "token": "60088DE",
+      "address": "0x1809eccc0",
+      "end": "0x1809ee0e5",
+      "decoded_bytes": 5157,
+      "unwind_ranges": 1,
+      "partial_decode": false,
+      "instructions": 1168,
+      "local_listing": "TPC.PreferencesPanelVideo.SyncGUIToCurrentSettings.asm.txt"
+    },
+    {
+      "name": "TPC.PreferencesPanelVideo::RefreshDropDowns",
+      "token": "60088E3",
+      "address": "0x1809ee5d0",
+      "end": "0x1809ef97b",
+      "decoded_bytes": 5035,
+      "unwind_ranges": 3,
+      "partial_decode": false,
+      "instructions": 1064,
+      "local_listing": "TPC.PreferencesPanelVideo.RefreshDropDowns.asm.txt"
+    },
+    {
+      "name": "TPC.TooltipManager::OnUpdate",
+      "token": "6008B19",
+      "address": "0x180b03d90",
+      "end": "0x180b048f8",
+      "decoded_bytes": 2920,
+      "unwind_ranges": 1,
+      "partial_decode": false,
+      "instructions": 598,
+      "local_listing": "TPC.TooltipManager.OnUpdate.asm.txt"
+    },
+    {
+      "name": "TPC.TooltipSpawner::CursorOver",
+      "token": "6008B36",
+      "address": "0x180b077c0",
+      "end": "0x180b08588",
+      "decoded_bytes": 3528,
+      "unwind_ranges": 6,
+      "partial_decode": false,
+      "instructions": 772,
+      "local_listing": "TPC.TooltipSpawner.CursorOver.asm.txt"
+    },
+    {
+      "name": "TPC.TooltipSpawner::CursorOut",
+      "token": "6008B39",
+      "address": "0x180b08d30",
+      "end": "0x180b08d5d",
+      "decoded_bytes": 45,
+      "unwind_ranges": 1,
+      "partial_decode": false,
+      "instructions": 14,
+      "local_listing": "TPC.TooltipSpawner.CursorOut.asm.txt"
+    }
+  ],
+  "limits": "Static native analysis. Full listings and global symbol maps stay local. Chained unwind ranges followed; full byte consumption checked. Shared code addresses may have multiple managed aliases."
+}

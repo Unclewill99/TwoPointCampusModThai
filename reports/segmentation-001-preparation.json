@@ -1,0 +1,24 @@
+{
+  "batch": "SEGMENTATION-001",
+  "records": 2,
+  "proposal_sha256": "883a24a3ff425e8ec16431b031adf9c9943b5750d20d9959a6b783008c7ceddd",
+  "source_map_sha256": "81d596fed3d94cfff34b011fdd5c42e46a7127bf9cfd998759920000b9953fda",
+  "proposed_cut_counts": {
+    "UI/Settings/Tooltips/MSAASamples": 10,
+    "UI/Settings/Tooltips/WorldDetail": 24
+  },
+  "negative_controls_rejected": [
+    "token",
+    "rich_tag",
+    "combining_mark",
+    "leading_vowel",
+    "Latin_run",
+    "source_LF",
+    "duplicate_cut",
+    "source_hash_mismatch"
+  ],
+  "CharacterLimits_identity_control": true,
+  "linguistic_review": "PENDING",
+  "runtime_status": "NOT_RUN",
+  "limits": "Structural protection is not Thai word/compound segmentation approval; original translations untouched."
+}

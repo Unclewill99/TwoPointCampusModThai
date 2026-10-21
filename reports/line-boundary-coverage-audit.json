@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-18",
+  "actual_tooltip_unique_runtime_boundaries": 9,
+  "boundaries": [
+    {
+      "key": "MSAASamples",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 35,
+      "left": "les เพื่อลดรอยหยัก",
+      "right": "หรือลดจำนวนลงเพื่อ"
+    },
+    {
+      "key": "DepthOfField",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 16,
+      "left": "ปิด Depth of Field",
+      "right": "ซึ่งจะทำให้ส่วนใกล"
+    },
+    {
+      "key": "AmbientOcclusionMode",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 20,
+      "left": " Ambient Occlusion",
+      "right": "เพื่อเพิ่มคุณภาพขอ"
+    },
+    {
+      "key": "AmbientOcclusionModeQuality",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 103,
+      "left": "ำให้ภาพดูดีไม่เท่า",
+      "right": "แต่จะช่วยเพิ่มประส"
+    },
+    {
+      "key": "CharacterDrawDistance",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 88,
+      "left": "่ในมุมมองได้ในระยะ",
+      "right": "ไกลขึ้น"
+    },
+    {
+      "key": "AnisoTextures",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 45,
+      "left": "เท็กซ์เจอร์ทั้งหมด",
+      "right": "หรือเลือกเปิดกับบา"
+    },
+    {
+      "key": "TextureQuality",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 81,
+      "left": "มประสิทธิภาพกราฟิก",
+      "right": "โดยเฉพาะหากหน่วยคว"
+    },
+    {
+      "key": "WorldDetail",
+      "evidence": "local/qa/WO-VISUAL-014/retry/2026-10-18/93-observed-rows.json",
+      "offset_ignoring_whitespace": 86,
+      "left": "ะเอียดไว้ในระยะมอง",
+      "right": "ที่ไกลขึ้น"
+    },
+    {
+      "key": "QualityPresets",
+      "evidence": "local/qa/WO-VISUAL-015/93-observed-text.json",
+      "offset_ignoring_whitespace": 147,
+      "left": "พื่อให้ประสิทธิภาพ",
+      "right": "ดีขึ้น"
+    }
+  ],
+  "WO_012": {
+    "reported_boundaries": 5,
+    "distinct_contexts": 2,
+    "offsets": [
+      56,
+      108,
+      164,
+      216,
+      272
+    ],
+    "contexts": [
+      "เข้าศึกษา / ในหลักสูตร",
+      "ประสิทธิภาพ / มหาวิทยาลัย"
+    ]
+  },
+  "next_question": "What runtime boundaries occur in CRP-WRAP-03 at the established bounded width, and do any observed breaks detach a leading vowel or combining sequence?",
+  "new_probe": "probe-016",
+  "runtime_status": "NOT_RUN",
+  "limits": "Transcription/source accounting only, not fresh screenshot inspection or dictionary segmentation. Actual-tooltip offsets omit whitespace; WO-012 offsets count underlying codepoints. Repeated scales/paragraphs do not constitute distinct boundary contexts. New input does not force every target to an edge."
+}

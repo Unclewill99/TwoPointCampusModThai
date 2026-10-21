@@ -1,0 +1,15 @@
+# Controller acceptance — WO-VISUAL-017
+
+Date: 2026-10-18 (Asia/Bangkok). Accept OBSERVED EXPERIMENTAL BENEFIT for the frozen paragraph/container/Medium configuration, with explicit limits. Work order complete. No production ZWSP or release approval.
+
+Controller read the report and proposal review, inspected original 06-B-resolution.jpg, independently verified literal B-minus-U+200B = A = joined observed rows, and checked all four offsets against the proposed-opportunity map. Row lengths 49/51/54/53/30 total 237 underlying codepoints; cuts 49/100/154/207 yield three distinct paragraph-local contexts. All occurrences of เรียน and ทุก were checked against these cuts, including embedded ห้องเรียน: none is cut internally. All report-linked evidence exists. Verification: ../reports/probe-017-controller-review.json.
+
+Observed B boundaries และ / เตรียมตัว, ต้อง / เดินทาง and วิชา / เคมี divide complete units in this sentence. Independent QA found no clearly invalid proposed opportunity; this accepts the proposal only as experimental input. No new bad edge or visible U+200B artifact is established by the supplied capture. The image shows readable complete text and containment, broadly comparable body width/apparent glyph scale to historical A. Height/row count and exact native metrics are not independent runtime measurements. Comparison is against WO-016's historical original A, not a contemporaneous rerun.
+
+These results support the explicitly mapped opportunity intervention as a scoped workaround for the three observed internal splits. They do not establish a dictionary, an automatic segmentation algorithm, a generally safe production transform or complete independence from runtime conditions. WO-012's no-benefit result for another paragraph remains valid. Probe-013's ordinary-Thai/default no-automatic-ZWSP policy and 18/20 actual-tooltip acceptance remain unchanged.
+
+BUG-THAI-002 remains OPEN, with experimental mitigation demonstrated for this one sample. Direct forced edges immediately after a leading vowel or before a combining mark remain NOT_EXERCISED. Fine mark attachment and VOWEL-02 remain unresolved. Do not mark the entire Thai wrapping problem fixed.
+
+Controller independently verified all THREE installed originals, probe-017 retained backups and frozen staged candidates; font/UI match A. Final Medium, normal Quit and current environment are tester evidence; no new Controller game session or persisted-restart claim. No production translation/source/map modification.
+
+Next Controller milestone: define the minimum evidence and implementation constraints for any broader segmentation strategy before selecting another runtime sample. Keep source translations separate from proposed break maps; require literal underlying equality, token/tag/line preservation, independent context review, readable bounded output and multiple representative contexts/widths before considering rollout. No next desktop WO, build or production transformation is assigned by this acceptance; no reason to rerun the same Medium B unchanged.

@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Bangkok",
+  "probe": "probe-013",
+  "milestone": "Naturally reachable actual Settings tooltip scale coverage complete with explicit gaps",
+  "accepted_keys": 18,
+  "total_keys": 20,
+  "accepted_scale_cells": 54,
+  "release_approved": false,
+  "global_layout_approved": false,
+  "production_zwsp": false,
+  "manifest_sha256": "459d7e9ebc2db1cc294c25e48996e0fb8fb59054b05682a98bd6d49ea48e0075",
+  "map_sha256": "81d596fed3d94cfff34b011fdd5c42e46a7127bf9cfd998759920000b9953fda",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "installed_state": "original",
+      "backup_verified": true,
+      "staged_verified": true
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "78f4ef1f44bef0425934522c27542e4df767a4f5bad344528dfbe0b0f4ae6624",
+      "installed_state": "original",
+      "backup_verified": true,
+      "staged_verified": true
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14",
+      "installed_state": "original",
+      "backup_verified": true,
+      "staged_verified": true
+    }
+  ],
+  "coverage": [
+    {
+      "key": "UI/Settings/Tooltips/AmbientOcclusionMode",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/AmbientOcclusionModeQuality",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/AnimationSkinningQuality",
+      "Small": "NOT_RUN/control not exposed",
+      "Medium": "NOT_RUN/control not exposed",
+      "Large": "NOT_RUN/control not exposed"
+    },
+    {
+      "key": "UI/Settings/Tooltips/AnisoTextures",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/AntialiasingMode",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/AntialiasingQuality",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/Bloom",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/CharacterDrawDistance",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/CharacterLimits",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/DepthOfField",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/FullScreenMode",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/MSAASamples",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/MaxFPS",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/QualityPresets",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/RenderScale",
+      "Small": "NOT_RUN/control not exposed",
+      "Medium": "NOT_RUN/control not exposed",
+      "Large": "NOT_RUN/control not exposed"
+    },
+    {
+      "key": "UI/Settings/Tooltips/Resolution",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/ShadowQuality",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/TextureQuality",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/Vsync",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    },
+    {
+      "key": "UI/Settings/Tooltips/WorldDetail",
+      "Small": "SCOPED_PASS",
+      "Medium": "SCOPED_PASS",
+      "Large": "SCOPED_PASS"
+    }
+  ],
+  "evidence": [
+    "docs/PROBE_013_ACCEPTANCE.md",
+    "docs/WO_VISUAL_014_ACCEPTANCE.md",
+    "docs/WO_VISUAL_015_ACCEPTANCE.md"
+  ],
+  "validation_reports": [
+    "reports/probe-013-milestone-tooltip-validation.json",
+    "reports/probe-013-milestone-pilot-validation.json"
+  ],
+  "limits": [
+    "Capture-detail visual approval only",
+    "Two hidden rows remain untested",
+    "50 pilot records in candidate do not imply 50 runtime passes",
+    "Build report and manifest runtime_status remain historical snapshots"
+  ],
+  "next_owner": "Controller",
+  "next_task": "Investigate Thai-specific processing/TMP caption generation; CHECK_VISIBLE accepted for LogLevel Error; no new runtime WO",
+  "vowel_02_preflight": "docs/VOWEL_02_EVIDENCE_PREFLIGHT.md",
+  "boundary_followup_disposition": "docs/PROBE_016_DISPOSITION.md",
+  "segmentation_followup": "docs/PROBE_017_ACCEPTANCE.md",
+  "segmentation_evidence_gate": "docs/SEGMENTATION_EVIDENCE_GATE.md",
+  "segmentation_map_acceptance": "docs/SEGMENTATION_001_ACCEPTANCE.md",
+  "probe_018_acceptance": "docs/PROBE_018_ACCEPTANCE.md"
+}

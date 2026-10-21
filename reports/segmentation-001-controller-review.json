@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-18",
+  "batch": "SEGMENTATION-001",
+  "review_sha256": "fa0e45f13d984835b770d54f52575174f86fd288f5e874afd89308a52c972fb2",
+  "proposal_sha256": "883a24a3ff425e8ec16431b031adf9c9943b5750d20d9959a6b783008c7ceddd",
+  "source_map_sha256": "81d596fed3d94cfff34b011fdd5c42e46a7127bf9cfd998759920000b9953fda",
+  "records": [
+    {
+      "key": "UI/Settings/Tooltips/MSAASamples",
+      "source_sha256": "d4edde11ed83def773bf0e13eef3ac0ff7fe138d625f4fdcc970f06cc7342f27",
+      "reviewed_cut_count": 10,
+      "exact_reviewed_offsets_match": true,
+      "source_LF_offsets": [],
+      "source_space_offsets": [
+        10,
+        15,
+        23,
+        38
+      ],
+      "underlying_literal_equal": true
+    },
+    {
+      "key": "UI/Settings/Tooltips/WorldDetail",
+      "source_sha256": "b2a79d0d559f5a20baa77f9b7de9747684daf59ebf9bd87ceef02c29aa02c480",
+      "reviewed_cut_count": 24,
+      "exact_reviewed_offsets_match": true,
+      "source_LF_offsets": [
+        32,
+        97
+      ],
+      "source_space_offsets": [
+        142,
+        146
+      ],
+      "underlying_literal_equal": true
+    }
+  ],
+  "accepted_reviewed_cuts": 34,
+  "decision": "ACCEPT_EXPERIMENTAL_MAP_UNCHANGED",
+  "optional_cuts_retained": {
+    "MSAASamples": [
+      50
+    ],
+    "WorldDetail": [
+      63
+    ]
+  },
+  "qualifications": [
+    "Whitespace/LF coordinates are ORIGINAL text offsets, not identical indices in marked text after insertions.",
+    "Cluster/Latin guards validate structure, not dictionary support or runtime behavior."
+  ],
+  "runtime_status": "NOT_RUN",
+  "production_ZWSP_approved": false
+}

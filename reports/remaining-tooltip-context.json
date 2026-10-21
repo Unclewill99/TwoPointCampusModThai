@@ -1,0 +1,1132 @@
+{
+  "scope": "Original general UI prefab bundle; recursive serialized string search",
+  "matches": [
+    {
+      "path_id": -5474761821842800935,
+      "type": "MonoBehaviour",
+      "owner_name": "textTitle",
+      "matches": [
+        {
+          "field": "/mTerm",
+          "value": "UI/Settings/Video/QualityPresets"
+        }
+      ],
+      "hierarchy": [
+        {
+          "id": -4307735398850658599,
+          "name": "textTitle",
+          "active": true
+        },
+        {
+          "id": 3042527015133347545,
+          "name": "QualityPresetsTitle",
+          "active": true
+        },
+        {
+          "id": -2354921750532096295,
+          "name": "QualityPresets",
+          "active": true
+        },
+        {
+          "id": -3263269021529702695,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": 8976468724809629401,
+          "name": "Viewport",
+          "active": true
+        },
+        {
+          "id": 1439042265255345881,
+          "name": "ScrollView_Default",
+          "active": true
+        },
+        {
+          "id": -5499102127559049511,
+          "name": "VideoContainer",
+          "active": false
+        },
+        {
+          "id": 5383917838286749401,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": -1589959795486916903,
+          "name": "MenuBG",
+          "active": true
+        },
+        {
+          "id": 765465282962554585,
+          "name": "containerMenu",
+          "active": true
+        },
+        {
+          "id": -7459904525597704487,
+          "name": "UI_General_InGame_P_InGameMenu_Large",
+          "active": true
+        },
+        {
+          "id": -5034580997393973543,
+          "name": "UI_Generic_P_Settings",
+          "active": true
+        }
+      ],
+      "owner_components": [
+        {
+          "id": 1364318099100630745,
+          "type": "RectTransform",
+          "script": null,
+          "fields": [
+            "m_AnchorMax",
+            "m_AnchorMin",
+            "m_AnchoredPosition",
+            "m_Children",
+            "m_Father",
+            "m_GameObject",
+            "m_LocalPosition",
+            "m_LocalRotation",
+            "m_LocalScale",
+            "m_Pivot",
+            "m_SizeDelta"
+          ]
+        },
+        {
+          "id": -3672484511090311463,
+          "type": "CanvasRenderer",
+          "script": null,
+          "fields": [
+            "m_CullTransparentMesh",
+            "m_GameObject"
+          ]
+        },
+        {
+          "id": -6019042307921314087,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 1613053891750720222
+          },
+          "fields": [
+            "checkPaddingRequired",
+            "m_Color",
+            "m_EmojiFallbackSupport",
+            "m_Enabled",
+            "m_GameObject",
+            "m_HorizontalAlignment",
+            "m_IsTextObjectScaleStatic",
+            "m_Maskable",
+            "m_Material",
+            "m_Name",
+            "m_OnCullStateChanged",
+            "m_RaycastPadding",
+            "m_RaycastTarget",
+            "m_Script",
+            "m_StyleSheet",
+            "m_TextStyleHashCode",
+            "m_TextWrappingMode",
+            "m_VertexBufferAutoSizeReduction",
+            "m_VerticalAlignment",
+            "m_baseMaterial",
+            "m_charWidthMaxAdj",
+            "m_characterSpacing",
+            "m_enableAutoSizing",
+            "m_enableExtraPadding",
+            "m_enableKerning",
+            "m_enableVertexGradient",
+            "m_faceColor",
+            "m_fontAsset",
+            "m_fontColor",
+            "m_fontColor32",
+            "m_fontColorGradient",
+            "m_fontColorGradientPreset",
+            "m_fontMaterial",
+            "m_fontMaterials",
+            "m_fontSharedMaterials",
+            "m_fontSize",
+            "m_fontSizeBase",
+            "m_fontSizeMax",
+            "m_fontSizeMin",
+            "m_fontStyle",
+            "m_fontWeight",
+            "m_geometrySortingOrder",
+            "m_hasFontAssetChanged",
+            "m_horizontalMapping",
+            "m_isCullingEnabled",
+            "m_isOrthographic",
+            "m_isRichText",
+            "m_isRightToLeft",
+            "m_isUsingLegacyAnimationComponent",
+            "m_isVolumetricText",
+            "m_lineSpacing",
+            "m_lineSpacingMax",
+            "m_linkedTextComponent",
+            "m_margin",
+            "m_maskOffset",
+            "m_overflowMode",
+            "m_overrideHtmlColors",
+            "m_pageToDisplay",
+            "m_paragraphSpacing",
+            "m_parseCtrlCharacters",
+            "m_sharedMaterial",
+            "m_spriteAsset",
+            "m_text",
+            "m_textAlignment",
+            "m_tintAllSprites",
+            "m_useMaxVisibleDescender",
+            "m_uvLineOffset",
+            "m_verticalMapping",
+            "m_wordSpacing",
+            "m_wordWrappingRatios",
+            "parentLinkedComponent"
+          ]
+        },
+        {
+          "id": -5474761821842800935,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 8819965748685152245
+          },
+          "fields": [
+            "AddSpacesToJoinedLanguages",
+            "AllowLocalizedParameters",
+            "AlwaysForceLocalize",
+            "CorrectAlignmentForRTL",
+            "IgnoreNumbersInRTL",
+            "IgnoreRTL",
+            "LocalizeCallBack",
+            "LocalizeOnAwake",
+            "MaxCharactersInRTL",
+            "PrimaryTermModifier",
+            "SecondaryTermModifier",
+            "TermPrefix",
+            "TermSuffix",
+            "TranslatedObjects",
+            "mGUI_ShowCallback",
+            "mGUI_ShowReferences",
+            "mGUI_ShowTems",
+            "mLocalizeTarget",
+            "mLocalizeTargetName",
+            "mTerm",
+            "mTermSecondary",
+            "m_Enabled",
+            "m_GameObject",
+            "m_Name",
+            "m_Script"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": -5379194925153222951,
+      "type": "GameObject",
+      "owner_name": "RenderScale",
+      "matches": [
+        {
+          "field": "/m_Name",
+          "value": "RenderScale"
+        }
+      ],
+      "hierarchy": [
+        {
+          "id": -5379194925153222951,
+          "name": "RenderScale",
+          "active": false
+        },
+        {
+          "id": 4499189286349012697,
+          "name": "AdvanceSettings",
+          "active": true
+        },
+        {
+          "id": -3263269021529702695,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": 8976468724809629401,
+          "name": "Viewport",
+          "active": true
+        },
+        {
+          "id": 1439042265255345881,
+          "name": "ScrollView_Default",
+          "active": true
+        },
+        {
+          "id": -5499102127559049511,
+          "name": "VideoContainer",
+          "active": false
+        },
+        {
+          "id": 5383917838286749401,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": -1589959795486916903,
+          "name": "MenuBG",
+          "active": true
+        },
+        {
+          "id": 765465282962554585,
+          "name": "containerMenu",
+          "active": true
+        },
+        {
+          "id": -7459904525597704487,
+          "name": "UI_General_InGame_P_InGameMenu_Large",
+          "active": true
+        },
+        {
+          "id": -5034580997393973543,
+          "name": "UI_Generic_P_Settings",
+          "active": true
+        }
+      ],
+      "owner_components": [
+        {
+          "id": 4070967175570423513,
+          "type": "RectTransform",
+          "script": null,
+          "fields": [
+            "m_AnchorMax",
+            "m_AnchorMin",
+            "m_AnchoredPosition",
+            "m_Children",
+            "m_Father",
+            "m_GameObject",
+            "m_LocalPosition",
+            "m_LocalRotation",
+            "m_LocalScale",
+            "m_Pivot",
+            "m_SizeDelta"
+          ]
+        },
+        {
+          "id": -117132813590561063,
+          "type": "CanvasRenderer",
+          "script": null,
+          "fields": [
+            "m_CullTransparentMesh",
+            "m_GameObject"
+          ]
+        },
+        {
+          "id": -1420185857672577319,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "fields": [
+            "m_Color",
+            "m_Enabled",
+            "m_FillAmount",
+            "m_FillCenter",
+            "m_FillClockwise",
+            "m_FillMethod",
+            "m_FillOrigin",
+            "m_GameObject",
+            "m_Maskable",
+            "m_Material",
+            "m_Name",
+            "m_OnCullStateChanged",
+            "m_PixelsPerUnitMultiplier",
+            "m_PreserveAspect",
+            "m_RaycastPadding",
+            "m_RaycastTarget",
+            "m_Script",
+            "m_Sprite",
+            "m_Type",
+            "m_UseSpriteMesh"
+          ]
+        },
+        {
+          "id": -8609264033478443303,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 4650329707858129939
+          },
+          "fields": [
+            "_anchorOffset",
+            "_anchorToMouse",
+            "_anchorTransform",
+            "_hoverTime",
+            "_prefab",
+            "_prefabConsole",
+            "_tooltip",
+            "m_Enabled",
+            "m_GameObject",
+            "m_Name",
+            "m_Script"
+          ]
+        },
+        {
+          "id": -3040034682067976487,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 18794430384396811
+          },
+          "fields": [
+            "m_Enabled",
+            "m_FlexibleHeight",
+            "m_FlexibleWidth",
+            "m_GameObject",
+            "m_IgnoreLayout",
+            "m_LayoutPriority",
+            "m_MinHeight",
+            "m_MinWidth",
+            "m_Name",
+            "m_PreferredHeight",
+            "m_PreferredWidth",
+            "m_Script"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": -2354921750532096295,
+      "type": "GameObject",
+      "owner_name": "QualityPresets",
+      "matches": [
+        {
+          "field": "/m_Name",
+          "value": "QualityPresets"
+        }
+      ],
+      "hierarchy": [
+        {
+          "id": -2354921750532096295,
+          "name": "QualityPresets",
+          "active": true
+        },
+        {
+          "id": -3263269021529702695,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": 8976468724809629401,
+          "name": "Viewport",
+          "active": true
+        },
+        {
+          "id": 1439042265255345881,
+          "name": "ScrollView_Default",
+          "active": true
+        },
+        {
+          "id": -5499102127559049511,
+          "name": "VideoContainer",
+          "active": false
+        },
+        {
+          "id": 5383917838286749401,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": -1589959795486916903,
+          "name": "MenuBG",
+          "active": true
+        },
+        {
+          "id": 765465282962554585,
+          "name": "containerMenu",
+          "active": true
+        },
+        {
+          "id": -7459904525597704487,
+          "name": "UI_General_InGame_P_InGameMenu_Large",
+          "active": true
+        },
+        {
+          "id": -5034580997393973543,
+          "name": "UI_Generic_P_Settings",
+          "active": true
+        }
+      ],
+      "owner_components": [
+        {
+          "id": 6160486604025528025,
+          "type": "RectTransform",
+          "script": null,
+          "fields": [
+            "m_AnchorMax",
+            "m_AnchorMin",
+            "m_AnchoredPosition",
+            "m_Children",
+            "m_Father",
+            "m_GameObject",
+            "m_LocalPosition",
+            "m_LocalRotation",
+            "m_LocalScale",
+            "m_Pivot",
+            "m_SizeDelta"
+          ]
+        },
+        {
+          "id": 5069919124953726681,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 7930261652388906002
+          },
+          "fields": [
+            "_axis",
+            "_defaultMaxHeight",
+            "_defaultMaxWidth",
+            "_defaultMinHeight",
+            "_defaultMinWidth",
+            "_defaultPreferredHeight",
+            "_defaultPreferredWidth",
+            "_horizontalAlignment",
+            "_horizontalResizeMode",
+            "_justifiedSpacing",
+            "_minimumSpacing",
+            "_padding",
+            "_verticalAlignment",
+            "_verticalResizeMode",
+            "m_Enabled",
+            "m_GameObject",
+            "m_Name",
+            "m_Script"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": 3042527015133347545,
+      "type": "GameObject",
+      "owner_name": "QualityPresetsTitle",
+      "matches": [
+        {
+          "field": "/m_Name",
+          "value": "QualityPresetsTitle"
+        }
+      ],
+      "hierarchy": [
+        {
+          "id": 3042527015133347545,
+          "name": "QualityPresetsTitle",
+          "active": true
+        },
+        {
+          "id": -2354921750532096295,
+          "name": "QualityPresets",
+          "active": true
+        },
+        {
+          "id": -3263269021529702695,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": 8976468724809629401,
+          "name": "Viewport",
+          "active": true
+        },
+        {
+          "id": 1439042265255345881,
+          "name": "ScrollView_Default",
+          "active": true
+        },
+        {
+          "id": -5499102127559049511,
+          "name": "VideoContainer",
+          "active": false
+        },
+        {
+          "id": 5383917838286749401,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": -1589959795486916903,
+          "name": "MenuBG",
+          "active": true
+        },
+        {
+          "id": 765465282962554585,
+          "name": "containerMenu",
+          "active": true
+        },
+        {
+          "id": -7459904525597704487,
+          "name": "UI_General_InGame_P_InGameMenu_Large",
+          "active": true
+        },
+        {
+          "id": -5034580997393973543,
+          "name": "UI_Generic_P_Settings",
+          "active": true
+        }
+      ],
+      "owner_components": [
+        {
+          "id": -8950685330014175527,
+          "type": "RectTransform",
+          "script": null,
+          "fields": [
+            "m_AnchorMax",
+            "m_AnchorMin",
+            "m_AnchoredPosition",
+            "m_Children",
+            "m_Father",
+            "m_GameObject",
+            "m_LocalPosition",
+            "m_LocalRotation",
+            "m_LocalScale",
+            "m_Pivot",
+            "m_SizeDelta"
+          ]
+        },
+        {
+          "id": 2743272927280987865,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 3127131477556714315
+          },
+          "fields": [
+            "_allowSecondaryPressAction",
+            "_cursorStyle",
+            "_forceMediumCursorScaling",
+            "_interactable",
+            "_navigateWhenNotEnabled",
+            "_navigateWhenNotInteractable",
+            "_navigation",
+            "_specifiedCursorHighlightTarget",
+            "_targetGraphic",
+            "_textHeader",
+            "_useSpecifiedCursorHighlightTarget",
+            "m_Enabled",
+            "m_GameObject",
+            "m_Name",
+            "m_Script"
+          ]
+        },
+        {
+          "id": 1782369273165414105,
+          "type": "CanvasRenderer",
+          "script": null,
+          "fields": [
+            "m_CullTransparentMesh",
+            "m_GameObject"
+          ]
+        },
+        {
+          "id": 1033366005744238297,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "fields": [
+            "m_Color",
+            "m_Enabled",
+            "m_FillAmount",
+            "m_FillCenter",
+            "m_FillClockwise",
+            "m_FillMethod",
+            "m_FillOrigin",
+            "m_GameObject",
+            "m_Maskable",
+            "m_Material",
+            "m_Name",
+            "m_OnCullStateChanged",
+            "m_PixelsPerUnitMultiplier",
+            "m_PreserveAspect",
+            "m_RaycastPadding",
+            "m_RaycastTarget",
+            "m_Script",
+            "m_Sprite",
+            "m_Type",
+            "m_UseSpriteMesh"
+          ]
+        },
+        {
+          "id": -6377864328134426919,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 18794430384396811
+          },
+          "fields": [
+            "m_Enabled",
+            "m_FlexibleHeight",
+            "m_FlexibleWidth",
+            "m_GameObject",
+            "m_IgnoreLayout",
+            "m_LayoutPriority",
+            "m_MinHeight",
+            "m_MinWidth",
+            "m_Name",
+            "m_PreferredHeight",
+            "m_PreferredWidth",
+            "m_Script"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": 4992759647687966425,
+      "type": "MonoBehaviour",
+      "owner_name": "TextOptionName",
+      "matches": [
+        {
+          "field": "/mTerm",
+          "value": "UI/Settings/Video/RenderScale"
+        }
+      ],
+      "hierarchy": [
+        {
+          "id": 4251287868709240537,
+          "name": "TextOptionName",
+          "active": true
+        },
+        {
+          "id": -4047475682974335271,
+          "name": "ContainerBG",
+          "active": true
+        },
+        {
+          "id": -5379194925153222951,
+          "name": "RenderScale",
+          "active": false
+        },
+        {
+          "id": 4499189286349012697,
+          "name": "AdvanceSettings",
+          "active": true
+        },
+        {
+          "id": -3263269021529702695,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": 8976468724809629401,
+          "name": "Viewport",
+          "active": true
+        },
+        {
+          "id": 1439042265255345881,
+          "name": "ScrollView_Default",
+          "active": true
+        },
+        {
+          "id": -5499102127559049511,
+          "name": "VideoContainer",
+          "active": false
+        },
+        {
+          "id": 5383917838286749401,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": -1589959795486916903,
+          "name": "MenuBG",
+          "active": true
+        },
+        {
+          "id": 765465282962554585,
+          "name": "containerMenu",
+          "active": true
+        },
+        {
+          "id": -7459904525597704487,
+          "name": "UI_General_InGame_P_InGameMenu_Large",
+          "active": true
+        },
+        {
+          "id": -5034580997393973543,
+          "name": "UI_Generic_P_Settings",
+          "active": true
+        }
+      ],
+      "owner_components": [
+        {
+          "id": -4635257175189651751,
+          "type": "RectTransform",
+          "script": null,
+          "fields": [
+            "m_AnchorMax",
+            "m_AnchorMin",
+            "m_AnchoredPosition",
+            "m_Children",
+            "m_Father",
+            "m_GameObject",
+            "m_LocalPosition",
+            "m_LocalRotation",
+            "m_LocalScale",
+            "m_Pivot",
+            "m_SizeDelta"
+          ]
+        },
+        {
+          "id": 2683670957284032217,
+          "type": "CanvasRenderer",
+          "script": null,
+          "fields": [
+            "m_CullTransparentMesh",
+            "m_GameObject"
+          ]
+        },
+        {
+          "id": -792355628131057959,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 1613053891750720222
+          },
+          "fields": [
+            "checkPaddingRequired",
+            "m_Color",
+            "m_EmojiFallbackSupport",
+            "m_Enabled",
+            "m_GameObject",
+            "m_HorizontalAlignment",
+            "m_IsTextObjectScaleStatic",
+            "m_Maskable",
+            "m_Material",
+            "m_Name",
+            "m_OnCullStateChanged",
+            "m_RaycastPadding",
+            "m_RaycastTarget",
+            "m_Script",
+            "m_StyleSheet",
+            "m_TextStyleHashCode",
+            "m_TextWrappingMode",
+            "m_VertexBufferAutoSizeReduction",
+            "m_VerticalAlignment",
+            "m_baseMaterial",
+            "m_charWidthMaxAdj",
+            "m_characterSpacing",
+            "m_enableAutoSizing",
+            "m_enableExtraPadding",
+            "m_enableKerning",
+            "m_enableVertexGradient",
+            "m_faceColor",
+            "m_fontAsset",
+            "m_fontColor",
+            "m_fontColor32",
+            "m_fontColorGradient",
+            "m_fontColorGradientPreset",
+            "m_fontMaterial",
+            "m_fontMaterials",
+            "m_fontSharedMaterials",
+            "m_fontSize",
+            "m_fontSizeBase",
+            "m_fontSizeMax",
+            "m_fontSizeMin",
+            "m_fontStyle",
+            "m_fontWeight",
+            "m_geometrySortingOrder",
+            "m_hasFontAssetChanged",
+            "m_horizontalMapping",
+            "m_isCullingEnabled",
+            "m_isOrthographic",
+            "m_isRichText",
+            "m_isRightToLeft",
+            "m_isUsingLegacyAnimationComponent",
+            "m_isVolumetricText",
+            "m_lineSpacing",
+            "m_lineSpacingMax",
+            "m_linkedTextComponent",
+            "m_margin",
+            "m_maskOffset",
+            "m_overflowMode",
+            "m_overrideHtmlColors",
+            "m_pageToDisplay",
+            "m_paragraphSpacing",
+            "m_parseCtrlCharacters",
+            "m_sharedMaterial",
+            "m_spriteAsset",
+            "m_text",
+            "m_textAlignment",
+            "m_tintAllSprites",
+            "m_useMaxVisibleDescender",
+            "m_uvLineOffset",
+            "m_verticalMapping",
+            "m_wordSpacing",
+            "m_wordWrappingRatios",
+            "parentLinkedComponent"
+          ]
+        },
+        {
+          "id": 4992759647687966425,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 8819965748685152245
+          },
+          "fields": [
+            "AddSpacesToJoinedLanguages",
+            "AllowLocalizedParameters",
+            "AlwaysForceLocalize",
+            "CorrectAlignmentForRTL",
+            "IgnoreNumbersInRTL",
+            "IgnoreRTL",
+            "LocalizeCallBack",
+            "LocalizeOnAwake",
+            "MaxCharactersInRTL",
+            "PrimaryTermModifier",
+            "SecondaryTermModifier",
+            "TermPrefix",
+            "TermSuffix",
+            "TranslatedObjects",
+            "mGUI_ShowCallback",
+            "mGUI_ShowReferences",
+            "mGUI_ShowTems",
+            "mLocalizeTarget",
+            "mLocalizeTargetName",
+            "mTerm",
+            "mTermSecondary",
+            "m_Enabled",
+            "m_GameObject",
+            "m_Name",
+            "m_Script"
+          ]
+        }
+      ]
+    },
+    {
+      "path_id": 8130776820718468825,
+      "type": "MonoBehaviour",
+      "owner_name": "TextOptionName",
+      "matches": [
+        {
+          "field": "/mTerm",
+          "value": "UI/Settings/Video/AnimationSkinningQuality"
+        }
+      ],
+      "hierarchy": [
+        {
+          "id": -3830666109296345383,
+          "name": "TextOptionName",
+          "active": true
+        },
+        {
+          "id": 6333563067682815705,
+          "name": "ContainerBG",
+          "active": true
+        },
+        {
+          "id": -2261707471542190375,
+          "name": "Animation Quality",
+          "active": false
+        },
+        {
+          "id": 4499189286349012697,
+          "name": "AdvanceSettings",
+          "active": true
+        },
+        {
+          "id": -3263269021529702695,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": 8976468724809629401,
+          "name": "Viewport",
+          "active": true
+        },
+        {
+          "id": 1439042265255345881,
+          "name": "ScrollView_Default",
+          "active": true
+        },
+        {
+          "id": -5499102127559049511,
+          "name": "VideoContainer",
+          "active": false
+        },
+        {
+          "id": 5383917838286749401,
+          "name": "Content",
+          "active": true
+        },
+        {
+          "id": -1589959795486916903,
+          "name": "MenuBG",
+          "active": true
+        },
+        {
+          "id": 765465282962554585,
+          "name": "containerMenu",
+          "active": true
+        },
+        {
+          "id": -7459904525597704487,
+          "name": "UI_General_InGame_P_InGameMenu_Large",
+          "active": true
+        },
+        {
+          "id": -5034580997393973543,
+          "name": "UI_Generic_P_Settings",
+          "active": true
+        }
+      ],
+      "owner_components": [
+        {
+          "id": 1971546863887351513,
+          "type": "RectTransform",
+          "script": null,
+          "fields": [
+            "m_AnchorMax",
+            "m_AnchorMin",
+            "m_AnchoredPosition",
+            "m_Children",
+            "m_Father",
+            "m_GameObject",
+            "m_LocalPosition",
+            "m_LocalRotation",
+            "m_LocalScale",
+            "m_Pivot",
+            "m_SizeDelta"
+          ]
+        },
+        {
+          "id": -3191080583135461671,
+          "type": "CanvasRenderer",
+          "script": null,
+          "fields": [
+            "m_CullTransparentMesh",
+            "m_GameObject"
+          ]
+        },
+        {
+          "id": 6358572593659805401,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 1613053891750720222
+          },
+          "fields": [
+            "checkPaddingRequired",
+            "m_Color",
+            "m_EmojiFallbackSupport",
+            "m_Enabled",
+            "m_GameObject",
+            "m_HorizontalAlignment",
+            "m_IsTextObjectScaleStatic",
+            "m_Maskable",
+            "m_Material",
+            "m_Name",
+            "m_OnCullStateChanged",
+            "m_RaycastPadding",
+            "m_RaycastTarget",
+            "m_Script",
+            "m_StyleSheet",
+            "m_TextStyleHashCode",
+            "m_TextWrappingMode",
+            "m_VertexBufferAutoSizeReduction",
+            "m_VerticalAlignment",
+            "m_baseMaterial",
+            "m_charWidthMaxAdj",
+            "m_characterSpacing",
+            "m_enableAutoSizing",
+            "m_enableExtraPadding",
+            "m_enableKerning",
+            "m_enableVertexGradient",
+            "m_faceColor",
+            "m_fontAsset",
+            "m_fontColor",
+            "m_fontColor32",
+            "m_fontColorGradient",
+            "m_fontColorGradientPreset",
+            "m_fontMaterial",
+            "m_fontMaterials",
+            "m_fontSharedMaterials",
+            "m_fontSize",
+            "m_fontSizeBase",
+            "m_fontSizeMax",
+            "m_fontSizeMin",
+            "m_fontStyle",
+            "m_fontWeight",
+            "m_geometrySortingOrder",
+            "m_hasFontAssetChanged",
+            "m_horizontalMapping",
+            "m_isCullingEnabled",
+            "m_isOrthographic",
+            "m_isRichText",
+            "m_isRightToLeft",
+            "m_isUsingLegacyAnimationComponent",
+            "m_isVolumetricText",
+            "m_lineSpacing",
+            "m_lineSpacingMax",
+            "m_linkedTextComponent",
+            "m_margin",
+            "m_maskOffset",
+            "m_overflowMode",
+            "m_overrideHtmlColors",
+            "m_pageToDisplay",
+            "m_paragraphSpacing",
+            "m_parseCtrlCharacters",
+            "m_sharedMaterial",
+            "m_spriteAsset",
+            "m_text",
+            "m_textAlignment",
+            "m_tintAllSprites",
+            "m_useMaxVisibleDescender",
+            "m_uvLineOffset",
+            "m_verticalMapping",
+            "m_wordSpacing",
+            "m_wordWrappingRatios",
+            "parentLinkedComponent"
+          ]
+        },
+        {
+          "id": 8130776820718468825,
+          "type": "MonoBehaviour",
+          "script": {
+            "m_FileID": 1,
+            "m_PathID": 8819965748685152245
+          },
+          "fields": [
+            "AddSpacesToJoinedLanguages",
+            "AllowLocalizedParameters",
+            "AlwaysForceLocalize",
+            "CorrectAlignmentForRTL",
+            "IgnoreNumbersInRTL",
+            "IgnoreRTL",
+            "LocalizeCallBack",
+            "LocalizeOnAwake",
+            "MaxCharactersInRTL",
+            "PrimaryTermModifier",
+            "SecondaryTermModifier",
+            "TermPrefix",
+            "TermSuffix",
+            "TranslatedObjects",
+            "mGUI_ShowCallback",
+            "mGUI_ShowReferences",
+            "mGUI_ShowTems",
+            "mLocalizeTarget",
+            "mLocalizeTargetName",
+            "mTerm",
+            "mTermSecondary",
+            "m_Enabled",
+            "m_GameObject",
+            "m_Name",
+            "m_Script"
+          ]
+        }
+      ]
+    }
+  ],
+  "read_errors": [
+    {
+      "path_id": 820722457322749657,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    }
+  ],
+  "limits": "Static references do not prove runtime activation, visibility conditions or absence elsewhere. No game or asset writes.",
+  "sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d"
+}

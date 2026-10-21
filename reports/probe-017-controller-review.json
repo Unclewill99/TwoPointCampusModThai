@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-18",
+  "probe": "probe-017",
+  "underlying_literal_equal_A": true,
+  "row_lengths": [
+    49,
+    51,
+    54,
+    53,
+    30
+  ],
+  "cuts": [
+    49,
+    100,
+    154,
+    207
+  ],
+  "distinct_paragraph_contexts": 3,
+  "known_word_splits_absent": true,
+  "all_cuts_at_proposed_opportunities": true,
+  "staged_original_backup_hashes_verified": true,
+  "disposition": "ACCEPTED_SCOPED_EXPERIMENTAL_BENEFIT",
+  "comparison": "B versus historical WO-016 A, not contemporaneous rerun",
+  "bug_status": "OPEN; experimental mitigation for one paragraph/container/Medium only",
+  "production_zwsp_approved": false,
+  "release_approved": false
+}

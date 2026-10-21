@@ -1,0 +1,32 @@
+{
+  "probe": "probe-017",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "f4832c361fc21513cd3f598a40a5714f7a8c40df56177b5523a5ad9d1bf61514"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "b8933a120178276ca8246b1494e881ec97a20a7b9b4804b3a16cf080efeb7e14"
+    }
+  ],
+  "baseline_probe": "probe-016",
+  "baseline_manifest_sha256": "7f83ea9073b7088bc3a22872efe87214eb9f29982a1f67c20d0ac85215fcc5a5",
+  "diagnostic_map_sha256": "b6177358db0a28b98076837e7e3e547c54d623dcaae526c5b0ea3ced8204dbf3",
+  "underlying_text_equal": true,
+  "changed_segments": [
+    122
+  ],
+  "font_UI_identical_to_baseline": true,
+  "strategy": "Only 47 proposed U+200B opportunities differ from WO-016 input; frozen font/UI/underlying text.",
+  "limits": "Runtime behavior unknown; no production invisible-character policy, linguistic approval or release."
+}

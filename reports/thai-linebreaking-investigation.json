@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-18",
+  "TMP_path_id": 2671690608638065206,
+  "serialized_config": {
+    "m_TextWrappingMode": 1,
+    "m_wordWrappingRatios": 0.4000000059604645,
+    "m_fontSize": 34.0,
+    "m_enableAutoSizing": 0,
+    "m_characterSpacing": 0.0,
+    "m_wordSpacing": 0.0,
+    "m_lineSpacing": -40.0,
+    "m_margin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.0
+    }
+  },
+  "linebreaking_textassets": [
+    {
+      "path_id": 33,
+      "name": "LineBreaking Leading Characters",
+      "codepoints": 38,
+      "thai_codepoints": 0,
+      "decoded_text_sha256": "62d3f4d5f64aaf885692d2d13a8313f6918e6e4c5aeb3990a43f614652bfd89c"
+    },
+    {
+      "path_id": 34,
+      "name": "LineBreaking Following Characters",
+      "codepoints": 98,
+      "thai_codepoints": 0,
+      "decoded_text_sha256": "3a73e5ffe2510756dd3c2e982fdc1218b4be82c6e21abde88070d6860e1bc8e6"
+    }
+  ],
+  "native_methods": [
+    {
+      "name": "TMPro.TMP_Settings::LoadLinebreakingRules",
+      "token": "60002C6",
+      "address": "0x181fcabe0",
+      "end": "0x181fcae8a",
+      "decoded_bytes": 682,
+      "unwind_ranges": 4,
+      "partial_decode": false,
+      "instructions": 142,
+      "local_listing": "TMPro.TMP_Settings.LoadLinebreakingRules.asm.txt"
+    },
+    {
+      "name": "TMPro.TMP_Text::CalculatePreferredValues",
+      "token": "6000459",
+      "address": "0x181fddd70",
+      "end": "0x181fe20fb",
+      "decoded_bytes": 17291,
+      "unwind_ranges": 2,
+      "partial_decode": false,
+      "instructions": 4101,
+      "local_listing": "TMPro.TMP_Text.CalculatePreferredValues.asm.txt"
+    },
+    {
+      "name": "TMPro.TextMeshProUGUI::GenerateTextMesh",
+      "token": "6000566",
+      "address": "0x183505d40",
+      "end": "0x183519a34",
+      "decoded_bytes": 81139,
+      "unwind_ranges": 5,
+      "partial_decode": true,
+      "instructions": 19326,
+      "local_listing": "TMPro.TextMeshProUGUI.GenerateTextMesh.asm.txt"
+    }
+  ],
+  "native_U200B_branch_examples": [
+    "0x183509750",
+    "0x18350b244",
+    "0x18350ddbb"
+  ],
+  "limits": "Serialized defaults and local static snippets only. GenerateTextMesh listing is partial and includes possible inline table data; not a complete decompilation. No absence-of-dictionary or exact root-cause inference; no asset edits. U+200B references support a test, not proof of runtime behavior."
+}
