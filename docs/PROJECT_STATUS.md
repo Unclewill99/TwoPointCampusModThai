@@ -1,5 +1,19 @@
 # Project status
 
+PAUSED BY USER for tonight (2026-10-22); resume tomorrow 2026-10-23. Latest authority: SESSION_CHECKPOINT_2026-10-22_EVENING.md. Mod005 complete; sara-am A/B diagnostic accepted, atomic ต่ำ still OPEN; installed bundles original. No active QA dispatch or automation.
+
+Latest: sara-am A/B R2 DIAGNOSTIC_RESULT accepted. Both variants reach opening modal; adding mark pair59->42 separates reordered decomposed specimen only. Ordinary atomic ต่ำ unchanged; BUG-THAI-003 OPEN. Three installed originals verified. See SARA_AM_002_AB_R2_ACCEPTANCE.md. Next offline engineering evaluates atomic-text-preserving solution; no unchanged A/B rerun.
+
+Latest sara-am QA: originals control gate reached campus flyover; modal NOT_OBSERVED due 30-second cap, not failed click. Three originals independently confirmed. Revised A/B R2 WO qa/WO_SARA_AM_002_AB_R2.md ready with 60-second natural wait; candidates unchanged, BUG-THAI-003 OPEN. See SARA_AM_003_CONTROL_DISPOSITION.md.
+
+Latest 2026-10-22: staged sara-am diagnostic A/B (probe-sara-am-001a/b), structurally verified; originals installed. Antigravity WO qa/WO_SARA_AM_002_AB.md ready. Static MessageTutorialUI text/font fallback trace found; runtime instance remains to confirm. BUG-THAI-003 OPEN. See SARA_AM_003_EXPERIMENT.md.
+
+Latest font investigation: offline same-embedded-font reference accepted (SARA_AM_001_REFERENCE_ACCEPTANCE.md). Atomic ต่ำ separates correctly in browser reference; game evidence crowds sara-am upper component/tone. BUG-THAI-003 OPEN, root cause and actual modal font binding unresolved. Controller next inspects native TMP handling; no new game run or fix candidate yet.
+
+Latest acceptance (2026-10-22): WO-FRESH-MENU-005-R2 DESTINATION_PASS accepted after direct destination-image review; combined with menu-label PASS, requested Mod correction is complete in fresh-translation-005. Three originals independently confirmed. See FRESH_MENU_005_R2_ACCEPTANCE.md; this supersedes the destination NOT_RUN below. No further unchanged menu retest. Font/wrapping and terminology work remains open.
+
+Latest QA disposition (2026-10-22): fresh-translation-005 main-menu **Mod PASS**, directly verified from Antigravity image. Mod-management destination NOT_RUN/INCONCLUSIVE due wrong-button input and exhausted recovery; overall SETUP_LIMIT. Three originals independently confirmed. See FRESH_MENU_005_DISPOSITION.md. Controller performs no desktop testing per user direction. No automatic repeat test or candidate rebuild.
+
 Updated: 2026-10-22 (Asia/Bangkok)
 Owner: ChatGPT — Project Controller
 
@@ -318,3 +332,7 @@ Main-menu Mod approved by user, replacing ม็อด at UI/Modding/Mods (FRESH
 ## Session checkpoint saved — 2026-10-22
 
 User is stopping for rest. See SESSION_CHECKPOINT_2026-10-22.md for exact resume order, pending Mod menu override, original-game capability gate and local-only inputs. No automation/delegated work started. Fresh manager check confirms all3installed originals. Candidate remains fresh-translation-004; no new build or gameplay during checkpoint.
+
+## Latest staged candidate — fresh-translation-005 (2026-10-22)
+
+User-approved Mod integrated at I2LS_UI / UI/Modding/Mods / segment 964 only. 15,677 records read back exactly; one changed segment; all other TextAsset segments unchanged. Font/UI byte-identical to frozen 004, whose hashes remain unchanged. New candidate staged only, runtime NOT_RUN; no inherited runtime approval. Manager supports 005. See reports/fresh-translation-005-build.json and USER_TEXT_CORRECTIONS.md. Prior smoke resume reached Thai Settings and initial campus modal, paused HUD; staff remained NOT_RUN due tutorial. Originals restored; see qa/WO_FRESH_SMOKE_001_RESUME_REPORT.md.

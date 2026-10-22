@@ -1,0 +1,123 @@
+{
+  "rows": [
+    {
+      "name": "UI_InGame_P_Tutorial_PopupMessage_STUDENT",
+      "controller_id": -6303814355878518946,
+      "text_id": -3043099284152230050,
+      "text_config": {
+        "m_text": "This is where the flavour text lives. This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.",
+        "m_fontAsset": {
+          "m_FileID": 8,
+          "m_PathID": 1456777345258535221
+        },
+        "m_fontSize": 36.0,
+        "m_fontWeight": 400,
+        "m_enableKerning": 1,
+        "m_isRichText": 1
+      }
+    },
+    {
+      "name": "UI_InGame_P_Tutorial_PopupMessage_COURSE",
+      "controller_id": -3010625140017567166,
+      "text_id": 753861944206387778,
+      "text_config": {
+        "m_text": "This is where the flavour text lives. This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.",
+        "m_fontAsset": {
+          "m_FileID": 8,
+          "m_PathID": 1456777345258535221
+        },
+        "m_fontSize": 36.0,
+        "m_fontWeight": 400,
+        "m_enableKerning": 1,
+        "m_isRichText": 1
+      }
+    },
+    {
+      "name": "UI_InGame_P_Tutorial_PopupMessage_BUILDING",
+      "controller_id": 2812551778038206383,
+      "text_id": -7285402104417005649,
+      "text_config": {
+        "m_text": "This is where the flavour text lives. This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.",
+        "m_fontAsset": {
+          "m_FileID": 8,
+          "m_PathID": 1456777345258535221
+        },
+        "m_fontSize": 36.0,
+        "m_fontWeight": 400,
+        "m_enableKerning": 1,
+        "m_isRichText": 1
+      }
+    },
+    {
+      "name": "UI_InGame_P_Tutorial_PopupMessage_MAIN",
+      "controller_id": 4694779218175474965,
+      "text_id": 7894969370473676053,
+      "text_config": {
+        "m_text": "This is where the flavour text lives. This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.",
+        "m_fontAsset": {
+          "m_FileID": 8,
+          "m_PathID": 1456777345258535221
+        },
+        "m_fontSize": 36.0,
+        "m_fontWeight": 400,
+        "m_enableKerning": 1,
+        "m_isRichText": 1
+      }
+    },
+    {
+      "name": "UI_InGame_P_Tutorial_PopupMessage_SKILLS",
+      "controller_id": 6604993198570661265,
+      "text_id": 4360323636215932305,
+      "text_config": {
+        "m_text": "This is where the flavour text lives. This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.",
+        "m_fontAsset": {
+          "m_FileID": 8,
+          "m_PathID": 1456777345258535221
+        },
+        "m_fontSize": 36.0,
+        "m_fontWeight": 400,
+        "m_enableKerning": 1,
+        "m_isRichText": 1
+      }
+    },
+    {
+      "name": "UI_InGame_P_Tutorial_PopupMessage_TEACHER",
+      "controller_id": 7972743105579549673,
+      "text_id": 1680324995547038697,
+      "text_config": {
+        "m_text": "This is where the flavour text lives. This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.This is where the flavour text lives.",
+        "m_fontAsset": {
+          "m_FileID": 8,
+          "m_PathID": 1456777345258535221
+        },
+        "m_fontSize": 36.0,
+        "m_fontWeight": 400,
+        "m_enableKerning": 1,
+        "m_isRichText": 1
+      }
+    }
+  ],
+  "externals": [
+    "archive:/CAB-25c0e59a3002571c1c97be6fd4fdb419/CAB-25c0e59a3002571c1c97be6fd4fdb419",
+    "archive:/CAB-633e4177eaad0ab53c5b008133069c3a/CAB-633e4177eaad0ab53c5b008133069c3a",
+    "archive:/CAB-2cb00c54a5243de6095d86179665eb0e/CAB-2cb00c54a5243de6095d86179665eb0e",
+    "archive:/CAB-8737e9acc5dc61d3e70eb3e3bc0e66f7/CAB-8737e9acc5dc61d3e70eb3e3bc0e66f7",
+    "archive:/CAB-b0a140c29f04e449d31700c826ab9991/CAB-b0a140c29f04e449d31700c826ab9991",
+    "archive:/CAB-99dcfc129d1819947802f066daddd0ef/CAB-99dcfc129d1819947802f066daddd0ef",
+    "archive:/CAB-51fd9b3625006b35ef75b4ca0405e860/CAB-51fd9b3625006b35ef75b4ca0405e860",
+    "archive:/CAB-300dab5b622683535fabfccfdc55ee6f/CAB-300dab5b622683535fabfccfdc55ee6f",
+    "archive:/CAB-3b3264da5f63e5e93397a9409fed808c/CAB-3b3264da5f63e5e93397a9409fed808c",
+    "archive:/CAB-4298b7e63061268e4fdfa7b2d67b8ef7/CAB-4298b7e63061268e4fdfa7b2d67b8ef7",
+    "archive:/CAB-7c07bcb264c43649150c3c453b27902e/CAB-7c07bcb264c43649150c3c453b27902e",
+    "archive:/CAB-abdf5110de7f559a691057a939e50bf4/CAB-abdf5110de7f559a691057a939e50bf4",
+    "archive:/CAB-fd3ce426ba1dafc33521bf5ecf7e3786/CAB-fd3ce426ba1dafc33521bf5ecf7e3786",
+    "archive:/CAB-4e7318485b7293e4df1c920f46f1c87b/CAB-4e7318485b7293e4df1c920f46f1c87b",
+    "archive:/CAB-a48c5c766d4761cac7343cb16e8b86f4/CAB-a48c5c766d4761cac7343cb16e8b86f4",
+    "archive:/CAB-a36365b0e73daa3297a8ba491f49c482/CAB-a36365b0e73daa3297a8ba491f49c482",
+    "archive:/CAB-cdf79ce6da1383c2a7923daa8ab74b76/CAB-cdf79ce6da1383c2a7923daa8ab74b76",
+    "archive:/CAB-5ad4cef43fc6bf6f8bf6dbf6d267b66b/CAB-5ad4cef43fc6bf6f8bf6dbf6d267b66b",
+    "archive:/CAB-ae0886323d3a7f9cb9e3a7959071accc/CAB-ae0886323d3a7f9cb9e3a7959071accc",
+    "archive:/CAB-1a5e00b90bf315a57741ff6d8866b75f/CAB-1a5e00b90bf315a57741ff6d8866b75f",
+    "archive:/CAB-a33c6d2f6171c0b719596ed622b0347a/CAB-a33c6d2f6171c0b719596ed622b0347a"
+  ]
+}

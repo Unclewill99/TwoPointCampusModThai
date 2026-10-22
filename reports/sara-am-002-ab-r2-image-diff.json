@@ -1,0 +1,52 @@
+{
+  "all_specimens": {
+    "changed_pixels": 74,
+    "local_bbox": [
+      117,
+      84,
+      123,
+      102
+    ],
+    "crop": [
+      1780,
+      810,
+      2020,
+      1025
+    ]
+  },
+  "A": {
+    "changed_pixels": 0,
+    "local_bbox": null,
+    "crop": [
+      1780,
+      810,
+      2020,
+      885
+    ]
+  },
+  "B": {
+    "changed_pixels": 74,
+    "local_bbox": [
+      117,
+      9,
+      123,
+      27
+    ],
+    "crop": [
+      1780,
+      885,
+      2020,
+      950
+    ]
+  },
+  "C": {
+    "changed_pixels": 0,
+    "local_bbox": null,
+    "crop": [
+      1780,
+      950,
+      2020,
+      1025
+    ]
+  }
+}

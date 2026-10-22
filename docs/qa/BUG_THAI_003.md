@@ -1,5 +1,13 @@
 # BUG-THAI-003 — ไม้เอกกับนิคหิตของสระอำชนกันใน “ต่ำ”
 
+2026-10-22 A/B R2 accepted: ../SARA_AM_002_AB_R2_ACCEPTANCE.md. Added mark pair59->42 improves only reordered decomposed row; atomic ต่ำ still collides, original-order row unchanged; ถี่ controls unchanged. Diagnostic text reaches actual opening modal. BUG remains OPEN; no production Unicode normalization or fix merge approved.
+
+Static follow-up 002: ../SARA_AM_002_NATIVE_FINDINGS.md establishes missing serialized exact mark pair (nikkhahit glyph59, mai-ek glyph42) despite source-font GPOS support. Atomic sara-am processing remains unknown; no mitigation claimed or installed.
+
+Offline same-font reference accepted 2026-10-22: ../SARA_AM_001_REFERENCE_ACCEPTANCE.md. Browser atomic/reordered case separates marks; existing game evidence crowds them while nearby upper-vowel controls separate. Defect remains OPEN; actual modal binding and runtime decomposition/placement not established. No fix yet.
+
+2026-10-22 static investigation: see ../SARA_AM_001_FINDINGS.md. Embedded font GSUB decomposes sara am, serialized TMP MultipleSubstitution table is empty; hypothesis only, runtime handling and actual modal binding unresolved. No fix or new game reproduction. Details in reports/sara-am-font-audit.json and sara-am-modal-field-search.json.
+
 - Status: OPEN / USER-REPORTED_OBSERVED; Controller inspected supplied image. No root cause or mitigation established.
 - Candidate: community-merge-006, attributed to user's current WO-GAMEPLAY-002 session; not a new Controller runtime run.
 - Context: Freshleigh Meadows opening “วันแรกของการเปิดเรียน” modal, phrase “และความคาดหวังก็... ต่ำต้อย”.

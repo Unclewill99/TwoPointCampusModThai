@@ -1,0 +1,149 @@
+[
+  {
+    "m_Name": "PalanquinDark_Regular",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "8a84852010bbba240ab1f969ca7e7e93",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -8324840845654282218
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1374705391837917507
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8210689273710970011
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7564342437276428003
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7327810475703763076
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3941152381726715680
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": 1456777345258535221,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_Arabic_Dynamic",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "8ea2df6db11572548a2fb4d8b7f4e305",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [],
+    "id": -1239755799206566947,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_TC_Dynamic",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "2f332636b0ebba14984d96df5f18a061",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": 3941152381726715680,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_SC_Dynamic",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "83b2a5403cd25a04e8a4259f9113c860",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": -7327810475703763076,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_KR_Dynamic",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "092b5b00dff1a4646ad3a09a6b8493b6",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": -7564342437276428003,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_TC_LanguageNames",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": -8210689273710970011,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_SC_LanguageNames",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": 1374705391837917507,
+    "thai_count": 0
+  },
+  {
+    "m_Name": "NotoSans_KR_LanguageNames",
+    "m_SourceFontFile": {
+      "m_AssetGUID": "",
+      "m_SubObjectName": "",
+      "m_SubObjectType": ""
+    },
+    "m_FallbackFontAssetTable": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -1239755799206566947
+      }
+    ],
+    "id": -8324840845654282218,
+    "thai_count": 0
+  }
+]

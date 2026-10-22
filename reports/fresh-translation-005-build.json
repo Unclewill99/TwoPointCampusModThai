@@ -1,0 +1,39 @@
+{
+  "probe": "fresh-translation-005",
+  "parent": "fresh-translation-004",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+    }
+  ],
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "records_reloaded": 15677,
+  "changed_records": [
+    [
+      "I2LS_UI",
+      964,
+      "UI/Modding/Mods=ม็อด",
+      "UI/Modding/Mods=Mod"
+    ]
+  ],
+  "override_sha256": "30506337e6c8722173bbd49284230044907a98c5c8b7560ae08e969ea0dd211f",
+  "translated": 12710,
+  "keep_as_source": 2967,
+  "font_ui_identical_to": "fresh-translation-004",
+  "language_review": "PENDING",
+  "scope": "One localization key only. All consumers of UI/Modding/Mods receive Mod; runtime consumer coverage not established. Mod.io and every other record unchanged.",
+  "limits": "No runtime approval inherited. Known shaping, wrapping and terminology issues remain open."
+}

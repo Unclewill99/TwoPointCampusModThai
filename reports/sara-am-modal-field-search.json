@@ -1,0 +1,166 @@
+{
+  "matches": [],
+  "errors": [
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -9128784877999448752,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -7919877001253281789,
+      "error": "Expected to read 676 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -7560309947632993866,
+      "error": "Expected to read 652 bytes, but only read 432 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -6621486222981939469,
+      "error": "Expected to read 500 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -6046999564819884791,
+      "error": "Expected to read 868 bytes, but only read 364 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -5911640298733316337,
+      "error": "Expected to read 652 bytes, but only read 432 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -4625639634270635007,
+      "error": "Expected to read 1020 bytes, but only read 368 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -3870684728872309360,
+      "error": "Expected to read 476 bytes, but only read 336 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -3128200133968916995,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": -2857772696207300564,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 2336835510815903981,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 3241980345206754620,
+      "error": "Expected to read 676 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 3451213645562158416,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 3581993029332381940,
+      "error": "Expected to read 688 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 4990647875225349328,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 7186520264007926373,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 7934477394781464360,
+      "error": "Expected to read 560 bytes, but only read 340 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 8017032182382686311,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 8018975226728848543,
+      "error": "Expected to read 680 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 8446999159096672714,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 8629839648202386389,
+      "error": "Expected to read 688 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 9008168023292752146,
+      "error": "Expected to read 676 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-ingame_assets_all.bundle",
+      "id": 9152590332740161199,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": -5330037964201458777,
+      "error": "Expected to read 676 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": -2816834608854727769,
+      "error": "Expected to read 680 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": -1319874330840595545,
+      "error": "Expected to read 652 bytes, but only read 432 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": -781174403171835815,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": 4070296994839200679,
+      "error": "Expected to read 676 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": 4334127154157912999,
+      "error": "Expected to read 688 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": 8662337671916094375,
+      "error": "Expected to read 676 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-level_assets_all.bundle",
+      "id": 8959821315857974183,
+      "error": "Expected to read 688 bytes, but only read 456 bytes"
+    },
+    {
+      "bundle": "ui-prefabs-general_assets_all.bundle",
+      "id": 820722457322749657,
+      "error": "Expected to read 476 bytes, but only read 352 bytes"
+    }
+  ],
+  "limits": "Static string/field search only; no runtime binding proof."
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "lookup": 0,
+    "type": 1,
+    "input": "uni0E4D",
+    "output": "uni0E4D.narrow"
+  },
+  {
+    "lookup": 5,
+    "type": 2,
+    "input": "uni0E33",
+    "output": [
+      "uni0E4D",
+      "uni0E32"
+    ]
+  },
+  {
+    "lookup": 8,
+    "type": 1,
+    "input": "uni0E48",
+    "output": "uni0E48.small"
+  },
+  {
+    "lookup": 9,
+    "type": 1,
+    "input": "uni0E48",
+    "output": "uni0E48.narrow"
+  },
+  {
+    "lookup": 9,
+    "type": 1,
+    "input": "uni0E4D",
+    "output": "uni0E4D.narrow"
+  }
+]

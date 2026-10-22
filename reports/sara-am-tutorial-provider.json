@@ -1,0 +1,2204 @@
+[
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -6303814355878518946,
+    "go": "UI_InGame_P_Tutorial_PopupMessage_STUDENT",
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -4000111270034776226
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -4634424709979972708
+      },
+      "m_Name": "",
+      "_initialFocus": {
+        "m_FileID": 0,
+        "m_PathID": -3532057393765261474
+      },
+      "_pauseGame": 0,
+      "_enableBackInput": 1,
+      "_buttonClose": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_exclusiveMenuRefs": [],
+      "_ignoreCloseRequestsRefs": [],
+      "_audioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_backgroundStyle": 4,
+      "_fullscreenMenuRequiresPolaroids": 0,
+      "_animator": {
+        "m_FileID": 0,
+        "m_PathID": -4574748408397275298
+      },
+      "_animationTransition": {
+        "Animation": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_showClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hideClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hiddenClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "_inputBlocker": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_continueButton": {
+        "m_FileID": 0,
+        "m_PathID": -3532057393765261474
+      },
+      "_title": {
+        "m_FileID": 0,
+        "m_PathID": 3137798732330196830
+      },
+      "_text": {
+        "m_FileID": 0,
+        "m_PathID": -3043099284152230050
+      },
+      "_iconTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_courseInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -214330300134760610
+      },
+      "_courseInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -6457910862260445346
+      },
+      "_courseIcon": {
+        "m_FileID": 0,
+        "m_PathID": -9198775039582838946
+      },
+      "_courseNameText": {
+        "m_FileID": 0,
+        "m_PathID": 7693195232815112030
+      },
+      "_extraCourses": [
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -5374112297825771682
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -5497025648803750050
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 3426202050795822942
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 7346134227657514846
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -462691539645079714
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -4122496734333411490
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 5451216487144709982
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 2871787085139500894
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 8418304642243845982
+          }
+        }
+      ],
+      "_courseIntakePanel": {
+        "m_FileID": 0,
+        "m_PathID": -3984827586514165922
+      },
+      "_studentIntakeProgressBar": {
+        "m_FileID": 0,
+        "m_PathID": 2987984875516551006
+      },
+      "_studentIntakeText": {
+        "m_FileID": 0,
+        "m_PathID": -2267476446693531810
+      },
+      "_supplementalDescripionBody": {
+        "m_FileID": 0,
+        "m_PathID": 294007991050002270
+      },
+      "_supplementalDescripionText": {
+        "m_FileID": 0,
+        "m_PathID": -9181341640171167906
+      },
+      "_roomInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": 5352051853567287134
+      },
+      "_roomInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -2416967227066327202
+      },
+      "_roomIcon": {
+        "m_FileID": 0,
+        "m_PathID": 1944805665991515998
+      },
+      "_roomNameText": {
+        "m_FileID": 0,
+        "m_PathID": 5013298916679180126
+      },
+      "_requirementsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 5271821622069845854
+      },
+      "_requirementsBody": {
+        "m_FileID": 0,
+        "m_PathID": 3127676216515387230
+      },
+      "_requirementIcon1": {
+        "m_FileID": 0,
+        "m_PathID": -3756703633993670818
+      },
+      "_requirementIcon2": {
+        "m_FileID": 0,
+        "m_PathID": -9105696977311080610
+      },
+      "_requirementText1": {
+        "m_FileID": 0,
+        "m_PathID": -4684141659098554530
+      },
+      "_requirementText2": {
+        "m_FileID": 0,
+        "m_PathID": -2131586787274170530
+      },
+      "_studentResultsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 4307322250265321310
+      },
+      "_studentResultsBody": {
+        "m_FileID": 0,
+        "m_PathID": -4673518072959967394
+      },
+      "_studentResultsContainer": {
+        "m_FileID": 0,
+        "m_PathID": -4673518072959967394
+      },
+      "_studentResultItemPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 4696377824364027550
+      },
+      "_janitorSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -1868430746072096930
+      },
+      "_janitorSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": -325771690231242914
+      },
+      "_teacherSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -244640331497054370
+      },
+      "_teacherSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 1512707070901182302
+      },
+      "_assistantSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_assistantSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textClassList": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textSummary": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "owner_components": [
+      {
+        "id": 2035006465292722014,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -4000111270034776226
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 5334571640846770014
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 4609000790429753182
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": -2807161907515793570,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -4000111270034776226
+          },
+          "m_CullTransparentMesh": true
+        }
+      },
+      {
+        "id": 8697086978340511582,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -4000111270034776226
+          },
+          "m_Enabled": 0,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_Sprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Type": 0,
+          "m_PreserveAspect": 0,
+          "m_FillCenter": 1,
+          "m_FillMethod": 4,
+          "m_FillAmount": 1.0,
+          "m_FillClockwise": 1,
+          "m_FillOrigin": 0,
+          "m_UseSpriteMesh": 0,
+          "m_PixelsPerUnitMultiplier": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -3010625140017567166,
+    "go": "UI_InGame_P_Tutorial_PopupMessage_COURSE",
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -952866449289614782
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -4634424709979972708
+      },
+      "m_Name": "",
+      "_initialFocus": {
+        "m_FileID": 0,
+        "m_PathID": -4673010261247432126
+      },
+      "_pauseGame": 0,
+      "_enableBackInput": 1,
+      "_buttonClose": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_exclusiveMenuRefs": [],
+      "_ignoreCloseRequestsRefs": [],
+      "_audioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_backgroundStyle": 4,
+      "_fullscreenMenuRequiresPolaroids": 0,
+      "_animator": {
+        "m_FileID": 0,
+        "m_PathID": 2462566745162279490
+      },
+      "_animationTransition": {
+        "Animation": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_showClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hideClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hiddenClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "_inputBlocker": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_continueButton": {
+        "m_FileID": 0,
+        "m_PathID": -4673010261247432126
+      },
+      "_title": {
+        "m_FileID": 0,
+        "m_PathID": -7959604091001607614
+      },
+      "_text": {
+        "m_FileID": 0,
+        "m_PathID": 753861944206387778
+      },
+      "_iconTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_courseInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -88610551303804350
+      },
+      "_courseInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": 1391974878961429058
+      },
+      "_courseIcon": {
+        "m_FileID": 0,
+        "m_PathID": -8995694486409549246
+      },
+      "_courseNameText": {
+        "m_FileID": 0,
+        "m_PathID": -59181318590469566
+      },
+      "_extraCourses": [
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -2800047591647385022
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 2479626908540430914
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -4429800838127130046
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 4827366088003381826
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -6618924300143793598
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -9184433642584118718
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 4015797180228069954
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -218038136482272702
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -2028114432372872638
+          }
+        }
+      ],
+      "_courseIntakePanel": {
+        "m_FileID": 0,
+        "m_PathID": 6364595629714008642
+      },
+      "_studentIntakeProgressBar": {
+        "m_FileID": 0,
+        "m_PathID": -6910168000750785982
+      },
+      "_studentIntakeText": {
+        "m_FileID": 0,
+        "m_PathID": -2124171789847467454
+      },
+      "_supplementalDescripionBody": {
+        "m_FileID": 0,
+        "m_PathID": -2701085948972471742
+      },
+      "_supplementalDescripionText": {
+        "m_FileID": 0,
+        "m_PathID": -52798839276344766
+      },
+      "_roomInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -7322284863989454270
+      },
+      "_roomInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -2592515623528076734
+      },
+      "_roomIcon": {
+        "m_FileID": 0,
+        "m_PathID": -4059643525206021566
+      },
+      "_roomNameText": {
+        "m_FileID": 0,
+        "m_PathID": -729213170833790398
+      },
+      "_requirementsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -6877968449138365886
+      },
+      "_requirementsBody": {
+        "m_FileID": 0,
+        "m_PathID": -2597712753913271742
+      },
+      "_requirementIcon1": {
+        "m_FileID": 0,
+        "m_PathID": -6379121838308300222
+      },
+      "_requirementIcon2": {
+        "m_FileID": 0,
+        "m_PathID": -1618491587712947646
+      },
+      "_requirementText1": {
+        "m_FileID": 0,
+        "m_PathID": 8848248733759531586
+      },
+      "_requirementText2": {
+        "m_FileID": 0,
+        "m_PathID": -9028115017614071230
+      },
+      "_studentResultsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 2573604842013157954
+      },
+      "_studentResultsBody": {
+        "m_FileID": 0,
+        "m_PathID": 7305000558334667330
+      },
+      "_studentResultsContainer": {
+        "m_FileID": 0,
+        "m_PathID": 7305000558334667330
+      },
+      "_studentResultItemPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 4696377824364027550
+      },
+      "_janitorSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 1614268363085146690
+      },
+      "_janitorSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 8893886444986460738
+      },
+      "_teacherSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -8893429440190059966
+      },
+      "_teacherSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": -7383537300382127550
+      },
+      "_assistantSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_assistantSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textClassList": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textSummary": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "owner_components": [
+      {
+        "id": -1152733862505649598,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -952866449289614782
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 2755043738062383682
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": -827311080837191102
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": -5174043453716010430,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -952866449289614782
+          },
+          "m_CullTransparentMesh": true
+        }
+      },
+      {
+        "id": -4898610009079190974,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -952866449289614782
+          },
+          "m_Enabled": 0,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_Sprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Type": 0,
+          "m_PreserveAspect": 0,
+          "m_FillCenter": 1,
+          "m_FillMethod": 4,
+          "m_FillAmount": 1.0,
+          "m_FillClockwise": 1,
+          "m_FillOrigin": 0,
+          "m_UseSpriteMesh": 0,
+          "m_PixelsPerUnitMultiplier": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 2812551778038206383,
+    "go": "UI_InGame_P_Tutorial_PopupMessage_BUILDING",
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": -1942142710281711697
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -4634424709979972708
+      },
+      "m_Name": "",
+      "_initialFocus": {
+        "m_FileID": 0,
+        "m_PathID": 6655961595055460271
+      },
+      "_pauseGame": 0,
+      "_enableBackInput": 1,
+      "_buttonClose": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_exclusiveMenuRefs": [],
+      "_ignoreCloseRequestsRefs": [],
+      "_audioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_backgroundStyle": 4,
+      "_fullscreenMenuRequiresPolaroids": 0,
+      "_animator": {
+        "m_FileID": 0,
+        "m_PathID": 6075090887381438383
+      },
+      "_animationTransition": {
+        "Animation": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_showClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hideClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hiddenClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "_inputBlocker": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_continueButton": {
+        "m_FileID": 0,
+        "m_PathID": 6655961595055460271
+      },
+      "_title": {
+        "m_FileID": 0,
+        "m_PathID": 5683935829233848239
+      },
+      "_text": {
+        "m_FileID": 0,
+        "m_PathID": -7285402104417005649
+      },
+      "_iconTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_courseInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": 4456729070566199215
+      },
+      "_courseInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -700855064609140817
+      },
+      "_courseIcon": {
+        "m_FileID": 0,
+        "m_PathID": -4044798679999885393
+      },
+      "_courseNameText": {
+        "m_FileID": 0,
+        "m_PathID": 6519461331063426991
+      },
+      "_extraCourses": [
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -6571448307591786577
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 8611175729926000559
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -4169230360759218257
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 6379587055736606639
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 3571725237141393327
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -157851022291349585
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 7389936608544968623
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 9097435545871339439
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -299207786316214353
+          }
+        }
+      ],
+      "_courseIntakePanel": {
+        "m_FileID": 0,
+        "m_PathID": -7526254379743883345
+      },
+      "_studentIntakeProgressBar": {
+        "m_FileID": 0,
+        "m_PathID": 7256512179873140655
+      },
+      "_studentIntakeText": {
+        "m_FileID": 0,
+        "m_PathID": 4308655528092258223
+      },
+      "_supplementalDescripionBody": {
+        "m_FileID": 0,
+        "m_PathID": -7862497462597824593
+      },
+      "_supplementalDescripionText": {
+        "m_FileID": 0,
+        "m_PathID": -2936983022398976081
+      },
+      "_roomInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -6193028109204762705
+      },
+      "_roomInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -7118381625925414993
+      },
+      "_roomIcon": {
+        "m_FileID": 0,
+        "m_PathID": -83236838129053777
+      },
+      "_roomNameText": {
+        "m_FileID": 0,
+        "m_PathID": -4334180529502597201
+      },
+      "_requirementsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 5552303585378717615
+      },
+      "_requirementsBody": {
+        "m_FileID": 0,
+        "m_PathID": -1012147377029361745
+      },
+      "_requirementIcon1": {
+        "m_FileID": 0,
+        "m_PathID": 5482186481107029935
+      },
+      "_requirementIcon2": {
+        "m_FileID": 0,
+        "m_PathID": -6104896079078797393
+      },
+      "_requirementText1": {
+        "m_FileID": 0,
+        "m_PathID": -7873744555233882193
+      },
+      "_requirementText2": {
+        "m_FileID": 0,
+        "m_PathID": -2981975174475133009
+      },
+      "_studentResultsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -5163621157830963281
+      },
+      "_studentResultsBody": {
+        "m_FileID": 0,
+        "m_PathID": -3880290616456228945
+      },
+      "_studentResultsContainer": {
+        "m_FileID": 0,
+        "m_PathID": -3880290616456228945
+      },
+      "_studentResultItemPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 4696377824364027550
+      },
+      "_janitorSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 5581458161894313903
+      },
+      "_janitorSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": -4965011416368132177
+      },
+      "_teacherSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 6004820303096991663
+      },
+      "_teacherSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 2436763047237013423
+      },
+      "_assistantSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_assistantSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textClassList": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textSummary": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "owner_components": [
+      {
+        "id": 932944316607188911,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -1942142710281711697
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": -2896946331897540689
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": -7899185051141779537
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": 8089677421475352495,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -1942142710281711697
+          },
+          "m_CullTransparentMesh": true
+        }
+      },
+      {
+        "id": 7512279279957200815,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": -1942142710281711697
+          },
+          "m_Enabled": 0,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_Sprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Type": 0,
+          "m_PreserveAspect": 0,
+          "m_FillCenter": 1,
+          "m_FillMethod": 4,
+          "m_FillAmount": 1.0,
+          "m_FillClockwise": 1,
+          "m_FillOrigin": 0,
+          "m_UseSpriteMesh": 0,
+          "m_PixelsPerUnitMultiplier": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 4694779218175474965,
+    "go": "UI_InGame_P_Tutorial_PopupMessage_MAIN",
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 2232009410517220629
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -4634424709979972708
+      },
+      "m_Name": "",
+      "_initialFocus": {
+        "m_FileID": 0,
+        "m_PathID": 3241247323027488021
+      },
+      "_pauseGame": 0,
+      "_enableBackInput": 1,
+      "_buttonClose": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_exclusiveMenuRefs": [],
+      "_ignoreCloseRequestsRefs": [],
+      "_audioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_backgroundStyle": 4,
+      "_fullscreenMenuRequiresPolaroids": 0,
+      "_animator": {
+        "m_FileID": 0,
+        "m_PathID": 865101979756870933
+      },
+      "_animationTransition": {
+        "Animation": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_showClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hideClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hiddenClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "_inputBlocker": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_continueButton": {
+        "m_FileID": 0,
+        "m_PathID": 3241247323027488021
+      },
+      "_title": {
+        "m_FileID": 0,
+        "m_PathID": -2764147110983877355
+      },
+      "_text": {
+        "m_FileID": 0,
+        "m_PathID": 7894969370473676053
+      },
+      "_iconTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_courseInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -566925306971996907
+      },
+      "_courseInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": 2509517251501178133
+      },
+      "_courseIcon": {
+        "m_FileID": 0,
+        "m_PathID": -1939741296024732395
+      },
+      "_courseNameText": {
+        "m_FileID": 0,
+        "m_PathID": 3123750730231397653
+      },
+      "_extraCourses": [
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -627590555460944619
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -1570979362275312363
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 2968240341402729749
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -955133268276527851
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -119792676880106219
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 4890407635093962005
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 6868414054201638165
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -28989430863086315
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -9098146133867873003
+          }
+        }
+      ],
+      "_courseIntakePanel": {
+        "m_FileID": 0,
+        "m_PathID": -3953532682772792043
+      },
+      "_studentIntakeProgressBar": {
+        "m_FileID": 0,
+        "m_PathID": 487826198255910165
+      },
+      "_studentIntakeText": {
+        "m_FileID": 0,
+        "m_PathID": 8930969999870344469
+      },
+      "_supplementalDescripionBody": {
+        "m_FileID": 0,
+        "m_PathID": -628720318475518699
+      },
+      "_supplementalDescripionText": {
+        "m_FileID": 0,
+        "m_PathID": -8492554149403607787
+      },
+      "_roomInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -7321798422566650603
+      },
+      "_roomInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": 7360662284617268501
+      },
+      "_roomIcon": {
+        "m_FileID": 0,
+        "m_PathID": -1823400409515737835
+      },
+      "_roomNameText": {
+        "m_FileID": 0,
+        "m_PathID": -3720230671807988459
+      },
+      "_requirementsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 3748922226721045781
+      },
+      "_requirementsBody": {
+        "m_FileID": 0,
+        "m_PathID": 3785033130225843477
+      },
+      "_requirementIcon1": {
+        "m_FileID": 0,
+        "m_PathID": -8546392502560670443
+      },
+      "_requirementIcon2": {
+        "m_FileID": 0,
+        "m_PathID": -2571342200137630443
+      },
+      "_requirementText1": {
+        "m_FileID": 0,
+        "m_PathID": 1016431664510942485
+      },
+      "_requirementText2": {
+        "m_FileID": 0,
+        "m_PathID": 616100759964630293
+      },
+      "_studentResultsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -501423335751860971
+      },
+      "_studentResultsBody": {
+        "m_FileID": 0,
+        "m_PathID": -954419549148005099
+      },
+      "_studentResultsContainer": {
+        "m_FileID": 0,
+        "m_PathID": -954419549148005099
+      },
+      "_studentResultItemPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 4696377824364027550
+      },
+      "_janitorSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 4849601134131100949
+      },
+      "_janitorSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 4123195088638328085
+      },
+      "_teacherSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 6358448640011746581
+      },
+      "_teacherSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 7536276996977999125
+      },
+      "_assistantSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_assistantSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textClassList": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textSummary": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "owner_components": [
+      {
+        "id": 77681191654341909,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 2232009410517220629
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 8430747903366413589
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 6785026352153246997
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": -6908151527371358955,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 2232009410517220629
+          },
+          "m_CullTransparentMesh": true
+        }
+      },
+      {
+        "id": 1827946190779399445,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 2232009410517220629
+          },
+          "m_Enabled": 0,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_Sprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Type": 0,
+          "m_PreserveAspect": 0,
+          "m_FillCenter": 1,
+          "m_FillMethod": 4,
+          "m_FillAmount": 1.0,
+          "m_FillClockwise": 1,
+          "m_FillOrigin": 0,
+          "m_UseSpriteMesh": 0,
+          "m_PixelsPerUnitMultiplier": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 6604993198570661265,
+    "go": "UI_InGame_P_Tutorial_PopupMessage_SKILLS",
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 8139984159985034641
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -4634424709979972708
+      },
+      "m_Name": "",
+      "_initialFocus": {
+        "m_FileID": 0,
+        "m_PathID": 6905922898463286673
+      },
+      "_pauseGame": 0,
+      "_enableBackInput": 1,
+      "_buttonClose": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_exclusiveMenuRefs": [],
+      "_ignoreCloseRequestsRefs": [],
+      "_audioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_backgroundStyle": 4,
+      "_fullscreenMenuRequiresPolaroids": 0,
+      "_animator": {
+        "m_FileID": 0,
+        "m_PathID": 4975164027782358417
+      },
+      "_animationTransition": {
+        "Animation": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_showClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hideClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hiddenClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "_inputBlocker": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_continueButton": {
+        "m_FileID": 0,
+        "m_PathID": 6905922898463286673
+      },
+      "_title": {
+        "m_FileID": 0,
+        "m_PathID": 8566544745002034577
+      },
+      "_text": {
+        "m_FileID": 0,
+        "m_PathID": 4360323636215932305
+      },
+      "_iconTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_courseInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": -2256886005751421551
+      },
+      "_courseInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": 117914210561942929
+      },
+      "_courseIcon": {
+        "m_FileID": 0,
+        "m_PathID": 5575866507132331409
+      },
+      "_courseNameText": {
+        "m_FileID": 0,
+        "m_PathID": -4382835501706189423
+      },
+      "_extraCourses": [
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 4998401382920742289
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -4053852709880535663
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 443154406267282833
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -8660990951310367343
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 8840460487890953617
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -5850039898962664047
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 8028710046391199121
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 6345881052418598289
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": -5567381805480942191
+          }
+        }
+      ],
+      "_courseIntakePanel": {
+        "m_FileID": 0,
+        "m_PathID": 617032578275141009
+      },
+      "_studentIntakeProgressBar": {
+        "m_FileID": 0,
+        "m_PathID": -41723812520335983
+      },
+      "_studentIntakeText": {
+        "m_FileID": 0,
+        "m_PathID": -4866662175240493679
+      },
+      "_supplementalDescripionBody": {
+        "m_FileID": 0,
+        "m_PathID": -234785484731062895
+      },
+      "_supplementalDescripionText": {
+        "m_FileID": 0,
+        "m_PathID": -9024943542916291183
+      },
+      "_roomInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": 3684332231964026257
+      },
+      "_roomInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": 951833188151125393
+      },
+      "_roomIcon": {
+        "m_FileID": 0,
+        "m_PathID": 377976111935120785
+      },
+      "_roomNameText": {
+        "m_FileID": 0,
+        "m_PathID": 5823119608523908497
+      },
+      "_requirementsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -3353087032818342511
+      },
+      "_requirementsBody": {
+        "m_FileID": 0,
+        "m_PathID": -8829066999771109999
+      },
+      "_requirementIcon1": {
+        "m_FileID": 0,
+        "m_PathID": -739890759631706735
+      },
+      "_requirementIcon2": {
+        "m_FileID": 0,
+        "m_PathID": -5776620292616886895
+      },
+      "_requirementText1": {
+        "m_FileID": 0,
+        "m_PathID": 465233877536204177
+      },
+      "_requirementText2": {
+        "m_FileID": 0,
+        "m_PathID": 8899702254821500305
+      },
+      "_studentResultsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -213580081931819631
+      },
+      "_studentResultsBody": {
+        "m_FileID": 0,
+        "m_PathID": -7497474380056631919
+      },
+      "_studentResultsContainer": {
+        "m_FileID": 0,
+        "m_PathID": -7497474380056631919
+      },
+      "_studentResultItemPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 4696377824364027550
+      },
+      "_janitorSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 4731172979943597457
+      },
+      "_janitorSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 3431668766427964817
+      },
+      "_teacherSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": -7558857111611251311
+      },
+      "_teacherSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 8441228932142654865
+      },
+      "_assistantSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_assistantSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textClassList": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textSummary": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "owner_components": [
+      {
+        "id": -4495134488491006575,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 8139984159985034641
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7789720004584859025
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 6321547797954356625
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": -3438266031619119727,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 8139984159985034641
+          },
+          "m_CullTransparentMesh": true
+        }
+      },
+      {
+        "id": -7323415928025258607,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 8139984159985034641
+          },
+          "m_Enabled": 0,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_Sprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Type": 0,
+          "m_PreserveAspect": 0,
+          "m_FillCenter": 1,
+          "m_FillMethod": 4,
+          "m_FillAmount": 1.0,
+          "m_FillClockwise": 1,
+          "m_FillOrigin": 0,
+          "m_UseSpriteMesh": 0,
+          "m_PixelsPerUnitMultiplier": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 7972743105579549673,
+    "go": "UI_InGame_P_Tutorial_PopupMessage_TEACHER",
+    "tree": {
+      "m_GameObject": {
+        "m_FileID": 0,
+        "m_PathID": 1935983594575004649
+      },
+      "m_Enabled": 1,
+      "m_Script": {
+        "m_FileID": 1,
+        "m_PathID": -4634424709979972708
+      },
+      "m_Name": "",
+      "_initialFocus": {
+        "m_FileID": 0,
+        "m_PathID": 5840444750921761769
+      },
+      "_pauseGame": 0,
+      "_enableBackInput": 1,
+      "_buttonClose": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_exclusiveMenuRefs": [],
+      "_ignoreCloseRequestsRefs": [],
+      "_audioMixerSnapshot": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_backgroundStyle": 4,
+      "_fullscreenMenuRequiresPolaroids": 0,
+      "_animator": {
+        "m_FileID": 0,
+        "m_PathID": -5035026865195416599
+      },
+      "_animationTransition": {
+        "Animation": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_showClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hideClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "_hiddenClip": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "_inputBlocker": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_continueButton": {
+        "m_FileID": 0,
+        "m_PathID": 5840444750921761769
+      },
+      "_title": {
+        "m_FileID": 0,
+        "m_PathID": -6753188348989963287
+      },
+      "_text": {
+        "m_FileID": 0,
+        "m_PathID": 1680324995547038697
+      },
+      "_iconTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_courseInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": 472050092268028905
+      },
+      "_courseInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -2258847590052232215
+      },
+      "_courseIcon": {
+        "m_FileID": 0,
+        "m_PathID": -513916375566220311
+      },
+      "_courseNameText": {
+        "m_FileID": 0,
+        "m_PathID": 7407846360791221225
+      },
+      "_extraCourses": [
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -2119266589022518295
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -7898341450812914711
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 2508702135269622761
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": 1238380117752972265
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": 185750969959875561
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 6607799578965935081
+          }
+        },
+        {
+          "Root": {
+            "m_FileID": 0,
+            "m_PathID": -6303574923637259287
+          },
+          "Icon": {
+            "m_FileID": 0,
+            "m_PathID": -5838334612512078871
+          },
+          "Name": {
+            "m_FileID": 0,
+            "m_PathID": 7334273627392148457
+          }
+        }
+      ],
+      "_courseIntakePanel": {
+        "m_FileID": 0,
+        "m_PathID": -5211961420837649431
+      },
+      "_studentIntakeProgressBar": {
+        "m_FileID": 0,
+        "m_PathID": -3997128486751140887
+      },
+      "_studentIntakeText": {
+        "m_FileID": 0,
+        "m_PathID": 8349749753265947625
+      },
+      "_supplementalDescripionBody": {
+        "m_FileID": 0,
+        "m_PathID": 1650594515347407849
+      },
+      "_supplementalDescripionText": {
+        "m_FileID": 0,
+        "m_PathID": -8338085494060645399
+      },
+      "_roomInfoTitle": {
+        "m_FileID": 0,
+        "m_PathID": 7935508337204036585
+      },
+      "_roomInfoBody": {
+        "m_FileID": 0,
+        "m_PathID": -4296446171474263063
+      },
+      "_roomIcon": {
+        "m_FileID": 0,
+        "m_PathID": -7001769241219529751
+      },
+      "_roomNameText": {
+        "m_FileID": 0,
+        "m_PathID": -560132543462734871
+      },
+      "_requirementsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 4395053282828190697
+      },
+      "_requirementsBody": {
+        "m_FileID": 0,
+        "m_PathID": -70280708798577687
+      },
+      "_requirementIcon1": {
+        "m_FileID": 0,
+        "m_PathID": -6723302304380779543
+      },
+      "_requirementIcon2": {
+        "m_FileID": 0,
+        "m_PathID": 7849976849619977193
+      },
+      "_requirementText1": {
+        "m_FileID": 0,
+        "m_PathID": -8419270463585483799
+      },
+      "_requirementText2": {
+        "m_FileID": 0,
+        "m_PathID": -2251960934131596311
+      },
+      "_studentResultsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 715817272396579817
+      },
+      "_studentResultsBody": {
+        "m_FileID": 0,
+        "m_PathID": 6728507674070189033
+      },
+      "_studentResultsContainer": {
+        "m_FileID": 0,
+        "m_PathID": 6728507674070189033
+      },
+      "_studentResultItemPrefab": {
+        "m_FileID": 0,
+        "m_PathID": 4696377824364027550
+      },
+      "_janitorSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 4563458187138073577
+      },
+      "_janitorSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": -7494986055649426455
+      },
+      "_teacherSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 3732965481828484073
+      },
+      "_teacherSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": -5863206933157608471
+      },
+      "_assistantSkillsTitle": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_assistantSkillsBody": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textClassList": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "_textSummary": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "owner_components": [
+      {
+        "id": -6030785259258280983,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1935983594575004649
+          },
+          "m_LocalRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_LocalPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_LocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_Children": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 7064420319200969705
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 7978508443280704489
+            }
+          ],
+          "m_Father": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_AnchorMin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_AnchorMax": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "m_AnchoredPosition": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_SizeDelta": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": 3140961206884991977,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1935983594575004649
+          },
+          "m_CullTransparentMesh": true
+        }
+      },
+      {
+        "id": 8933189936139174889,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1935983594575004649
+          },
+          "m_Enabled": 0,
+          "m_Script": {
+            "m_FileID": 1,
+            "m_PathID": 2740927278703421599
+          },
+          "m_Name": "",
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "m_RaycastTarget": 1,
+          "m_RaycastPadding": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "m_Maskable": 1,
+          "m_OnCullStateChanged": {
+            "m_PersistentCalls": {
+              "m_Calls": []
+            }
+          },
+          "m_Sprite": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_Type": 0,
+          "m_PreserveAspect": 0,
+          "m_FillCenter": 1,
+          "m_FillMethod": 4,
+          "m_FillAmount": 1.0,
+          "m_FillClockwise": 1,
+          "m_FillOrigin": 0,
+          "m_UseSpriteMesh": 0,
+          "m_PixelsPerUnitMultiplier": 1.0
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "font_sha256": "f9855a702e9899b9cfa1e8cb7cbf36c2c7bb6fe31ee0cd6860ae61ae012155d0",
+  "gpos_mark_to_mark": [
+    {
+      "lookup": 8,
+      "base_mark": 59,
+      "combining_mark": 42,
+      "font_units_base_anchor": [
+        -115,
+        772
+      ],
+      "font_units_mark_anchor": [
+        -86,
+        536
+      ],
+      "tmp_at_point30_base_anchor": [
+        -3.45,
+        23.16
+      ],
+      "tmp_at_point30_mark_anchor": [
+        -2.58,
+        16.08
+      ]
+    }
+  ],
+  "serialized_matching_records": [],
+  "gsub_update_entry": {
+    "address": "180669000",
+    "first_bytes_hex": "c20000cccccccccc",
+    "starts_with_ret": true
+  },
+  "limits": "Static exact-pair omission. Runtime glyph decomposition, modal binding and complete native path unproven. Shared RET entry cannot prove absence of other GSUB paths."
+}

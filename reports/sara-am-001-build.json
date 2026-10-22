@@ -1,0 +1,159 @@
+[
+  {
+    "probe": "probe-sara-am-001a",
+    "parent": "fresh-translation-005",
+    "installed": false,
+    "runtime_status": "NOT_RUN",
+    "files": [
+      {
+        "name": "fonts_assets_all.bundle",
+        "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+        "probe_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+      },
+      {
+        "name": "localisation_assets_localisationenglish.bundle",
+        "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+        "probe_sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+      },
+      {
+        "name": "ui-prefabs-general_assets_all.bundle",
+        "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+        "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      }
+    ],
+    "diagnostic_text": "A: ต่ำ ถี่\nB: ตํ่า ถี่\nC: ต่ํา ถี่",
+    "diagnostic_codepoints": [
+      [
+        "U+0041",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      [
+        "U+0042",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E4D",
+        "U+0E48",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      [
+        "U+0043",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E4D",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ]
+    ],
+    "changed_localization": [
+      [
+        "I2LS_Levels",
+        533
+      ]
+    ],
+    "font_change": "none",
+    "added_record": null,
+    "limits": "DIAGNOSTIC ONLY. Explicit temporary Unicode specimens in one intro record; not production translation. Actual modal binding/runtime effect unproven. No fix approval."
+  },
+  {
+    "probe": "probe-sara-am-001b",
+    "parent": "fresh-translation-005",
+    "installed": false,
+    "runtime_status": "NOT_RUN",
+    "files": [
+      {
+        "name": "fonts_assets_all.bundle",
+        "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+        "probe_sha256": "6cb840337007c4fb7d6807828276ddef1ae51c2b7809e507f90a53b7c243b133"
+      },
+      {
+        "name": "localisation_assets_localisationenglish.bundle",
+        "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+        "probe_sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+      },
+      {
+        "name": "ui-prefabs-general_assets_all.bundle",
+        "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+        "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      }
+    ],
+    "diagnostic_text": "A: ต่ำ ถี่\nB: ตํ่า ถี่\nC: ต่ํา ถี่",
+    "diagnostic_codepoints": [
+      [
+        "U+0041",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      [
+        "U+0042",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E4D",
+        "U+0E48",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      [
+        "U+0043",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E4D",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ]
+    ],
+    "changed_localization": [
+      [
+        "I2LS_Levels",
+        533
+      ]
+    ],
+    "font_change": "One MarkToMark pair 59->42, source GPOS anchors at point30",
+    "added_record": {
+      "m_BaseMarkGlyphID": 59,
+      "m_BaseMarkGlyphAnchorPoint": {
+        "m_XCoordinate": -3.45,
+        "m_YCoordinate": 23.16
+      },
+      "m_CombiningMarkGlyphID": 42,
+      "m_CombiningMarkPositionAdjustment": {
+        "m_XPositionAdjustment": -2.58,
+        "m_YPositionAdjustment": 16.08
+      }
+    },
+    "limits": "DIAGNOSTIC ONLY. Explicit temporary Unicode specimens in one intro record; not production translation. Actual modal binding/runtime effect unproven. No fix approval."
+  }
+]

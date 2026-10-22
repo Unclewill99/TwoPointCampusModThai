@@ -1,0 +1,81 @@
+{
+  "candidate": "fresh-translation-005",
+  "bundle_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+  "sequence": [
+    "U+0E15",
+    "U+0E48",
+    "U+0E33"
+  ],
+  "fonts": [
+    {
+      "path_id": 7716434233879021909,
+      "name": "NotoSansArabic-Regular",
+      "sha256": "f9855a702e9899b9cfa1e8cb7cbf36c2c7bb6fe31ee0cd6860ae61ae012155d0",
+      "characters": {
+        "U+0E15": {
+          "name": "uni0E15",
+          "glyph_id": 118
+        },
+        "U+0E48": {
+          "name": "uni0E48",
+          "glyph_id": 42
+        },
+        "U+0E33": {
+          "name": "uni0E33",
+          "glyph_id": 82
+        },
+        "U+0E4D": {
+          "name": "uni0E4D",
+          "glyph_id": 59
+        },
+        "U+0E32": {
+          "name": "uni0E32",
+          "glyph_id": 78
+        }
+      },
+      "features": {
+        "GSUB": [
+          "aalt",
+          "ccmp",
+          "ccmp",
+          "ccmp",
+          "ccmp",
+          "liga",
+          "locl",
+          "locl",
+          "ordn",
+          "ss01"
+        ],
+        "GPOS": [
+          "dist",
+          "kern",
+          "kern",
+          "kern",
+          "mark",
+          "mkmk"
+        ]
+      }
+    }
+  ],
+  "tmp": [
+    {
+      "path_id": -1239755799206566947,
+      "name": "NotoSans_Arabic_Dynamic",
+      "source": {
+        "m_AssetGUID": "8ea2df6db11572548a2fb4d8b7f4e305",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "fallbacks": [],
+      "feature_counts": {
+        "m_MultipleSubstitutionRecords": 0,
+        "m_LigatureSubstitutionRecords": 9,
+        "m_GlyphPairAdjustmentRecords": 1734,
+        "m_MarkToBaseAdjustmentRecords": 1677,
+        "m_MarkToMarkAdjustmentRecords": 357
+      }
+    }
+  ],
+  "limits": "Serialized records only. No runtime consumption, actual modal font binding, GSUB application or root cause established. No text or glyph modifications.",
+  "full_records_local": "local/review/sara-am-001/font-audit-full.json"
+}

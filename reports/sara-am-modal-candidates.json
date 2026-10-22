@@ -1,0 +1,507 @@
+[
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -7388604820549879370,
+    "name": "UI_InGame_P_Messages_Inbox_MessageInfo_Challenge_StaffMission_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7638127506473502282
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 551742976973584822
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 7892798502980663734
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -5846063889639753290
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -8490877986695497290
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -2207032500322715210
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -4572475279648410994,
+    "name": "UI_InGame_P_Messages_Inbox_DLC3_MessageInfo_Challenge_Emergency_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 237140016351294094
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 8990812450298933902
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1232035739899998862
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 5071087615644021390
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -6611043674572770674
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 5486534732687422094
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -3992416316616275260,
+    "name": "UI_InGame_P_Messages_Inbox_MessageInfo_Challenge_Invaders_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -8325376098735551804
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1277728501114271036
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -8403555880278684988
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -5286512330638423356
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -6598008460920288572
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -2814546296950682940
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -801256082889979264,
+    "name": "UI_InGame_P_Messages_Inbox_MessageInfo_Challenge_StaffMission_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -6937653485170537856
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1242398447995374208
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -5359844860963730816
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 4317773675598170752
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7629182801653806464
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 5481331650897169024
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -300552200888469066,
+    "name": "UI_InGame_P_Messages_Inbox_MessageInfo_Challenge_Disaster_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1075680885884405322
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -3579416092347352650
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7740730732746327626
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 7053527582285806006
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -2865267848121239114
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 6906624166410107318
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": -274287797212858890,
+    "name": "UI_InGame_P_Messages_Inbox_MessageInfo_Challenge_Disaster_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 645087103982384630
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 43015598813689334
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -8884884249186847242
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 256766723861460470
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 3438762996284274166
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1692976861691824650
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 1882203133342109197,
+    "name": "textDemandsIntro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2854984621991120397
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -4644018334918586867
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1071430771677868531
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -5346048094262407667
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 3398576503816370614,
+    "name": "textDemandsIntro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 763217447742126518
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -6381309126876808778
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1062461769506637386
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 3440451496191441334
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 7034922412119865782,
+    "name": "UI_InGame_P_Messages_Inbox_MessageInfo_Challenge_Invaders_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 539805174782474678
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -6681204813564954186
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7667348324879189578
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1604810020944889418
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 2782879125922822582
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -5036733123498231370
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs-ingame_assets_all.bundle",
+    "id": 8149804266695408054,
+    "name": "UI_InGame_P_Messages_Inbox_DLC3_MessageInfo_Challenge_Emergency_Intro",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -6490255862252127818
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -1298096255102174794
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -2826370232274994762
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -3152380980558841418
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 7210162621780965814
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1414942033088199094
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs_assets_all.bundle",
+    "id": 2304635696623561803,
+    "name": "WelcomeOutline",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1466651413155654731
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 8673944252911561803
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7351601207921890229
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs_assets_all.bundle",
+    "id": 4438841632657878091,
+    "name": "textWelcomeBack",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 5758290454114708555
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 1527879043537415243
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -5777255490318455733
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 8550344320320842827
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 6730788083728165963
+        }
+      }
+    ]
+  },
+  {
+    "bundle": "ui-prefabs_assets_all.bundle",
+    "id": 7631370019681840203,
+    "name": "WelcomeContainer",
+    "components": [
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7308387928173335477
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 6521538577527254091
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 954027008031042635
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": 3913404332619770955
+        }
+      },
+      {
+        "component": {
+          "m_FileID": 0,
+          "m_PathID": -7348927767348663221
+        }
+      }
+    ]
+  }
+]

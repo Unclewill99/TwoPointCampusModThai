@@ -10,7 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 game=ROOT.parent/'TPC_Data/StreamingAssets/aa/StandaloneWindows64'
 parser=argparse.ArgumentParser()
 parser.add_argument('action',choices=['check','install','restore'],default='check',nargs='?')
-parser.add_argument('--probe', choices=['probe-001','probe-002','probe-003','probe-004','probe-005-control','probe-005a','probe-005b','probe-007-short','probe-007-long','probe-008','probe-009','probe-010','probe-011','probe-012a','probe-012b','probe-013','probe-016','probe-017','probe-018-800a','probe-018-800b','probe-018-600a','probe-018-600b','community-merge-002','community-merge-003','community-merge-004','community-merge-005','community-merge-006','fresh-translation-002','fresh-translation-003','fresh-translation-004'], default='probe-001')
+parser.add_argument('--probe', choices=['probe-001','probe-002','probe-003','probe-004','probe-005-control','probe-005a','probe-005b','probe-007-short','probe-007-long','probe-008','probe-009','probe-010','probe-011','probe-012a','probe-012b','probe-013','probe-016','probe-017','probe-018-800a','probe-018-800b','probe-018-600a','probe-018-600b','community-merge-002','community-merge-003','community-merge-004','community-merge-005','community-merge-006','fresh-translation-002','fresh-translation-003','fresh-translation-004','fresh-translation-005','probe-sara-am-001a','probe-sara-am-001b'], default='probe-001')
 args=parser.parse_args()
 probe=ROOT/'local/prototype'/args.probe
 backup=ROOT/'local/backups'/args.probe

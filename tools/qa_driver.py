@@ -41,6 +41,9 @@ class INPUT(ctypes.Structure):
     _anonymous_ = ('_i',)
     _fields_ = [('type', wintypes.DWORD), ('_i', _I)]
 
+u.SendInput.argtypes = [wintypes.UINT, ctypes.POINTER(INPUT), ctypes.c_int]
+u.SendInput.restype = wintypes.UINT
+
 MOUSEEVENTF_MOVE = 0x0001
 MOUSEEVENTF_LEFTDOWN = 0x0002
 MOUSEEVENTF_LEFTUP = 0x0004
@@ -67,7 +70,12 @@ def send_mouse_event(flags, dx=0, dy=0, data=0):
     inp.mi.dy = int(dy)
     inp.mi.mouseData = int(data)
     inp.mi.dwFlags = flags
-    u.SendInput(1, ctypes.byref(inp), ctypes.sizeof(INPUT))
+    sent = u.SendInput(1, ctypes.byref(inp), ctypes.sizeof(INPUT))
+    if sent != 1:
+        raise RuntimeError(
+            f'SendInput accepted {sent}/1 events; input outcome uncertain. '
+            'Stop and reobserve; do not automatically repeat the click.'
+        )
 
 def move_mouse(x, y):
     set_desktop()

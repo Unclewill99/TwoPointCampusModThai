@@ -1,0 +1,7 @@
+# Sara am — controlled experiment staged
+
+2026-10-22. Metadata fields identify TPC.MessageTutorialUI with course name/intake and inherited _text. Six serialized tutorial popup providers found; MAIN controller4694779218175474965 points _text to TMP7894969370473676053. All six use PalanquinDark_Regular1456777345258535221 through external8, resolved CAB matches 005 font bundle. Root has Thai fallback NotoSans_Arabic_Dynamic (-1239755799206566947); static initial kerning enabled, rich text enabled, size36. Runtime chosen popup/fallback still not proven. Evidence reports/sara-am-tutorial-provider.json, sara-am-tutorial-text.json, sara-am-tutorial-font-chain.json, sara-am-modal-metadata.json.
+
+Staged probe-sara-am-001a/b with tools/build_sara_am_001.py, reports/sara-am-001-build.json. Same single diagnostic intro record in both; only b adds missing exact mark pair (59,42), anchors from source GPOS. Reload validated all localisation segments unchanged except I2LS_Levels533, diagnostic codepoints exact. Font target reloaded with one added record; all other target fields restored equal baseline after removing it. Raw object byte comparison between a/b font bundles changed only target TMP object -1239755799206566947. Both installed-file checks original/original/original. Frozen 005 hashes unchanged. No install or UI control.
+
+Runtime WO qa/WO_SARA_AM_002_AB.md ready for Antigravity. Diagnostic specimens are explicit temporary experiment, not production Unicode normalization. BUG-THAI-003 OPEN; no mitigation established yet.
