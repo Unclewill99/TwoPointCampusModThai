@@ -1,0 +1,50 @@
+{
+  "candidate": "news-thai-001",
+  "files": [
+    {
+      "name": "GameAssembly.dll",
+      "original_sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957",
+      "probe_sha256": "1de9cb33b2cd82cf1c570dfbd90970ee771607ca59cd23c681dafeb8e4603c55"
+    }
+  ],
+  "banner": "D:\\SteamLibrary\\steamapps\\common\\Two Point Campus\\ThaiCampusMod\\local\\review\\news-thai-001\\discord-banner-thai.png",
+  "banner_sha256": "602fec3bc1a3d54f94ff4a5b7cb9f07e907ba38b82afc409bf2ef164d71d4ab0",
+  "patches": [
+    {
+      "kind": "body",
+      "rva": "0xaa5bed",
+      "original_hex": "ff9018050000",
+      "patched_hex": "e80e74571290",
+      "stub_rva": "0x1301d000",
+      "stub_code_size": 7186
+    },
+    {
+      "kind": "button",
+      "rva": "0xaa5c4b",
+      "original_hex": "ff9018050000",
+      "patched_hex": "e8b09a571290",
+      "stub_rva": "0x1301f700",
+      "stub_code_size": 565
+    },
+    {
+      "kind": "image",
+      "rva": "0xaa63c5",
+      "original_hex": "488b53584533c0",
+      "patched_hex": "e8b69557129090",
+      "stub_rva": "0x1301f980",
+      "stub_code_size": 177
+    }
+  ],
+  "new_section_rva": "0x1301d000",
+  "il2cpp_string_new_rva": "0xbda09d1",
+  "exception_entries_added": 3,
+  "original_exception_entries_preserved": 279611,
+  "match_policy": "Exact full body or exact card title; unmatched content passes through",
+  "action_urls": "UNCHANGED",
+  "runtime": "NOT_TESTED",
+  "translations": {
+    "discord": "มาร่วมชุมชน Discord ของเรา เพื่อแบ่งปันภาพหน้าจอ เรื่องราว และอีกมากมาย บางครั้งอาจมีแอบหลุดข้อมูลเกมให้รู้ก่อนใครด้วย…",
+    "museum": "จัดแสดงและบริหารพิพิธภัณฑ์สุดน่าทึ่ง! ออกสำรวจค้นหาวัตถุจัดแสดง ออกแบบและปรับผังให้ลงตัว ดูแลพนักงานให้มีความสุข ผู้เข้าชมให้สนุก เงินบริจาคให้ไหลมา… และอย่าให้เด็ก ๆ ปีนของจัดแสดง!",
+    "button": "ดูเพิ่มเติม"
+  }
+}

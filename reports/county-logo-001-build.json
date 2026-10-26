@@ -1,0 +1,20 @@
+{
+  "candidate": "county-logo-001",
+  "text": "TWO POINT / เคาน์ตี",
+  "source_sha256": "0b67abaa69827e1b06788518fb865e3499b6b35d76de075fa4d5dd345237df2e",
+  "runtime": "NOT_TESTED",
+  "files": [
+    {
+      "name": "ui-art-mainmenu_assets_all.bundle",
+      "original_sha256": "c068b637bc1418c947eff126f3632af729cec2fa22d5a3f5e531d160ca28a2f1",
+      "probe_sha256": "d1d2475bbdcb7fba267994a9e80ec5a406388a2f68000cd42862f9232d7f4218",
+      "changed_object": -3724424202125531811,
+      "all_other_objects_identical": true,
+      "decoded_pixels_match_expected": true,
+      "size": [
+        512,
+        186
+      ]
+    }
+  ]
+}

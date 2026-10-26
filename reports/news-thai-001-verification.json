@@ -1,0 +1,68 @@
+{
+  "binary_isolation": "PASS",
+  "allowed_changed_ranges_in_original_file": [
+    [
+      222,
+      2
+    ],
+    [
+      244,
+      4
+    ],
+    [
+      296,
+      4
+    ],
+    [
+      304,
+      4
+    ],
+    [
+      376,
+      8
+    ],
+    [
+      1160,
+      40
+    ],
+    [
+      11159021,
+      6
+    ],
+    [
+      11159115,
+      6
+    ],
+    [
+      11161029,
+      7
+    ]
+  ],
+  "original_section_headers_unchanged": true,
+  "original_exception_entries_preserved": 279611,
+  "added_exception_entries": 3,
+  "aslr": "RIP-relative code/data and relative calls; no fixed image pointers added",
+  "runtime": "PASS_SCOPED: both cards, image replacement, page switch, normal exit",
+  "screenshots": [
+    {
+      "path": "local\\qa\\news-thai-001\\01-museum.png",
+      "sha256": "aa3dcba4bb515ca6827d4b4e4b612ef033ab77b6273468d5b194e0e98fc0a3f8"
+    },
+    {
+      "path": "local\\qa\\news-thai-001\\02-discord.png",
+      "sha256": "035efa916b1524351ab9b1d7b6932c644d0bd112525e0cfeb48e495338babab2"
+    }
+  ],
+  "restore_original_hash_verified": true,
+  "final_installed_sha256": "1de9cb33b2cd82cf1c570dfbd90970ee771607ca59cd23c681dafeb8e4603c55",
+  "save_snapshot": "local\\backups\\gameplay-save-snapshots\\20261026T122705661793Z.json",
+  "existing_save_files_changed": [],
+  "existing_save_files_missing": [],
+  "limits": [
+    "Current game binary only",
+    "Current two card messages only",
+    "No campus/gameplay trial",
+    "Other UI scales not tested",
+    "External action buttons not clicked; action URLs left untouched"
+  ]
+}

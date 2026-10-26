@@ -1,0 +1,47 @@
+{
+  "candidate": "thai-logo-001",
+  "source_sha256": "89e788f1567f352b21d8a0036eefc03fba2a01f3cf8a3d6c9d8605e5a0c4edb8",
+  "text": "TWO POINT / แคมปัส",
+  "files": [
+    {
+      "name": "ui-tpc-logos_assets_all.bundle",
+      "original_sha256": "e9f6c4d377cdd46202fd4ee4b1d6a58d45f66190a7fd46c90f50722ca4d1b1ff",
+      "probe_sha256": "13d9544436e87b854ae1a8b3fa4c402e6adef11a7ec53e407d673e3aa821cb2a",
+      "changed_object": 5170340876847722712,
+      "regions_top_left": [
+        [
+          0,
+          0,
+          512,
+          186
+        ]
+      ],
+      "all_other_objects_identical": true,
+      "decoded_pixels_match_expected": true
+    },
+    {
+      "name": "ui-frontend-art_assets_all.bundle",
+      "original_sha256": "91e210fd2636eeb754cd059d9c0f08138a25c548be431e33f81ffbd0644ddbe2",
+      "probe_sha256": "e1e959817882d9c50fce9dd019f16e049ea64d64a0ceaa609e8bada46ab904c0",
+      "changed_object": -3387433540026353637,
+      "regions_top_left": [
+        [
+          1,
+          1,
+          1162,
+          422
+        ],
+        [
+          1,
+          1815,
+          512,
+          186
+        ]
+      ],
+      "all_other_objects_identical": true,
+      "decoded_pixels_match_expected": true
+    }
+  ],
+  "runtime": "NOT_TESTED",
+  "seasonal_logos": "UNCHANGED"
+}
