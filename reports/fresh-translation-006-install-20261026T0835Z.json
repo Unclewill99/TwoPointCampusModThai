@@ -1,0 +1,49 @@
+{
+  "action": "USER_AUTHORIZED_PERSISTENT_INSTALL",
+  "candidate": "fresh-translation-006",
+  "time_utc": "2026-10-26T08:36:08.834172+00:00",
+  "initial_game_closed": true,
+  "initial_check": [
+    "original",
+    "original",
+    "original"
+  ],
+  "save_backup": "local/backups/gameplay-save-snapshots/20261026T083508277171Z.zip",
+  "save_backup_verified": true,
+  "save_files": 11,
+  "install_result": [
+    "probe",
+    "probe",
+    "probe"
+  ],
+  "final_check": [
+    "probe",
+    "probe",
+    "probe"
+  ],
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "installed_sha256": "0d1f3dfe9a88f0be453023c96a4753b5d50990a6bda2ff0613d5375bd3385274",
+      "original_backup_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "state": "probe"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "installed_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a",
+      "original_backup_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "state": "probe"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "installed_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "original_backup_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "state": "probe"
+    }
+  ],
+  "steam_launch_count": 1,
+  "game_window_verified": 1511780,
+  "game_left_running": true,
+  "restored": false,
+  "limits": "No additional runtime regression performed; candidate remains installed by explicit user instruction."
+}

@@ -1,0 +1,206 @@
+{
+  "label": "VERIFIED",
+  "input": "local\\prototype\\fresh-translation-005\\fonts_assets_all.bundle",
+  "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+  "tmp": {
+    "path_id": -1239755799206566947,
+    "configuration": {
+      "m_AtlasPopulationMode": 1,
+      "m_AtlasWidth": 512,
+      "m_AtlasHeight": 512,
+      "m_AtlasPadding": 3,
+      "m_AtlasRenderMode": 4165,
+      "m_IsMultiAtlasTexturesEnabled": 0,
+      "m_SourceFontFile": {
+        "m_AssetGUID": "8ea2df6db11572548a2fb4d8b7f4e305",
+        "m_SubObjectName": "",
+        "m_SubObjectType": ""
+      },
+      "m_fontFile": null,
+      "m_FaceInfo": {
+        "m_FaceIndex": 0,
+        "m_FamilyName": "Noto Sans Arabic",
+        "m_StyleName": "Regular",
+        "m_PointSize": 30,
+        "m_Scale": 1.0,
+        "m_LineHeight": 63.36000061035156,
+        "m_AscentLine": 41.220001220703125,
+        "m_CapLine": 0.0,
+        "m_MeanLine": 0.0,
+        "m_Baseline": 0.0,
+        "m_DescentLine": -22.14000129699707,
+        "m_SuperscriptOffset": 41.220001220703125,
+        "m_SuperscriptSize": 0.5,
+        "m_SubscriptOffset": -22.14000129699707,
+        "m_SubscriptSize": 0.5,
+        "m_UnderlineOffset": -3.750000238418579,
+        "m_UnderlineThickness": 1.5,
+        "m_StrikethroughOffset": 0.0,
+        "m_StrikethroughThickness": 1.5,
+        "m_TabWidth": 8.0
+      },
+      "m_ShouldReimportFontFeatures": 0
+    },
+    "glyph_count": 0,
+    "character_count": 0
+  },
+  "pairs_42_82": [],
+  "mark_to_base_118_42": [
+    {
+      "m_BaseGlyphID": 118,
+      "m_BaseGlyphAnchorPoint": {
+        "m_XCoordinate": 16.440000534057617,
+        "m_YCoordinate": 16.079999923706055
+      },
+      "m_MarkGlyphID": 42,
+      "m_MarkPositionAdjustment": {
+        "m_XPositionAdjustment": -2.5799999237060547,
+        "m_YPositionAdjustment": 16.079999923706055
+      }
+    }
+  ],
+  "mark_to_mark_82_42": [],
+  "font": {
+    "sha256": "f9855a702e9899b9cfa1e8cb7cbf36c2c7bb6fe31ee0cd6860ae61ae012155d0",
+    "units_per_em": 1000,
+    "glyph_count": 459,
+    "glyphs": {
+      "U+0E15": {
+        "gid": 118,
+        "name": "uni0E15",
+        "bounds": [
+          60,
+          -10,
+          564,
+          558
+        ],
+        "advance": 641,
+        "components": []
+      },
+      "U+0E16": {
+        "gid": 113,
+        "name": "uni0E16",
+        "bounds": [
+          63,
+          -10,
+          531,
+          559
+        ],
+        "advance": 609,
+        "components": []
+      },
+      "U+0E17": {
+        "gid": 109,
+        "name": "uni0E17",
+        "bounds": [
+          82,
+          0,
+          542,
+          558
+        ],
+        "advance": 619,
+        "components": []
+      },
+      "U+0E1B": {
+        "gid": 72,
+        "name": "uni0E1B",
+        "bounds": [
+          78,
+          -11,
+          535,
+          745
+        ],
+        "advance": 614,
+        "components": []
+      },
+      "U+0E1D": {
+        "gid": 15,
+        "name": "uni0E1D",
+        "bounds": [
+          83,
+          0,
+          573,
+          745
+        ],
+        "advance": 661,
+        "components": []
+      },
+      "U+0E1F": {
+        "gid": 16,
+        "name": "uni0E1F",
+        "bounds": [
+          38,
+          0,
+          675,
+          745
+        ],
+        "advance": 693,
+        "components": []
+      },
+      "U+0E33": {
+        "gid": 82,
+        "name": "uni0E33",
+        "bounds": [
+          -279,
+          0,
+          337,
+          794
+        ],
+        "advance": 415,
+        "components": [
+          "uni0E32",
+          "uni0E4D"
+        ]
+      },
+      "U+0E48": {
+        "gid": 42,
+        "name": "uni0E48",
+        "bounds": [
+          -191,
+          632,
+          -89,
+          847
+        ],
+        "advance": 0,
+        "components": []
+      },
+      "U+0E49": {
+        "gid": 47,
+        "name": "uni0E49",
+        "bounds": [
+          -374,
+          631,
+          -57,
+          843
+        ],
+        "advance": 0,
+        "components": []
+      },
+      "U+0E4A": {
+        "gid": 50,
+        "name": "uni0E4A",
+        "bounds": [
+          -430,
+          627,
+          -36,
+          841
+        ],
+        "advance": 0,
+        "components": []
+      },
+      "U+0E4B": {
+        "gid": 39,
+        "name": "uni0E4B",
+        "bounds": [
+          -319,
+          632,
+          -82,
+          847
+        ],
+        "advance": 0,
+        "components": []
+      }
+    },
+    "sara_am_is_composite": true
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "work_order": "WO-SARA-AM-004",
+  "date": "2026-10-26 Asia/Bangkok",
+  "status": "INCONCLUSIVE",
+  "option_A_status": "BLOCKED_NEEDS_DECISION",
+  "bug": "BUG-THAI-003 OPEN",
+  "claims": [
+    {
+      "id": "V1",
+      "label": "VERIFIED",
+      "claim": "Official registry SHA1 and package.json verify downloaded source package versions 3.2.0-pre.4 and 3.2.0-pre.10; these do not identify the game package.",
+      "evidence": [
+        "reports/sara-am-004-package-evidence.json",
+        "local/review/sara-am-004/unity-registry.json"
+      ]
+    },
+    {
+      "id": "V2",
+      "label": "UNKNOWN",
+      "claim": "Exact shipped TMP package version and matching source revision. Assembly 0.0.0.0 and TMP_Settings.version literal 1.4.0 are not reliable package identifiers.",
+      "evidence": [
+        "local/review/sara-am-004/metadata-v3.txt",
+        "local/review/sara-am-004/globals.tsv",
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMP_Settings.cs"
+      ]
+    },
+    {
+      "id": "V3",
+      "label": "VERIFIED",
+      "claim": "Native initializer calls ligature, pair, mark-to-base and mark-to-mark dictionary initializers; no multiple-substitution initializer in this method. This is static call evidence only.",
+      "evidence": [
+        "local/review/sara-am-004/native/TMPro.TMP_FontAsset.InitializeDictionaryLookupTables.asm.txt"
+      ]
+    },
+    {
+      "id": "Q1a",
+      "label": "VERIFIED",
+      "claim": "Font glyph82 is a composite containing uni0E32 and uni0E4D; target TMP has empty serialized glyph/character tables, atlas mode1, 512x512, padding3, multiatlas disabled.",
+      "evidence": [
+        "reports/sara-am-004-asset-evidence.json"
+      ]
+    },
+    {
+      "id": "Q1b",
+      "label": "INFERRED",
+      "claim": "If the game follows the inspected source path and selects this fallback, atomic sequence [118,42,82] retains one composite sara-am; tone42 is placed from preceding base118, not from a future embedded ring.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs:2217-2335",
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMP_TextParsingUtilities.cs:IsBaseGlyph",
+        "reports/sara-am-004-asset-evidence.json"
+      ],
+      "reason": "Source processes current marks against prior glyphs; U+0E33 is classified as a base and comes after the tone. A/B accepted atomic row is unchanged."
+    },
+    {
+      "id": "Q1c",
+      "label": "UNKNOWN",
+      "claim": "Actual runtime fallback, glyph stream, active feature flags and exact chosen placement branch; no runtime trace acquired by this WO.",
+      "evidence": [
+        "docs/SARA_AM_002_AB_R2_ACCEPTANCE.md"
+      ]
+    },
+    {
+      "id": "C1",
+      "label": "INFERRED",
+      "claim": "Pair42->82 cannot be assumed to lift tone42: successful mark placement subsequently assigns x/yPlacement rather than adding pair placement. Changing base118/mark42 anchor affects all uses of that base/mark pair, without sara-am context.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs:2217-2335",
+        "reports/sara-am-004-asset-evidence.json"
+      ]
+    },
+    {
+      "id": "C2",
+      "label": "VERIFIED",
+      "claim": "Actual tone glyph IDs are U+0E48=42, U+0E49=47, U+0E4A=50, U+0E4B=39; do not use assumed IDs43/44/45.",
+      "evidence": [
+        "reports/sara-am-004-asset-evidence.json"
+      ]
+    }
+  ],
+  "record_support": [
+    {
+      "record": "MultipleSubstitution",
+      "source_label": "VERIFIED",
+      "source_result": "Serialized list/record exists; no lookup or consumption in inspected TMP_FontFeatureTable, TMP_FontAsset, TMP_Text and UGUI paths. Record has target/substitute IDs only, no contextual guard.",
+      "game_label": "UNKNOWN",
+      "game_result": "No executing path established; adding a list record is not justified. Native initializer has no such lookup.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMP_FontFeatureTable.cs",
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/FontFeatureCommonGSUB.cs",
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs"
+      ]
+    },
+    {
+      "record": "Ligature (including 3 components)",
+      "source_label": "VERIFIED",
+      "source_result": "componentGlyphIDs.Length loop matches components; TryAddGlyphInternal supplies replacement; gated on active liga.",
+      "game_label": "INFERRED",
+      "game_result": "Initializer exists and schema matches; exact executing matcher and active liga for modal UNKNOWN.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs:1093,1298-1364",
+        "local/review/sara-am-004/native/TMPro.TMP_FontAsset.InitializeDictionaryLookupTables.asm.txt"
+      ]
+    },
+    {
+      "record": "Contextual GSUB / reordering",
+      "source_label": "VERIFIED",
+      "source_result": "Inspected MultipleSubstitution record has no preceding-tone condition. Inspected ligature path matches a fixed component sequence; it is not a contextual decomposition engine.",
+      "game_label": "UNKNOWN",
+      "game_result": "No supported serialized contextual rule or Thai reorder path demonstrated.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/FontFeatureCommonGSUB.cs",
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMP_FontFeatureTable.cs"
+      ]
+    },
+    {
+      "record": "GlyphPairAdjustment",
+      "source_label": "VERIFIED",
+      "source_result": "Adjacent pair first/second adjustment consumed when kern active, then mark placement may overwrite x/yPlacement.",
+      "game_label": "INFERRED",
+      "game_result": "Native GenerateTextMesh contains pair-adjustment getter calls before IsBaseGlyph; exact inputs/flags UNKNOWN.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs:2217-2255",
+        "local/tools/native-inspection/TMPro.TextMeshProUGUI.GenerateTextMesh.asm.txt:2819-3065"
+      ]
+    },
+    {
+      "record": "MarkToBase",
+      "source_label": "VERIFIED",
+      "source_result": "Current nonbase glyph attaches to earlier last-base using mark/base glyph IDs.",
+      "game_label": "INFERRED",
+      "game_result": "Initializer and native anchor getter calls present; actual atomic branch UNKNOWN.",
+      "evidence": [
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs:2259-2335",
+        "local/tools/native-inspection/TMPro.TextMeshProUGUI.GenerateTextMesh.asm.txt:3065-3220"
+      ]
+    },
+    {
+      "record": "MarkToMark",
+      "source_label": "VERIFIED",
+      "source_result": "Current nonbase mark scans backward toward last base. Cannot position an earlier tone relative to a later base-like sara-am.",
+      "game_label": "VERIFIED",
+      "game_result": "Accepted A/B establishes localized effect of added59->42 in reordered rowB only; complete implementation/fallback identity still UNKNOWN.",
+      "evidence": [
+        "docs/SARA_AM_002_AB_R2_ACCEPTANCE.md",
+        "reports/sara-am-002-ab-r2-image-diff.json",
+        "local/review/sara-am-004/official-packages/3.2.0-pre.4/TMPro_UGUI_Private.cs:2284-2320"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "option": "D+B (new full-cluster glyph + fixed ligature)",
+      "label": "INFERRED",
+      "rank": 1,
+      "score": [
+        2,
+        3,
+        2
+      ],
+      "product": 12,
+      "status": "INCONCLUSIVE",
+      "scope": "New font file and new scratch font bundle only; new glyph appended and one target TMP ligature.",
+      "runtime": "UNKNOWN active liga, replacement glyph packing, fallback and layout behavior."
+    },
+    {
+      "option": "A (renderer hook)",
+      "label": "INFERRED",
+      "rank": 2,
+      "score": [
+        3,
+        2,
+        1
+      ],
+      "product": 6,
+      "status": "BLOCKED_NEEDS_DECISION",
+      "scope": "Code plugin/loader required; exceeds asset-bundle-only project. No implementation design supplied.",
+      "runtime": "UNKNOWN hook coverage, indexing, update compatibility and stability."
+    },
+    {
+      "option": "B alone (table decomposition)",
+      "label": "INFERRED",
+      "rank": 3,
+      "score": [
+        1,
+        3,
+        2
+      ],
+      "product": 6,
+      "status": "INCONCLUSIVE",
+      "scope": "Would change target TMP feature table only. No demonstrated executor for multiple/contextual substitution.",
+      "runtime": "UNKNOWN; decomposition82->[59,78] alone also does not reorder a preceding tone."
+    },
+    {
+      "option": "C (pair/anchor)",
+      "label": "INFERRED",
+      "rank": 4,
+      "score": [
+        1,
+        1,
+        2
+      ],
+      "product": 2,
+      "status": "INCONCLUSIVE",
+      "scope": "Pair42->82 is narrow but may be overwritten; base118->tone42 anchor reaches every such pair.",
+      "runtime": "UNKNOWN; global tone shift is prohibited."
+    },
+    {
+      "option": "D alone (font GSUB/GPOS)",
+      "label": "INFERRED",
+      "rank": 5,
+      "score": [
+        1,
+        1,
+        2
+      ],
+      "product": 2,
+      "status": "INCONCLUSIVE",
+      "scope": "Changing existing glyph82/cmap/GSUB without an executing selection path risks all sara-am text.",
+      "runtime": "UNKNOWN source-font feature import/execution; no automatic atlas regeneration guarantee."
+    },
+    {
+      "option": "E (stored-text decomposition)",
+      "label": "VERIFIED",
+      "rank": null,
+      "score": null,
+      "product": null,
+      "status": "REJECTED_BY_WO",
+      "scope": "Comparison only; prohibited production shortcut.",
+      "runtime": "Accepted reordered specimen+pair separates; broader behavior UNKNOWN."
+    }
+  ],
+  "regression_matrix": [
+    {
+      "text": "ต่ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Nikkhahit below tone, visible separation, sara-aa stays on normal baseline.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ค่ำ",
+      "codepoints": [
+        "U+0E04",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Nikkhahit below tone, visible separation, sara-aa stays on normal baseline.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ช้ำ",
+      "codepoints": [
+        "U+0E0A",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Nikkhahit below tone, visible separation, sara-aa stays on normal baseline.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ค้ำ",
+      "codepoints": [
+        "U+0E04",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Nikkhahit below tone, visible separation, sara-aa stays on normal baseline.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ถ้ำ",
+      "codepoints": [
+        "U+0E16",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Nikkhahit below tone, visible separation, sara-aa stays on normal baseline.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "น้ำ",
+      "codepoints": [
+        "U+0E19",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Nikkhahit below tone, visible separation, sara-aa stays on normal baseline.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "จำ",
+      "codepoints": [
+        "U+0E08",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Single nikkhahit above base and sara-aa on normal baseline; no spurious tone or width change.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ทำ",
+      "codepoints": [
+        "U+0E17",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Single nikkhahit above base and sara-aa on normal baseline; no spurious tone or width change.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ลำ",
+      "codepoints": [
+        "U+0E25",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Single nikkhahit above base and sara-aa on normal baseline; no spurious tone or width change.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "required"
+    },
+    {
+      "text": "ป่ำ",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ป้ำ",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ป๊ำ",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E4A",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ป๋ำ",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E4B",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฝ่ำ",
+      "codepoints": [
+        "U+0E1D",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฝ้ำ",
+      "codepoints": [
+        "U+0E1D",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฝ๊ำ",
+      "codepoints": [
+        "U+0E1D",
+        "U+0E4A",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฝ๋ำ",
+      "codepoints": [
+        "U+0E1D",
+        "U+0E4B",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฟ่ำ",
+      "codepoints": [
+        "U+0E1F",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฟ้ำ",
+      "codepoints": [
+        "U+0E1F",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฟ๊ำ",
+      "codepoints": [
+        "U+0E1F",
+        "U+0E4A",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ฟ๋ำ",
+      "codepoints": [
+        "U+0E1F",
+        "U+0E4B",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Tone above nikkhahit; tall ascender remains clear; narrow variant/offset must suit this base.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tall-base synthetic coverage"
+    },
+    {
+      "text": "ต้ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Correct mai-tho/mai-tri/mai-chattawa above nikkhahit.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tone synthetic coverage"
+    },
+    {
+      "text": "ต๊ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E4A",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Correct mai-tho/mai-tri/mai-chattawa above nikkhahit.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tone synthetic coverage"
+    },
+    {
+      "text": "ต๋ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E4B",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Correct mai-tho/mai-tri/mai-chattawa above nikkhahit.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "tone synthetic coverage"
+    },
+    {
+      "text": "ถี่",
+      "codepoints": [
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ที่",
+      "codepoints": [
+        "U+0E17",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ปี้",
+      "codepoints": [
+        "U+0E1B",
+        "U+0E35",
+        "U+0E49"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ตี่",
+      "codepoints": [
+        "U+0E15",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ตา",
+      "codepoints": [
+        "U+0E15",
+        "U+0E32"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ต่า",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E32"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ต้า",
+      "codepoints": [
+        "U+0E15",
+        "U+0E49",
+        "U+0E32"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "นำ",
+      "codepoints": [
+        "U+0E19",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ตำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ต่ำต่ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "ต่ำ ต่ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve ordinary vowel/tone stacking, base baseline and spacing; no unintended substitution.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "negative and boundary controls"
+    },
+    {
+      "text": "A: ต่ำ ถี่",
+      "codepoints": [
+        "U+0041",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Atomic target separates and ถี่ control unchanged; reuse A/B R2 specimen format.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "specimen"
+    },
+    {
+      "text": "B: ตํ่า ถี่",
+      "codepoints": [
+        "U+0042",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E4D",
+        "U+0E48",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Historical reordered-decomposed diagnostic; do not convert production text.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "diagnostic only"
+    },
+    {
+      "text": "C: ต่ํา ถี่",
+      "codepoints": [
+        "U+0043",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E4D",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Preserve recorded original-order diagnostic interpretation; not a production spelling/fix.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "diagnostic only"
+    },
+    {
+      "text": "Campus 2026: ต่ำ ถี่ 123",
+      "codepoints": [
+        "U+0043",
+        "U+0061",
+        "U+006D",
+        "U+0070",
+        "U+0075",
+        "U+0073",
+        "U+0020",
+        "U+0032",
+        "U+0030",
+        "U+0032",
+        "U+0036",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48",
+        "U+0020",
+        "U+0031",
+        "U+0032",
+        "U+0033"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "No Latin/number/colon/space change; Thai stacking preserved.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "mixed"
+    },
+    {
+      "text": "ต่ำ ถี่ น้ำ\nCampus 123 ต่ำ ถี่",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48",
+        "U+0020",
+        "U+0E19",
+        "U+0E49",
+        "U+0E33",
+        "U+000A",
+        "U+0043",
+        "U+0061",
+        "U+006D",
+        "U+0070",
+        "U+0075",
+        "U+0073",
+        "U+0020",
+        "U+0031",
+        "U+0032",
+        "U+0033",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Explicit LF retained; also test same text without LF in a narrow box for automatic wrap.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "multiline"
+    },
+    {
+      "text": "<b>ต่ำ</b> <color=#FFFFFF>ถี่</color>",
+      "codepoints": [
+        "U+003C",
+        "U+0062",
+        "U+003E",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33",
+        "U+003C",
+        "U+002F",
+        "U+0062",
+        "U+003E",
+        "U+0020",
+        "U+003C",
+        "U+0063",
+        "U+006F",
+        "U+006C",
+        "U+006F",
+        "U+0072",
+        "U+003D",
+        "U+0023",
+        "U+0046",
+        "U+0046",
+        "U+0046",
+        "U+0046",
+        "U+0046",
+        "U+0046",
+        "U+003E",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48",
+        "U+003C",
+        "U+002F",
+        "U+0063",
+        "U+006F",
+        "U+006C",
+        "U+006F",
+        "U+0072",
+        "U+003E"
+      ],
+      "codepoint_label": "VERIFIED",
+      "expectation_label": "INFERRED",
+      "expected": "Rich-text indices/tags preserved; cluster stays intact across layout operations.",
+      "offline": "Codepoint/cmap/structure and source-algorithm checks; no game visual PASS.",
+      "runtime": "NOT_RUN: actual fallback, stacking, clipping, advance, wrapping at Small/Medium/Large and after restart.",
+      "group": "rich text"
+    }
+  ],
+  "ranking_scale": {
+    "label": "INFERRED",
+    "description": "Ordinal 1 low / 2 medium / 3 high: expected efficacy x containment x offline verifiability. Not probabilities; scope gate overrides score."
+  },
+  "single_next_step": "PM obtains the exact shipped TMP package/build provenance and corresponding custom source (offline), sufficient to resolve the ligature/mark execution and feature-flag gates before authorizing any candidate.",
+  "blockers": [
+    {
+      "label": "UNKNOWN",
+      "item": "Exact shipped package version/source revision and custom-loading modifications."
+    },
+    {
+      "label": "UNKNOWN",
+      "item": "Actual glyph stream, selected fallback and active liga/mark/mkmk on the modal."
+    },
+    {
+      "label": "INFERRED",
+      "item": "A requires an explicit scope decision permitting code plugin/loader."
+    }
+  ],
+  "protected_files": {
+    "label": "VERIFIED",
+    "count": 17,
+    "unchanged": true,
+    "before": "reports/sara-am-004-preservation-before.json",
+    "after": "reports/sara-am-004-preservation-after.json"
+  },
+  "completed_operations": [
+    "Read accepted references without rerunning browser or A/B",
+    "Read-only metadata inspection and bounded native decoding",
+    "Verified official source package metadata/checksums",
+    "Inspected targeted font configuration/anchors/glyph IDs",
+    "Created analysis and machine-readable report"
+  ],
+  "not_executed": [
+    "Game launch",
+    "Install",
+    "Candidate build",
+    "Runtime work order",
+    "Corpus Unicode rewrite",
+    "Commit",
+    "Push",
+    "Automation",
+    "Messages to agents"
+  ],
+  "limitations": [
+    "No offline shaping rerun: existing reference accepted.",
+    "Native leaf methods without exact unwind bounds were not guessed/decompiled.",
+    "Downloaded package identity is not shipped package identity.",
+    "No whole-workspace immutability claim; preservation covers the 17 snapshotted protected files."
+  ]
+}

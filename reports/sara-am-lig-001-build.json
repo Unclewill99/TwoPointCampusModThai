@@ -1,0 +1,540 @@
+{
+  "work_order": "WO-SARA-AM-005",
+  "date": "2026-10-26 Asia/Bangkok",
+  "status": "BUILD_READY",
+  "label": "VERIFIED",
+  "probe": "probe-sara-am-lig-001",
+  "parent": "fresh-translation-005",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "f7c2f9add5b982b75554b0e3148dc1b2121b39cddcc0fd49ea7559e058627d50",
+      "parent_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "9173e3300a320468d51639d1ae32a64b6a41f9c601702ef017d6f9964ed2a1d9",
+      "parent_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "parent_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+    }
+  ],
+  "diagnostic_text": "L1: ต่ำ\nL2: ต้ำ\nL3: ค่ำ\nL4: ตา ถี่\nL5: ก",
+  "diagnostic_codepoints": [
+    [
+      "U+004C",
+      "U+0031",
+      "U+003A",
+      "U+0020",
+      "U+0E15",
+      "U+0E48",
+      "U+0E33"
+    ],
+    [
+      "U+004C",
+      "U+0032",
+      "U+003A",
+      "U+0020",
+      "U+0E15",
+      "U+0E49",
+      "U+0E33"
+    ],
+    [
+      "U+004C",
+      "U+0033",
+      "U+003A",
+      "U+0020",
+      "U+0E04",
+      "U+0E48",
+      "U+0E33"
+    ],
+    [
+      "U+004C",
+      "U+0034",
+      "U+003A",
+      "U+0020",
+      "U+0E15",
+      "U+0E32",
+      "U+0020",
+      "U+0E16",
+      "U+0E35",
+      "U+0E48"
+    ],
+    [
+      "U+004C",
+      "U+0035",
+      "U+003A",
+      "U+0020",
+      "U+0E01"
+    ]
+  ],
+  "specimens": [
+    {
+      "row": "L1",
+      "text": "ต่ำ",
+      "full_line": "L1: ต่ำ",
+      "codepoints": [
+        "U+004C",
+        "U+0031",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "specimen_codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "label": "VERIFIED"
+    },
+    {
+      "row": "L2",
+      "text": "ต้ำ",
+      "full_line": "L2: ต้ำ",
+      "codepoints": [
+        "U+004C",
+        "U+0032",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "specimen_codepoints": [
+        "U+0E15",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "label": "VERIFIED"
+    },
+    {
+      "row": "L3",
+      "text": "ค่ำ",
+      "full_line": "L3: ค่ำ",
+      "codepoints": [
+        "U+004C",
+        "U+0033",
+        "U+003A",
+        "U+0020",
+        "U+0E04",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "specimen_codepoints": [
+        "U+0E04",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "label": "VERIFIED"
+    },
+    {
+      "row": "L4",
+      "text": "ตา ถี่",
+      "full_line": "L4: ตา ถี่",
+      "codepoints": [
+        "U+004C",
+        "U+0034",
+        "U+003A",
+        "U+0020",
+        "U+0E15",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "specimen_codepoints": [
+        "U+0E15",
+        "U+0E32",
+        "U+0020",
+        "U+0E16",
+        "U+0E35",
+        "U+0E48"
+      ],
+      "label": "VERIFIED"
+    },
+    {
+      "row": "L5",
+      "text": "ก",
+      "full_line": "L5: ก",
+      "codepoints": [
+        "U+004C",
+        "U+0035",
+        "U+003A",
+        "U+0020",
+        "U+0E01"
+      ],
+      "specimen_codepoints": [
+        "U+0E01"
+      ],
+      "label": "VERIFIED"
+    }
+  ],
+  "sentinel": {
+    "character": "ก",
+    "codepoint": "U+0E01",
+    "glyph_id": 29,
+    "label": "VERIFIED",
+    "justification": "Existing cmap glyph; visually distinct from full ต่ำ cluster; standalone L5 supplies loading/reference control. Actual visibility/population remains runtime UNKNOWN."
+  },
+  "added_record": {
+    "m_ComponentGlyphIDs": [
+      118,
+      42,
+      82
+    ],
+    "m_LigatureGlyphID": 29
+  },
+  "existing_ligatures_before": [
+    {
+      "m_ComponentGlyphIDs": [
+        74,
+        30
+      ],
+      "m_LigatureGlyphID": 76
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        132,
+        372
+      ],
+      "m_LigatureGlyphID": 140
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        152,
+        372
+      ],
+      "m_LigatureGlyphID": 161
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        171,
+        372
+      ],
+      "m_LigatureGlyphID": 178
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        218,
+        372
+      ],
+      "m_LigatureGlyphID": 226
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        244,
+        372
+      ],
+      "m_LigatureGlyphID": 255
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        299,
+        372
+      ],
+      "m_LigatureGlyphID": 312
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        337,
+        372
+      ],
+      "m_LigatureGlyphID": 344
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        427,
+        372
+      ],
+      "m_LigatureGlyphID": 436
+    }
+  ],
+  "ligature_count_after": 10,
+  "serialized_lookup_fields": [],
+  "lookup_assessment": {
+    "serialized_storage": "VERIFIED: no serialized lookup dictionary fields in target tree; scalar m_FeatureLookupFlags belong to unchanged pair records, not a dictionary. Only the ligature record list is edited.",
+    "source": "VERIFIED: official pre4 clears/creates dictionary then appends records into first-component buckets in list order.",
+    "native": "VERIFIED: shipped InitializeDictionaryLookupTables calls InitializeLigatureSubstitutionLookupDictionary (WO004 bounded listing).",
+    "game_rebuild_semantics": "INFERRED from schema/native call/source agreement; exact fork initializer internal execution remains UNKNOWN. No serialized lookup entry to patch.",
+    "ordering": "VERIFIED source: records tested in list order; first successful replacement wins, no automatic longest-match sort. VERIFIED data: no existing first118 bucket, so no competing prefix/shadow regardless of append position."
+  },
+  "verification": {
+    "all_output_bundles_reloaded": true,
+    "localization_text_assets": 25,
+    "localization_segments_compared": 15677,
+    "changed_localization": [
+      [
+        "I2LS_Levels",
+        533
+      ]
+    ],
+    "raw_object_diffs": {
+      "fonts_assets_all.bundle": [
+        {
+          "asset": "CAB-300dab5b622683535fabfccfdc55ee6f",
+          "path_id": -1239755799206566947,
+          "type": "MonoBehaviour",
+          "before_sha256": "d8fab545239945f509714cd40a0ef1642487f80383932b1ad4cc0179a823b9f3",
+          "after_sha256": "8e2a45ca34e0016da0232b066d24910ea85325f1ff2b85c5f3e0c3b6e98f9de6"
+        }
+      ],
+      "localisation_assets_localisationenglish.bundle": [
+        {
+          "asset": "CAB-fbb0372531b19b6552eb0ecc1030318e",
+          "path_id": 9111440620092539021,
+          "type": "TextAsset",
+          "before_sha256": "d6bac9f598ee014be645130a07e6ac643a96f911cfbe212cb71d368ed76e643e",
+          "after_sha256": "57cdc41c548e3dbee5b06ec45ee5dba9bf2692d1696343b317fa46ae487e0255"
+        }
+      ],
+      "ui-prefabs-general_assets_all.bundle": []
+    },
+    "target_only_one_record_delta": true,
+    "previous_nine_records_unchanged": true,
+    "embedded_font_sha256": "f9855a702e9899b9cfa1e8cb7cbf36c2c7bb6fe31ee0cd6860ae61ae012155d0",
+    "object_hashes": {
+      "-1239755799206566947": {
+        "before_sha256": "d8fab545239945f509714cd40a0ef1642487f80383932b1ad4cc0179a823b9f3",
+        "after_sha256": "8e2a45ca34e0016da0232b066d24910ea85325f1ff2b85c5f3e0c3b6e98f9de6"
+      },
+      "7716434233879021909": {
+        "before_sha256": "ae6d489ba842f548818ea9ffbd859b0dcecec299b4ff37f864f30aada952bab4",
+        "after_sha256": "ae6d489ba842f548818ea9ffbd859b0dcecec299b4ff37f864f30aada952bab4"
+      }
+    },
+    "protected_before": {
+      "GameAssembly.dll": {
+        "size": 311226368,
+        "sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\fonts_assets_all.bundle": {
+        "size": 68187625,
+        "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\localisation_assets_localisationenglish.bundle": {
+        "size": 2411691,
+        "sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\manifest.json": {
+        "size": 1588,
+        "sha256": "e5d2a3ca864e8fc0d93af96eab4daaca14f9347afce8eacdc6c2e9bcfb100a0e"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\ui-prefabs-general_assets_all.bundle": {
+        "size": 3286577,
+        "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\fonts_assets_all.bundle": {
+        "size": 68187625,
+        "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\localisation_assets_localisationenglish.bundle": {
+        "size": 2411259,
+        "sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\manifest.json": {
+        "size": 1946,
+        "sha256": "466e5bfa097f23bd3dfcefa5b8cb815b058aa814f8174f82de565fae76f85c6d"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\ui-prefabs-general_assets_all.bundle": {
+        "size": 3286577,
+        "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\fonts_assets_all.bundle": {
+        "size": 68187649,
+        "sha256": "6cb840337007c4fb7d6807828276ddef1ae51c2b7809e507f90a53b7c243b133"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\localisation_assets_localisationenglish.bundle": {
+        "size": 2411259,
+        "sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\manifest.json": {
+        "size": 2301,
+        "sha256": "e26ac79882fa62c4becc66a07b256e126f5980578d233b1a1da75a443017288c"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\ui-prefabs-general_assets_all.bundle": {
+        "size": 3286577,
+        "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      },
+      "TPC_Data\\il2cpp_data\\Metadata\\global-metadata.dat": {
+        "size": 14284260,
+        "sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb"
+      },
+      "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\fonts_assets_all.bundle": {
+        "size": 42492052,
+        "sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e"
+      },
+      "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\localisation_assets_localisationenglish.bundle": {
+        "size": 448196,
+        "sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f"
+      },
+      "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\ui-prefabs-general_assets_all.bundle": {
+        "size": 928146,
+        "sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d"
+      }
+    },
+    "protected_after": {
+      "GameAssembly.dll": {
+        "size": 311226368,
+        "sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\fonts_assets_all.bundle": {
+        "size": 68187625,
+        "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\localisation_assets_localisationenglish.bundle": {
+        "size": 2411691,
+        "sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\manifest.json": {
+        "size": 1588,
+        "sha256": "e5d2a3ca864e8fc0d93af96eab4daaca14f9347afce8eacdc6c2e9bcfb100a0e"
+      },
+      "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\ui-prefabs-general_assets_all.bundle": {
+        "size": 3286577,
+        "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\fonts_assets_all.bundle": {
+        "size": 68187625,
+        "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\localisation_assets_localisationenglish.bundle": {
+        "size": 2411259,
+        "sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\manifest.json": {
+        "size": 1946,
+        "sha256": "466e5bfa097f23bd3dfcefa5b8cb815b058aa814f8174f82de565fae76f85c6d"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\ui-prefabs-general_assets_all.bundle": {
+        "size": 3286577,
+        "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\fonts_assets_all.bundle": {
+        "size": 68187649,
+        "sha256": "6cb840337007c4fb7d6807828276ddef1ae51c2b7809e507f90a53b7c243b133"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\localisation_assets_localisationenglish.bundle": {
+        "size": 2411259,
+        "sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\manifest.json": {
+        "size": 2301,
+        "sha256": "e26ac79882fa62c4becc66a07b256e126f5980578d233b1a1da75a443017288c"
+      },
+      "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\ui-prefabs-general_assets_all.bundle": {
+        "size": 3286577,
+        "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+      },
+      "TPC_Data\\il2cpp_data\\Metadata\\global-metadata.dat": {
+        "size": 14284260,
+        "sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb"
+      },
+      "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\fonts_assets_all.bundle": {
+        "size": 42492052,
+        "sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e"
+      },
+      "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\localisation_assets_localisationenglish.bundle": {
+        "size": 448196,
+        "sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f"
+      },
+      "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\ui-prefabs-general_assets_all.bundle": {
+        "size": 928146,
+        "sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d"
+      }
+    },
+    "protected_unchanged": true
+  },
+  "expected_outcomes": [
+    {
+      "row": "L1",
+      "executed": "INFERRED: one ก-shaped sentinel replaces ต่ำ; prefix L1 remains.",
+      "not_executed": "INFERRED: original atomic ต่ำ remains (crowding may persist).",
+      "failure": "UNKNOWN: blank/tofu, partial sequence, clipping or crash is an invalid/inconclusive result."
+    },
+    {
+      "row": "L2",
+      "executed": "INFERRED: ต้ำ remains unchanged; tone47 cannot match42.",
+      "not_executed": "INFERRED: ต้ำ unchanged.",
+      "failure": "INFERRED: any sentinel/substitution here violates specificity."
+    },
+    {
+      "row": "L3",
+      "executed": "INFERRED: ค่ำ unchanged; different base cannot match118.",
+      "not_executed": "INFERRED: ค่ำ unchanged.",
+      "failure": "INFERRED: sentinel here violates specificity."
+    },
+    {
+      "row": "L4",
+      "executed": "INFERRED: ตา ถี่ unchanged.",
+      "not_executed": "INFERRED: ตา ถี่ unchanged.",
+      "failure": "INFERRED: missing/changed controls invalidate clean comparison."
+    },
+    {
+      "row": "L5",
+      "executed": "INFERRED: ก visible as standalone reference.",
+      "not_executed": "INFERRED: ก still visible if loading succeeds.",
+      "failure": "INFERRED: absent/tofu ก leaves glyph loading unresolved; do not call executor absent."
+    }
+  ],
+  "negative_result_limits": [
+    "UNKNOWN live liga gating; m_enableKerning=1 does not prove liga enabled. No flags changed.",
+    "UNKNOWN actual fallback, lookup initialization/refresh, runtime import/override or text preprocessing.",
+    "UNKNOWN dynamic atlas/font loading despite existing source glyph and standalone L5; visible L5 is required, not assumed.",
+    "UNKNOWN exact TMP package/fork. Negative result does not prove serialized ligatures unsupported globally."
+  ],
+  "source_evidence": [
+    {
+      "path": "local\\review\\sara-am-004\\official-packages\\3.2.0-pre.4\\package.json",
+      "sha256": "6c735fb7670896a29f16cceb247f5c551d7c63a903fb52725a3961ea70273010"
+    },
+    {
+      "path": "local\\review\\sara-am-004\\official-packages\\3.2.0-pre.4\\TMP_FontAsset.cs",
+      "sha256": "e6bf1994edf8c0972f3453958605f3d9c527ae58c8866c777f5c8c9cc7c1a846"
+    },
+    {
+      "path": "local\\review\\sara-am-004\\official-packages\\3.2.0-pre.4\\TMP_FontFeatureTable.cs",
+      "sha256": "ea13f58bf8d7ef230edcf6369f9fe374af1836cfccc6330b68e4caa5f41d62ad"
+    },
+    {
+      "path": "local\\review\\sara-am-004\\official-packages\\3.2.0-pre.4\\TMPro_UGUI_Private.cs",
+      "sha256": "0f31e14e409d2e5d41cb04ccdd490a9da8f99e29a8719a3d2b73caac09c740e8"
+    },
+    {
+      "path": "local/review/sara-am-004/native/TMPro.TMP_FontAsset.InitializeDictionaryLookupTables.asm.txt",
+      "sha256": "6ba3b4cf3a966142226a8e725d258b0ed09c2140f769d83b25d7edb75fb36af7"
+    }
+  ],
+  "limits": "Diagnostic executor probe only, not a ต่ำ fix. Build/offline verification only. No install, game launch, runtime WO/dispatch, commit or push. Existing frozen005/001a/b and installed originals unchanged.",
+  "manager_check": {
+    "label": "VERIFIED",
+    "command": "python tools/manage_probe.py check --probe probe-sara-am-lig-001",
+    "result": {
+      "action": "check",
+      "files": [
+        {
+          "name": "fonts_assets_all.bundle",
+          "state": "original"
+        },
+        {
+          "name": "localisation_assets_localisationenglish.bundle",
+          "state": "original"
+        },
+        {
+          "name": "ui-prefabs-general_assets_all.bundle",
+          "state": "original"
+        }
+      ]
+    }
+  }
+}

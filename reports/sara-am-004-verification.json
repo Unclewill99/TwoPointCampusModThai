@@ -1,0 +1,10 @@
+{
+  "label": "VERIFIED",
+  "report_json_valid": true,
+  "regression_codepoints_valid": 41,
+  "protected_hashes_unchanged": 17,
+  "official_source_hashes_match": true,
+  "python_syntax_valid": true,
+  "candidate_built": false,
+  "game_launched": false
+}

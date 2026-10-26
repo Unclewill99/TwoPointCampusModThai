@@ -1,0 +1,410 @@
+{
+  "wo": "WO-SARA-AM-GLYPH-002",
+  "tester": "ChatGPT, user-authorized replacement for Antigravity",
+  "verdict": "INCONCLUSIVE",
+  "visual_result": "15/15 class a in captured modal; controls visually intact",
+  "protocol_deviation": "110.319s observation gap exceeded 15s; modal timing within60s UNKNOWN; 60s stop rule not met. No repeat run.",
+  "campaign_click_unix": 1793001880.34038,
+  "observations_unix_ms": [
+    1793001880570,
+    1793001888658,
+    1793001895378,
+    1793001902091,
+    1793001908807,
+    1793002019126,
+    1793002025807,
+    1793002032477,
+    1793002039157
+  ],
+  "elapsed_seconds": [
+    0.22961997985839844,
+    8.317620038986206,
+    15.037620067596436,
+    21.750620126724243,
+    28.466619968414307,
+    138.78561997413635,
+    145.4666199684143,
+    152.13662004470825,
+    158.81662011146545
+  ],
+  "interval_seconds": [
+    8.088,
+    6.72,
+    6.713,
+    6.716,
+    110.319,
+    6.681,
+    6.67,
+    6.68
+  ],
+  "capture": {
+    "path": "local\\qa\\WO-SARA-AM-GLYPH-002\\01-modal-native.png",
+    "sha256": "fffbf02217414113ddb2e762336b618c3993ff9088053666bd0e62d6fef9f276",
+    "size": [
+      3840,
+      2160
+    ],
+    "timestamp": 1793002040.8694198
+  },
+  "capture_elapsed_seconds": 160.52903985977173,
+  "launch_to_exit_seconds": 272.98,
+  "runs": 1,
+  "focus_recoveries": 0,
+  "primary_captures": 1,
+  "targets": [
+    {
+      "text": "น้ำ",
+      "codepoints": [
+        "U+0E19",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "row": "L1",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ซ้ำ",
+      "codepoints": [
+        "U+0E0B",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "row": "L1",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ต่ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L1",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ล้ำ",
+      "codepoints": [
+        "U+0E25",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "row": "L1",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ร่ำ",
+      "codepoints": [
+        "U+0E23",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L2",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ค่ำ",
+      "codepoints": [
+        "U+0E04",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L2",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ถ้ำ",
+      "codepoints": [
+        "U+0E16",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "row": "L2",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ด่ำ",
+      "codepoints": [
+        "U+0E14",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L2",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ฉ่ำ",
+      "codepoints": [
+        "U+0E09",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L3",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ล่ำ",
+      "codepoints": [
+        "U+0E25",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L3",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ค้ำ",
+      "codepoints": [
+        "U+0E04",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "row": "L3",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ย้ำ",
+      "codepoints": [
+        "U+0E22",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "row": "L3",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ว่ำ",
+      "codepoints": [
+        "U+0E27",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L4",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "น่ำ",
+      "codepoints": [
+        "U+0E19",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L4",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    },
+    {
+      "text": "ม่ำ",
+      "codepoints": [
+        "U+0E21",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "row": "L4",
+      "class": "a",
+      "label": "VERIFIED_VISUAL",
+      "observation": "Complete tone above ring with visible gap; no visible tone-top truncation, baseline displacement, abnormal spacing or neighbour overlap."
+    }
+  ],
+  "negative_control": {
+    "text": "ท่ำ",
+    "codepoints": [
+      "U+0E17",
+      "U+0E48",
+      "U+0E33"
+    ],
+    "observation": "VERIFIED_VISUAL old crowded form"
+  },
+  "ordinary_controls": [
+    "ตา",
+    "ถี่",
+    "ทำ",
+    "นำ"
+  ],
+  "lifecycle": [
+    "initial original/original/original",
+    "verified save backup 11 files",
+    "install probe/probe/probe",
+    "check probe/probe/probe",
+    "single Steam launch",
+    "two Continue clicks",
+    "normal Alt+F4 exit",
+    "restore original/original/original",
+    "final check original/original/original",
+    "independent campus_running false"
+  ],
+  "protected_files_unchanged": 25,
+  "protected_evidence": "D:\\SteamLibrary\\steamapps\\common\\Two Point Campus\\ThaiCampusMod\\local\\qa\\WO-SARA-AM-GLYPH-002\\protected-verification.json",
+  "staged": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "sha256": "0d1f3dfe9a88f0be453023c96a4753b5d50990a6bda2ff0613d5375bd3385274",
+      "matches_manifest": true,
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "sha256": "1f90326c105c08b862bf4ba97f2b28630aba7d79e3c930c44feee6e55fe20809",
+      "matches_manifest": true,
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "matches_manifest": true,
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d"
+    }
+  ],
+  "save_comparison": {
+    "backup": "D:\\SteamLibrary\\steamapps\\common\\Two Point Campus\\ThaiCampusMod\\local\\backups\\gameplay-save-snapshots\\20261026T080234504672Z.zip",
+    "backup_manifest": "D:\\SteamLibrary\\steamapps\\common\\Two Point Campus\\ThaiCampusMod\\local\\backups\\gameplay-save-snapshots\\20261026T080234504672Z.json",
+    "backup_zip_hash": {
+      "size": 236488,
+      "sha256": "a60d855e1390d0b589606fd1e44f70a143d456e159837f37bc9e591f160a2895"
+    },
+    "before": {
+      "Cloud/210252614/preferences.json": {
+        "size": 761,
+        "sha256": "f2ff575ab51636cd0b380f6f12f9221b905acce7e89a4677824d16e118877c9e"
+      },
+      "Cloud/210252614/Saves/Slot1/8000.sav": {
+        "size": 179866,
+        "sha256": "5b4dac72e35d877f6b7f2d6933a8b0c44717ec2578052d1d9f218f983d050d0d"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav": {
+        "size": 18520,
+        "sha256": "1e76d087aa2b036a5354f3f0acf6e5b2391ab6b9423b4f2258082438bdd46ea4"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.2.bak": {
+        "size": 18520,
+        "sha256": "035c6dc7c6dcd960312d9380799694cd5fd0d3a7fb93305c5ed73ee6c0ca093d"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.3.bak": {
+        "size": 18520,
+        "sha256": "21893a6089737f47497daa4e8c3f0b479cf5a027d2ce4e3c3285a133f572666f"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.4.bak": {
+        "size": 18520,
+        "sha256": "d0eaa2c71c92105065d83efe18903e441be627a1df01bb6645cdd0251af19c42"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.5.bak": {
+        "size": 18520,
+        "sha256": "7cbd47721b20b8cef98ba4c892d9c009a256f8d1f82308b1cb5d0e2f583d6c28"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.6.bak": {
+        "size": 18520,
+        "sha256": "24e093ef8510486564363f197834b00a00a79afc67b3246eaf45cf4139bdb71c"
+      },
+      "Cloud/210252614/steam_autocloud.vdf": {
+        "size": 52,
+        "sha256": "b5d31412181fb1e37bed11e0bfbc2ed973c01ba5eb4aa00b3da786a625ded124"
+      },
+      "Cloud/210252614/userprofile.sav": {
+        "size": 1064,
+        "sha256": "b18ddecaa9eb59f42122b5e3c17d5ec5bc473cc39ae7524853ce731151faebfb"
+      },
+      "localpreferences.json": {
+        "size": 1050,
+        "sha256": "3a32b89c9050ee0dea84c4ba8b632e0f81d82da25da517babd0442b5889fab8b"
+      }
+    },
+    "after": {
+      "Cloud/210252614/preferences.json": {
+        "size": 761,
+        "sha256": "f2ff575ab51636cd0b380f6f12f9221b905acce7e89a4677824d16e118877c9e"
+      },
+      "Cloud/210252614/steam_autocloud.vdf": {
+        "size": 52,
+        "sha256": "b5d31412181fb1e37bed11e0bfbc2ed973c01ba5eb4aa00b3da786a625ded124"
+      },
+      "Cloud/210252614/userprofile.sav": {
+        "size": 1064,
+        "sha256": "0f78974a74cebb836618aa59de5095d97a0b60c1f3080cbec2a4133fed5a5f89"
+      },
+      "Cloud/210252614/Saves/Slot1/8000.sav": {
+        "size": 179866,
+        "sha256": "5b4dac72e35d877f6b7f2d6933a8b0c44717ec2578052d1d9f218f983d050d0d"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav": {
+        "size": 18520,
+        "sha256": "7d2237c32a9921231bdc90ec9c1c432f093dc897df152367d8efde260a953188"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.2.bak": {
+        "size": 18520,
+        "sha256": "fa19204a69a7e4d5820dc6a2cd011d4c648aa0570a817df6a79b6c23c09e68d0"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.3.bak": {
+        "size": 18520,
+        "sha256": "1e76d087aa2b036a5354f3f0acf6e5b2391ab6b9423b4f2258082438bdd46ea4"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.4.bak": {
+        "size": 18520,
+        "sha256": "035c6dc7c6dcd960312d9380799694cd5fd0d3a7fb93305c5ed73ee6c0ca093d"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.5.bak": {
+        "size": 18520,
+        "sha256": "21893a6089737f47497daa4e8c3f0b479cf5a027d2ce4e3c3285a133f572666f"
+      },
+      "Cloud/210252614/Saves/Slot1/career.csav.6.bak": {
+        "size": 18520,
+        "sha256": "d0eaa2c71c92105065d83efe18903e441be627a1df01bb6645cdd0251af19c42"
+      },
+      "localpreferences.json": {
+        "size": 1050,
+        "sha256": "3a32b89c9050ee0dea84c4ba8b632e0f81d82da25da517babd0442b5889fab8b"
+      }
+    },
+    "changed": [
+      "Cloud/210252614/Saves/Slot1/career.csav.2.bak",
+      "Cloud/210252614/Saves/Slot1/career.csav.5.bak",
+      "Cloud/210252614/userprofile.sav",
+      "Cloud/210252614/Saves/Slot1/career.csav.6.bak",
+      "Cloud/210252614/Saves/Slot1/career.csav.3.bak",
+      "Cloud/210252614/Saves/Slot1/career.csav",
+      "Cloud/210252614/Saves/Slot1/career.csav.4.bak"
+    ],
+    "new": [],
+    "missing": [],
+    "unchanged": [
+      "Cloud/210252614/Saves/Slot1/8000.sav",
+      "Cloud/210252614/preferences.json",
+      "Cloud/210252614/steam_autocloud.vdf",
+      "localpreferences.json"
+    ]
+  },
+  "unknown": [
+    "modal appearance time and whether within60s",
+    "exact runtime internal path and TMP package identity",
+    "subpixel contour loss",
+    "true pen advance",
+    "other scales, consumers, repeated loading, atlas stress, production safety"
+  ],
+  "bug_status": "BUG-THAI-003 OPEN pending PM analysis"
+}

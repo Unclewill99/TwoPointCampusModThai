@@ -1,0 +1,1283 @@
+{
+  "wo": "WO-SARA-AM-008",
+  "status": "PARTIAL",
+  "probe": "fresh-translation-006",
+  "parent": "fresh-translation-005",
+  "source_probe": "probe-sara-am-glyph-002",
+  "installed": false,
+  "runtime_status": "NOT_RUN",
+  "text_unchanged": true,
+  "text_ui_byte_identical_to": "fresh-translation-005",
+  "fonts_bundle_byte_identical_to": "probe-sara-am-glyph-002",
+  "files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "0d1f3dfe9a88f0be453023c96a4753b5d50990a6bda2ff0613d5375bd3385274",
+      "parent_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "source": "local\\prototype\\probe-sara-am-glyph-002\\fonts_assets_all.bundle",
+      "bytes": 68188825
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a",
+      "parent_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a",
+      "source": "local\\prototype\\fresh-translation-005\\localisation_assets_localisationenglish.bundle",
+      "bytes": 2411691
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "parent_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "source": "local\\prototype\\fresh-translation-005\\ui-prefabs-general_assets_all.bundle",
+      "bytes": 3286577
+    }
+  ],
+  "clusters": [
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ค่ำ",
+      "codepoints": [
+        "U+0E04",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 459,
+      "name": "saraAm007_0E04_0E48",
+      "component_ids": [
+        26,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          623,
+          0
+        ],
+        [
+          598,
+          236
+        ]
+      ],
+      "base_bbox": [
+        78,
+        0,
+        546,
+        559
+      ],
+      "ring_bbox": [
+        344,
+        608,
+        572,
+        794
+      ],
+      "tone_bbox": [
+        407,
+        868,
+        509,
+        1083
+      ],
+      "tone_ideal_x": "598",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        78,
+        0,
+        960,
+        1083
+      ],
+      "advance": 1038,
+      "lsb": 78,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 75,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ค้ำ",
+      "codepoints": [
+        "U+0E04",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "gid": 460,
+      "name": "saraAm007_0E04_0E49",
+      "component_ids": [
+        26,
+        82,
+        47
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          623,
+          0
+        ],
+        [
+          674,
+          237
+        ]
+      ],
+      "base_bbox": [
+        78,
+        0,
+        546,
+        559
+      ],
+      "ring_bbox": [
+        344,
+        608,
+        572,
+        794
+      ],
+      "tone_bbox": [
+        300,
+        868,
+        617,
+        1080
+      ],
+      "tone_ideal_x": "1347/2",
+      "tone_center_error_units": 0.5,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        78,
+        0,
+        960,
+        1080
+      ],
+      "advance": 1038,
+      "lsb": 78,
+      "top": 1080,
+      "ascent_excess": 19,
+      "flat_points": 96,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ฉ่ำ",
+      "codepoints": [
+        "U+0E09",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 461,
+      "name": "saraAm007_0E09_0E48",
+      "component_ids": [
+        8,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          610,
+          0
+        ],
+        [
+          585,
+          236
+        ]
+      ],
+      "base_bbox": [
+        79,
+        -10,
+        532,
+        559
+      ],
+      "ring_bbox": [
+        331,
+        608,
+        559,
+        794
+      ],
+      "tone_bbox": [
+        394,
+        868,
+        496,
+        1083
+      ],
+      "tone_ideal_x": "585",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        79,
+        -10,
+        947,
+        1083
+      ],
+      "advance": 1025,
+      "lsb": 79,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 81,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ซ้ำ",
+      "codepoints": [
+        "U+0E0B",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "gid": 462,
+      "name": "saraAm007_0E0B_0E49",
+      "component_ids": [
+        101,
+        82,
+        47
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          570,
+          0
+        ],
+        [
+          621,
+          237
+        ]
+      ],
+      "base_bbox": [
+        43,
+        -11,
+        502,
+        548
+      ],
+      "ring_bbox": [
+        291,
+        608,
+        519,
+        794
+      ],
+      "tone_bbox": [
+        247,
+        868,
+        564,
+        1080
+      ],
+      "tone_ideal_x": "1241/2",
+      "tone_center_error_units": 0.5,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        43,
+        -11,
+        907,
+        1080
+      ],
+      "advance": 985,
+      "lsb": 43,
+      "top": 1080,
+      "ascent_excess": 19,
+      "flat_points": 133,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          26,
+          33
+        ],
+        "with_padding3_each_side": [
+          32,
+          39
+        ],
+        "padded_area": 1248,
+        "with_extra1pixel_border_area": 1320
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ด่ำ",
+      "codepoints": [
+        "U+0E14",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 463,
+      "name": "saraAm007_0E14_0E48",
+      "component_ids": [
+        12,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          621,
+          0
+        ],
+        [
+          596,
+          236
+        ]
+      ],
+      "base_bbox": [
+        56,
+        -10,
+        544,
+        559
+      ],
+      "ring_bbox": [
+        342,
+        608,
+        570,
+        794
+      ],
+      "tone_bbox": [
+        405,
+        868,
+        507,
+        1083
+      ],
+      "tone_ideal_x": "596",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        56,
+        -10,
+        958,
+        1083
+      ],
+      "advance": 1036,
+      "lsb": 56,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 79,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          28,
+          33
+        ],
+        "with_padding3_each_side": [
+          34,
+          39
+        ],
+        "padded_area": 1326,
+        "with_extra1pixel_border_area": 1400
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ต่ำ",
+      "codepoints": [
+        "U+0E15",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 464,
+      "name": "saraAm007_0E15_0E48",
+      "component_ids": [
+        118,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          641,
+          0
+        ],
+        [
+          616,
+          236
+        ]
+      ],
+      "base_bbox": [
+        60,
+        -10,
+        564,
+        558
+      ],
+      "ring_bbox": [
+        362,
+        608,
+        590,
+        794
+      ],
+      "tone_bbox": [
+        425,
+        868,
+        527,
+        1083
+      ],
+      "tone_ideal_x": "616",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        60,
+        -10,
+        978,
+        1083
+      ],
+      "advance": 1056,
+      "lsb": 60,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 90,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          28,
+          33
+        ],
+        "with_padding3_each_side": [
+          34,
+          39
+        ],
+        "padded_area": 1326,
+        "with_extra1pixel_border_area": 1400
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ถ้ำ",
+      "codepoints": [
+        "U+0E16",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "gid": 465,
+      "name": "saraAm007_0E16_0E49",
+      "component_ids": [
+        113,
+        82,
+        47
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          609,
+          0
+        ],
+        [
+          660,
+          237
+        ]
+      ],
+      "base_bbox": [
+        63,
+        -10,
+        531,
+        559
+      ],
+      "ring_bbox": [
+        330,
+        608,
+        558,
+        794
+      ],
+      "tone_bbox": [
+        286,
+        868,
+        603,
+        1080
+      ],
+      "tone_ideal_x": "1319/2",
+      "tone_center_error_units": 0.5,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        63,
+        -10,
+        946,
+        1080
+      ],
+      "advance": 1024,
+      "lsb": 63,
+      "top": 1080,
+      "ascent_excess": 19,
+      "flat_points": 110,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "น่ำ",
+      "codepoints": [
+        "U+0E19",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 466,
+      "name": "saraAm007_0E19_0E48",
+      "component_ids": [
+        63,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          623,
+          0
+        ],
+        [
+          598,
+          236
+        ]
+      ],
+      "base_bbox": [
+        78,
+        -10,
+        537,
+        548
+      ],
+      "ring_bbox": [
+        344,
+        608,
+        572,
+        794
+      ],
+      "tone_bbox": [
+        407,
+        868,
+        509,
+        1083
+      ],
+      "tone_ideal_x": "598",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        78,
+        -10,
+        960,
+        1083
+      ],
+      "advance": 1038,
+      "lsb": 78,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 67,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "น้ำ",
+      "codepoints": [
+        "U+0E19",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "gid": 467,
+      "name": "saraAm007_0E19_0E49",
+      "component_ids": [
+        63,
+        82,
+        47
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          623,
+          0
+        ],
+        [
+          674,
+          237
+        ]
+      ],
+      "base_bbox": [
+        78,
+        -10,
+        537,
+        548
+      ],
+      "ring_bbox": [
+        344,
+        608,
+        572,
+        794
+      ],
+      "tone_bbox": [
+        300,
+        868,
+        617,
+        1080
+      ],
+      "tone_ideal_x": "1347/2",
+      "tone_center_error_units": 0.5,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        78,
+        -10,
+        960,
+        1080
+      ],
+      "advance": 1038,
+      "lsb": 78,
+      "top": 1080,
+      "ascent_excess": 19,
+      "flat_points": 88,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ม่ำ",
+      "codepoints": [
+        "U+0E21",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 468,
+      "name": "saraAm007_0E21_0E48",
+      "component_ids": [
+        56,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          623,
+          0
+        ],
+        [
+          598,
+          236
+        ]
+      ],
+      "base_bbox": [
+        86,
+        -10,
+        546,
+        548
+      ],
+      "ring_bbox": [
+        344,
+        608,
+        572,
+        794
+      ],
+      "tone_bbox": [
+        407,
+        868,
+        509,
+        1083
+      ],
+      "tone_ideal_x": "598",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        86,
+        -10,
+        960,
+        1083
+      ],
+      "advance": 1038,
+      "lsb": 86,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 68,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ย้ำ",
+      "codepoints": [
+        "U+0E22",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "gid": 469,
+      "name": "saraAm007_0E22_0E49",
+      "component_ids": [
+        128,
+        82,
+        47
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          602,
+          0
+        ],
+        [
+          653,
+          237
+        ]
+      ],
+      "base_bbox": [
+        64,
+        -10,
+        525,
+        556
+      ],
+      "ring_bbox": [
+        323,
+        608,
+        551,
+        794
+      ],
+      "tone_bbox": [
+        279,
+        868,
+        596,
+        1080
+      ],
+      "tone_ideal_x": "1305/2",
+      "tone_center_error_units": 0.5,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        64,
+        -10,
+        939,
+        1080
+      ],
+      "advance": 1017,
+      "lsb": 64,
+      "top": 1080,
+      "ascent_excess": 19,
+      "flat_points": 117,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ร่ำ",
+      "codepoints": [
+        "U+0E23",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 470,
+      "name": "saraAm007_0E23_0E48",
+      "component_ids": [
+        73,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          497,
+          0
+        ],
+        [
+          472,
+          236
+        ]
+      ],
+      "base_bbox": [
+        38,
+        -11,
+        459,
+        559
+      ],
+      "ring_bbox": [
+        218,
+        608,
+        446,
+        794
+      ],
+      "tone_bbox": [
+        281,
+        868,
+        383,
+        1083
+      ],
+      "tone_ideal_x": "472",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        38,
+        -11,
+        834,
+        1083
+      ],
+      "advance": 912,
+      "lsb": 38,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 91,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          24,
+          33
+        ],
+        "with_padding3_each_side": [
+          30,
+          39
+        ],
+        "padded_area": 1170,
+        "with_extra1pixel_border_area": 1240
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ล่ำ",
+      "codepoints": [
+        "U+0E25",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 471,
+      "name": "saraAm007_0E25_0E48",
+      "component_ids": [
+        33,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          579,
+          0
+        ],
+        [
+          554,
+          236
+        ]
+      ],
+      "base_bbox": [
+        46,
+        -10,
+        502,
+        559
+      ],
+      "ring_bbox": [
+        300,
+        608,
+        528,
+        794
+      ],
+      "tone_bbox": [
+        363,
+        868,
+        465,
+        1083
+      ],
+      "tone_ideal_x": "554",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        46,
+        -10,
+        916,
+        1083
+      ],
+      "advance": 994,
+      "lsb": 46,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 85,
+      "flat_contours": 6,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ล้ำ",
+      "codepoints": [
+        "U+0E25",
+        "U+0E49",
+        "U+0E33"
+      ],
+      "gid": 472,
+      "name": "saraAm007_0E25_0E49",
+      "component_ids": [
+        33,
+        82,
+        47
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          579,
+          0
+        ],
+        [
+          630,
+          237
+        ]
+      ],
+      "base_bbox": [
+        46,
+        -10,
+        502,
+        559
+      ],
+      "ring_bbox": [
+        300,
+        608,
+        528,
+        794
+      ],
+      "tone_bbox": [
+        256,
+        868,
+        573,
+        1080
+      ],
+      "tone_ideal_x": "1259/2",
+      "tone_center_error_units": 0.5,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        46,
+        -10,
+        916,
+        1080
+      ],
+      "advance": 994,
+      "lsb": 46,
+      "top": 1080,
+      "ascent_excess": 19,
+      "flat_points": 106,
+      "flat_contours": 6,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          27,
+          33
+        ],
+        "with_padding3_each_side": [
+          33,
+          39
+        ],
+        "padded_area": 1287,
+        "with_extra1pixel_border_area": 1360
+      }
+    },
+    {
+      "label": "VERIFIED_GEOMETRY",
+      "text": "ว่ำ",
+      "codepoints": [
+        "U+0E27",
+        "U+0E48",
+        "U+0E33"
+      ],
+      "gid": 473,
+      "name": "saraAm007_0E27_0E48",
+      "component_ids": [
+        126,
+        82,
+        42
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          498,
+          0
+        ],
+        [
+          473,
+          236
+        ]
+      ],
+      "base_bbox": [
+        37,
+        -11,
+        440,
+        559
+      ],
+      "ring_bbox": [
+        219,
+        608,
+        447,
+        794
+      ],
+      "tone_bbox": [
+        282,
+        868,
+        384,
+        1083
+      ],
+      "tone_ideal_x": "473",
+      "tone_center_error_units": 0.0,
+      "gap_units": 74,
+      "gap_at64px": 4.736,
+      "bbox": [
+        37,
+        -11,
+        835,
+        1083
+      ],
+      "advance": 913,
+      "lsb": 37,
+      "top": 1083,
+      "ascent_excess": 22,
+      "flat_points": 72,
+      "flat_contours": 5,
+      "atlas_estimate": {
+        "label": "INFERRED",
+        "point30_raster": [
+          24,
+          33
+        ],
+        "with_padding3_each_side": [
+          30,
+          39
+        ],
+        "padded_area": 1170,
+        "with_extra1pixel_border_area": 1240
+      }
+    }
+  ],
+  "limits": "Real-screen runtime regression pending PM; not a production fix approval.",
+  "raw_object_diffs": {
+    "fonts_assets_all.bundle": [
+      {
+        "asset": "CAB-300dab5b622683535fabfccfdc55ee6f",
+        "path_id": -1239755799206566947,
+        "type": "MonoBehaviour",
+        "before_sha256": "d8fab545239945f509714cd40a0ef1642487f80383932b1ad4cc0179a823b9f3",
+        "after_sha256": "3dc90cf38772ec1d23439a7975e1811b793c236ee8d87c3a6e8057d35d9b2086"
+      },
+      {
+        "asset": "CAB-300dab5b622683535fabfccfdc55ee6f",
+        "path_id": 7716434233879021909,
+        "type": "Font",
+        "before_sha256": "ae6d489ba842f548818ea9ffbd859b0dcecec299b4ff37f864f30aada952bab4",
+        "after_sha256": "179f1ee65d181ba6223cda68d7161ccb1048237723b8a804df0b21ab41ded49b"
+      }
+    ],
+    "localisation_assets_localisationenglish.bundle": [],
+    "ui-prefabs-general_assets_all.bundle": []
+  },
+  "font_sha256": "49554400797971424cb9057481e2dd55744cec5fa603ee6b21ae24bcff3b2607",
+  "checks": {
+    "old459_glyph_bytes_equal": true,
+    "cmap_equal": true,
+    "old_metrics_equal": true,
+    "glyph_count": 474,
+    "ligatures": 24,
+    "first9_unchanged": true,
+    "tmp_other_fields_equal": true,
+    "font_other_fields_equal": true
+  },
+  "census": {
+    "records": 15677,
+    "occurrences": 440,
+    "distinct_clusters": 15,
+    "counts": {
+      "น้ำ": 250,
+      "ต่ำ": 51,
+      "ซ้ำ": 55,
+      "ล้ำ": 36,
+      "ค่ำ": 10,
+      "ว่ำ": 2,
+      "ถ้ำ": 6,
+      "ร่ำ": 13,
+      "ด่ำ": 5,
+      "ม่ำ": 1,
+      "ย้ำ": 2,
+      "ฉ่ำ": 3,
+      "ค้ำ": 2,
+      "ล่ำ": 3,
+      "น่ำ": 1
+    },
+    "outside_set": [],
+    "same_font_non_census_sequence_matches": [],
+    "lf_occurrences": 32,
+    "cross_consumer_aliases": "UNKNOWN: stored corpus alone cannot prove runtime segmentation/font-consumer bindings"
+  },
+  "manager_check": {
+    "action": "check",
+    "files": [
+      {
+        "name": "fonts_assets_all.bundle",
+        "state": "original"
+      },
+      {
+        "name": "localisation_assets_localisationenglish.bundle",
+        "state": "original"
+      },
+      {
+        "name": "ui-prefabs-general_assets_all.bundle",
+        "state": "original"
+      }
+    ]
+  },
+  "installed_state_hashes": {
+    "fonts_assets_all.bundle": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+    "localisation_assets_localisationenglish.bundle": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+    "ui-prefabs-general_assets_all.bundle": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d"
+  },
+  "protected_files_unchanged": 29,
+  "source_script_sha256": "7168c5a8ca9aabd68e6f081d9f35f86c2053b20ed0f77674672cd9fee74b55cf",
+  "candidate_build_status": "BUILD_READY",
+  "remaining_blockers": [
+    "Cross-consumer or runtime-segmented three-glyph alias exclusion cannot be established from stored corpus alone.",
+    "Proposed routes require live availability confirmation for required two-context coverage.",
+    "Four control observations cover shared Settings/modal surfaces, not 3-4 independently established non-target screens."
+  ]
+}

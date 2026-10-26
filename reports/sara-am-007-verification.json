@@ -1,0 +1,22 @@
+{
+  "label": "VERIFIED",
+  "status": "BUILD_READY",
+  "manifest_report_match": true,
+  "all15_census_clusters_exact": true,
+  "candidate_hashes_match": true,
+  "protected_hashes_unchanged": 25,
+  "old459_glyph_slices_byte_identical_independent_recheck": true,
+  "old_hmtx_and_cmap_bytes_equal": true,
+  "glyph_count": 474,
+  "ligature_count": 24,
+  "negative_cluster_not_in_set": true,
+  "no_base_in_later_GSUB_ligature_components": true,
+  "tone_center_error_max_units": 0.5,
+  "all_ring_gaps74_units": true,
+  "codepoints_exact": true,
+  "reference_hash_match": true,
+  "exclusive_create_guard_rejects_rerun": true,
+  "guard_modified_no_candidate_files": true,
+  "python_syntax_valid": true,
+  "no_game_launch_install_commit_push": true
+}

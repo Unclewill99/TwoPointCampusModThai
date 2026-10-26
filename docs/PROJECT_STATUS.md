@@ -1,3 +1,25 @@
+UPDATE 2026-10-26 (PM): INSTALLED_006. Live game now runs fresh-translation-006 (005 text + 15-cluster sara-am font fix); originals backed up, restore available. BUG-THAI-003 FIX_VERIFIED_SCOPED (Medium UI scale, 3 surfaces); wider coverage pending reports from play. Installed bundles are NOT original until restore.
+
+UPDATE 2026-10-26 (PM): fresh-translation-006 PASS_SCOPED on real screens (incl. the original defect site). BUG-THAI-003 FIX_VERIFIED_SCOPED, not closed. No active WO. Installed bundles original. Decision pending from user.
+
+UPDATE 2026-10-26 (PM): fresh-translation-006 (005 + fonts-only 15-cluster fix) built and accepted offline. Runtime WO qa/WO_SARA_AM_FRESH006_001.md ready (menu surfaces + real opening modal, Medium scale). Installed bundles original. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): GLYPH-002 accepted: all 15 census clusters render stacked in the modal. WO-008 issued (fresh-translation-006 fonts-only candidate + real-screen regression plan). Installed bundles original. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): WO-007 accepted (15 composite glyphs + 15 ligatures, font independently verified). Runtime WO qa/WO_SARA_AM_GLYPH_002.md ready, not yet executed. Installed bundles original. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): GLYPH-001 accepted STACKED_OK: appended composite glyph via exact ligature stacks correctly in the game. Scope: 15 census clusters, fonts-bundle-only fix. WO-007 issued (offline 15-cluster probe build). Installed bundles original. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): WO-006 accepted (census 440 occurrences/15 clusters; glyph probe built and independently font-verified). Runtime WO qa/WO_SARA_AM_GLYPH_001.md ready, not yet executed. Installed bundles original. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): LIG-001 accepted EXECUTED: exact 3-component ligature runs in game. WO-SARA-AM-006 issued (census + appended-glyph probe, offline). Installed bundles original. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): WO-005 build accepted; Antigravity runtime WO qa/WO_SARA_AM_LIG_001.md ready (not yet received/executed). Probe installed? NO - originals installed. BUG-THAI-003 OPEN.
+
+UPDATE 2026-10-26 (PM): WO-004 accepted INCONCLUSIVE; offline provenance path dropped. WO-SARA-AM-005 issued to ChatGPT (build/verify-only ligature-executor probe). BUG-THAI-003 OPEN; no runtime WO active.
+
+UPDATE 2026-10-26: Claude now acts as Project Manager/Controller (user decision; replaces ChatGPT in that role). Issued WO-SARA-AM-004 (ChatGPT, offline analysis only) for atomic-text-preserving fix of atomic ต่ำ. READY_FOR_HANDOFF through user; not yet received/executed. BUG-THAI-003 OPEN. No active runtime/Antigravity WO.
+
 # Project status
 
 PAUSED BY USER for tonight (2026-10-22); resume tomorrow 2026-10-23. Latest authority: SESSION_CHECKPOINT_2026-10-22_EVENING.md. Mod005 complete; sara-am A/B diagnostic accepted, atomic ต่ำ still OPEN; installed bundles original. No active QA dispatch or automation.

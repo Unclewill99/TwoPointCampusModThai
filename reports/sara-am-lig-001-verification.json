@@ -1,0 +1,24 @@
+{
+  "label": "VERIFIED",
+  "status": "BUILD_READY",
+  "manifest_report_consistent": true,
+  "staged_bundle_hashes_match": true,
+  "all_5_rows_codepoints_exact": true,
+  "protected_files_unchanged": 17,
+  "negative_control_cmap_ids": {
+    "U+0E01": 29,
+    "U+0E04": 26,
+    "U+0E15": 118,
+    "U+0E16": 113,
+    "U+0E32": 78,
+    "U+0E33": 82,
+    "U+0E35": 86,
+    "U+0E48": 42,
+    "U+0E49": 47
+  },
+  "exclusive_create_guard_rejects_rerun": true,
+  "guard_changed_no_candidate_files": true,
+  "python_syntax_valid": true,
+  "game_launch_install_runtime": "NOT_RUN",
+  "note": "Verification after editorial clarification: FeatureLookupFlags scalar fields are not lookup dictionaries."
+}

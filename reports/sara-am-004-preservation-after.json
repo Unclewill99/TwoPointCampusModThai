@@ -1,0 +1,70 @@
+{
+  "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\fonts_assets_all.bundle": {
+    "size": 68187625,
+    "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+  },
+  "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\localisation_assets_localisationenglish.bundle": {
+    "size": 2411691,
+    "sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a"
+  },
+  "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\manifest.json": {
+    "size": 1588,
+    "sha256": "e5d2a3ca864e8fc0d93af96eab4daaca14f9347afce8eacdc6c2e9bcfb100a0e"
+  },
+  "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\ui-prefabs-general_assets_all.bundle": {
+    "size": 3286577,
+    "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\fonts_assets_all.bundle": {
+    "size": 68187625,
+    "sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\localisation_assets_localisationenglish.bundle": {
+    "size": 2411259,
+    "sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\manifest.json": {
+    "size": 1946,
+    "sha256": "466e5bfa097f23bd3dfcefa5b8cb815b058aa814f8174f82de565fae76f85c6d"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\ui-prefabs-general_assets_all.bundle": {
+    "size": 3286577,
+    "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\fonts_assets_all.bundle": {
+    "size": 68187649,
+    "sha256": "6cb840337007c4fb7d6807828276ddef1ae51c2b7809e507f90a53b7c243b133"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\localisation_assets_localisationenglish.bundle": {
+    "size": 2411259,
+    "sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\manifest.json": {
+    "size": 2301,
+    "sha256": "e26ac79882fa62c4becc66a07b256e126f5980578d233b1a1da75a443017288c"
+  },
+  "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\ui-prefabs-general_assets_all.bundle": {
+    "size": 3286577,
+    "sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+  },
+  "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\fonts_assets_all.bundle": {
+    "size": 42492052,
+    "sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e"
+  },
+  "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\localisation_assets_localisationenglish.bundle": {
+    "size": 448196,
+    "sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f"
+  },
+  "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\ui-prefabs-general_assets_all.bundle": {
+    "size": 928146,
+    "sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d"
+  },
+  "GameAssembly.dll": {
+    "size": 311226368,
+    "sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957"
+  },
+  "TPC_Data\\il2cpp_data\\Metadata\\global-metadata.dat": {
+    "size": 14284260,
+    "sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb"
+  }
+}

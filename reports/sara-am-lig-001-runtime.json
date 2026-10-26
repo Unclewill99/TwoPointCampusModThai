@@ -1,0 +1,502 @@
+{
+  "wo": "WO-SARA-AM-LIG-001",
+  "date": "2026-10-26 Asia/Bangkok",
+  "tester": "ChatGPT, explicitly authorized by user to replace Antigravity for this run",
+  "verdict": "EXECUTED",
+  "bug_status": "BUG-THAI-003 OPEN, no correct-shaping or production-fix claim",
+  "run_count": 1,
+  "variant": "probe-sara-am-lig-001",
+  "focus_recovery_count": 0,
+  "normal_exit": "Alt+F4 via Computer Use; exact TPC.exe process subsequently absent",
+  "final_installed_states": [
+    "original",
+    "original",
+    "original"
+  ],
+  "source_driver_sha256": "6e243c022dfb80e5e13431dbadba917415c475daeb78e74994c05f282dfff78d",
+  "capture": {
+    "image": "local\\qa\\WO-SARA-AM-LIG-001\\01-modal-native.png",
+    "size": [
+      3840,
+      2160
+    ],
+    "sha256": "82bada62d034ac67143153a528f611185facbea316a93488b10fd6ba6f6cc377",
+    "bytes": 6972358,
+    "capture_timestamp": 1792998086.233927,
+    "elapsed_after_campaign_click": 74.89549207687378,
+    "first_modal_observation_timestamp": 1792998062.395,
+    "first_modal_observation_elapsed": 51.056565046310425,
+    "windows": [
+      [
+        462646,
+        "Two Point Campus"
+      ]
+    ],
+    "foreground": 462646
+  },
+  "observations": [
+    {
+      "elapsed_s": 0.22356510162353516,
+      "state": "loading transition"
+    },
+    {
+      "elapsed_s": 18.359565019607544,
+      "state": "campus flyover"
+    },
+    {
+      "elapsed_s": 40.270565032958984,
+      "state": "campus flyover"
+    },
+    {
+      "elapsed_s": 51.056565046310425,
+      "state": "modal with L1-L5"
+    }
+  ],
+  "observation_gaps_s": [
+    18.13599991798401,
+    21.91100001335144,
+    10.78600001335144
+  ],
+  "deviations": [
+    {
+      "label": "VERIFIED",
+      "detail": "Two observation gaps exceeded required15s (18.136s and21.911s); report explicitly retains this cadence deviation. Modal first observed within60s; no repeated input or rerun."
+    },
+    {
+      "label": "VERIFIED",
+      "detail": "Computer Use launch_app reported no targetable window, but subsequent list_windows returned exactly one correct game window. Launch was not repeated."
+    },
+    {
+      "label": "VERIFIED",
+      "detail": "Restricted Python process could not OpenProcess/query owner; no input sent in that context. Same unmodified exact-path guard succeeded under approved host execution. No guard bypass or focus recovery."
+    }
+  ],
+  "geometry": {
+    "native": [
+      3840,
+      2160
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "window_rect": [
+      0,
+      0,
+      3840,
+      2160
+    ],
+    "computer_use_observation": [
+      1920,
+      1080
+    ],
+    "formula": "normalized=(native_x*1920/W,native_y*1080/H); for this run native=2*observed1920 pixels",
+    "main_continue": {
+      "observed_bounds": [
+        82,
+        393,
+        466,
+        446
+      ],
+      "normalized": [
+        274.0,
+        420.0
+      ],
+      "native": [
+        548,
+        840
+      ]
+    },
+    "campaign_continue": {
+      "observed_bounds": [
+        111,
+        814,
+        335,
+        889
+      ],
+      "normalized": [
+        223.0,
+        851.0
+      ],
+      "native": [
+        446,
+        1702
+      ]
+    }
+  },
+  "input": {
+    "ordering": "Each fresh qa_driver process: import -> set_desktop -> find_tpc_window/foreground queries -> require_game_foreground -> hover/click/capture. No pre-attachment foreground conclusions.",
+    "main_hover": "1 move; pointer/hand on Continue verified in fresh Computer Use observation",
+    "main_click": "one click; driver checked move1/down1/up1",
+    "campaign_hover": "1 move; green Continue brightened in fresh observation; Restart untouched",
+    "campaign_click": "one click; driver checked move1/down1/up1",
+    "normal_close_acceptance_count": "UNKNOWN (Computer Use does not expose SendInput counts); exit verified separately",
+    "errors": "No pointer injection or foreground guard failure after host guard validation; initial restricted guard false and launch timeout described as deviations."
+  },
+  "rows": [
+    {
+      "row": "L1",
+      "label": "VERIFIED_VISUAL",
+      "observed": "ก-shaped single sentinel after L1:, matching L5 by visual character shape; atomic ต่ำ no longer displayed.",
+      "specificity": "target substituted"
+    },
+    {
+      "row": "L2",
+      "label": "VERIFIED_VISUAL",
+      "observed": "ต้ำ remains; no ก sentinel.",
+      "specificity": "negative control intact as character sequence, not pixel-identity claim"
+    },
+    {
+      "row": "L3",
+      "label": "VERIFIED_VISUAL",
+      "observed": "ค่ำ remains; no ก sentinel.",
+      "specificity": "negative control intact as character sequence, not pixel-identity claim"
+    },
+    {
+      "row": "L4",
+      "label": "VERIFIED_VISUAL",
+      "observed": "ตา ถี่ visible; upper-vowel/tone control retained.",
+      "specificity": "ordinary controls intact"
+    },
+    {
+      "row": "L5",
+      "label": "VERIFIED_VISUAL",
+      "observed": "Standalone ก visible; no tofu or blank.",
+      "specificity": "sentinel reference visible"
+    }
+  ],
+  "layout": "All five labelled lines visible in blue intro area; no row clipped or automatically wrapped. A larger vertical gap before L4 is visible; no layout-fix claim. No modal dismissal or tutorial advancement.",
+  "sentinel_pixel_measurement": {
+    "label": "VERIFIED_PIXEL_MEASUREMENT",
+    "threshold": "all RGB channels <100; translation-aligned binary silhouette, no image edits",
+    "rows_L1_L5": [
+      {
+        "band": [
+          781,
+          807
+        ],
+        "column_runs": [
+          [
+            1862,
+            1877
+          ],
+          [
+            1884,
+            1894
+          ],
+          [
+            1899,
+            1902
+          ],
+          [
+            1918,
+            1933
+          ]
+        ],
+        "last_glyph_bbox": [
+          1918,
+          786,
+          1934,
+          806
+        ],
+        "last_glyph_mask_shape": [
+          20,
+          16
+        ],
+        "dark_pixels": 138
+      },
+      {
+        "band": [
+          1004,
+          1031
+        ],
+        "column_runs": [
+          [
+            1860,
+            1875
+          ],
+          [
+            1881,
+            1896
+          ],
+          [
+            1901,
+            1904
+          ],
+          [
+            1920,
+            1935
+          ]
+        ],
+        "last_glyph_bbox": [
+          1920,
+          1008,
+          1936,
+          1029
+        ],
+        "last_glyph_mask_shape": [
+          21,
+          16
+        ],
+        "dark_pixels": 142
+      }
+    ],
+    "same_shape": false,
+    "identical_dark_mask": false
+  },
+  "interpretation": {
+    "label": "INFERRED",
+    "statement": "Observed target-only substitution satisfies EXECUTED criteria and supports serialized 3-component ligature consumption in this modal context. Exact internal implementation, chosen runtime asset/fallback path and package version remain UNKNOWN. Existing source glyph sentinel says nothing about appended-glyph loading or final Thai cluster quality."
+  },
+  "runtime_interval_through_exit_restore_check_s": 278.906,
+  "staged_files": [
+    {
+      "name": "fonts_assets_all.bundle",
+      "original_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "probe_sha256": "f7c2f9add5b982b75554b0e3148dc1b2121b39cddcc0fd49ea7559e058627d50",
+      "parent_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "actual_staged_sha256": "f7c2f9add5b982b75554b0e3148dc1b2121b39cddcc0fd49ea7559e058627d50"
+    },
+    {
+      "name": "localisation_assets_localisationenglish.bundle",
+      "original_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "probe_sha256": "9173e3300a320468d51639d1ae32a64b6a41f9c601702ef017d6f9964ed2a1d9",
+      "parent_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a",
+      "actual_staged_sha256": "9173e3300a320468d51639d1ae32a64b6a41f9c601702ef017d6f9964ed2a1d9"
+    },
+    {
+      "name": "ui-prefabs-general_assets_all.bundle",
+      "original_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "probe_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "parent_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "actual_staged_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df"
+    }
+  ],
+  "protected_final": [
+    {
+      "path": "GameAssembly.dll",
+      "expected_sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957",
+      "actual_sha256": "e4276817dac20d34cd8b6d5a2b5dbc1f55b47575ee27c421a3130695cbd9b957",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\fonts_assets_all.bundle",
+      "expected_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "actual_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\localisation_assets_localisationenglish.bundle",
+      "expected_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a",
+      "actual_sha256": "74a3c5ef4466df886f6ee432f4bb02a136dd7b5377d6ed220b4770fd75d8565a",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\manifest.json",
+      "expected_sha256": "e5d2a3ca864e8fc0d93af96eab4daaca14f9347afce8eacdc6c2e9bcfb100a0e",
+      "actual_sha256": "e5d2a3ca864e8fc0d93af96eab4daaca14f9347afce8eacdc6c2e9bcfb100a0e",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\fresh-translation-005\\ui-prefabs-general_assets_all.bundle",
+      "expected_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "actual_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\fonts_assets_all.bundle",
+      "expected_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "actual_sha256": "588f15fad01635da3fb5b86d5c3946cbb7bd85b40304364294fb23d73c207f3e",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\localisation_assets_localisationenglish.bundle",
+      "expected_sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4",
+      "actual_sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\manifest.json",
+      "expected_sha256": "466e5bfa097f23bd3dfcefa5b8cb815b058aa814f8174f82de565fae76f85c6d",
+      "actual_sha256": "466e5bfa097f23bd3dfcefa5b8cb815b058aa814f8174f82de565fae76f85c6d",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001a\\ui-prefabs-general_assets_all.bundle",
+      "expected_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "actual_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\fonts_assets_all.bundle",
+      "expected_sha256": "6cb840337007c4fb7d6807828276ddef1ae51c2b7809e507f90a53b7c243b133",
+      "actual_sha256": "6cb840337007c4fb7d6807828276ddef1ae51c2b7809e507f90a53b7c243b133",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\localisation_assets_localisationenglish.bundle",
+      "expected_sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4",
+      "actual_sha256": "02a6d2864ea5fcef910e01644b224da2859df3aa58d54b25ed09e83a40727bf4",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\manifest.json",
+      "expected_sha256": "e26ac79882fa62c4becc66a07b256e126f5980578d233b1a1da75a443017288c",
+      "actual_sha256": "e26ac79882fa62c4becc66a07b256e126f5980578d233b1a1da75a443017288c",
+      "unchanged": true
+    },
+    {
+      "path": "ThaiCampusMod\\local\\prototype\\probe-sara-am-001b\\ui-prefabs-general_assets_all.bundle",
+      "expected_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "actual_sha256": "34c9779682b146bbab82569789622b978f807ff0efeca00317694543713d59df",
+      "unchanged": true
+    },
+    {
+      "path": "TPC_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
+      "expected_sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb",
+      "actual_sha256": "375d924a38c559a10a90af600c609424d5a18a43018caadc29a441d50e0c51fb",
+      "unchanged": true
+    },
+    {
+      "path": "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\fonts_assets_all.bundle",
+      "expected_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "actual_sha256": "33aa34892719fbc7caaabd0a292c32bb135bc61978a4cd3ce73c6c40da8f4e6e",
+      "unchanged": true
+    },
+    {
+      "path": "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\localisation_assets_localisationenglish.bundle",
+      "expected_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "actual_sha256": "c1e7ca97f260813ccc9a1cf463f20d066631f8e5616bf797fe8d5ae93227878f",
+      "unchanged": true
+    },
+    {
+      "path": "TPC_Data\\StreamingAssets\\aa\\StandaloneWindows64\\ui-prefabs-general_assets_all.bundle",
+      "expected_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "actual_sha256": "2152e5ba289ccb0414c462371cfdfe05cc7ac589a10a75b8b46d359afd99786d",
+      "unchanged": true
+    }
+  ],
+  "save_comparison": {
+    "backup": "D:\\SteamLibrary\\steamapps\\common\\Two Point Campus\\ThaiCampusMod\\local\\backups\\gameplay-save-snapshots\\20261026T065651657176Z.zip",
+    "backup_manifest": "ThaiCampusMod\\local\\backups\\gameplay-save-snapshots\\20261026T065651657176Z.json",
+    "backup_zip_sha256": "189f39b04387d89f135e50b773f4b07b8cf2d7ebde0818d392ef02221a26bd5f",
+    "backup_manifest_sha256": "f64f1243e05e9bcb40d58b7625f7b35f7e06b6d6823ca2aceda8305dde8fc3b2",
+    "backup_verified_at_creation": true,
+    "before_files": 11,
+    "after_files": 11,
+    "changed": [
+      {
+        "path": "Cloud/210252614/Saves/Slot1/career.csav",
+        "before_sha256": "7cbd47721b20b8cef98ba4c892d9c009a256f8d1f82308b1cb5d0e2f583d6c28",
+        "after_sha256": "21893a6089737f47497daa4e8c3f0b479cf5a027d2ce4e3c3285a133f572666f"
+      },
+      {
+        "path": "Cloud/210252614/Saves/Slot1/career.csav.2.bak",
+        "before_sha256": "24e093ef8510486564363f197834b00a00a79afc67b3246eaf45cf4139bdb71c",
+        "after_sha256": "d0eaa2c71c92105065d83efe18903e441be627a1df01bb6645cdd0251af19c42"
+      },
+      {
+        "path": "Cloud/210252614/Saves/Slot1/career.csav.3.bak",
+        "before_sha256": "8069d679fe7c50fec9f54e14f319d103b017ae5c05513264086772630e96d129",
+        "after_sha256": "7cbd47721b20b8cef98ba4c892d9c009a256f8d1f82308b1cb5d0e2f583d6c28"
+      },
+      {
+        "path": "Cloud/210252614/Saves/Slot1/career.csav.4.bak",
+        "before_sha256": "2af271e97ad2053f229b97f9a864883ebe1087f942075826e9a463e96a771781",
+        "after_sha256": "24e093ef8510486564363f197834b00a00a79afc67b3246eaf45cf4139bdb71c"
+      },
+      {
+        "path": "Cloud/210252614/Saves/Slot1/career.csav.5.bak",
+        "before_sha256": "5067a7b0ef3ffde5f603e894108a985227a06275ef50d0e242b832030809c3a8",
+        "after_sha256": "8069d679fe7c50fec9f54e14f319d103b017ae5c05513264086772630e96d129"
+      },
+      {
+        "path": "Cloud/210252614/Saves/Slot1/career.csav.6.bak",
+        "before_sha256": "26339e1c0dee45e54ee5bbb88c85e493b00c43fb09d2a057a6567f5cb92ce60d",
+        "after_sha256": "2af271e97ad2053f229b97f9a864883ebe1087f942075826e9a463e96a771781"
+      },
+      {
+        "path": "Cloud/210252614/userprofile.sav",
+        "before_sha256": "063746abc25c97fc0e73bc874fc12d6e7accb8a152528445d6640de31d292e7f",
+        "after_sha256": "aaa9c0a596a908db8f9483621784f55856b724b25cf000945808b4c8974a08e3"
+      }
+    ],
+    "unchanged": [
+      "Cloud/210252614/preferences.json",
+      "Cloud/210252614/Saves/Slot1/8000.sav",
+      "Cloud/210252614/steam_autocloud.vdf",
+      "localpreferences.json"
+    ],
+    "new": [],
+    "missing": [],
+    "live_files_modified_by_comparison": false,
+    "rollback_performed": false
+  },
+  "lifecycle": [
+    {
+      "step": "precheck",
+      "states": [
+        "original",
+        "original",
+        "original"
+      ]
+    },
+    {
+      "step": "backup",
+      "verified": true,
+      "zip": "D:\\SteamLibrary\\steamapps\\common\\Two Point Campus\\ThaiCampusMod\\local\\backups\\gameplay-save-snapshots\\20261026T065651657176Z.zip"
+    },
+    {
+      "step": "install",
+      "states": [
+        "probe",
+        "probe",
+        "probe"
+      ]
+    },
+    {
+      "step": "post_install_check",
+      "states": [
+        "probe",
+        "probe",
+        "probe"
+      ]
+    },
+    {
+      "step": "single_Steam_launch",
+      "outcome": "game opened; helper discovery timeout recovered by listing only, no second launch"
+    },
+    {
+      "step": "normal_close",
+      "method": "Alt+F4; no modal dismiss",
+      "campus_running_after": false,
+      "windows_after": []
+    },
+    {
+      "step": "restore",
+      "states": [
+        "original",
+        "original",
+        "original"
+      ]
+    },
+    {
+      "step": "final_check",
+      "states": [
+        "original",
+        "original",
+        "original"
+      ]
+    }
+  ],
+  "constraints": {
+    "no_rebuild": true,
+    "no_other_variant_run": true,
+    "no_Settings_or_scale_changes": true,
+    "no_progression_input": true,
+    "no_save_rollback_or_Cloud_edits": true,
+    "no_force_termination": true,
+    "no_commit_or_push": true,
+    "primary_native_png_count": 1
+  }
+}

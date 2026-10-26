@@ -1,0 +1,112 @@
+{
+  "source": "https://packages.unity.com/com.unity.textmeshpro",
+  "packages": [
+    {
+      "label": "VERIFIED",
+      "version": "3.2.0-pre.4",
+      "tarball": "https://download.packages.unity.com/com.unity.textmeshpro/-/com.unity.textmeshpro-3.2.0-pre.4.tgz",
+      "registry_sha1": "22accec50ea3c1d608e223c2eff5effdb7269e2b",
+      "download_sha256": "5b26ab1d0206112a387896e011835004938186a98c7069e31d6a6b962dbd9154",
+      "package_repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git",
+        "type": "git",
+        "revision": "26fadfb632ffe5cb14bab5019ef8097eece1e62a"
+      },
+      "files": [
+        {
+          "name": "FontFeatureCommonGSUB.cs",
+          "sha256": "e616ccd75df5acd3c5a959d5b73ef5e19f0fe4d57b0f9ce70db340b8fb63d38d",
+          "bytes": 3445
+        },
+        {
+          "name": "TMP_FontAsset.cs",
+          "sha256": "e6bf1994edf8c0972f3453958605f3d9c527ae58c8866c777f5c8c9cc7c1a846",
+          "bytes": 155643
+        },
+        {
+          "name": "TMP_FontFeatureTable.cs",
+          "sha256": "ea13f58bf8d7ef230edcf6369f9fe374af1836cfccc6330b68e4caa5f41d62ad",
+          "bytes": 5510
+        },
+        {
+          "name": "TMP_Settings.cs",
+          "sha256": "0464ea977abbe847e2df3f38cbe7e3de322c719e69c5014d5c9f765ff2f73d38",
+          "bytes": 19932
+        },
+        {
+          "name": "TMP_Text.cs",
+          "sha256": "8747a12e8d0c555088f24c09557c2404eb6c3ef64e9cd738a04b7b93a53374f4",
+          "bytes": 382749
+        },
+        {
+          "name": "TMP_TextParsingUtilities.cs",
+          "sha256": "388711268f9c0f9c2009ce17241179a76121d572cbb5ee39aa600f531366477f",
+          "bytes": 10215
+        },
+        {
+          "name": "TMPro_UGUI_Private.cs",
+          "sha256": "0f31e14e409d2e5d41cb04ccdd490a9da8f99e29a8719a3d2b73caac09c740e8",
+          "bytes": 257498
+        },
+        {
+          "name": "package.json",
+          "sha256": "6c735fb7670896a29f16cceb247f5c551d7c63a903fb52725a3961ea70273010",
+          "bytes": 4407
+        }
+      ]
+    },
+    {
+      "label": "VERIFIED",
+      "version": "3.2.0-pre.10",
+      "tarball": "https://download.packages.unity.com/com.unity.textmeshpro/-/com.unity.textmeshpro-3.2.0-pre.10.tgz",
+      "registry_sha1": "e75768cd64591d1817bac4c54b9fe98fdf87d280",
+      "download_sha256": "8d2d462c7a50f05af52cfe074e58e5748270caf6c473d170709ea80bb39c8ed6",
+      "package_repository": {
+        "url": "https://github.cds.internal.unity3d.com/unity/unity.git",
+        "type": "git",
+        "revision": "8fca90baea965bab48c88326f1d4ca248b64097b"
+      },
+      "files": [
+        {
+          "name": "FontFeatureCommonGSUB.cs",
+          "sha256": "e616ccd75df5acd3c5a959d5b73ef5e19f0fe4d57b0f9ce70db340b8fb63d38d",
+          "bytes": 3445
+        },
+        {
+          "name": "TMP_FontAsset.cs",
+          "sha256": "bfcc8eeecb4d714cfb56d4af3c0afeeef006bd1c030353c1bdbc0d764872492c",
+          "bytes": 155155
+        },
+        {
+          "name": "TMP_FontFeatureTable.cs",
+          "sha256": "ea13f58bf8d7ef230edcf6369f9fe374af1836cfccc6330b68e4caa5f41d62ad",
+          "bytes": 5510
+        },
+        {
+          "name": "TMP_Settings.cs",
+          "sha256": "7a37cd0a582d935e5816fd3bc1f634a30e3e1eb4e3f6b2fda1287864ec90637e",
+          "bytes": 20592
+        },
+        {
+          "name": "TMP_Text.cs",
+          "sha256": "86162df57cb7e7d9fbf2f1226cdf10594fe1854ad7b81ff5004c3d933cd585ed",
+          "bytes": 382243
+        },
+        {
+          "name": "TMP_TextParsingUtilities.cs",
+          "sha256": "b83418186e9faead707a80cd59fbd74071982ec3de8d162bc71b05fad7deffa3",
+          "bytes": 33174
+        },
+        {
+          "name": "package.json",
+          "sha256": "b3def8fbc7ef88ae7bcba46aefbd68c65397f7ae5b671282234e053f42bcdf00",
+          "bytes": 2635
+        }
+      ]
+    }
+  ],
+  "shipped_package_version": {
+    "label": "UNKNOWN",
+    "reason": "No shipped project packages-lock.json/package manifest binding found; package metadata verifies fetched sources only."
+  }
+}

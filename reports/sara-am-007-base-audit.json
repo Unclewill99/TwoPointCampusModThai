@@ -1,0 +1,870 @@
+{
+  "wo": "WO-SARA-AM-007",
+  "label": "VERIFIED_STATIC_AUDIT",
+  "clusters": [
+    "ค่ำ",
+    "ค้ำ",
+    "ฉ่ำ",
+    "ซ้ำ",
+    "ด่ำ",
+    "ต่ำ",
+    "ถ้ำ",
+    "น่ำ",
+    "น้ำ",
+    "ม่ำ",
+    "ย้ำ",
+    "ร่ำ",
+    "ล่ำ",
+    "ล้ำ",
+    "ว่ำ"
+  ],
+  "deterministic_glyph_order": "ascending atomic codepoint string (base then tone)",
+  "bases": {
+    "uni0E04": {
+      "gid": 26,
+      "codepoints": [
+        "U+0E04"
+      ],
+      "bbox": [
+        78,
+        0,
+        546,
+        559
+      ],
+      "hmtx": [
+        623,
+        78
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 26,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.989999771118164,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 26,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.989999771118164,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 26,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.989999771118164,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E09": {
+      "gid": 8,
+      "codepoints": [
+        "U+0E09"
+      ],
+      "bbox": [
+        79,
+        -10,
+        532,
+        559
+      ],
+      "hmtx": [
+        610,
+        79
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 8,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.65999984741211,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 8,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.65999984741211,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 8,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.65999984741211,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E0B": {
+      "gid": 101,
+      "codepoints": [
+        "U+0E0B"
+      ],
+      "bbox": [
+        43,
+        -11,
+        502,
+        548
+      ],
+      "hmtx": [
+        570,
+        43
+      ],
+      "clearance_below_ring_bottom": 60,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 101,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.299999237060547,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 101,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.299999237060547,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 101,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.299999237060547,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E14": {
+      "gid": 12,
+      "codepoints": [
+        "U+0E14"
+      ],
+      "bbox": [
+        56,
+        -10,
+        544,
+        559
+      ],
+      "hmtx": [
+        621,
+        56
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 12,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.960000038146973,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 12,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.960000038146973,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 12,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.960000038146973,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E15": {
+      "gid": 118,
+      "codepoints": [
+        "U+0E15"
+      ],
+      "bbox": [
+        60,
+        -10,
+        564,
+        558
+      ],
+      "hmtx": [
+        641,
+        60
+      ],
+      "clearance_below_ring_bottom": 50,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 118,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.440000534057617,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 118,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.440000534057617,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 118,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.440000534057617,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E16": {
+      "gid": 113,
+      "codepoints": [
+        "U+0E16"
+      ],
+      "bbox": [
+        63,
+        -10,
+        531,
+        559
+      ],
+      "hmtx": [
+        609,
+        63
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 113,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.569999694824219,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 113,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.569999694824219,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 113,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.569999694824219,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E19": {
+      "gid": 63,
+      "codepoints": [
+        "U+0E19"
+      ],
+      "bbox": [
+        78,
+        -10,
+        537,
+        548
+      ],
+      "hmtx": [
+        623,
+        78
+      ],
+      "clearance_below_ring_bottom": 60,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 63,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.10999870300293,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 63,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.10999870300293,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 63,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.10999870300293,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E21": {
+      "gid": 56,
+      "codepoints": [
+        "U+0E21"
+      ],
+      "bbox": [
+        86,
+        -10,
+        546,
+        548
+      ],
+      "hmtx": [
+        623,
+        86
+      ],
+      "clearance_below_ring_bottom": 60,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 56,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.40999984741211,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 56,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.40999984741211,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 56,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 16.40999984741211,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E22": {
+      "gid": 128,
+      "codepoints": [
+        "U+0E22"
+      ],
+      "bbox": [
+        64,
+        -10,
+        525,
+        556
+      ],
+      "hmtx": [
+        602,
+        64
+      ],
+      "clearance_below_ring_bottom": 52,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 128,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.719999313354492,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 128,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.719999313354492,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 128,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 15.719999313354492,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E23": {
+      "gid": 73,
+      "codepoints": [
+        "U+0E23"
+      ],
+      "bbox": [
+        38,
+        -11,
+        459,
+        559
+      ],
+      "hmtx": [
+        497,
+        38
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 73,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 13.469999313354492,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 73,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 13.469999313354492,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 73,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 13.469999313354492,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E25": {
+      "gid": 33,
+      "codepoints": [
+        "U+0E25"
+      ],
+      "bbox": [
+        46,
+        -10,
+        502,
+        559
+      ],
+      "hmtx": [
+        579,
+        46
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 33,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 14.639999389648438,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 33,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 14.639999389648438,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 33,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 14.639999389648438,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    },
+    "uni0E27": {
+      "gid": 126,
+      "codepoints": [
+        "U+0E27"
+      ],
+      "bbox": [
+        37,
+        -11,
+        440,
+        559
+      ],
+      "hmtx": [
+        498,
+        37
+      ],
+      "clearance_below_ring_bottom": 49,
+      "serialized_mark_to_base_anchors": [
+        {
+          "m_BaseGlyphID": 126,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 12.779999732971191,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 42,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 126,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 12.779999732971191,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 47,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        },
+        {
+          "m_BaseGlyphID": 126,
+          "m_BaseGlyphAnchorPoint": {
+            "m_XCoordinate": 12.779999732971191,
+            "m_YCoordinate": 16.079999923706055
+          },
+          "m_MarkGlyphID": 59,
+          "m_MarkPositionAdjustment": {
+            "m_XPositionAdjustment": -2.5799999237060547,
+            "m_YPositionAdjustment": 16.079999923706055
+          }
+        }
+      ],
+      "direct_GSUB_substitutions": [],
+      "GSUB_context_mentions": []
+    }
+  },
+  "original_ligatures": [
+    {
+      "m_ComponentGlyphIDs": [
+        74,
+        30
+      ],
+      "m_LigatureGlyphID": 76
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        132,
+        372
+      ],
+      "m_LigatureGlyphID": 140
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        152,
+        372
+      ],
+      "m_LigatureGlyphID": 161
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        171,
+        372
+      ],
+      "m_LigatureGlyphID": 178
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        218,
+        372
+      ],
+      "m_LigatureGlyphID": 226
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        244,
+        372
+      ],
+      "m_LigatureGlyphID": 255
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        299,
+        372
+      ],
+      "m_LigatureGlyphID": 312
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        337,
+        372
+      ],
+      "m_LigatureGlyphID": 344
+    },
+    {
+      "m_ComponentGlyphIDs": [
+        427,
+        372
+      ],
+      "m_LigatureGlyphID": 436
+    }
+  ],
+  "original_first_glyph_conflicts": [],
+  "GSUB_types": [
+    {
+      "lookup": 0,
+      "type": 1
+    },
+    {
+      "lookup": 1,
+      "type": 3
+    },
+    {
+      "lookup": 2,
+      "type": 1
+    },
+    {
+      "lookup": 3,
+      "type": 1
+    },
+    {
+      "lookup": 4,
+      "type": 1
+    },
+    {
+      "lookup": 5,
+      "type": 2
+    },
+    {
+      "lookup": 6,
+      "type": 5
+    },
+    {
+      "lookup": 7,
+      "type": 6
+    },
+    {
+      "lookup": 8,
+      "type": 1
+    },
+    {
+      "lookup": 9,
+      "type": 1
+    },
+    {
+      "lookup": 10,
+      "type": 6
+    },
+    {
+      "lookup": 11,
+      "type": 1
+    },
+    {
+      "lookup": 12,
+      "type": 6
+    },
+    {
+      "lookup": 13,
+      "type": 1
+    },
+    {
+      "lookup": 14,
+      "type": 4
+    },
+    {
+      "lookup": 15,
+      "type": 1
+    },
+    {
+      "lookup": 16,
+      "type": 6
+    },
+    {
+      "lookup": 17,
+      "type": 1
+    },
+    {
+      "lookup": 18,
+      "type": 4
+    },
+    {
+      "lookup": 19,
+      "type": 1
+    },
+    {
+      "lookup": 20,
+      "type": 1
+    },
+    {
+      "lookup": 21,
+      "type": 6
+    },
+    {
+      "lookup": 22,
+      "type": 1
+    }
+  ],
+  "gsub_xml": "local\\review\\sara-am-007\\gsub-audit.ttx",
+  "limits": "Direct base substitution and contextual references distinguished. Actual browser/TMP variant selection remains UNKNOWN; inspect any mentions before deciding."
+}

@@ -1,0 +1,23 @@
+{
+  "label": "VERIFIED",
+  "status": "BUILD_READY",
+  "manifest_report_consistent": true,
+  "candidate_bundle_hashes_match": true,
+  "protected_hashes_unchanged": 21,
+  "census_counts_offsets_and_ids_consistent": true,
+  "specimen_codepoints_exact": true,
+  "exclusive_create_guard_rejects_rerun": true,
+  "guard_changed_no_candidate_files": true,
+  "syntax_valid": true,
+  "new_glyph_top_units": 1083,
+  "hhea_ascent_units": 1061,
+  "OS2_typo_ascender_units": 1061,
+  "OS2_WinAscent_units": 1061,
+  "excess_above_font_ascent_units": 22,
+  "excess_at64px": 1.408,
+  "unchanged_tmp_FaceInfo_ascent_at_point30": 41.220001220703125,
+  "new_glyph_top_at_point30": 32.49,
+  "runtime_clipping": "UNKNOWN; direct SVG reference does not test FontEngine ascent clipping",
+  "browser_png_sha256": "8465a42d5d3dc57e00bd27aa76014f09649f79d07e8c3fce05b14beff9e9248d",
+  "no_game_launch_install_commit_push": true
+}
