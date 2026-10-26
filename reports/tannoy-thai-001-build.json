@@ -1,0 +1,62 @@
+{
+  "candidate": "tannoy-thai-001",
+  "runtime": "NOT_TESTED",
+  "replaced_clips": {
+    "Tannoy_Calendar_ClassStart_1": {
+      "old_seconds": 2.913541555404663,
+      "new_seconds": 3.656625,
+      "old_format": 1,
+      "new_format": 0,
+      "path_id": -3072369408100231938
+    },
+    "Tannoy_Calendar_ClassStart_2": {
+      "old_seconds": 3.2838542461395264,
+      "new_seconds": 3.5686875,
+      "old_format": 1,
+      "new_format": 0,
+      "path_id": 4731855688621100389
+    },
+    "Tannoy_Calendar_CampusOpen_1": {
+      "old_seconds": 4.110000133514404,
+      "new_seconds": 3.17975,
+      "old_format": 1,
+      "new_format": 0,
+      "path_id": 6093005561350343862
+    },
+    "Tannoy_Calendar_ClassStart_3": {
+      "old_seconds": 3.5703125,
+      "new_seconds": 3.6008125,
+      "old_format": 1,
+      "new_format": 0,
+      "path_id": 8892593520769501830
+    }
+  },
+  "sources": {
+    "Tannoy_Calendar_CampusOpen_1": "fa70cdba0b0a3d2984cecf8ad84226a81a9f761736f998504ea5627217766def",
+    "Tannoy_Calendar_ClassStart_1": "c2197e7ec4a66746c36e609ce959a288027b97c2454fabf16e5c55edbb561787",
+    "Tannoy_Calendar_ClassStart_2": "b2ebdcd8001df39cef2c5d6861bd7479061a0eea075f34763978fccb1b3220cd",
+    "Tannoy_Calendar_ClassStart_3": "b0bacd979a699c0001130b3ef3826a0159dc7739c59b976236e80f469ce6c6a0"
+  },
+  "decoded_matches_source": {
+    "Tannoy_Calendar_ClassStart_1": true,
+    "Tannoy_Calendar_ClassStart_2": true,
+    "Tannoy_Calendar_CampusOpen_1": true,
+    "Tannoy_Calendar_ClassStart_3": true
+  },
+  "unchanged_controls_identical": {
+    "Tannoy_General_01": true,
+    "Tannoy_Calendar_YearStart_1": true,
+    "Tannoy_Weather_Rain_1": true
+  },
+  "audioclip_objects_rewritten": 309,
+  "non_audioclip_objects_identical": true,
+  "files": [
+    {
+      "name": "audio-tannoy_assets_english.bundle",
+      "original_sha256": "39d1997baa450d6cdcffae8802b23350e88cacf765810529dca7863f2fb209c3",
+      "probe_sha256": "9c0c44fe3985a8a73e8915fa56e0c26de9a0c86aac53602334166f9b1dda02d6",
+      "original_size": 59669797,
+      "probe_size": 60691324
+    }
+  ]
+}

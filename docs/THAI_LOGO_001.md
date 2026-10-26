@@ -24,4 +24,4 @@ python tools/manage_probe.py install --probe thai-logo-001
 python tools/manage_probe.py restore --probe thai-logo-001
 ```
 
-Existing Install_Thai_Mod.bat and Uninstall_Thai_Mod.bat still target translation 006 and do not manage the separate logo candidate. Use the commands above for this logo.
+Since 2026-10-26 (evening) Install_Thai_Mod.bat / Uninstall_Thai_Mod.bat install and restore this logo together with fresh-translation-007, county-logo-001 and news-thai-001. Use the commands above to handle only this logo.

@@ -17,6 +17,6 @@ python tools/manage_probe.py install --probe county-logo-001
 python tools/manage_probe.py restore --probe county-logo-001
 ```
 
-Restore affects only this logo bundle. Existing translation/news/logo installers do not manage this separate candidate. Retain local prototype, original backup and generated image; they are not in Git.
+Restore affects only this logo bundle. Install_Thai_Mod.bat / Uninstall_Thai_Mod.bat (updated 2026-10-26 evening) also install/restore this candidate together with 007, thai-logo-001 and news-thai-001. Retain local prototype, original backup and generated image; they are not in Git.
 
 Imagegen prompt: replace only COUNTY with exactly เคาน์ตี, retaining TWO POINT and the mountain/2 emblem in white; match chunky cyan/blue letters, pale cyan bevel, dark blue lower shadow, thick black outline; wide two-row layout, readable diacritics, genuine transparent background, no extra elements.

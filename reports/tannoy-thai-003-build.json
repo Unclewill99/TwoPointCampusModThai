@@ -1,0 +1,27 @@
+{
+  "candidate": "tannoy-thai-003",
+  "runtime": "NOT_TESTED",
+  "replaced_count": 467,
+  "seconds_total_new": 2019.8,
+  "sources_sha256_of_list": "a8de82bdf1a17a3fd3bfe81215ef548cc9c01bde8326fb8e83ed5ea060db61a1",
+  "decoded_matches_source": {
+    "Tannoy_Colour_70": true,
+    "Tannoy_General_01": true,
+    "Tannoy_Visitor_Invader_1": true,
+    "Tannoy_Calendar_ClassStart_1": true,
+    "Campus_Tannoy_Session1_Colour_Line_1": true,
+    "Tannoy_Weather_Rain_1": true
+  },
+  "unchanged_controls_identical": {},
+  "audioclip_objects_rewritten": 467,
+  "non_audioclip_objects_identical": true,
+  "files": [
+    {
+      "name": "audio-tannoy_assets_english.bundle",
+      "original_sha256": "39d1997baa450d6cdcffae8802b23350e88cacf765810529dca7863f2fb209c3",
+      "probe_sha256": "e29c265fcf151f97f86095bc8616cba4fef7bc84be6bd561145579b952b35216",
+      "original_size": 59669797,
+      "probe_size": 215658255
+    }
+  ]
+}

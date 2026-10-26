@@ -53,7 +53,7 @@ commit bc60f83 (checkpoint sara-am) โดย PM ใช้ชื่อ/อีเ
 - ตรวจ readback ภาพตรง candidate, object อื่นทุกตัวไม่เปลี่ยน, hash ที่ติดตั้งตรง manifest; ม็อดแปล 007 ทั้ง 3 ไฟล์ยังตรงเดิม ต้นฉบับโลโก้สำรอง `local/backups/thai-logo-001/`.
 - เปิดเกมตรวจหน้าเมนูจริง: โลโก้ไทยอ่านได้ ไม่มีกรอบพื้นหลังทึบ ภาพ `local/qa/thai-logo-001/main-menu.png`; หน้าโหลดไม่ได้จับภาพ โลโก้เทศกาลและชิ้นแอนิเมชันยังเดิม ไม่อ้างว่าทดสอบผ่านทั้งหมด.
 - snapshot เซฟก่อนเปิดเกม verified 24 ไฟล์ `20261026T121316500293Z.zip`; ไม่เข้าแคมปัส ตรวจพบผู้ใช้ใช้งานหน้าต่างจึงคงเกมไว้หน้าเมนู.
-- คืนเฉพาะโลโก้: ปิดเกมแล้ว `python tools/manage_probe.py restore --probe thai-logo-001`; รายละเอียด `THAI_LOGO_001.md`. .bat เดิมยัง target 006 และไม่จัดการโลโก้.
+- คืนเฉพาะโลโก้: ปิดเกมแล้ว `python tools/manage_probe.py restore --probe thai-logo-001`; รายละเอียด `THAI_LOGO_001.md`. (.bat รวมปรับปรุงแล้ว ดูหัวข้อท้ายเอกสาร)
 
 ## เพิ่มเติม — การ์ดข่าวไทย news-thai-001
 
@@ -63,7 +63,7 @@ commit bc60f83 (checkpoint sara-am) โดย PM ใช้ชื่อ/อีเ
 - 24 isolated native tests PASS; ตรวจ byte isolation / ASLR / unwind entries; runtime ทั้งสองการ์ด PASS_SCOPED มีภาพ `local/qa/news-thai-001/01-museum.png`, `02-discord.png`.
 - สำรองเซฟ verified 24 ไฟล์ `20261026T122705661793Z.zip`; หลังทดสอบไฟล์เดิมทุกไฟล์ตรงเดิม. ไม่เข้าแคมปัส เกมปิดแล้ว.
 - ทดสอบ restore ได้ hash ต้นฉบับ e4276817… แล้ว reinstall final hash 1de9cb33… สำรอง binary ที่ `local/backups/news-thai-001/`.
-- ถอนเฉพาะการ์ด: ปิดเกม ใช้ `Uninstall_Thai_News.bat` หรือ `python tools/manage_news_thai.py restore`. .bat แปลเดิมไม่จัดการส่วนนี้. การติดตั้งใหม่ใช้ `Install_Thai_News.bat`.
+- ถอนเฉพาะการ์ด: ปิดเกม ใช้ `Uninstall_Thai_News.bat` หรือ `python tools/manage_news_thai.py restore`. การติดตั้งใหม่ใช้ `Install_Thai_News.bat` หรือ .bat รวม (ดูหัวข้อท้ายเอกสาร).
 - ผูกกับ binary รุ่นนี้และข้อความสองใบนี้; ข่าวเปลี่ยนจะใช้ข้อความเดิมจนเพิ่ม mapping. ภาพแบนเนอร์ต้องอยู่ตำแหน่งเดิม. UI scale อื่น/เกมระยะยาวยังไม่ทดสอบ.
 
 ## เพิ่มเติม — TWO POINT เคาน์ตี
@@ -73,3 +73,11 @@ commit bc60f83 (checkpoint sara-am) โดย PM ใช้ชื่อ/อีเ
 - ตรวจหน้าเมนูจริง PASS_SCOPED: โลโก้อ่านได้ อยู่ในกรอบ สถานะเข้าใช้งานและปุ่มออกจากระบบยังแสดง ไม่กด account action; ภาพ `local/qa/county-logo-001/main-menu.png`. ปิดเกมปกติหลังทดสอบ.
 - snapshot verified 24 ไฟล์ก่อนเปิดเกม `20261026T123446907756Z.zip`; backup โลโก้ `local/backups/county-logo-001/`.
 - คืนเฉพาะโลโก้นี้: ปิดเกมแล้ว `python tools/manage_probe.py restore --probe county-logo-001`. รายละเอียด `COUNTY_LOGO_001.md`; ชุด 007 + thai-logo-001 + news-thai-001 ยังคงติดตั้งแยกเดิม.
+
+## เพิ่มเติม — ปรับปรุง Install_Thai_Mod.bat / Uninstall_Thai_Mod.bat (26 ต.ค. ค่ำ, Claude)
+
+- ทั้งสองไฟล์ครอบคลุมชุดที่ติดตั้งจริงทั้งหมดแล้ว: fresh-translation-007 (3 bundle), thai-logo-001 (2 bundle), county-logo-001 (1 bundle) ผ่าน `manage_probe.py` และ news-thai-001 (GameAssembly.dll) ผ่าน `manage_news_thai.py`. ลำดับติดตั้ง แปล → โลโก้ → ข่าว; ถอนย้อนกลับ ข่าว → โลโก้ → แปล.
+- Install: ตรวจทุกชุดก่อน (check อย่างเดียว ไม่แก้ไฟล์) ถ้าพบ 006 ติดตั้งอยู่จะ restore 006 ก่อนแล้วติดตั้ง 007; สำรองเซฟด้วย `backup_gameplay_saves.py` ก่อนเสมอ; ชุดที่ติดตั้งอยู่แล้วติดตั้งซ้ำได้ (manage_probe เขียนไฟล์เดิม hash เดิม).
+- Uninstall: คืนทุกชุดที่ตรวจพบว่าติดตั้ง (007 หรือ 006) ข้ามชุดที่เป็น original อยู่แล้ว; ถ้าไม่มี prototype/manifest ของชุดใดจะข้ามชุดนั้น.
+- ข้อจำกัด: **ยังไม่ได้รันทดสอบบน Windows จริง** (Claude แก้จากฝั่ง Linux ตรวจ syntax ด้วยตา); ไฟล์เป็น ASCII ล้วน CRLF. ควรทดสอบ Uninstall → Install หนึ่งรอบตอนเกมปิด แล้วตรวจ `check` ทุกชุด. Install_Thai_News.bat / Uninstall_Thai_News.bat ยังใช้แยกได้เหมือนเดิม.
+- ยังไม่ commit (ไฟล์ .bat 2 ไฟล์ + docs 4 ไฟล์) ผู้ใช้ commit บน Windows.
