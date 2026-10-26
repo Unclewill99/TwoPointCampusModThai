@@ -1,3 +1,5 @@
+PROJECT CHECKPOINT 2026-10-26: authority = SESSION_CHECKPOINT_2026-10-26.md. 006 installed live; BUG-THAI-003 FIX_VERIFIED_SCOPED; no active WO.
+
 UPDATE 2026-10-26 (PM): INSTALLED_006. Live game now runs fresh-translation-006 (005 text + 15-cluster sara-am font fix); originals backed up, restore available. BUG-THAI-003 FIX_VERIFIED_SCOPED (Medium UI scale, 3 surfaces); wider coverage pending reports from play. Installed bundles are NOT original until restore.
 
 UPDATE 2026-10-26 (PM): fresh-translation-006 PASS_SCOPED on real screens (incl. the original defect site). BUG-THAI-003 FIX_VERIFIED_SCOPED, not closed. No active WO. Installed bundles original. Decision pending from user.
