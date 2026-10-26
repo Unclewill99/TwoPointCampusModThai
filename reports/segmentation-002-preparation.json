@@ -1,0 +1,30 @@
+{
+  "batch": "SEGMENTATION-002",
+  "parent_text": "fresh-translation-006 (r5 corpus + I2LS_UI segment 964 override = Mod)",
+  "source_corpus_sha256": "8f9cf587869bc8cbeadd72c726bee79a69560e415d391f5b9881018537c31802",
+  "tokenizer": "PyThaiNLP 5.4.0 newmm, dictionary = thai_words() + extra-words.txt (69 words, sha256 e7f1df9cb13fbc69779ceea2bed695b17e6431027298d7aff5864dc481a2fe95), keep_whitespace=True",
+  "guard": "segmentation_guard_002.cut_reason",
+  "status": "PROPOSAL_STAGED_NOT_BUILT",
+  "stats": {
+    "records": 15677,
+    "records_with_cuts": 11429,
+    "cuts": 84223
+  },
+  "guard_rejections": {
+    "whitespace_adjacent": 28182,
+    "before_closing_punct": 2775,
+    "after_opening_punct": 610,
+    "not_thai_thai_boundary": 435,
+    "after_open_syllable_sign": 464,
+    "before_trailing_vowel_or_repeat": 40
+  },
+  "negative_controls_rejected": 16,
+  "limits": "Automatic dictionary segmentation; structural guard only. Experimental candidate input, not production approval. Strip U+200B to recover the exact 006 text.",
+  "cut_map_sha256": "ed7c032362333e52765070c305cc8bbad2eb960a24770d36cf59957fddea2f80",
+  "examples": {
+    "UI/Settings/Tooltips/MSAASamples": "เพิ่มจำนวน|ตัวอย่าง MSAA เพื่อ|ลด|รอย|หยัก หรือ|ลด|เพื่อ|เพิ่มประสิทธิภาพ|กราฟิก",
+    "UI/Settings/Tooltips/WorldDetail": "เลือก|ระดับ|รายละเอียด|โดยรวม|ของ|โลก|ใน|เกม\nรายละเอียด|สูง|คง|รายละเอียด|ไว้|ใน|ระยะ|มอง|ไกล|มากขึ้น\nเลือก|ค่า|ต่ำ|เพื่อ|เพิ่มประสิทธิภาพ CPU และ|กราฟิก",
+    "Levels/Freshleigh/Level_Description": "วิทยาลัย|ชนบท|แห่ง|นี้|มี|ความคาดหวัง|ต่ำ|และ|มี|คลอง|สวย เป็นที่|เหมาะ|จะ|เริ่มต้น|อาชีพ",
+    "Meta/LoadingScreen/Tips_LS_Paths_Text": "ใช้|แท็บ \"ทางเดิน|และ|ภูมิประเทศ\" ใน|เมนู|ภายนอก|เพื่อ|ปรับแต่ง|ภูมิทัศน์|รอบ|วิทยาเขต|ของ|คุณ"
+  }
+}

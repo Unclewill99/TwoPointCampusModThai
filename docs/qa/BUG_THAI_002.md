@@ -26,3 +26,13 @@ probe-017 proposes 47 manual U+200B opportunities in the exact same underlying t
 ## WO-017 reviewed — scoped experimental mitigation (2026-10-18)
 
 B retains all 237 underlying codepoints. Cuts 49/100/154/207 correspond to proposed opportunities and give three distinct contexts; no occurrence of เรียน or ทุก is split at any B edge. Complete/contained/readable image, no new bad edge or visible U+200B artifact observed. Controller image/text/offset/hash review passed. Accept experimental benefit versus historical A only; bug remains OPEN, no production ZWSP or automatic tokenizer approval. See ../PROBE_017_ACCEPTANCE.md.
+
+
+## Production evidence — 2026-10-26 (UI Scale Small, fresh-translation-006 installed)
+
+User screenshots show two production records cut inside words: Meta/LoadingScreen/Tips_LS_Paths_Text as `รอบวิ | ทยาเขต` (offset 70, inside วิทยาเขต) and Levels/Freshleigh/Level_Description as `ต่ำแล | ะมี` (offset 37, inside และ). The ต่ำ ligature renders correctly; content is complete. First observation outside the synthetic probe-016 tooltip; extent across the corpus unknown. Evidence: ../../local/qa/BUG-THAI-002/evidence.json and the two PNGs there. Response: corpus-wide guarded U+200B candidate fresh-translation-007 prepared (SEGMENTATION-002); see ../SEGMENTATION_002_HANDOFF.md and WO_VISUAL_019.md. Status stays OPEN; no production approval until WO-019 is reviewed.
+
+
+## fresh-translation-007 verified on screen — 2026-10-26 (later)
+
+User captures on installed 007 (docs/qa/WO_VISUAL_019_REPORT.md): Level_Description now breaks ต่ำ|และ; a loading tip and a mail body break only at word boundaries; no visible U+200B artifact; ต่ำ ligature intact. Status: FIX_VERIFIED_SCOPED (docs/PROBE_FRESH007_ACCEPTANCE.md). 007 remains installed as live candidate; Tips_LS_Paths_Text itself not yet re-observed.

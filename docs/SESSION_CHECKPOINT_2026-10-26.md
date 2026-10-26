@@ -36,3 +36,13 @@ local/prototype/fresh-translation-005, 006 และ probe-sara-am-001a/b, lig-0
 ## หมายเหตุ Git
 
 commit bc60f83 (checkpoint sara-am) โดย PM ใช้ชื่อ/อีเมลของ commit ก่อนหน้า ไม่ได้แก้ git config; ผู้ใช้ commit เพิ่ม b03b05e (reports/sara-am-008-screen-map.json, 1.2 MB ข้อความแปล 410 record ซึ่ง PM เคยกันไว้นอก Git ตามกฎคลังข้อความเต็มอยู่ในเครื่อง ผู้ใช้เลือกรวมเอง) และ 457ec04 (ไฟล์ .bat + doc) ไฟล์ lock ตกค้างที่ PM ย้ายไว้: .git/stale-HEAD.lock-20261026, .git/stale-objects-maintenance.lock-20261026 ลบทิ้งได้; อาจมี tmp_obj_* ค้างใน .git/objects ไม่มีผล ยังไม่ push
+
+
+## เพิ่มเติม 2026-10-26 (เย็น) — BUG-THAI-002 หลักฐานจริง + candidate 007
+
+- ผู้ใช้รายงาน 2 หน้าจอบน 006 ที่ UI Scale Small: Tips_LS_Paths_Text ตัด `รอบวิ|ทยาเขต`, Freshleigh/Level_Description ตัด `ต่ำแล|ะมี` → local/qa/BUG-THAI-002/ (evidence.json + 2 PNG)
+- เตรียม SEGMENTATION-002: cut-map.json ทั้งคลัง (PyThaiNLP newmm + extra-words 69 คำ + guard โครงสร้าง) 11,429 เรคคอร์ด / 84,223 ZWSP; 440 กลุ่ม ำ ไม่โดนแทรก; strip ZWSP = ข้อความ 006 เป๊ะ
+- tools/build_fresh_translation_007.py (dry-run ผ่านกับบันเดิล 006 จริงบน Linux; ยังไม่รันบน Windows), manage_probe รับ fresh-translation-007 แล้ว
+- ถัดไป: ผู้ใช้ปิดเกม → รัน build 007 → restore 006 / install 007 → WO-VISUAL-019 (docs/qa/WO_VISUAL_019.md) ถ่าย 2 จอเดิม Small+Medium + regression สั้น → ส่งภาพให้ PM ตัดสิน
+- 006 ยังติดตั้งอยู่ ไม่มีการแตะไฟล์เกม; BUG-THAI-002 ยัง OPEN
+- (ค่ำ) ผู้ใช้ build + install 007 บน Windows ผ่าน (ตัวเลขตรง dry-run); ภาพ WO-019 4 จอ: ต่ำ|และ แก้แล้ว, ทิป/จดหมายตัดถูกขอบคำ, ไม่มี artifact → BUG-THAI-002 = FIX_VERIFIED_SCOPED, **007 ติดตั้งอยู่ตอนนี้** (fallback 006); พบช่องว่างใน เยี่ ยม ที่หัวข้อตัวหนา → บันทึกใต้ BUG-THAI-001 รอเทียบ 006

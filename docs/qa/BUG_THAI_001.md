@@ -28,3 +28,8 @@
 ## ผลต่อการรับงาน
 
 WO-VISUAL-002 ยังคง PASS เฉพาะ dropdown และป้ายที่มองเห็นตามขอบเขตเดิม แต่ข้อสรุปว่าไม่พบข้อบกพร่องใหม่ถูกเพิ่มเติมด้วยบั๊กนี้ การจัดวางอักษรไทยซ้อนมี observed FAIL สำหรับ “ถี่”; diagnostic corpus และ coverage อื่นยังไม่ผ่านหรือไม่ได้ทดสอบ ห้ามขยายผลว่าภาษาไทยทั้งระบบผ่าน
+
+
+## Follow-up item — 2026-10-26 (from WO-VISUAL-019)
+
+Bold section header `การประเมินการเยี่ ยมชมโดยพิจารณาจาก:` (UI/Messages/Visit segment-956) shows a visible gap inside เยี่ยม on 007. No U+200B is placed there, so this is header-font shaping (ี + ่ stack advance), not segmentation. Needs the same screen captured on 006 to confirm it pre-exists. Image: local/qa/WO-VISUAL-019/04-messages-visit.png.
