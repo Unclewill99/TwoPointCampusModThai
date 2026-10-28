@@ -9,10 +9,27 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 game=ROOT.parent/'TPC_Data/StreamingAssets/aa/StandaloneWindows64'
 parser=argparse.ArgumentParser()
-parser.add_argument('action',choices=['check','install','restore'],default='check',nargs='?')
+parser.add_argument('action',choices=['check','install','restore','which'],default='check',nargs='?')
 parser.add_argument('--probe', choices=['probe-001','probe-002','probe-003','probe-004','probe-005-control','probe-005a','probe-005b','probe-007-short','probe-007-long','probe-008','probe-009','probe-010','probe-011','probe-012a','probe-012b','probe-013','probe-016','probe-017','probe-018-800a','probe-018-800b','probe-018-600a','probe-018-600b','community-merge-002','community-merge-003','community-merge-004','community-merge-005','community-merge-006','fresh-translation-002','fresh-translation-003','fresh-translation-004','fresh-translation-005','probe-sara-am-001a','probe-sara-am-001b','probe-sara-am-lig-001','probe-sara-am-glyph-001','probe-sara-am-glyph-002','fresh-translation-006','fresh-translation-007'], default='probe-001')
-parser._option_string_actions['--probe'].choices.extend(['thai-logo-001', 'county-logo-001', 'tannoy-thai-001', 'tannoy-thai-002', 'tannoy-thai-003', 'tannoy-thai-004', 'tannoy-thai-005', 'tannoy-thai-006'])
+parser._option_string_actions['--probe'].choices.extend(['thai-logo-001', 'county-logo-001', 'tannoy-thai-001', 'tannoy-thai-002', 'tannoy-thai-003', 'tannoy-thai-004', 'tannoy-thai-005', 'tannoy-thai-006', 'tannoy-thai-007', 'radio-thai-001', 'radio-thai-002', 'radio-thai-003', 'radio-thai-004', 'radio-thai-005', 'radio-thai-006', 'radio-thai-007', 'radio-thai-008'])
 args=parser.parse_args()
+if args.action=='which':
+    # Report which probe (if any) each game file currently matches, across all built probes.
+    proto=ROOT/'local/prototype'
+    found={}
+    for mf in sorted(proto.glob('*/manifest.json')):
+        try: m=json.loads(mf.read_text(encoding='utf-8'))
+        except Exception: continue
+        for f in m.get('files',[]):
+            found.setdefault(f['name'],{})[f['probe_sha256']]=mf.parent.name
+            found[f['name']].setdefault(f['original_sha256'],'ORIGINAL')
+    out={}
+    for name,table in found.items():
+        t=game/name
+        if not t.exists(): out[name]='MISSING'; continue
+        h=hashlib.sha256(t.read_bytes()).hexdigest()
+        out[name]=table.get(h,'UNKNOWN '+h[:12])
+    print(json.dumps(out,indent=1)); raise SystemExit
 probe=ROOT/'local/prototype'/args.probe
 backup=ROOT/'local/backups'/args.probe
 manifest=json.loads((probe/'manifest.json').read_text(encoding='utf-8'))

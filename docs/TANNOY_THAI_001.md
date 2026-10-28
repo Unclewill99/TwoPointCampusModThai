@@ -53,3 +53,34 @@ python tools/manage_probe.py restore --probe tannoy-thai-001
 - ลำดับสลับ: restore probe ที่ติดตั้งอยู่ (004/005) → `install --probe tannoy-thai-006`
 - ค้าง: บท Session1 46 คลิป (หา key ของข้อความ), คำอ่านเพี้ยนที่พบระหว่างเล่น → เพิ่ม `tannoy-pronounce.json` แล้ว regen เฉพาะคลิป (`--clips … --force`) และ build ใหม่, ขนาดไฟล์ (PCM), ใส่ชุดเสียงใน .bat รวม, เฟสวิทยุ (342 คลิป 2 ชม. ~85k เครดิต หลายตัวละคร มีเพลงประกอบ; `local/audio/tannoy-survey-001/radio_clips.json`)
 - **เครดิต ElevenLabs จริง (27 ต.ค. 00:00)**: ใช้ไป 9,103 / 39,823 (Starter ต่ออายุ 26 พ.ย.) → ชุด 421 คลิป ≈ 8,900 เครดิต ≈ 21 เครดิต/คลิป ≈ 0.45 เครดิต/ตัวอักษร (ถูกกว่าที่ประเมิน 1/ตัวอักษร ราว 2.5 เท่า) เหลือ 30,720; ประเมินเฟสวิทยุใหม่ ≈ 36–40k เครดิต (ทำได้ ~80% ในรอบนี้ ที่เหลือรอบหน้า หรือ Creator)
+
+
+## tannoy-thai-007 — เติม 46 คลิป Session1 (27 ต.ค. บ่าย)
+
+- **006 ผ่านการใช้งานจริง**: ผู้ใช้เล่นเกมแล้ว เสียง George ใช้ได้ทุกคลิป ไม่มีคำอ่านเพี้ยน `tannoy-pronounce.json` คงเดิม
+- **46 คลิป `Campus_Tannoy_Session1_*` ไม่มี key ข้อความในคลัง I2LS ใดเลย** (ค้น all-english.json + ทุกตาราง) — เป็นเทคบันทึกเสียงชุดแรกของบรรทัดเดิม ใน bundle มี TextAsset `Campus_Tannoy_Session1_Colour_Line_1.srt` ("Students are reminded to find themselves") ยืนยันว่าเป็นเทคซ้ำของ `Tannoy_Colour_4`
+- วิธีหาบท: ถอดรหัส 46 คลิป (UnityPy บนเครื่อง Claude) → ASR ด้วย pocketsphinx 3 แบบ (ถอดอิสระ / grammar จำกัดที่ 506 ประโยค Tannoy / forced-alignment ให้คะแนนผู้สมัคร) + เทียบความยาวคลิป → จับคู่กับบรรทัด Tannoy เดิมที่ใกล้ที่สุด (Whisper ใช้ไม่ได้: ดาวน์โหลดโมเดลถูกบล็อกทั้งสองฝั่ง) ผล `local/review/tannoy-session1-map.json` มั่นใจ 35/46, เดาดีที่สุด 11 (ตารางด้านล่าง)
+- **ไม่ใช้เครดิต ElevenLabs**: คัดลอกเสียง George ของบรรทัดที่จับคู่ได้จาก 006 มาเป็น `local/review/tannoy-thai-007/<Session1>.wav` (เลือกเฉพาะที่ยาวไม่เกินคลิปเดิม +1.5 s)
+- build `tools/build_tannoy_thai_007.py` (ลำดับหา wav: 007 → 006 → 003; ไม่มีคลิปใดตกไป 003 แล้ว) ผล 467 คลิป 2,059 s, probe sha `2b2d7966…` 215.9 MB, decode spot-check PASS (รวม Session1_Colour_Line_1), non-AudioClip identical; `manage_probe.py` รองรับ 007 แล้ว; runtime NOT_TESTED
+- ติดตั้ง (ปิดเกมก่อน): `python tools/manage_probe.py restore --probe tannoy-thai-006` แล้ว `python tools/manage_probe.py install --probe tannoy-thai-007`
+- คลิปที่เป็นการเดา (ถ้าในเกมได้ยินไม่ตรง แก้ `source` ใน map แล้วคัดลอกไฟล์ใหม่ → build 008):
+
+| คลิป Session1 | ใช้เสียงของ | ASR ได้ยินว่า |
+|---|---|---|
+| Colour_Line_16b | Tannoy_Colour_55 | `students are responsible for that embarrassment` |
+| Colour_Line_5 | Tannoy_Colour_13 | `the a three times of the hospital at you` |
+| Colour_Line_6 | Tannoy_RoomColour_Library_1 | `running a book is not the same as reading` |
+| Scripted_Line_12 | Tannoy_Colour_91 | `satan's found it and a dick will only get on and towels` |
+| Scripted_Line_14b | Tannoy_Marketing_ProjectComplete_1 | `during the eighteen welcome a comical to elites` |
+| Scripted_Line_15 | Tannoy_Event_Film_1 | `exams are as good the thing about the` |
+| Scripted_Line_16b | Tannoy_Weather_Earthquake_3 | `edit your your son they say it happens` |
+| Scripted_Line_16c | Tannoy_Janitor_Room_StudentUnion_1 | `you hit a patent on students must a` |
+| Scripted_Line_17 | Tannoy_Colour_26 | `that a lot straight down and complete id want to canada` |
+| Scripted_Line_2 | Tannoy_RoomColour_StudentLounge_1 | `no not quite like seasons in campus facilities thank you` |
+| Scripted_Line_5 | Tannoy_Colour_32 | `students are reminded that rents onto always laughed` |
+| Scripted_Line_6a | Tannoy_Calendar_ClassStart_1 | `oh that russia is das saying please take a seat` |
+| Scripted_Line_6b | Tannoy_RoomColour_FoodCourt_1 | `ah good to hang please take a seat` |
+| Scripted_Line_6c | Tannoy_CourseStart_Computing_1 | `i don't think students didn't i just in time` |
+| Scripted_Line_6d | Tannoy_RoomColour_FoodCourt_1 | `the zigzag chance that no` |
+| Scripted_Line_8 | Tannoy_Colour_8 | `freedom to ask questions you'll fit is called because he wasn't home` |
+| Tannoy_General_01 | Tannoy_Event_Gig_1 | `i asked and nothing` |

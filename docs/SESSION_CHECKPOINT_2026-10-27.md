@@ -39,3 +39,18 @@
 - `manage_probe.py check --probe tannoy-thai-006` → state `probe` (ติดตั้งจริง); 005 ไม่ตรง
 - ผู้ใช้ทดลองเล่นเกม: เสียงประกาศ PA ภาษาไทย (George) ใช้ได้ทั้งหมด ไม่ต้องแก้ไขคำอ่านใด ๆ → ปิดข้อ 1 ของแผน; `tannoy-pronounce.json` คงเดิม
 - ขั้นต่อไป: ข้อ 2 (46 คลิป Session1), ข้อ 3 (ใส่ PA ลง .bat), ข้อ 4 (วิทยุ)
+
+## อัปเดต 27 ต.ค. (เย็น) — tannoy-thai-007 build แล้ว
+
+- 46 คลิป Session1 ไม่มี key ข้อความในเกม → จับคู่ด้วย ASR กับบรรทัด Tannoy เดิม (`local/review/tannoy-session1-map.json`, มั่นใจ 35/46) แล้วคัดลอกเสียง George จาก 006 (ไม่ใช้เครดิต) → `tools/build_tannoy_thai_007.py` → `local/prototype/tannoy-thai-007/` sha `2b2d7966…` runtime NOT_TESTED รายละเอียดใน TANNOY_THAI_001.md ส่วนท้าย
+- ติดตั้ง: ปิดเกม → `restore --probe tannoy-thai-006` → `install --probe tannoy-thai-007`
+- ไฟล์ใหม่/แก้ (ยังไม่ commit): tools/build_tannoy_thai_007.py, tools/manage_probe.py (+007), local/review/tannoy-thai-007/ (46 wav), local/review/tannoy-session1-map.json, local/review/tannoy-lines-en.json, reports/tannoy-thai-007-build.json, docs/*
+- ถัดไป: ทดสอบ 007 ในเกม → ใส่ชุดเสียง PA ลง Install/Uninstall_Thai_Mod.bat → เฟสวิทยุ
+
+## อัปเดต 27 ต.ค. (ค่ำ) — เฟสวิทยุ R0 เสร็จ (ไม่ใช้เครดิต)
+
+- แผน `docs/RADIO_THAI_PLAN_001.md` (ผู้ใช้สั่งเริ่ม R0), บันทึกงาน `docs/RADIO_THAI_001.md`
+- สำรวจ bundle วิทยุ 342 คลิป (DJ mono 48k ~84 kbps, ทุกกลุ่ม −14 LUFS) → `local/audio/radio-survey-001/radio_survey.json`; บทไทย `local/review/radio-lines-thai.json` (76k ตัวอักษร ≈ 34k เครดิต); `radio-cast.json` (voice ยังว่าง)
+- เครื่องมือ: `tools/fsb_vorbis_windows.py` (fsbankcl), `tools/build_radio_thai.py` (self-test ผ่าน), manage_probe รับ radio-thai-001..003; สำรองต้นฉบับ `local/backups/radio-original/`
+- **รอผู้ใช้**: ติดตั้ง FMOD Studio แล้วรัน `python tools/fsb_vorbis_windows.py --probe radio-thai-001` → แจ้ง Claude build/ติดตั้ง/ทดสอบ radio-thai-001
+- ยังไม่ commit ทั้งหมด (ผู้ใช้ commit เอง); `local/_to_delete/` ลบได้

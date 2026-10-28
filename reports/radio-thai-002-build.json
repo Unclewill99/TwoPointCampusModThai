@@ -1,0 +1,351 @@
+{
+  "candidate": "radio-thai-002",
+  "runtime": "NOT_TESTED",
+  "header_tail": "fsbankcl",
+  "replaced_count": 10,
+  "replaced": {
+    "Host_Intro_7": {
+      "old_seconds": 14.336000442504883,
+      "new_seconds": 15.03,
+      "old_bytes": 150880,
+      "new_bytes": 170400,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 688128,
+        "sample_header_size": 420,
+        "name_table_size": 0,
+        "data_size": 150400,
+        "total": 150880
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 721440,
+        "sample_header_size": 140,
+        "name_table_size": 24,
+        "data_size": 170176,
+        "total": 170400
+      },
+      "path_id": -8649302058619618776
+    },
+    "Host_Intro_8": {
+      "old_seconds": 23.21066665649414,
+      "new_seconds": 21.51,
+      "old_bytes": 233760,
+      "new_bytes": 241600,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 1114112,
+        "sample_header_size": 484,
+        "name_table_size": 0,
+        "data_size": 233216,
+        "total": 233760
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 1032480,
+        "sample_header_size": 188,
+        "name_table_size": 40,
+        "data_size": 241312,
+        "total": 241600
+      },
+      "path_id": -4370436527647316505
+    },
+    "Host_Intro_3": {
+      "old_seconds": 12.288000106811523,
+      "new_seconds": 11.27,
+      "old_bytes": 123616,
+      "new_bytes": 123840,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 589824,
+        "sample_header_size": 388,
+        "name_table_size": 0,
+        "data_size": 123168,
+        "total": 123616
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 540960,
+        "sample_header_size": 108,
+        "name_table_size": 24,
+        "data_size": 123648,
+        "total": 123840
+      },
+      "path_id": -2709130820316192751
+    },
+    "Host_Intro_9": {
+      "old_seconds": 15.701333045959473,
+      "new_seconds": 18.467104166666665,
+      "old_bytes": 165408,
+      "new_bytes": 203488,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 753664,
+        "sample_header_size": 420,
+        "name_table_size": 0,
+        "data_size": 164928,
+        "total": 165408
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 886421,
+        "sample_header_size": 164,
+        "name_table_size": 32,
+        "data_size": 203232,
+        "total": 203488
+      },
+      "path_id": -1815287917082632827
+    },
+    "Host_Intro_2": {
+      "old_seconds": 12.288000106811523,
+      "new_seconds": 13.75,
+      "old_bytes": 122688,
+      "new_bytes": 148928,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 589824,
+        "sample_header_size": 388,
+        "name_table_size": 0,
+        "data_size": 122240,
+        "total": 122688
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 660000,
+        "sample_header_size": 124,
+        "name_table_size": 40,
+        "data_size": 148704,
+        "total": 148928
+      },
+      "path_id": -1354372096179396746
+    },
+    "Host_Intro_4": {
+      "old_seconds": 20.479999542236328,
+      "new_seconds": 18.15,
+      "old_bytes": 211552,
+      "new_bytes": 195552,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 983040,
+        "sample_header_size": 452,
+        "name_table_size": 0,
+        "data_size": 211040,
+        "total": 211552
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 871200,
+        "sample_header_size": 164,
+        "name_table_size": 32,
+        "data_size": 195296,
+        "total": 195552
+      },
+      "path_id": 967471528493296061
+    },
+    "Host_Intro_6": {
+      "old_seconds": 21.845333099365234,
+      "new_seconds": 21.99,
+      "old_bytes": 226336,
+      "new_bytes": 245632,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 1048576,
+        "sample_header_size": 452,
+        "name_table_size": 0,
+        "data_size": 225824,
+        "total": 226336
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 1055520,
+        "sample_header_size": 188,
+        "name_table_size": 40,
+        "data_size": 245344,
+        "total": 245632
+      },
+      "path_id": 2596882644046956999
+    },
+    "Host_Intro_5": {
+      "old_seconds": 17.749332427978516,
+      "new_seconds": 17.11,
+      "old_bytes": 183744,
+      "new_bytes": 187840,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 851968,
+        "sample_header_size": 420,
+        "name_table_size": 0,
+        "data_size": 183264,
+        "total": 183744
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 821280,
+        "sample_header_size": 156,
+        "name_table_size": 40,
+        "data_size": 187584,
+        "total": 187840
+      },
+      "path_id": 5892331456218164676
+    },
+    "Host_Intro_10": {
+      "old_seconds": 16.384000778198242,
+      "new_seconds": 16.31,
+      "old_bytes": 166656,
+      "new_bytes": 178720,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 786432,
+        "sample_header_size": 420,
+        "name_table_size": 0,
+        "data_size": 166176,
+        "total": 166656
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 782880,
+        "sample_header_size": 148,
+        "name_table_size": 48,
+        "data_size": 178464,
+        "total": 178720
+      },
+      "path_id": 6943646410515568497
+    },
+    "Host_Intro_1": {
+      "old_seconds": 15.701333045959473,
+      "new_seconds": 17.11,
+      "old_bytes": 165472,
+      "new_bytes": 199392,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 753664,
+        "sample_header_size": 420,
+        "name_table_size": 0,
+        "data_size": 164992,
+        "total": 165472
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 821280,
+        "sample_header_size": 156,
+        "name_table_size": 40,
+        "data_size": 199136,
+        "total": 199392
+      },
+      "path_id": 8643540994546726420
+    }
+  },
+  "decode_check": {
+    "Host_Intro_7": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1442924
+    },
+    "Host_Intro_8": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 2065004
+    },
+    "Host_Intro_3": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1081964
+    },
+    "Host_Intro_9": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1772886
+    },
+    "Host_Intro_2": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1320044
+    },
+    "Host_Intro_4": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1742444
+    },
+    "Host_Intro_6": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 2111084
+    },
+    "Host_Intro_5": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1642604
+    },
+    "Host_Intro_10": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1565804
+    },
+    "Host_Intro_1": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1642604
+    }
+  },
+  "audioclip_objects_rewritten": 336,
+  "non_audioclip_objects_identical": true,
+  "files": [
+    {
+      "name": "audio-radio_assets_english.bundle",
+      "original_sha256": "6566f54008825a6b91b71c024a2950dc01a702830753463c63104d6bc44a4ebf",
+      "probe_sha256": "dd8c8f899ed9a23caf707e098ebc59191bb9951115f69003292f0cf79de1afb3",
+      "original_size": 103963286,
+      "probe_size": 104108064
+    }
+  ]
+}

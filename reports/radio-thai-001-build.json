@@ -1,0 +1,87 @@
+{
+  "candidate": "radio-thai-001",
+  "runtime": "NOT_TESTED",
+  "header_tail": "fsbankcl",
+  "replaced_count": 2,
+  "replaced": {
+    "CR_Sting_Intro_1": {
+      "old_seconds": 13.3125,
+      "new_seconds": 13.3125,
+      "old_bytes": 418656,
+      "new_bytes": 246272,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 2,
+        "frames": 639000,
+        "sample_header_size": 676,
+        "name_table_size": 0,
+        "data_size": 417920,
+        "total": 418656
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 2,
+        "frames": 639000,
+        "sample_header_size": 124,
+        "name_table_size": 40,
+        "data_size": 246048,
+        "total": 246272
+      },
+      "path_id": -7411790943034927857
+    },
+    "Host_Intro_1": {
+      "old_seconds": 15.701333045959473,
+      "new_seconds": 15.701333333333332,
+      "old_bytes": 165472,
+      "new_bytes": 168832,
+      "old": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 753664,
+        "sample_header_size": 420,
+        "name_table_size": 0,
+        "data_size": 164992,
+        "total": 165472
+      },
+      "new": {
+        "version": 1,
+        "mode": 15,
+        "freq": 48000,
+        "channels": 1,
+        "frames": 753664,
+        "sample_header_size": 140,
+        "name_table_size": 24,
+        "data_size": 168608,
+        "total": 168832
+      },
+      "path_id": 8643540994546726420
+    }
+  },
+  "decode_check": {
+    "CR_Sting_Intro_1": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 2556044
+    },
+    "Host_Intro_1": {
+      "fmod_decode_ok": true,
+      "wav_bytes": 1507372
+    }
+  },
+  "audioclip_objects_rewritten": 318,
+  "non_audioclip_objects_identical": true,
+  "files": [
+    {
+      "name": "audio-radio_assets_english.bundle",
+      "original_sha256": "6566f54008825a6b91b71c024a2950dc01a702830753463c63104d6bc44a4ebf",
+      "probe_sha256": "ba0cc80720b5d3ee79db7eb3f4f9c0050f22ed622b23d10a242e96cf9e0eaf69",
+      "original_size": 103963286,
+      "probe_size": 103795070
+    }
+  ]
+}
