@@ -2,6 +2,8 @@
 setlocal
 cd /d "%~dp0"
 rem Restores every component of the Thai mod, in reverse install order:
+rem   radio-thai-00N         Thai radio DJs          (manage_probe.py, whichever version is installed)
+rem   tannoy-thai-00N        Thai PA announcements   (manage_probe.py, whichever version is installed)
 rem   news-thai-001          GameAssembly.dll        (manage_news_thai.py)
 rem   county-logo-001        TWO POINT COUNTY Thai logo  (manage_probe.py)
 rem   thai-logo-001          TWO POINT CAMPUS Thai logo   (manage_probe.py)
@@ -9,6 +11,7 @@ rem   fresh-translation-007  Thai text + fonts + UI  (manage_probe.py)
 rem   fresh-translation-006  older translation, restored only if still present
 set "TRANSLATIONS=fresh-translation-007 fresh-translation-006"
 set "LOGOS=county-logo-001 thai-logo-001"
+set "AUDIO=radio-thai-008 radio-thai-007 radio-thai-006 radio-thai-005 radio-thai-004 radio-thai-003 radio-thai-002 radio-thai-001 tannoy-thai-007 tannoy-thai-006 tannoy-thai-005 tannoy-thai-004 tannoy-thai-003 tannoy-thai-002 tannoy-thai-001"
 set "TMPF=%TEMP%\tpc_thai_mod_check.txt"
 
 where py >nul 2>nul
@@ -72,13 +75,25 @@ if exist "local\prototype\news-thai-001\manifest.json" (
   )
   findstr /c:"\"installed\"" "%TMPF%" >nul && call set "ANY=1" && echo   news-thai-001: installed
 )
+rem Audio: one radio version and one PA version at most. A check failure for a
+rem version is expected when another version is installed, so only a check that
+rem succeeds and reports "probe" counts.
+set "AUDIO_INSTALLED="
+for %%P in (%AUDIO%) do (
+  if exist "local\prototype\%%P\manifest.json" (
+    %PY% tools\manage_probe.py check --probe %%P > "%TMPF%" 2>&1
+    if not errorlevel 1 (
+      findstr /c:"\"probe\"" "%TMPF%" >nul && call set "ANY=1" && call set "AUDIO_INSTALLED=%%AUDIO_INSTALLED%% %%P" && echo   %%P: installed
+    )
+  )
+)
 
 if "%ANY%"=="0" (
   echo The original game files are already in place. Nothing to restore.
   goto :end
 )
 echo.
-echo This will restore the original English bundle files and GameAssembly.dll from the local backups.
+echo This will restore the original English bundle files ^(text, logos, PA, radio^) and GameAssembly.dll from the local backups.
 echo Your save files are not touched.
 choice /c YN /m "Continue"
 if errorlevel 2 (
@@ -87,7 +102,18 @@ if errorlevel 2 (
 )
 
 echo.
-echo [1/3] Restoring news cards ^(news-thai-001^)...
+echo [1/4] Restoring audio ^(PA + radio^)...
+for %%P in (%AUDIO_INSTALLED%) do (
+  echo   - %%P
+  %PY% tools\manage_probe.py restore --probe %%P
+  if errorlevel 1 (
+    echo [ERROR] Restore failed for %%P. Do not start the game; ask for help.
+    goto :end
+  )
+)
+
+echo.
+echo [2/4] Restoring news cards ^(news-thai-001^)...
 if exist "local\prototype\news-thai-001\manifest.json" (
   %PY% tools\manage_news_thai.py restore
   if errorlevel 1 (
@@ -97,7 +123,7 @@ if exist "local\prototype\news-thai-001\manifest.json" (
 )
 
 echo.
-echo [2/3] Restoring logos...
+echo [3/4] Restoring logos...
 for %%P in (%LOGOS%) do (
   if exist "local\prototype\%%P\manifest.json" (
     echo   - %%P
@@ -110,7 +136,7 @@ for %%P in (%LOGOS%) do (
 )
 
 echo.
-echo [3/3] Restoring translation...
+echo [4/4] Restoring translation...
 for %%P in (%TRANSLATIONS%) do (
   if exist "local\prototype\%%P\manifest.json" (
     %PY% tools\manage_probe.py check --probe %%P > "%TMPF%" 2>&1
@@ -137,6 +163,11 @@ for %%P in (%TRANSLATIONS%) do (
 )
 echo   news-thai-001:
 %PY% tools\manage_news_thai.py check
+echo   audio:
+for %%P in (%AUDIO_INSTALLED%) do (
+  echo   %%P:
+  %PY% tools\manage_probe.py check --probe %%P
+)
 echo.
 echo Done. All bundles should show "original" and news-thai-001 should show "original".
 goto :end
